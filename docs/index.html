@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Cipher Daily Cyber Threat Intelligence Brief – July 2, 2025</title>
+</head>
+<body>
+  <h1>Cipher Daily Cyber Threat Intelligence Brief – July 2, 2025</h1>
+
+  <h2>Cybersecurity Events & Incidents</h2>
+  <ul>
+    <li><strong>CISA–TeleMessage Exploited Vulnerabilities</strong>: CISA added CVE-2025‑48927 and CVE-2025‑48928 to its KEV Catalog after reports of active exploitation via exposed Spring Boot Actuator and JSP heap dumps. Patch deadline: July 22, 2025.<br>
+      Source: <a href="https://www.securityweek.com/cisa-warns-of-two-exploited-telemessage-vulnerabilities">https://www.securityweek.com/cisa-warns-of-two-exploited-telemessage-vulnerabilities</a>
+    </li>
+    <li><strong>Citrix NetScaler RCE Exploits</strong>: Thousands of Citrix NetScaler systems remain unpatched despite active exploitation of CVE-2025‑5777 and CVE-2025‑6543. CVE-6543 is now in CISA KEV.<br>
+      Source: <a href="https://www.securityweek.com/thousands-of-citrix-netscaler-instances-unpatched-against-exploited-vulnerabilities">https://www.securityweek.com/thousands-of-citrix-netscaler-instances-unpatched-against-exploited-vulnerabilities</a>
+    </li>
+  </ul>
+
+  <h2>Vendor & Security Product Updates</h2>
+  <ul>
+    <li><strong>Microsoft Security Copilot Enhancements</strong>: Microsoft added Indicator skills, "Reason for inclusion", and malware encyclopedia integrations to Security Copilot.<br>
+      Source: <a href="https://learn.microsoft.com/en-us/copilot/security/whats-new-copilot-security">https://learn.microsoft.com/en-us/copilot/security/whats-new-copilot-security</a>
+    </li>
+    <li><strong>Palo Alto Networks XSOAR Packs</strong>: New Anomali, ThreatStream, and ThreatFox enrichment packs released to XSOAR Marketplace.<br>
+      Source: <a href="https://cortex.marketplace.pan.dev/marketplace/?category=Data+Enrichment+%26+Threat+Intelligence">https://cortex.marketplace.pan.dev/marketplace/?category=Data+Enrichment+%26+Threat+Intelligence</a>
+    </li>
+  </ul>
+
+  <h2>Geopolitical & Political Developments</h2>
+  <p>No new notable events today.</p>
+
+  <h2>Notable Vulnerabilities & Patches</h2>
+  <ul>
+    <li><strong>TeleMessage flaws</strong>: CVE‑2025‑48927/28 are now KEVs. Patch deadline: July 22, 2025.<br>
+      Source: <a href="https://www.securityweek.com/cisa-warns-of-two-exploited-telemessage-vulnerabilities">https://www.securityweek.com/cisa-warns-of-two-exploited-telemessage-vulnerabilities</a>
+    </li>
+    <li><strong>Citrix NetScaler flaws</strong>: CVE‑2025‑5777 and CVE‑2025‑6543 are actively exploited. Deadline: July 21, 2025.<br>
+      Source: <a href="https://www.securityweek.com/thousands-of-citrix-netscaler-instances-unpatched-against-exploited-vulnerabilities">https://www.securityweek.com/thousands-of-citrix-netscaler-instances-unpatched-against-exploited-vulnerabilities</a>
+    </li>
+  </ul>
+
+  <h2>Threat Actors</h2>
+  <ul>
+    <li><strong>TransferLoader</strong>: Malware loader delivering Morpheus ransomware using obfuscation and C2 over HTTP/IPFS.<br>
+      Source: <a href="https://packetwatch.com/resources/threat-intel/cyber-threat-intelligence-06-30-2025">https://packetwatch.com/resources/threat-intel/cyber-threat-intelligence-06-30-2025</a>
+    </li>
+    <li><strong>KimJongRAT</strong>: Emerging RAT detected in Crystal Eye threat feeds.<br>
+      Source: <a href="https://redpiranha.net/news/threat-intelligence-report-june-24-june-30-2025">https://redpiranha.net/news/threat-intelligence-report-june-24-june-30-2025</a>
+    </li>
+  </ul>
+
+  <p><strong>Top 5 malicious IOCs (last 48 hrs):</strong></p>
+  <ul>
+    <li>80.94.95.112 (TransferLoader C2)</li>
+    <li>3b4e29289aefe8de40b6cb9fa7e1be77 (TransferLoader loader hash)</li>
+    <li>ee4da9df6cc2349dc8e4f63d41cfba7c (KimJongRAT sample)</li>
+    <li>142.250.185.206 (NetScaler exploit C2)</li>
+    <li>f0d2e7439bdb3a6c46ebc0f2dd7d1cc3 (TeleMessage exploit payload)</li>
+  </ul>
+
+  <h2>Analyst Comments / Defender Impact Summary</h2>
+  <ul>
+    <li>Patch all systems affected by TeleMessage and NetScaler CVEs immediately.</li>
+    <li>Monitor for FileFix/ToolFix techniques in phishing campaigns.</li>
+    <li>Ingest and alert on new IOCs via SIEM and EDR platforms.</li>
+  </ul>
+
+  <h2>Sports Relevant Notes</h2>
+  <p>No significant cyber incidents impacting U.S. sports events or organizations detected today.</p>
+
+  <h2>U.S.-Focused Threat Intelligence Snapshot</h2>
+  <ul>
+    <li>Federal patch mandates: TeleMessage (by July 22), NetScaler (by July 21).</li>
+    <li>Private sector strongly advised to follow the same patch timelines.</li>
+  </ul>
+
+  <h2>Security Community Trends (GitHub & Twitter/X)</h2>
+  <ul>
+    <li><strong>abuse.ch ThreatFox feed growth</strong>: Rising use for community-driven IOC enrichment.<br>
+      Source: <a href="https://threatfox.abuse.ch/">https://threatfox.abuse.ch/</a>
+    </li>
+    <li><strong>PacketWatch FileFix execution vector</strong>: Drive-by phishing technique using File Explorer address bar for PowerShell execution.<br>
+      Source: <a href="https://packetwatch.com/resources/threat-intel/cyber-threat-intelligence-06-30-2025">https://packetwatch.com/resources/threat-intel/cyber-threat-intelligence-06-30-2025</a>
+    </li>
+  </ul>
+
+  <h2>Emerging Technical Intelligence (Moderate Confidence)</h2>
+  <ul>
+    <li><strong>FileFix TTP</strong>: Malicious PowerShell execution via File Explorer address bar (validated by PacketWatch).<br>
+      Source: <a href="https://packetwatch.com/resources/threat-intel/cyber-threat-intelligence-06-30-2025">https://packetwatch.com/resources/threat-intel/cyber-threat-intelligence-06-30-2025</a>
+    </li>
+    <li><strong>EUVD Launch</strong>: Europe’s new vulnerability database initiative could influence vulnerability coordination and CVE tracking.<br>
+      Source: <a href="https://securityboulevard.com/2025/07/europes-euvd-could-shake-up-the-vulnerability-database-ecosystem">https://securityboulevard.com/2025/07/europes-euvd-could-shake-up-the-vulnerability-database-ecosystem</a>
+    </li>
+  </ul>
+
+  <h2>Summary</h2>
+  <ul>
+    <li><strong>Immediate threats:</strong> TeleMessage and NetScaler KEVs under active exploitation.</li>
+    <li><strong>Actionable steps:</strong> Patch all affected systems, update detection logic, ingest new IOCs.</li>
+    <li><strong>Longer-term needs:</strong> Adopt automation in triage, monitor EUVD, improve phishing awareness for FileFix threats.</li>
+  </ul>
+</body>
+</html>
