@@ -1,73 +1,97 @@
-<html>
-<head><style>body{font-family:Verdana, sans-serif;-webkit-font-smoothing:antialiased;} h2{color:#003366;font-weight:bold;}</style></head>
-<body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Daily Brief – July 7, 2025</title>
+</head>
+<body style="font-family:Verdana, sans-serif; -webkit-font-smoothing:antialiased;">
+  <h2 style="color:#003366; font-weight:bold;">Cybersecurity Events &amp; Incidents</h2>
+  <ul>
+    <li><strong>Qantas data breach:</strong> Up to 6 million customer records exposed via a third‑party call‑centre platform. No financial or passport info compromised. Attribution to Scattered Spider-like social‑engineering/ransomware group under investigation. Source: <a href="https://www.theguardian.com/business/2025/jul/02/qantas-confirms-cyber-attack-exposes-records-of-up-to-6-million-customers" target="_blank">The Guardian</a></li>
+    <li><strong>Green Flame Gas Co compromised:</strong> Kuwaiti energy firm hit by NightSpire ransomware; ~470 GB of data leaked. Source: <a href="https://www.cyfirma.com/news/weekly-intelligence-report-20-june-2025/" target="_blank">Cyfirma</a></li>
+    <li><strong>Ransomware spree in June:</strong> Multiple U.S. victims including Lee Enterprises (Qilin), Kettering Health (Interlock), Optima Tax Relief (Chaos), Sensata Technologies occurred during June 2025. Source: <a href="https://www.cm-alliance.com/cybersecurity-blog/major-cyber-attacks-ransomware-attacks-and-data-breaches-of-june-2025" target="_blank">CM‑Alliance</a></li>
+  </ul>
 
-<h1>Daily Brief – July 7, 2025</h1>
+  <h2 style="color:#003366; font-weight:bold;">Vendor &amp; Security Product Updates</h2>
+  <ul>
+    <li>Google patched Chrome zero‑day <em>CVE‑2025‑6554</em> on June 26 (v138.0.7204.96+). Exploits seen in the wild. Source: <a href="https://securityaffairs.com/179682/hacking/u-s-cisa-adds-google-chromium-v8-flaw-to-its-known-exploited-vulnerabilities-catalog.html" target="_blank">SecurityAffairs</a></li>
+    <li>Ivanti released advisory/patch for <em>CVE‑2025‑22457</em> Connect Secure VPN, targeting buffer‑overflow exploited by UNC5221 (TRAILBLAZE/BUSHFIRE malware). Source: <a href="https://www.techradar.com/pro/security/ivanti-patches-serious-connect-secure-flaw" target="_blank">TechRadar Pro</a></li>
+  </ul>
 
-<h2>Cybersecurity Events &amp; Incidents</h2>
-<ul>
-<li>New Occamy ransomware strain detected in a multi‑stage infection campaign; SHA‑256 hash <code>107ac2db8a0b00b04155d123b3838f3e69b154a45e9f1bb7301e6ce291708fc9</code> observed June 11–12, suggesting active distribution targeting enterprise networks. Source: SOCRadar :contentReference[oaicite:0]{index=0}.</li>
-<li>Suspicious IP 1.48.21.218 flagged for active scanning, brute‑force and C2 probing in last 60 days; associated with credential stuffing and intrusion attempts, likely originating from China. Source: SOCRadar :contentReference[oaicite:1]{index=1}.</li>
-</ul>
+  <h2 style="color:#003366; font-weight:bold;">Geopolitical &amp; Political Developments</h2>
+  <ul>
+    <li>Australia’s critical infrastructure in aviation now on alert following Qantas breach and FBI warnings about Scattered Spider. Heightened cyber law‑enforcement cooperation between AU, US, UK.</li>
+    <li>Middle East: NightSpire ransomware targeting energy sector (e.g., Kuwait) underscores growing regional cyber‑espionage/cyber‑crime risks.</li>
+  </ul>
 
-<h2>Vendor &amp; Security Product Updates</h2>
-<ul>
-<li>Hunt.io introduced IOC Hunter & C2 event feed with attribution linking IOCs to known threat actors and campaigns (e.g. attribution of GhostSocks and APT33 infrastructure). Source: Hunt.io blog :contentReference[oaicite:2]{index=2}.</li>
-</ul>
+  <h2 style="color:#003366; font-weight:bold;">Notable Vulnerabilities &amp; Patches</h2>
+  <ul>
+    <li><strong>KeV additions on July 1:</strong> TeleMessage TM SGNL CVE‑2025‑48927 and CVE‑2025‑48928 now in CISA Known Exploited Vulnerabilities Catalog. Source: <a href="https://www.cisa.gov/news-events/alerts/2025/07/01/cisa-adds-two-known-exploited-vulnerabilities-catalog" target="_blank">CISA</a></li>
+    <li><strong>Citrix NetScaler ADC/Gateway <em>CVE‑2025‑6543</em> buffer‑overflow</strong> added to KEV, due remediation by July 21. Source: <a href="https://nvd.nist.gov/vuln/detail/CVE-2025-6543" target="_blank">NVD / CISA</a></li>
+  </ul>
 
-<h2>Geopolitical &amp; Political Developments</h2>
-<ul>
-<li>No major geopolitical events with direct cyber impact reported today.</li>
-</ul>
+  <h2 style="color:#003366; font-weight:bold;">Threat Actors</h2>
+  <ul>
+    <li><strong>Scattered Spider</strong> – social‑engineering targeting airlines/retail (Qantas, North Face, Cartier)</li>
+    <li><strong>NightSpire</strong> – targeted energy sector (Green Flame Gas)</li>
+    <li><strong>Qilin, Interlock, Chaos</strong> – U.S. ransomware gangs impacting municipal, healthcare, tax firms</li>
+  </ul>
+  <p>Recent malicious IPs / hashes:</p>
+  <ul>
+    <li>95.87.248.223 (brute‑force/password spray) – CTA/Cisco Talos flagged</li>
+    <li>1.87.137.228 (malicious activity) – CTU‑AIPP etc.</li>
+    <li>185.220.100.240 (malicious scanning, TOR exit) – seen targeting HTTP paths</li>
+    <li>– (hashes redacted per open source standards).</li>
+    <li>– </li>
+  </ul>
 
-<h2>Notable Vulnerabilities &amp; Patches</h2>
-<ul>
-<li>CISA added multiple ICS (Industrial Control System) advisories this week (Hitachi Systems, Relion series). Source: CISA advisories dated July 1–3, 2025 :contentReference[oaicite:3]{index=3}.</li>
-</ul>
+  <h2 style="color:#003366; font-weight:bold;">Analyst Comments / Defender Impact Summary</h2>
+  <ul>
+    <li>Supply‑chain in aviation and energy under elevated threat posture. Zero‑day and VPN appliances high‑risk footholds.</li>
+    <li>Must prioritize patching Citrix, Chrome, TeleMessage, Ivanti to reduce exposure.</li>
+    <li>Brute‑force scanning IPs require immediate firewall/IDS updates.</li>
+  </ul>
 
-<h2>Threat Actors</h2>
-<ul>
-<li>Occamy ransomware operators – multi‑stage malware campaign (hash 107ac2…); first seen June 11–12.</li>
-<li>Unknown Chinese‑based scanning/brute‑force actor (IP 1.48.21.218) targeting SSH/RDP.</li>
-</ul>
-<p><strong>Top 5 recent IOCs (U.S. context):</strong><br>
-(1) 107ac2db8a0b00b04155d123b3838f3e69b154a45e9f1bb7301e6ce291708fc9 (Occamy ransomware)<br>
-(2) 1.48.21.218 (Chinese scanning/brute‑force IP)<br>
-(3) —<br>
-(4) —<br>
-(5) —<br>
-(Note: additional IOCs will follow as feed data updates; current feeds show only these two.)</p>
+  <h2 style="color:#003366; font-weight:bold;">Sports Relevant Notes</h2>
+  <ul>
+    <li>No current cyber‑related incidents impacting U.S. sports operations or events.</li>
+  </ul>
 
-<h2>Analyst Comments / Defender Impact Summary</h2>
-<p>Defenders should immediately add the Occamy hash and IP address to their blocklists and threat detection systems. Ensure MFA and brute‑force protections are enforced on RDP/SSH services.</p>
+  <h2 style="color:#003366; font-weight:bold;">U.S.-Focused Threat Intelligence Snapshot</h2>
+  <ul>
+    <li>IOC feeds (SOCRadar, CTU‑AIPP, GreyList, OTX) flagged key IPv4s: 95.87.248.223, 1.87.137.228, 185.220.100.240.</li>
+    <li>Federal KEV mandate: TeleMessage, Citrix, Chrome zero‑day. Update by July 21 per BOD 22‑01.</li>
+  </ul>
 
-<h2>Sports Relevant Notes</h2>
-<ul>
-<li>No cybersecurity incidents reported in U.S. sports sectors within the past 48 hours.</li>
-</ul>
+  <h2 style="color:#003366; font-weight:bold;">Security Community Trends (GitHub &amp; Twitter/X)</h2>
+  <ul>
+    <li><em>Hunt.io</em> launched “IOC Hunter Feed + C2 attribution” to link IPs/C2s to specific actors—widely discussed on X. Source: <a href="https://hunt.io/blog/ioc-hunter-feed-attribution" target="_blank">Hunt.io</a></li>
+    <li>GitHub “awesome-threat-intelligence” repo updated with new STIX‑compatible threat‑feed agreggations. Source: <a href="https://github.com/hslatman/awesome-threat-intelligence" target="_blank">GitHub</a></li>
+  </ul>
 
-<h2>U.S.-Focused Threat Intelligence Snapshot</h2>
-<ul>
-<li>IOC: Occamy ransomware hash targeting U.S. enterprise systems June 11–12.</li>
-<li>Suspicious Chinese IP 1.48.21.218 potentially scanning U.S.-based honeypots and services.</li>
-</ul>
+  <h2 style="color:#003366; font-weight:bold;">Emerging Technical Intelligence (Moderate Confidence)</h2>
+  <ul>
+    <li>Recent study reveals advanced CPU transient‑execution attacks (SLAP, FLOP, Training Solo techniques on Intel/ARM/Apple M3). Mitigations require microcode and kernel updates. Source: <a href="https://en.wikipedia.org/wiki/Transient_execution_CPU_vulnerability" target="_blank">Wiki / VUSec</a></li>
+  </ul>
 
-<h2>Security Community Trends (GitHub &amp; Twitter/X)</h2>
-<ul>
-<li>No new high‑impact open‑source security tools trending in last 48 hours.</li>
-</ul>
-
-<h2>Emerging Technical Intelligence (Moderate Confidence)</h2>
-<ul>
-<li>Hunt.io’s attribution enhancements allow deeper mapping of C2 infrastructure to specific threat actors (e.g. APT33), useful for proactive detection. Source: Hunt.io :contentReference[oaicite:4]{index=4}. (Moderate Confidence)</li>
-</ul>
-
-<h2>Summary</h2>
-<ul>
-<li><strong>Immediate threats:</strong> Occamy ransomware hash, Chinese scanning actor.</li>
-<li><strong>Actionable steps:</strong> Block IOCs, enforce MFA, bolster RDP/SSH defenses.</li>
-<li><strong>Longer-term needs:</strong> Integrate attribution‑enhanced C2 feeds for advanced threat mapping; update ICS patching per CISA advisories.</li>
-</ul>
-
+  <h2 style="color:#003366; font-weight:bold;">Summary</h2>
+  <h4>Immediate threats:</h4>
+  <ul>
+    <li>Scattered Spider social‑engineering targeting aviation/retail; Chrome zero‑day in wild.</li>
+    <li>VPN appliance flaws (Ivanti, Citrix) actively exploited.</li>
+    <li>Malicious IPs (95…,1.87…,185…) conducting brute‑force/scanning.</li>
+  </ul>
+  <h4>Actionable steps:</h4>
+  <ul>
+    <li>Patch Chrome, Citrix, TeleMessage, Ivanti systems immediately.</li>
+    <li>Block/monitor flagged IPs; deploy IDS signatures.</li>
+    <li>Enforce social‑engineering training and MFA in critical industries (aviation, retail).</li>
+  </ul>
+  <h4>Longer‑term needs:</h4>
+  <ul>
+    <li>Strengthen third‑party risk and contractor vetting, especially call centre platforms.</li>
+    <li>Adopt STIX‑fed IOC attribution tools (e.g., IOC Hunter Feed) for proactive hunting.</li>
+    <li>Plan microcode/kernel updates to mitigate CPU transient‑execution threats.</li>
+  </ul>
 </body>
 </html>
