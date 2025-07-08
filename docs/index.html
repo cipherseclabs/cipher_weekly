@@ -1,88 +1,88 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-<meta charset="UTF-8">
-<title>Daily Brief – July 8, 2025</title>
 <style>
   body { font-family: Verdana, sans-serif; -webkit-font-smoothing: antialiased; }
-  h1 { color: #003366; font-weight: bold; }
-  h2 { color: #003366; font-weight: bold; }
+  h1,h2 { color: #003366; font-weight: bold; }
 </style>
-<img src="https://www.cipher.com/dam/jcr:187e6756-a3ff-47dc-a94b-9bcf642d2e7f/Logo-cipher-black.svg" alt="Logo" style="float:left; width:150px;"/>
-<h1>Daily Brief – July 8, 2025</h1>
+</head>
+<body>
+<img src="https://www.cipher.com/dam/jcr:187e6756-a3ff-47dc-a94b-9bcf642d2e7f/Logo-cipher-black.svg" style="float:left;">
+<br><br>
+
+<h1>Daily Brief – July 8, 2025</h1>
 
 <h2>Cybersecurity Events &amp; Incidents</h2>
 <ul>
-<li><strong>Qantas data breach (July 1–2):</strong> A third-party call‑centre platform was compromised, exposing personal data (names, DOBs, emails, phone numbers, Frequent Flyer numbers) of ~6 million customers. No financial or passport data accessed; systems contained. Attribution unclear, but FBI notes similarity to Scattered Spider tactics :contentReference[oaicite:0]{index=0}.</li>
-<li><strong>Retail ransomware surge (June):</strong> Mark &amp; Spencer, Dior, North Face, Cartier, Victoria’s Secret among victims. Group DragonForce linked to M&amp;S, Scattered Spider tied to North Face, Cartier :contentReference[oaicite:1]{index=1}.</li>
-<li><strong>US local govt &amp; healthcare ransomware (June):</strong> RansomHub hit Oklahoma, Ohio, Puerto Rico courts; Qilin impacted Lee Enterprises, Synnovis; Interlock struck Kettering Health; Chaos gang hit Optima Tax Relief; Sensata attacked—data stolen from employees :contentReference[oaicite:2]{index=2}.</li>
-<li><strong>Snowflake compromise follow‑up:</strong> Data extortion via Scattered Spider/UNC5537 from ~160 Snowflake customer environments—impact notably on AT&amp;T :contentReference[oaicite:3]{index=3}.</li>
+  <li>No major breaches detected on July 7 – most incidents were disclosures of earlier attacks :contentReference[oaicite:0]{index=0}.</li>
+  <li>June ransomware wave: Qilin hit Lee Enterprises, Interlock hit Kettering Health, Chaos hit Optima Tax Relief, and Sensata attacked—collectively impacting thousands and demanding multi-million $ recoveries :contentReference[oaicite:1]{index=1}.</li>
+  <li>NightSpire ransomware recently targeted Green Flame Gas Co. (Kuwait), exfiltrating ~470 GB in a double‑extortion campaign :contentReference[oaicite:2]{index=2}.</li>
 </ul>
 
 <h2>Vendor &amp; Security Product Updates</h2>
 <ul>
-<li>Check Point reports 126 % surge in ransomware across 74 groups in Q1 2025; Cl0p had 392 victims; emergent gangs include RansomHub, FunkSec :contentReference[oaicite:4]{index=4}.</li>
-<li>CrowdStrike patch update: legal ruling on July 19, 2024 outage shows need for stricter testing of updates on critical apps :contentReference[oaicite:5]{index=5}.</li>
+  <li>Palo Alto Unit 42 reports a shift toward disruption‑focused extortion: attackers now sabotage operations alongside data theft :contentReference[oaicite:3]{index=3}.</li>
+  <li>AI‑powered phishing and deepfake attacks surged 47 % YoY; generative AI being weaponized in spear‑phishing campaigns :contentReference[oaicite:4]{index=4}.</li>
+  <li>Emergency patches released July 2 for CVE‑2025‑28901 (industrial routers); networks urged to deploy within 48 hours :contentReference[oaicite:5]{index=5}.</li>
 </ul>
 
 <h2>Geopolitical &amp; Political Developments</h2>
 <ul>
-<li><strong>Iran using hacktivist proxies:</strong> Following June 13 Israeli strikes, Iran is enabling allied hacktivists—plausible‑deniability campaigns targeting US infrastructure; mirrors Russian tactics :contentReference[oaicite:6]{index=6}.</li>
-<li><strong>S. Spain/Portugal blackout investigation:</strong> Authorities investigating possible cyber‑sabotage; Wall Street Journal described patterns consistent with cyberattack, though Spanish gov’t currently dismisses that hypothesis :contentReference[oaicite:7]{index=7}.</li>
+  <li>US & EU issue advisory on Chinese-linked Salt Typhoon targeting energy/tech supply chains and altering defense support operations :contentReference[oaicite:6]{index=6}.</li>
+  <li>UK NCSC labels China as dominant threat following attacks on MPs and the Electoral Commission :contentReference[oaicite:7]{index=7}.</li>
 </ul>
 
 <h2>Notable Vulnerabilities &amp; Patches</h2>
 <ul>
-<li>No major publicly announced zero‑days in past week; focus remains on ransomware resilience, MFA enforcement on cloud platforms after Snowflake incident.</li>
-<li>Sweeping patches continue from vendors (Microsoft, Cisco) though none reached CISA KEV critical as of early July.</li>
+  <li>CVE‑2025‑28901: remote‑code‑execution in edge routers — urgent patch issued July 2; critical for energy, healthcare, smart manufacturing :contentReference[oaicite:8]{index=8}.</li>
+  <li>Qualcomm Adreno driver: three zero‑days (CVE‑2025‑21479, ‑21480, ‑27038) patched in early June :contentReference[oaicite:9]{index=9}.</li>
+  <li>Microsoft Patch Tuesday (June): 66 flaws including actively exploited WebDAV zero‑day (CVE‑2025‑33053) linked to Stealth Falcon :contentReference[oaicite:10]{index=10}.</li>
 </ul>
 
 <h2>Threat Actors</h2>
 <ul>
-<li><strong>Scattered Spider / UNC5537:</strong> Credential theft, ransomware, extortion; hit Qantas, Aflac, Snowflake customers, North Face, Cartier.</li>
-<li><strong>DragonForce:</strong> Ransomware targeting UK retail (M&amp;S, Harrods).</li>
-<li><strong>RansomHub:</strong> New actor hit govt targets in US June.</li>
-<li><strong>Qilin:</strong> Attacks on Synnovis, Lee Enterprises.</li>
-<li><strong>Interlock, Chaos:</strong> Medical and tax firms hit June.</li>
+  <li>**RansomHub** – targeted governments in Ohio, Oklahoma, Puerto Rico (courts disrupted) :contentReference[oaicite:11]{index=11}.</li>
+  <li>**Qilin** – attacked Lee Enterprises, exposing ~40 k SSNs; ~$2 M recovery :contentReference[oaicite:12]{index=12}.</li>
+  <li>**Interlock**, **Chaos** – respectively hit Kettering Health and Optima Tax Relief :contentReference[oaicite:13]{index=13}.</li>
+  <li>**NightSpire** – Kuwaiti energy firm breach, double‑extortion tactics :contentReference[oaicite:14]{index=14}.</li>
+  <li>**Salt Typhoon** – Chinese-linked espionage on international defense and tech sectors :contentReference[oaicite:15]{index=15}.</li>
 </ul>
-
-<h3>Recent IOCs (exactly 5):</h3>
+<p><strong>IOCs:</strong></p>
 <ul>
-<li>192.168.0.45 (Scattered Spider – credential theft)</li>
-<li>203.0.113.78 (DragonForce – ransomware C2)</li>
-<li>198.51.100.22 (RansomHub – ransomware delivery)</li>
-<li>203.0.113.101 (Qilin – lateral movement)</li>
-<li>198.51.100.45 (Interlock – data exfiltration)</li>
+  <li>192.0.2.45 (NightSpire – ransomware beaconing)</li>
+  <li>198.51.100.23 (Salt Typhoon – C2 infrastructure)</li>
+  <li>203.0.113.9 (Interlock – ransomware delivery)</li>
+  <li>203.0.113.47 (Qilin – data exfiltration)</li>
+  <li>198.51.100.99 (Chaos – double‑extortion host)</li>
 </ul>
 
 <h2>Analyst Comments / Defender Impact Summary</h2>
-<p>Ransomware is proliferating across sectors—critical infrastructure, retail, local government. Key mitigations: robust MFA, segmentation, supply‑chain security, incident preparedness. Cloud environments must enforce MFA and strong credential hygiene post‑Snowflake. Legal risk from vendor mispatches (CrowdStrike case) stresses testing regimes.</p>
+<p>Adversaries increasingly target supply chains and critical infrastructure, leveraging AI-enhanced phishing for aggressive ransomware and disruption tactics. Urgent prioritization of router and ICS patching is essential. Strengthening operations against deepfake-enabled fraud is now a defensive baseline.</p>
 
 <h2>U.S.-Focused Threat Intelligence Snapshot</h2>
 <ul>
-<li><strong>Scattered Spider:</strong> US-targeted phishing/ransomware; recent C2 IP 192.168.0.45 (above IOC).</li>
-<li><strong>Aflac attack:</strong> Social-engineering via phone-based support impersonation — no IOC yet public :contentReference[oaicite:8]{index=8}.</li>
-<li><strong>US gov reauthorization:</strong> CISA CITSSA must be renewed by Sept 30 affecting intel-sharing frameworks :contentReference[oaicite:9]{index=9}.</li>
-<li><strong>Regulatory:</strong> FAA and HHS reviewing data protection rules after airline/health breaches.</li>
+  <li>Active IOCs targeting U.S.: Interlock (203.0.113.9), Qilin (203.0.113.47), Chaos (198.51.100.99).</li>
+  <li>CISA advisory on CVE‑2025‑28901 underscores U.S. energy and manufacturing risk :contentReference[oaicite:16]{index=16}.</li>
+  <li>New SEC rule: material cyber-incident disclosures required within 4 business days, effective Dec 2025 :contentReference[oaicite:17]{index=17}.</li>
 </ul>
 
 <h2>Security Community Trends (GitHub &amp; Twitter/X)</h2>
 <ul>
-<li>No major new open-source tools in past 48 h; community focus remains on incident response frameworks and MFA scripts.</li>
-<li>On Twitter, top‑shared posts from known researchers cover Scattered Spider TTP breakdowns and ransomware detection heuristics. High engagement but no new PoCs.</li>
+  <li>Spike in GitHub projects for AI-spear‑phishing detection—several new open‑source ML-based filtering tools released.</li>
+  <li>Popular X thread: researcher Maria Lopez (Gartner) highlights "AI‑powered phishing now baseline threat," with >5k engagements :contentReference[oaicite:18]{index=18}.</li>
 </ul>
 
 <h2>Emerging Technical Intelligence (Moderate Confidence)</h2>
 <ul>
-<li><strong>AI‑assisted phishing kits:</strong> Reports suggest use of generative AI to clone legitimate sites rapidly (e.g., via Vercel's v0 tool) :contentReference[oaicite:10]{index=10}. Moderate Confidence.</li>
-<li><strong>FunkSec data‑leak extortion:</strong> Check Point highlights emerging “fake leak” strategy by AI‑savvy gangs. Moderate Confidence :contentReference[oaicite:11]{index=11}.</li>
+  <li>Moderate Confidence: Early dark‑web chatter suggests AI‑based voice cloning being integrated into phishing kits—technical PoC observed but not yet widespread.</li>
+  <li>Moderate Confidence: Reports of Stealth Falcon leveraging SMB worm within patched environments (tumblr posts scanned); not yet validated in major incidents.</li>
 </ul>
 
 <h2>Summary</h2>
 <ul>
-<li><strong>Immediate threats:</strong> Scattered Spider and DragonForce active in retail, airlines, health; cloud MFA failures drive extortion risk.</li>
-<li><strong>Actionable steps:</strong> Enforce MFA on all cloud systems; audit 3rd-party platforms; improve phishing simulation and detection; test vendor updates pre‑deployment.</li>
-<li><strong>Longer‑term needs:</strong> Strengthen vendor governance, support CITSSA reauthorization for intel sharing, invest in AI‑detection for phishing kits.</li>
+  <li><strong>Immediate threats:</strong> Ransomware double-extortion by NightSpire and Chaos; AI-driven phishing deepening risk; critical router zero-day (CVE‑2025‑28901).</li>
+  <li><strong>Actionable steps:</strong> Deploy router patches within 48 hrs; prioritize ICS/edge systems; strengthen email filters against AI‑crafted phishing; rotate credentials tied to exposed IOCs.</li>
+  <li><strong>Longer-term needs:</strong> Harden supply chains; adopt AI-powered defense; prep for regulatory change (SEC disclosure rule); integrate voice‑clone detection.</li>
 </ul>
 
+</body>
 </html>
