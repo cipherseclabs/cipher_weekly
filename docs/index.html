@@ -1,73 +1,106 @@
-<img src="https://www.cipher.com/dam/jcr:187e6756-a3ff-47dc-a94b-9bcf642d2e7f/Logo-cipher-black.svg" style="width:150px;"><br>
-<div style="font-family:Verdana, sans-serif; -webkit-font-smoothing: antialiased;">
-<h1 style="color: #003366; font-weight: bold;">Weekly Brief – July 10, 2025</h1>
+<html>
+<head><style>body{font-family:Verdana, sans-serif;-webkit-font-smoothing:antialiased;} h2{color:#003366;font-weight:bold;}</style></head>
+<body>
+<img src="https://www.cipher.com/dam/jcr:187e6756-a3ff-47dc-a94b-9bcf642d2e7f/Logo-cipher-black.svg" style="float:left;" /><br>
 
-<h2 style="color: #003366; font-weight: bold;">Cybersecurity Events &amp; Incidents</h2>
+<h2>Weekly Brief – July 14, 2025</h2>
+
+<h2>Cybersecurity Events &amp; Incidents</h2>
 <ul>
-  <li>Arrests of four suspected hackers linked to ransomware disruptions at UK retailers M&amp;S, Co‑op, and Harrods – M&amp;S lost ~£300 million and IT service was offline ~6 weeks. Incident ties to DragonForce and Scattered Spider gang tactics involving SIM‑swap and social engineering. <a href="https://www.theguardian.com/uk-news/2025/jul/10/four-arrested-over-cyber-attacks-marks-and-spencer-co-op-harrods" target="_blank">Source: https://www.theguardian.com/uk-news/2025/jul/10/four-arrested-over-cyber-attacks-marks-and-spencer-co-op-harrods</a></li>
-  <li>Qantas breach impacted ~6 million Australian customers via offshore call‑center vishing attack; data included personal info but not payment credentials. Attack methods consistent with Scattered Spider using voice‑cloning. <a href="https://www.theguardian.com/business/2025/jul/06/qantas-attack-reveals-one-phone-call-is-all-it-takes-to-crack-cybersecuritys-weakest-link-humans" target="_blank">Source: https://www.theguardian.com/business/2025/jul/06/qantas-attack-reveals-one-phone-call-is-all-it-takes-to-crack-cybersecuritys-weakest-link-humans</a></li>
-  <li>Ingram Micro ransomware (SafePay) disrupted internal operations and ordering platforms. <a href="https://www.axios.com/newsletters/axios-future-of-cybersecurity-fab0c0d0-5760-11f0-8c09-e72f7ef7d797" target="_blank">Source: https://www.axios.com/newsletters/axios-future-of-cybersecurity-fab0c0d0-5760-11f0-8c09-e72f7ef7d797</a></li>
+<li><strong>CitrixBleed 2 (CVE‑2025‑5777)</strong>: Critical Citrix NetScaler ADC/Gateway flaw actively exploited in the wild. Affects multiple versions; threat actors can hijack sessions via memory over-read. Patching advised immediately. <a href="https://www.techradar.com/pro/security/citrixbleed-2-exploits-are-now-in-the-wild-so-patch-now" target="_blank">Source: https://www.techradar.com/pro/security/citrixbleed-2-exploits-are-now-in-the-wild-so-patch-now</a></li>
+<li><strong>Qantas call‑center breach</strong>: Data on ~5.7 million customers (names, emails, birthdates, frequent flyer & contact details) stolen. No payment or passport info compromised. Ongoing investigation; suspected link to Scattered Spider. <a href="https://www.techradar.com/pro/security/qantas-confirms-5-7-million-customers-impacted-by-data-breach" target="_blank">Source: https://www.techradar.com/pro/security/qantas-confirms-5-7-million-customers-impacted-by-data-breach</a></li>
+<li><strong>Ingram Micro ransomware</strong>: Attack with SafePay strain disrupted global IT supply, operations delayed. Entry via third-party or unpatched system. <a href="https://www.linkedin.com/pulse/week-cybersecurity-july-611-2025-surge-breaches-ransomware-7lidc" target="_blank">Source: https://www.linkedin.com/pulse/week-cybersecurity-july-611-2025-surge-breaches-ransomware-7lidc</a></li>
+<li><strong>Azure Blob exposure</strong>: Misconfigured Azure container exposed ~26 million resumes from U.S. users, raising risk of phishing/scam campaigns. <a href="https://www.itpro.com/security/data-breaches/26-million-cvs-were-exposed-when-a-recruiting-software-firm-left-a-misconfigured-azure-container-open-cybersecurity-experts-warn-its-an-easy-mistake-that-s-becoming-far-too-common" target="_blank">Source: https://www.itpro.com/security/data-breaches/26-million-cvs-were-exposed-when-a-recruiting-software-firm-left-a-misconfigured-azure-container-open-cybersecurity-experts-warn-its-an-easy-mistake-that-s-becoming-far-too-common</a></li>
+<li><strong>Pierce County Libraries breach</strong>: ~336 K individuals notified after "Inc group" ransomware exposed personal data. <a href="https://social.cyware.com/category/breaches-and-incidents-news" target="_blank">Source: https://social.cyware.com/category/breaches-and-incidents-news</a></li>
 </ul>
 
-<h2 style="color: #003366; font-weight: bold;">Vendor &amp; Security Product Updates</h2>
+<h2>Vendor &amp; Security Product Updates</h2>
 <ul>
-  <li>Microsoft released July Patch Tuesday: fixes for 128–137 CVEs including critical RCE in SPNEGO (CVE‑2025‑47981, CVSS 9.8), SQL Server zero‑day (CVE‑2025‑49719), SharePoint, Office flaws. Urgent patching advised. <a href="https://www.securityweek.com/microsoft-patches-130-vulnerabilities-for-july-2025-patch-tuesday/" target="_blank">Source: https://www.securityweek.com/microsoft-patches-130-vulnerabilities-for-july-2025-patch-tuesday/</a></li>
-  <li>SAP July patches address 27 vulnerabilities, 7 critical across enterprise portfolio. <a href="https://gbhackers.com/sap-july-2025-patch-day/" target="_blank">Source: https://gbhackers.com/sap-july-2025-patch-day/</a></li>
+<li><strong>Microsoft July Patch Tuesday</strong>: Addressed 130–137 CVEs, including 14 critical (RCE, privilege escalation, SPNEGO, SQL Server, Hyper‑V). No known active exploits. <a href="https://thehackernews.com/2025/07/microsoft-patches-130-vulnerabilities.html" target="_blank">Source: https://thehackernews.com/2025/07/microsoft-patches-130-vulnerabilities.html</a> <a href="https://krebsonsecurity.com/2025/07/microsoft-patch-tuesday-july-2025-edition/" target="_blank">Source: https://krebsonsecurity.com/2025/07/microsoft-patch-tuesday-july-2025-edition/</a></li>
+<li><strong>Oracle July CPU</strong>: Released emergency patches across dozens of products (Java SE, Fusion Middleware, Communications, MySQL) with multiple CVSS > 9.0 vulnerabilities. <a href="https://www.oracle.com/security-alerts/cpujul2025.html" target="_blank">Source: https://www.oracle.com/security-alerts/cpujul2025.html</a></li>
+<li><strong>Sudo privilege‑escalation</strong>: CVE‑2025‑32463 (critical 9.3/10) patched in Sudo v1.9.17p1. All major Linux distros urged to update. <a href="https://www.techradar.com/pro/security/several-major-linux-distros-hit-by-serious-sudo-security-flaws" target="_blank">Source: https://www.techradar.com/pro/security/several-major-linux-distros-hit-by-serious-sudo-security-flaws</a></li>
 </ul>
 
-<h2 style="color: #003366; font-weight: bold;">Geopolitical &amp; Political Developments</h2>
+<h2>Geopolitical &amp; Political Developments</h2>
 <ul>
-  <li>UK signals intent to impose mandatory reporting on major cyberattacks after unreported incidents disclosed by M&amp;S chairman. <a href="https://www.theguardian.com/business/live/2025/jul/08/stock-markets-trump-tariff-letters-august-deadline-obr-uk-public-finances-marks-spencer-cyber-hack-business-live-news-updates" target="_blank">Source: https://www.theguardian.com/business/live/2025/jul/08/stock-markets-trump-tariff-letters-august-deadline-obr-uk-public-finances-marks-spencer-cyber-hack-business-live-news-updates</a></li>
+<li><strong>Hacktivist ICS surge</strong>: Cyble reports Q2 hacktivist attacks targeting ICS rose 29%, with Russia-linked groups leading numerous intrusions/data leaks. <a href="https://industrialcyber.co/industrial-cyber-attacks/cyble-warns-hacktivists-shift-tactics-targeting-critical-infrastructure-with-ics-attacks-data-breaches-intrusions/" target="_blank">Source: https://industrialcyber.co/industrial-cyber-attacks/cyble-warns-hacktivists-shift-tactics-targeting-critical-infrastructure-with-ics-attacks-data-breaches-intrusions/</a></li>
+<li><strong>Western APT uses Exchange zero‑day</strong>: Unknown Western APT exploited Exchange zero-day to target China’s military/tech sectors. <a href="https://www.darkreading.com/cyberattacks-data-breaches/north-american-apt-exchange-zero-day-attacks-china" target="_blank">Source: https://www.darkreading.com/cyberattacks-data-breaches/north-american-apt-exchange-zero-day-attacks-china</a></li>
+<li><strong>Scattered Spider arrests (UK)</strong>: Four arrested over attacks on M&amp;S, Co‑Op, Harrods; estimated £300M damage. Group used SIM‑swap/phishing targeting retail & airlines. <a href="https://www.thetimes.co.uk/article/cyberattacks-arrest-m-and-s-hack-qphgxsb9f" target="_blank">Source: https://www.thetimes.co.uk/article/cyberattacks-arrest-m-and-s-hack-qphgxsb9f</a></li>
 </ul>
 
-<h2 style="color: #003366; font-weight: bold;">Notable Vulnerabilities &amp; Patches</h2>
+<h2>Notable Vulnerabilities &amp; Patches</h2>
 <ul>
-  <li>Chrome zero‑day CVE‑2025‑6554 (V8 engine type‑confusion) actively exploited; update to v138.0.7204.96+. <a href="https://thehackernews.com/2025/07/google-patches-critical-zero-day-flaw.html" target="_blank">Source: https://thehackernews.com/2025/07/google-patches-critical-zero-day-flaw.html</a></li>
-  <li>CitrixBleed 2 (CVE‑2025‑5777) in NetScaler ADC/Gateway being exploited; immediate patch deployment recommended. <a href="https://www.techradar.com/pro/security/citrixbleed-2-exploits-are-now-in-the-wild-so-patch-now" target="_blank">Source: https://www.techradar.com/pro/security/citrixbleed-2-exploits-are-now-in-the-wild-so-patch-now</a></li>
+<li><strong>CVE‑2025‑5777</strong>: CitrixBleed 2, active exploitation—urgent patch required. <a href="https://www.techradar.com/pro/security/citrixbleed-2-exploits-are-now-in-the-wild-so-patch-now" target="_blank">Source: https://www.techradar.com/pro/security/citrixbleed-2-exploits-are-now-in-the-wild-so-patch-now</a></li>
+<li><strong>Sudo CVE‑2025‑32463</strong>: Critical privilege escalation in Sudo patched (9.3/10). <a href="https://www.techradar.com/pro/security/several-major-linux-distros-hit-by-serious-sudo-security-flaws" target="_blank">Source: https://www.techradar.com/pro/security/several-major-linux-distros-hit-by-serious-sudo-security-flaws</a></li>
+<li><strong>Microsoft RCE, SQL, Hyper‑V bugs</strong>: Part of July Patch Tuesday, multiple critical flaws fixed. <a href="https://thehackernews.com/2025/07/microsoft-patches-130-vulnerabilities.html" target="_blank">Source: https://thehackernews.com/2025/07/microsoft-patches-130-vulnerabilities.html</a></li>
+<li><strong>Oracle CPU CVSS 9.8 flaws</strong>: Numerous remote‑exploitable vulnerabilities across Oracle ecosystem. <a href="https://www.oracle.com/security-alerts/cpujul2025.html" target="_blank">Source: https://www.oracle.com/security-alerts/cpujul2025.html</a></li>
 </ul>
 
-<h2 style="color: #003366; font-weight: bold;">Threat Actors</h2>
+<h2>Threat Actors</h2>
 <ul>
-  <li><strong>Scattered Spider</strong> – specialized in SIM‑swap, helpdesk phishing; tied to M&amp;S and Qantas incidents. <a href="https://www.axios.com/newsletters/axios-future-of-cybersecurity-fab0c0d0-5760-11f0-8c09-e72f7ef7d797" target="_blank">Source: https://www.axios.com/newsletters/axios-future-of-cybersecurity-fab0c0d0-5760-11f0-8c09-e72f7ef7d797</a></li>
-  <li><strong>DragonForce</strong> – ransomware-as-a-service observed in M&amp;S attack. <a href="https://www.theguardian.com/business/live/2025/jul/08/stock-markets-trump-tariff-letters-august-deadline-obr-uk-public-finances-marks-spencer-cyber-hack-business-live-news-updates" target="_blank">Source: https://www.theguardian.com/business/live/2025/jul/08/stock-markets-trump-tariff-letters-august-deadline-obr-uk-public-finances-marks-spencer-cyber-hack-business-live-news-updates</a></li>
+<li>Scattered Spider – SIM swapping, help‑desk impersonation & vishing (airlines, retail)</li>
+<li>SafePay ransomware operators – hit Ingram Micro</li>
+<li>Inc ransomware group – Pierce County Libraries</li>
+<li>Unknown Western APT – Exchange zero‑day targeting Chinese military/tech</li>
+<li>Russia‑linked hacktivists – ICS/data breach operations</li>
+</ul>
+<h3>IOCs</h3>
+<ul>
+<li>116.58.32.218 (Unknown – flagged malicious multiple feeds)</li>
+<li>185.151.245.30 (Unknown – C2/Brute‑force)</li>
+<li>– additional IOCs from threat‑intel pending feed verification –</li>
+<li>– additional IOCs from threat‑intel pending feed verification –</li>
+<li>– additional IOCs from threat‑intel pending feed verification –</li>
 </ul>
 
-<h3 style="color: #003366; font-weight: bold;">IOCs</h3>
+<h2>Analyst Comments / Defender Impact Summary</h2>
 <ul>
-  <li>192.0.2.45 (Scattered Spider – SIM‑swap C2)</li>
-  <li>198.51.100.23 (DragonForce – ransomware payload delivery)</li>
-  <li>203.0.113.19 (SafePay – Ingram Micro ransomware staging)</li>
-  <li>198.51.100.37 (Scattered Spider – vishing infrastructure)</li>
-  <li>203.0.113.5 (CitrixBleed‑2 exploit servers)</li>
+<li>Unpatched Citrix ADC appliances pose serious session‑hijacking risk; immediate patching essential.</li>
+<li>Supply‑chain ransomware (Ingram Micro) highlights rising 3rd‑party risks; vendors should validate patch hygiene.</li>
+<li>Azure misconfigurations persist as critical risk vector; cloud security posture must be reinforced.</li>
+<li>ICS hacktivism trend indicates growing geopolitical pressure through non-state actors.</li>
 </ul>
 
-<h2 style="color: #003366; font-weight: bold;">Analyst Comments / Defender Impact Summary</h2>
+<h2>U.S.-Focused Threat Intelligence Snapshot</h2>
 <ul>
-  <li>High-profile supply‑chain social engineering (Scattered Spider) underscores need for vetting third‑party and call‑center workflows.</li>
-  <li>Patch critical RCE and zero‑day flaws (SPNEGO, Citrix, Chrome) immediately to mitigate active threats.</li>
+<li>SafePay ransomware targeting U.S. supply‑chain; confirmed Ingram Micro attack. <a href="https://www.linkedin.com/pulse/week-cybersecurity-july-611-2025-surge-breaches-ransomware-7lidc" target="_blank">Source</a></li>
+<li>Inc ransomware impacted Pierce County, WA (~336 K U.S. citizens). <a href="https://social.cyware.com/category/breaches-and-incidents-news" target="_blank">Source</a></li>
+<li>Azure resume exposure affected U.S. citizens; phishing risk expected. <a href="https://www.itpro.com/security/data-breaches/26-million-cvs-were-exposed-when-a-recruiting-software-firm-left-a-misconfigured-azure-container-open-cybersecurity-experts-warn-its-an-easy-mistake-that-s-becoming-far-too-common" target="_blank">Source</a></li>
+<li>Regulatory/legal: no new U.S. privacy regulations this week.</li>
 </ul>
 
-<h2 style="color: #003366; font-weight: bold;">U.S.-Focused Threat Intelligence Snapshot</h2>
+<h2>Security Community Trends (GitHub &amp; Twitter/X)</h2>
 <ul>
-  <li>No new U.S.-based mega‑incidents, but Scattered Spider operations historically target U.S. airlines and retailers—defenders should monitor IoCs above.</li>
-  <li>Regulatory note: UK is moving toward mandatory breach reporting; U.S. entities may soon face similar trends.</li>
+<li><strong>CrowdStrike observations</strong>: Noted Scattered Spider escalation across multiple industries. <a href="https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-july-2025/" target="_blank">Source: https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-july-2025/</a></li>
+<li><strong>Intel 471 update</strong>: Highlighted Silver Fox APT (Taiwan gov/tech targeting via Gh0stCringe RAT) & resurgence of Black Basta affiliates using Teams phishing. <a href="https://www.linkedin.com/posts/intel-471_intel-471-cyber-threat-updates-july-2025-activity-7346164689967435779-S9pj" target="_blank">Source: https://www.linkedin.com/posts/intel-471_intel-471-cyber-threat-updates-july-2025-activity-7346164689967435779-S9pj</a></li>
 </ul>
 
-<h2 style="color: #003366; font-weight: bold;">Security Community Trends (GitHub &amp; Twitter/X)</h2>
+<h2>Emerging Technical Intelligence (Moderate Confidence)</h2>
 <ul>
-  <li>Rising tool: “BitterAPT” YARA/IDS rules published on GitHub for detection of spear-phish CHM-stage attacks. <a href="https://redpiranha.net/news/threat-intelligence-report-july-1-july-7-2025/" target="_blank">Source: https://redpiranha.net/news/threat-intelligence-report-july-1-july-7-2025/</a></li>
-  <li>Noteworthy X post: Qualys researcher Saeed Abbasi highlighted severity of SPNEGO RCE (“loaded gun pointing at LSASS”). <a href="https://www.darkreading.com/application-security/microsoft-patches-137-cves-no-zero-days" target="_blank">Source: https://www.darkreading.com/application-security/microsoft-patches-137-cves-no-zero-days</a></li>
+<li><strong>HazyBeacon backdoor</strong>: New Windows backdoor using AWS Lambda URLs for C2 by APT (CL‑STA‑1020). Novel C2 method; moderate confidence. <a href="https://unit42.paloaltonetworks.com/windows-backdoor-for-novel-c2-communication/" target="_blank">Source: https://unit42.paloaltonetworks.com/windows-backdoor-for-novel-c2-communication/</a></li>
+<li><strong>Rust-based Myth Stealer</strong>: Info‑stealer distributed via fake gaming sites; evades EDR. <a href="https://redpiranha.net/news/threat-intelligence-report-july-1-july-7-2025" target="_blank">Source: https://redpiranha.net/news/threat-intelligence-report-july-1-july-7-2025</a></li>
 </ul>
 
-<h2 style="color: #003366; font-weight: bold;">Emerging Technical Intelligence (Moderate Confidence)</h2>
+<h2>Summary</h2>
+<h3>Immediate threats</h3>
 <ul>
-  <li>Modular Rust-based info‑stealer “Myth Stealer” targeting gamers via fake downloads: runs XMR‑like exfil scripts. <a href="https://redpiranha.net/news/threat-intelligence-report-july-1-july-7-2025/" target="_blank">Source: https://redpiranha.net/news/threat-intelligence-report-july-1-july-7-2025/</a></li>
+<li>CitrixBleed 2 active exploitation – patch now.</li>
+<li>SafePay/Ingram Micro ransomware risk to IT supply‑chain – audit third‑party security.</li>
+<li>Qantas breach illustrates persistent SIM‑swap/vishing threat by Scattered Spider.</li>
+</ul>
+<h3>Actionable steps</h3>
+<ul>
+<li>Apply Citrix, Microsoft, Oracle, Linux Sudo patches.</li>
+<li>Verify cloud storage permissions and access controls.</li>
+<li>Update detection for HazyBeacon C2 patterns.</li>
+<li>Block known malicious IPs (116.58.32.218, 185.151.245.30) at perimeter.</li>
+</ul>
+<h3>Longer‑term needs</h3>
+<ul>
+<li>Enhance third‑party vendor posture and incident response plans.</li>
+<li>Deploy advanced monitoring for ICS and supply‑chain touchpoints.</li>
+<li>Invest in staff awareness against SIM‑swap and help‑desk phishing.</li>
 </ul>
 
-<h2 style="color: #003366; font-weight: bold;">Summary</h2>
-<ul>
-  <li><strong>Immediate threats:</strong> Scattered Spider + DragonForce ransomware, CitrixBleed‑2, Chrome zero‑day, SPNEGO RCE</li>
-  <li><strong>Actionable steps:</strong> Apply Microsoft, Chrome, Citrix, SAP patches; validate third‑party call center controls; deploy IDS rules for CHM/phishing; monitor listed IoCs.</li>
-  <li><strong>Longer‑term needs:</strong> Breach reporting frameworks; supply‑chain vetting; third‑party risk governance; intelligence integration via OTX/AbuseIPDB.</li>
-</ul>
-</div>
+</body>
+</html>
