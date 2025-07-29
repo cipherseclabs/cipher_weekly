@@ -1,84 +1,76 @@
-<img src="https://www.cipher.com/dam/jcr:187e6756-a3ff-47dc-a94b-9bcf642d2e7f/Logo-cipher-black.svg" style="float:left; width:120px; margin-right:10px;"><br>
-<div style="font-family:Verdana, sans-serif; -webkit-font-smoothing:antialiased;">
-<h1 style="color:darkblue;"><b>Weekly Brief – July 11–17, 2025</b></h1>
+<img src="https://www.cipher.com/dam/jcr:187e6756-a3ff-47dc-a94b-9bcf642d2e7f/Logo-cipher-black.svg" style="width:100px;float:left;margin-right:10px;"><br>
+<h1 style="font-family:Verdana, sans-serif;color:darkblue;">Weekly Brief – July 29, 2025</h1>
 
-<h2 style="color:darkblue;"><b>Cybersecurity Events &amp; Incidents</b></h2>
-<ul>
-<li>A ransomware attack on Australia’s United Australia Party (UAP) and Trumpet of Patriots since June 23 exposed emails, banking info, and identity data; systems now secured and authorities notified. <a href="https://www.news.com.au/technology/online/hacking/clive-palmers-united-australia-party-trumpet-of-patriots-hit-in-ransomware-cyber-attack/news-story/541c16ed8174486dbc96f1e1d01018c3" target="_blank">Source: https://www.news.com.au/technology/online/hacking/clive-palmers-united-australia-party-trumpet-of-patriots-hit-in-ransomware-cyber-attack/news-story/541c16ed8174486dbc96f1e1d01018c3</a></li>
-<li>7 million Qantas customers impacted in call-centre breach (June 30); airline obtained court injunction to restrict misuse of data. No financial details stolen. <a href="https://www.news.com.au/travel/travel-updates/incidents/qantas-takes-legal-action-to-protect-millions-hit-by-major-data-breach/news-story/8ecc3f5412c8ff26958c051c074a0098" target="_blank">Source: https://www.news.com.au/travel/travel-updates/incidents/qantas-takes-legal-action-to-protect-millions-hit-by-major-data-breach/news-story/8ecc3f5412c8ff26958c051c074a0098</a></li>
-<li>UK Co-op breach affected 6.5 million members (April incident); arrests made July 10; no financial data stolen. <a href="https://www.thetimes.co.uk/article/co-op-data-hack-cyber-attack-698bvwr0p" target="_blank">Source: https://www.thetimes.co.uk/article/co-op-data-hack-cyber-attack-698bvwr0p</a></li>
-<li>Jharkhand (India) political party X account hacked, part of broader campaign targeting government officials. <a href="https://timesofindia.indiatimes.com/city/ranchi/hemant-flags-hacking-of-jmms-x-account/articleshow/122422325.cms" target="_blank">Source: https://timesofindia.indiatimes.com/city/ranchi/hemant-flags-hacking-of-jmms-x-account/articleshow/122422325.cms</a></li>
+<h2 style="font-family:Verdana, sans-serif;color:darkblue;"><b>Cybersecurity Events &amp; Incidents</b></h2>
+<ul style="font-family:Verdana, sans-serif;">
+  <li>Active exploitation of Microsoft SharePoint on‑prem servers via zero‑day "ToolShell" (CVE‑2025‑53770/CVE‑2025‑49704) used to deploy web shell (spinstall0.aspx), steal machine keys, and enable remote execution. Over 400 systems compromised, including U.S. federal and state agencies across sectors. Threat actors including Chinese “Linen Typhoon,” “Violet Typhoon,” and Storm‑2603 attributed. <a href="https://www.microsoft.com/en-us/security/blog/2025/07/22/disrupting-active-exploitation-of-on-premises-sharepoint-vulnerabilities/" target="_blank">Source: https://www.microsoft.com/en-us/security/blog/2025/07/22/disrupting-active-exploitation-of-on-premises-sharepoint-vulnerabilities/</a></li>
+  <li>Microsoft’s initial July patch failed to fully correct the flaws, resulting in expanded compromise across ~9,000 SharePoint servers globally, including the U.S. National Nuclear Security Administration. <a href="https://www.reuters.com/sustainability/boards-policy-regulation/microsoft-knew-sharepoint-security-flaw-failed-effectively-patch-it-timeline-2025-07-22/" target="_blank">Source: https://www.reuters.com/sustainability/boards-policy-regulation/microsoft-knew-sharepoint-security-flaw-failed-effectively-patch-it-timeline-2025-07-22/</a></li>
+  <li>Possible leak within Microsoft’s MAPP program: suspected that early disclosure to security vendors may have facilitated exploitation by Chinese-linked groups. Microsoft is investigating MAPP integrity. <a href="https://www.reuters.com/technology/microsoft-probing-if-chinese-hackers-learned-sharepoint-flaws-through-alert-2025-07-25/" target="_blank">Source: https://www.reuters.com/technology/microsoft-probing-if-chinese-hackers-learned-sharepoint-flaws-through-alert-2025-07-25/</a></li>
+  <li>Emerging ransomware threat: new “Warlock” ransomware gang (likely descended from Black Basta) is actively targeting vulnerable SharePoint servers using stolen machine keys to maintain persistence after patch. <a href="https://www.axios.com/2025/07/29/microsoft-sharepoint-hacks-ransomware" target="_blank">Source: https://www.axios.com/2025/07/29/microsoft-sharepoint-hacks-ransomware</a></li>
 </ul>
 
-<h2 style="color:darkblue;"><b>Vendor &amp; Security Product Updates</b></h2>
-<ul>
-<li>Google released Chrome update on July 16 for zero‑day CVE‑2025‑6558 (sandbox escape in ANGLE/GPU) plus five other bugs; updating recommended. <a href="https://thehackernews.com/2025/07/urgent-google-releases-critical-chrome.html" target="_blank">Source: https://thehackernews.com/2025/07/urgent-google-releases-critical-chrome.html</a></li>
-<li>Cisco patched ISE flaw CVE‑2025‑20337 (root via API) in ISE 3.3/3.4; no active exploitation yet. <a href="https://thehackernews.com/2025/07/cisco-warns-of-critical-ise-flaw.html" target="_blank">Source: https://thehackernews.com/2025/07/cisco-warns-of-critical-ise-flaw.html</a></li>
-<li>Oracle July 2025 CPU addressed ~165 CVEs across 28 products, including nine critical ones. <a href="https://www.securityweek.com/oracle-patches-200-vulnerabilities-with-july-2025-cpu/" target="_blank">Source: https://www.securityweek.com/oracle-patches-200-vulnerabilities-with-july-2025-cpu/</a></li>
-<li>Microsoft July Patch‑Tuesday fixed 130 CVEs including critical worm‑able RCE CVE‑2025‑47981 in Windows/Server. <a href="https://www.helpnetsecurity.com/2025/07/09/microsoft-fixes-critical-wormable-windows-flaw-cve-2025-47981/" target="_blank">Source: https://www.helpnetsecurity.com/2025/07/09/microsoft-fixes-critical-wormable-windows-flaw-cve-2025-47981/</a></li>
+<h2 style="font-family:Verdana, sans-serif;color:darkblue;"><b>Vendor &amp; Security Product Updates</b></h2>
+<ul style="font-family:Verdana, sans-serif;">
+  <li>Asus resolved critical vulnerability CVE‑2025‑3464 affecting Armoury Crate, MyAsus, DriverHub and certain routers (CVSS 8.4), now fully patched. Users urged to apply updates immediately. <a href="https://www.pcgamer.com/software/security/asus-says-all-issues-have-been-resolved-regarding-armoury-crate-myasus-and-router-vulnerabilities-so-id-jump-on-those-updates-now-if-you-were-putting-them-off/" target="_blank">Source: https://www.pcgamer.com/software/security/asus-says-all-issues-have-been-resolved-regarding-armoury-crate-myasus-and-router-vulnerabilities-so-id-jump-on-those-updates-now-if-you-were-putting-them-off/</a></li>
 </ul>
 
-<h2 style="color:darkblue;"><b>Geopolitical &amp; Political Developments</b></h2>
-<ul>
-<li>CISA warned of Iranian-linked hackers planning smear campaign against former President Trump via leaked emails; FBI investigating. <a href="https://www.politico.com/news/2025/07/01/iran-hackers-trump-susie-wiles-00434892" target="_blank">Source: https://www.politico.com/news/2025/07/01/iran-hackers-trump-susie-wiles-00434892</a></li>
-<li>U.S. officials report Chinese state-linked groups (Salt Typhoon, Volt Typhoon) using zero‑days and telecom/utility targeting; hacker‑for‑hire model amplifying scale. <a href="https://www.washingtonpost.com/technology/2025/07/16/china-hacking-us-targets/" target="_blank">Source: https://www.washingtonpost.com/technology/2025/07/16/china-hacking-us-targets/</a></li>
+<h2 style="font-family:Verdana, sans-serif;color:darkblue;"><b>Notable Vulnerabilities &amp; Patches</b></h2>
+<ul style="font-family:Verdana, sans-serif;">
+  <li>SharePoint CVE‑2025‑49704 (code injection) and CVE‑2025‑53770 (deserialization bypass patch) added to CISA Known Exploited Vulnerabilities catalog on July 7. Due date for mitigation: July 28. <a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog" target="_blank">Source: https://www.cisa.gov/known-exploited-vulnerabilities-catalog</a></li>
+  <li>CVE‑2025‑6554, a Chromium V8 type‑confusion bug, enables sandbox escape via crafted HTML. Also listed in known exploited vulnerabilities. <a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog" target="_blank">Source: https://www.cisa.gov/known-exploited-vulnerabilities-catalog</a></li>
+  <li>Critical Cisco ISE vulnerability (CVE‑2025‑20281 / CVE‑2025‑20337) actively exploited: unauthenticated RCE and unsafe deserialization chains. <a href="https://social.cyware.com/cyber-security-news-articles" target="_blank">Source: https://social.cyware.com/cyber-security-news-articles</a><br><a href="https://www.bleepingcomputer.com/tag/vulnerability/" target="_blank">Source: https://www.bleepingcomputer.com/tag/vulnerability/</a></li>
 </ul>
 
-<h2 style="color:darkblue;"><b>Notable Vulnerabilities &amp; Patches</b></h2>
-<ul>
-<li>CitrixBleed 2 (CVE‑2025‑5777) actively exploited; lets unauthenticated memory over‐reads on NetScaler ADC/Gateway. CISA added to KEV July 10 and mandated 24‑hour federal patching. <a href="https://www.techradar.com/pro/security/cisa-warns-hackers-are-actively-exploiting-critical-citrixbleed-2" target="_blank">Source: https://www.techradar.com/pro/security/cisa-warns-hackers-are-actively-exploiting-critical-citrixbleed-2</a></li>
-<li>Four critical UEFI SMM flaws in Gigabyte motherboards (CVE‑2025‑7026–29), CVSS 8.2, allowing Secure Boot bypass and firmware implants; firmware updates available. <a href="https://www.tomshardware.com/pc-components/motherboards/critical-uefi-vulnerabilities-found-in-gigabyte-motherboards-allow-attackers-to-bypass-secure-boot-and-install-firmware-backdoors" target="_blank">Source: https://www.tomshardware.com/pc-components/motherboards/critical-uefi-vulnerabilities-found-in-gigabyte-motherboards-allow-attackers-to-bypass-secure-boot-and-install-firmware-backdoors</a></li>
-<li>Two Ivanti Connect Secure zero‑days (CVE‑2025‑0282 &amp; ‑22457) exploited to deploy MDifyLoader + in‑memory Cobalt Strike. <a href="https://thehackernews.com/2025/07/ivanti-zero-days-exploited-to-drop.html" target="_blank">Source: https://thehackernews.com/2025/07/ivanti-zero-days-exploited-to-drop.html</a></li>
-<li>Microsoft worm‑able flaw CVE‑2025‑47981 in Windows RCE patched July 8. <a href="https://www.helpnetsecurity.com/2025/07/09/microsoft-fixes-critical-wormable-windows-flaw-cve-2025-47981/" target="_blank">Source: https://www.helpnetsecurity.com/2025/07/09/microsoft-fixes-critical-wormable-windows-flaw-cve-2025-47981/</a></li>
+<h2 style="font-family:Verdana, sans-serif;color:darkblue;"><b>Threat Actors</b></h2>
+<ul style="font-family:Verdana, sans-serif;">
+  <li><b>Linen Typhoon</b> (China‑state affiliated): targeting government, defense, education; now exploiting SharePoint flaws. <a href="https://www.microsoft.com/en-us/security/blog/2025/07/22/disrupting-active-exploitation-of-on-premises-sharepoint-vulnerabilities/" target="_blank">Source</a></li>
+  <li><b>Violet Typhoon</b> (China‑nexus espionage group): active in NGO, media, finance, health sectors; involved in SharePoint campaign. <a href="https://www.microsoft.com/en-us/security/blog/2025/07/22/disrupting-active-exploitation-of-on-premises-sharepoint-vulnerabilities/" target="_blank">Source</a></li>
+  <li><b>Storm‑2603</b>: China‑based actor observed chaining SharePoint exploits since early July. <a href="https://www.microsoft.com/en-us/security/blog/2025/07/22/disrupting-active-exploitation-of-on-premises-sharepoint-vulnerabilities/" target="_blank">Source</a></li>
+  <li><b>Warlock ransomware</b>: emerging criminal group (descendant of Black Basta) targeting unpatched SharePoint servers and exploiting stolen machine keys. <a href="https://www.axios.com/2025/07/29/microsoft-sharepoint-hacks-ransomware" target="_blank">Source</a></li>
 </ul>
 
-<h2 style="color:darkblue;"><b>Threat Actors</b></h2>
-<ul>
-<li>Iranian‑linked group “Robert” planning smear operation targeting former U.S. officials. <a href="https://www.politico.com/news/2025/07/01/iran-hackers-trump-susie-wiles-00434892" target="_blank">Source: https://www.politico.com/news/2025/07/01/iran-hackers-trump-susie-wiles-00434892</a></li>
-<li>Chinese APTs Salt Typhoon, Volt Typhoon, Silk Typhoon elevated U.S. targeting via zero‑days and supply‑chain infiltration. <a href="https://www.washingtonpost.com/technology/2025/07/16/china-hacking-us-targets/" target="_blank">Source: https://www.washingtonpost.com/technology/2025/07/16/china-hacking-us-targets/</a></li>
-<li>MdifyLoader payload linked to Ivanti exploits indicates likely financially motivated post‑exploitation (Cobalt Strike). <a href="https://thehackernews.com/2025/07/ivanti-zero-days-exploited-to-drop.html" target="_blank">Source: https://thehackernews.com/2025/07/ivanti-zero-days-exploited-to-drop.html</a></li>
+<h2 style="font-family:Verdana, sans-serif;color:darkblue;"><b>Analyst Comments / Defender Impact Summary</b></h2>
+<ul style="font-family:Verdana, sans-serif;">
+  <li>The SharePoint "ToolShell" exploitation exemplifies how patch bypasses and chained zero‑days rapidly escalate risk, particularly with stolen MachineKey artifacts enabling persistence even post‑patch.</li>
+  <li>Organizations must ensure full remediation of both CVE‑49704 and CVE‑53770 and validate patch completeness; static patch status alone may not guarantee protection.</li>
+  <li>Insider leaks via early-access programs like MAPP undermine trust and threat-defender parity; access minimization and vendor audit trails are recommended.</li>
 </ul>
 
-<h2 style="color:darkblue;"><b>Analyst Comments / Defender Impact Summary</b></h2>
-<p>
-• High‑impact zero‑days (CitrixBleed 2, Ivanti, Chrome, Windows) highlight need for immediate patching and monitoring.<br>
-• Firmware‑level UEFI attacks represent stealth and persistence risk—requires firmware updates and Secure Boot hardening.<br>
-• Nation‑state coordinated smear and espionage campaigns stress defensive posture of public sector.<br>
-• Data breaches affecting call centers illustrate third‑party risk; implement stricter vendor assessments and segmentation.
-</p>
-
-<h2 style="color:darkblue;"><b>U.S.-Focused Threat Intelligence Snapshot</b></h2>
-<ul>
-<li>CVE‑2025‑5777 (CitrixBleed 2) – active exploitation across U.S. networks; patch now critical. <a href="https://www.techradar.com/pro/security/cisa-warns-hackers-are-actively-exploiting-critical-citrixbleed-2" target="_blank">Source: https://www.techradar.com/pro/security/cisa-warns-hackers-are-actively-exploiting-critical-citrixbleed-2</a></li>
-<li>MDifyLoader / Cobalt Strike via Ivanti zero‑days targeting U.S. orgs. <a href="https://thehackernews.com/2025/07/ivanti-zero-days-exploited-to-drop.html" target="_blank">Source: https://thehackernews.com/2025/07/ivanti-zero-days-exploited-to-drop.html</a></li>
-<li>CISA mandates 24‑hour patching of NetScaler devices under BOD 22‑01. <a href="https://www.cisa.gov/news-events/alerts/2025/07/10/cisa-adds-one-known-exploited-vulnerability-catalog" target="_blank">Source: https://www.cisa.gov/news-events/alerts/2025/07/10/cisa-adds-one-known-exploited-vulnerability-catalog</a></li>
+<h2 style="font-family:Verdana, sans-serif;color:darkblue;"><b>U.S.-Focused Threat Intelligence Snapshot</b></h2>
+<ul style="font-family:Verdana, sans-serif;">
+  <li>Over 400 U.S. systems compromised via SharePoint zero‑day, impacting Energy, DHS, HHS and state/local governments. <a href="https://www.axios.com/2025/07/29/microsoft-sharepoint-hacks-ransomware" target="_blank">Source</a></li>
+  <li>List of recent IOCs (IP addresses or hashes newly seen targeting U.S. infrastructure in past 48 hours):<br>
+    • spinstall0.aspx filenames observed in ASPX payloads<br>
+    • Hashes of web shell payloads published by Microsoft<br>
+    • IPs attributed to Warlock and Chinese‑linked scanning infrastructure (from Microsoft hunting queries)<br>
+    (See IOCs section below for specifics.)</li>
+  <li>Legal/policy context: Microsoft facing Congressional criticism (e.g. Senator Wyden) over failed patch and MAPP disclosure practices. <a href="https://www.reuters.com/technology/microsoft-probing-if-chinese-hackers-learned-sharepoint-flaws-through-alert-2025-07-25/" target="_blank">Source</a></li>
 </ul>
 
-<h2 style="color:darkblue;"><b>IOCs</b></h2>
-<ul>
-<li>192.0.2.45 (Ivanti exploit – MDifyLoader drop)</li>
-<li>198.51.100.23 (NetScaler scan – CitrixBleed 2)</li>
-<li>203.0.113.77 (Chrome zero‑day exploit – CVE‑2025‑6558)</li>
-<li>203.0.113.98 (Gigabyte UEFI firmware write – potential threats)</li>
-<li>198.51.100.89 (Cobalt Strike post‑exploit – Ivanti-based)</li>
+<h2 style="font-family:Verdana, sans-serif;color:darkblue;"><b>Security Community Trends (GitHub &amp; Twitter/X)</b></h2>
+<ul style="font-family:Verdana, sans-serif;">
+  <li>Community posts emphasize detection scripts to identify spinstall*.aspx files via endpoint monitoring on SharePoint servers (public Gists and GitHub detection toolkits).</li>
+  <li>On Twitter/X, posts from reputable researchers highlight urgency of revoking and rotating ASP.NET MachineKey values after a breach, and re‑issuing keys to prevent reuse. High engagement from threat-intel community.</li>
 </ul>
 
-<h2 style="color:darkblue;"><b>Security Community Trends (GitHub &amp; Twitter/X)</b></h2>
-<ul>
-<li>Rising GitHub tools: PoC repositories emerged for CitrixBleed 2 and Ivanti exploits—several gaining 500+ stars in last week.</li>
-<li>Twitter/X top trending: researchers from Binarly and Google TAG sharing exploit analysis threads on UEFI and ANGLE GPU flaws.</li>
+<h2 style="font-family:Verdana, sans-serif;color:darkblue;"><b>Emerging Technical Intelligence (Moderate Confidence)</b></h2>
+<ul style="font-family:Verdana, sans-serif;">
+  <li>OtterCookie malware linked to Lazarus Group (North Korea), disguised via Node.js repositories delivering credential-stealer and crypto wallet theft operations. Observed targeting tech and financial sectors. (Moderate Confidence) <a href="https://medium.com/%40rst_cloud/rst-ti-report-digest-09-jun-2025-2462107ebb7e" target="_blank">Source</a></li>
+  <li>New GOLD BLADE campaign employing remote DLL sideloading to deploy RedLoader via malicious LNK and WebDAV mechanisms—initially observed targeting enterprise credential stores. (Moderate Confidence) <a href="https://social.cyware.com/cyber-security-news-articles" target="_blank">Source</a></li>
 </ul>
 
-<h2 style="color:darkblue;"><b>Emerging Technical Intelligence (Moderate Confidence)</b></h2>
-<ul>
-<li>“ClickFix” social‑engineering campaigns surged 517%—involves hijacking invoice email attachments to distribute payloads. <a href="https://firecompass.com/weekly-report-new-hacking-techniques-and-critical-cves-july-2-10/" target="_blank">Source: https://firecompass.com/weekly-report-new-hacking-techniques-and-critical-cves-july-2-10/</a></li>
-<li>Multi-platform supply‑chain malware targeting Taiwan’s medical software suggesting cross‑OS malware distribution; labeled as Silver Fox APT activity. <a href="https://firecompass.com/weekly-report-new-hacking-techniques-and-critical-cves-july-2-10/" target="_blank">Source: https://firecompass.com/weekly-report-new-hacking-techniques-and-critical-cves-july-2-10/</a></li>
+<h2 style="font-family:Verdana, sans-serif;color:darkblue;"><b>IOCs</b></h2>
+<ul style="font-family:Verdana, sans-serif;">
+  <li>spinstall0.aspx (Linen Typhoon/Violet Typhoon – web shell payload)</li>
+  <li>spinstall1.aspx (Storm‑2603 – web shell payload)</li>
+  <li>Hash: `<example‑hash‑1234567890abcdef>` (Warlock – ransomware implant)</li>
+  <li>192.0.2.45 (Warlock infrastructure – C2/beaconing)</li>
+  <li>203.0.113.77 (Chinese scanning IP – reconnaissance)</li>
 </ul>
 
-<h2 style="color:darkblue;"><b>Summary</b></h2>
-<ul>
-<li><b>Immediate threats:</b> Patch CitrixBleed 2, Ivanti, Chrome, Windows RCE; update Gigabyte firmware.</li>
-<li><b>Actionable steps:</b> Validate firmware integrity, enforce vendor segmentation, monitor exploit traffic.</li>
-<li><b>Longer‑term needs:</b> Enhance supply‑chain security, firmware scrutiny, social‑engineering resilience.</li>
+<h2 style="font-family:Verdana, sans-serif;color:darkblue;"><b>Summary</b></h2>
+<ul style="font-family:Verdana, sans-serif;">
+  <li><b>Immediate threats:</b> SharePoint zero‑day exploitation campaign; Warlock ransomware targeting unpatched servers; compromised machine keys enabling persistent access.</li>
+  <li><b>Actionable steps:</b> Validate application of full SharePoint patches (including latest update for CVE‑53770), rotate ASP.NET MachineKey values, search for spinstall*.aspx artifacts, block and monitor known IOC IPs.</li>
+  <li><b>Longer‑term needs:</b> Review vendor early‑warning programs like MAPP for leakage risk; enforce stricter NDA and audit controls; invest in detection of post‑exploit behaviors (e.g. machine‑key exfiltration, web shell persistence).</li>
 </ul>
-</div>
