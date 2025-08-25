@@ -1,70 +1,76 @@
-<div style="font-family:Verdana, sans-serif;-webkit-font-smoothing:antialiased;">
-  <br style="clear: both;">
-  <h2 style="color:darkblue;"><b>Weekly Brief – August 20, 2025</b></h2>
+<div style="font-family: Verdana, sans-serif; -webkit-font-smoothing: antialiased;">
+  <img src="https://www.cipher.com/dam/jcr:187e6756-a3ff-47dc-a94b-9bcf642d2e7f/Logo-cipher-black.svg" style="float: left; margin-right: 10px;">
+  <br>
+  <h1 style="color: darkblue; font-weight: bold;">Weekly Brief – August 19–25, 2025</h1>
 
-  <h3 style="color:darkblue;"><b>Cybersecurity Events &amp; Incidents</b></h3>
+  <h2 style="color: darkblue; font-weight: bold;">Cybersecurity Events &amp; Incidents</h2>
   <ul>
-    <li>A ransomware incident involving Colt Technology Services disrupted internal support systems—such as the Colt Online customer portal and Voice API platform—since around August 12, 2025. The WarLock group claimed responsibility and offered one million documents for sale following an apparent SharePoint exploit (CVE‑2025‑53770).<a href="https://www.techradar.com/pro/security/colt-forced-to-take-services-offline-following-apparent-cyberattack" target="_blank">Source: https://www.techradar.com/pro/security/colt-forced-to-take-services-offline-following-apparent-cyberattack</a></li>
-    <li>Colt is investigating WarLock’s claims and working to restore impacted systems, coordinating with law enforcement and cybersecurity partners.<a href="https://www.scworld.com/brief/colt-telecom-investigating-warlock-ransomware-claims" target="_blank">Source: https://www.scworld.com/brief/colt-telecom-investigating-warlock-ransomware-claims</a></li>
+    <li>A new Chinese state‑linked group, UAT‑7237 (likely a subgroup of UAT‑5918), has been observed targeting web‑hosting companies in Taiwan. Techniques include exploiting unpatched public servers for access, deploying a custom shellcode loader “SoundBill,” using Cobalt Strike, RDP, and SoftEther VPN for persistence and credential theft. <a href="https://www.techradar.com/pro/security/chinese-hackers-are-targeting-web-hosting-firms-heres-what-we-know" target="_blank">Source: https://www.techradar.com/pro/security/chinese-hackers-are-targeting-web-hosting-firms-heres-what-we-know</a></li>
+    <li>Russian government‑linked actors (FSB’s Center 16, aka Static Tundra/Berserk Bear) are exploiting the old Cisco Smart Install (CVE‑2018‑0171) in unpatched network devices across sectors (telecom, education, manufacturing) globally. They leverage SMI and SNMP for stealthy configuration modifications and long‑term spying. <a href="https://www.itpro.com/infrastructure/networking/russian-hackers-are-using-an-old-cisco-flaw-to-target-network-devices-heres-how-you-can-stay-safe" target="_blank">Source: https://www.itpro.com/infrastructure/networking/russian-hackers-are-using-an-old-cisco-flaw-to-target-network-devices-heres-how-you-can-stay-safe</a></li>
+    <li>Aspire Rural Health System (Michigan) disclosed a ransomware breach affecting 138,386 individuals—medical and financial data exposed, attributed to the BianLian ransomware group. <a href="https://social.cyware.com/category/breaches-and-incidents-news" target="_blank">Source: https://social.cyware.com/category/breaches-and-incidents-news</a></li>
+    <li>A data breach exposed nearly 1 million U.S. medical cannabis patient records (Social Security numbers, government IDs, health data); the dataset was taken offline after the company was alerted. <a href="https://www.wired.com/story/us-government-seeks-medical-records-of-trans-youth" target="_blank">Source: https://www.wired.com/story/us-government-seeks-medical-records-of-trans-youth</a></li>
   </ul>
 
-  <h3 style="color:darkblue;"><b>Vendor &amp; Security Product Updates</b></h3>
+  <h2 style="color: darkblue; font-weight: bold;">Vendor &amp; Security Product Updates</h2>
   <ul>
-    <li>Cisco released patches for a maximum-severity vulnerability in its Secure Firewall Management Center, which allowed unauthenticated command injection, among 29 other vulnerabilities.<a href="https://cisoseries.com/cybersecurity-news-cisco-firewall-warning-colt-telecom-cyberattack-cisas-ot-request/" target="_blank">Source: https://cisoseries.com/cybersecurity-news-cisco-firewall-warning-colt-telecom-cyberattack-cisas-ot-request/</a></li>
-    <li>Microsoft’s August Patch Tuesday update addressed a zero-day (CVE‑2025‑53779) in Windows Kerberos, along with 107–111 other vulnerabilities depending on reporting source.<a href="https://www.tomsguide.com/computing/online-security/microsoft-just-fixed-over-107-flaws-including-one-serious-zero-day-update-your-pc-right-now" target="_blank">Source: https://www.tomsguide.com/computing/online-security/microsoft-just-fixed-over-107-flaws-including-one-serious-zero-day-update-your-pc-right-now</a> <a href="https://www.techradar.com/pro/security/microsofts-latest-major-patch-fixes-a-serious-zero-day-flaw-and-a-host-of-other-issues-so-update-now" target="_blank">Source: https://www.techradar.com/pro/security/microsofts-latest-major-patch-fixes-a-serious-zero-day-flaw-and-a-host-of-other-issues-so-update-now</a></li>
+    <li>Google released emergency Chrome updates to address high‑severity vulnerabilities (e.g., CVE‑2025‑8901 in the ANGLE graphics engine). Users are urged to update and restart immediately. <a href="https://www.wired.com/story/us-government-seeks-medical-records-of-trans-youth" target="_blank">Source: https://www.wired.com/story/us-government-seeks-medical-records-of-trans-youth</a></li>
+    <li>Cisco patched critical CVE‑2025‑20265 (10/10 severity) in Secure Firewall Management Center’s RADIUS subsystem—vulnerable to remote arbitrary shell‑command injection. Patch or disable RADIUS auth recommended. <a href="https://www.techradar.com/pro/security/cisco-warns-of-worrying-major-security-flaw-in-firewall-command-center-so-patch-now" target="_blank">Source: https://www.techradar.com/pro/security/cisco-warns-of-worrying-major-security-flaw-in-firewall-command-center-so-patch-now</a></li>
+    <li>Microsoft’s August updates (KB5063878 for Windows 11 24H2; KB5063709 for Windows 10/11) are causing streaming app performance issues (OBS, NDI Tools), particularly affecting RUDP. Workaround: switch to TCP/UDP NDI mode or uninstall updates. <a href="https://www.tomsguide.com/computing/windows-operating-systems/microsoft-confirms-latest-windows-11-update-is-tanking-streaming-app-performance" target="_blank">Source: https://www.tomsguide.com/computing/windows-operating-systems/microsoft-confirms-latest-windows-11-update-is-tanking-streaming-app-performance</a></li>
+    <li>Another Microsoft August update (KB5063875) caused SSD data loss and broke reset/recovery functions on Windows 10 and early Windows 11. Microsoft released an out‑of‑band fix and advised using the corrected update. <a href="https://www.itpro.com/software/windows/microsofts-botched-august-update-batch-first-wiped-ssds-now-its-breaking-pc-resets-and-recoveries-on-windows" target="_blank">Source: https://www.itpro.com/software/windows/microsofts-botched-august-update-batch-first-wiped-ssds-now-its-breaking-pc-resets-and-recoveries-on-windows</a></li>
   </ul>
 
-  <h3 style="color:darkblue;"><b>Geopolitical &amp; Political Developments</b></h3>
+  <h2 style="color: darkblue; font-weight: bold;">Geopolitical &amp; Political Developments</h2>
   <ul>
-    <li>The attack on Colt underscores persistent threats to telecom infrastructure and the need for expedited patching of critical systems like SharePoint, especially in high-availability sectors.<a href="https://www.itpro.com/security/cyber-attacks/uk-telecoms-firm-takes-systems-offline-after-cyber-attack" target="_blank">Source: https://www.itpro.com/security/cyber-attacks/uk-telecoms-firm-takes-systems-offline-after-cyber-attack</a> <a href="https://cisoseries.com/cybersecurity-news-cisco-firewall-warning-colt-telecom-cyberattack-cisas-ot-request/" target="_blank">Source: https://cisoseries.com/cybersecurity-news-cisco-firewall-warning-colt-telecom-cyberattack-cisas-ot-request/</a></li>
+    <li>North Korean IT workers infiltrated Fortune 500 companies by posing as remote employees, using stolen identities and AI‑assisted job applications. U.S. charges and FBI raids followed. <a href="https://www.wired.com/story/us-government-seeks-medical-records-of-trans-youth" target="_blank">Source: https://www.wired.com/story/us-government-seeks-medical-records-of-trans-youth</a></li>
+    <li>FBI partnered with Texas universities (Texas Tech, Angelo State) to leverage academic cybersecurity research and infrastructure postures, counterbalancing a shift away from internal intelligence capabilities. <a href="https://www.wired.com/story/us-government-seeks-medical-records-of-trans-youth" target="_blank">Source: https://www.wired.com/story/us-government-seeks-medical-records-of-trans-youth</a></li>
+    <li>Homeland Security Secretary Kristi Noem relocated to secure military housing after doxxing and death threats compromised her residence. <a href="https://www.wired.com/story/us-government-seeks-medical-records-of-trans-youth" target="_blank">Source: https://www.wired.com/story/us-government-seeks-medical-records-of-trans-youth</a></li>
+    <li>An unsecured database exposed nearly 1 million U.S. medical cannabis patient records. <a href="https://www.wired.com/story/us-government-seeks-medical-records-of-trans-youth" target="_blank">Source: https://www.wired.com/story/us-government-seeks-medical-records-of-trans-youth</a></li>
   </ul>
 
-  <h3 style="color:darkblue;"><b>Notable Vulnerabilities &amp; Patches</b></h3>
+  <h2 style="color: darkblue; font-weight: bold;">Notable Vulnerabilities &amp; Patches</h2>
   <ul>
-    <li>CVE‑2025‑53779 (Windows Kerberos, zero-day “BadSuccessor”) fixed—enables elevation to domain admin if exploited. Patch urgency is high despite Microsoft noting exploitation as “less likely.”<a href="https://www.tomsguide.com/computing/online-security/microsoft-just-fixed-over-107-flaws-including-one-serious-zero-day-update-your-pc-right-now" target="_blank">Source: https://www.tomsguide.com/computing/online-security/microsoft-just-fixed-over-107-flaws-including-one-serious-zero-day-update-your-pc-right-now</a> <a href="https://thehackernews.com/2025/08/microsoft-august-2025-patch-tuesday.html" target="_blank">Source: https://thehackernews.com/2025/08/microsoft-august-2025-patch-tuesday.html</a></li>
+    <li>Cisco Secure Firewall Management Center – CVE‑2025‑20265 (10/10 RCE via RADIUS auth). <a href="https://www.techradar.com/pro/security/cisco-warns-of-worrying-major-security-flaw-in-firewall-command-center-so-patch-now" target="_blank">Source: https://www.techradar.com/pro/security/cisco-warns-of-worrying-major-security-flaw-in-firewall-command-center-so-patch-now</a></li>
+    <li>Multiple critical vulnerabilities addressed in Microsoft August 2025 Patch Tuesday: 107 total, including 13 Critical and 1 publicly disclosed zero‑day (CVE‑2025‑53779, Kerberos privilege escalation). <a href="https://www.splashtop.com/blog/patch-tuesday-august-2025" target="_blank">Source: https://www.splashtop.com/blog/patch-tuesday-august-2025</a></li>
+    <li>From CISA’s Known Exploited Vulnerabilities Catalog (as of August 13): CVE‑2025‑8875 (N‑able N‑Central insecure deserialization); CVE‑2025‑8876 (N‑able command injection). <a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog" target="_blank">Source: https://www.cisa.gov/known-exploited-vulnerabilities-catalog</a></li>
+    <li>New high‑risk vulnerabilities found via Cyble’s weekly tracking: 908 new IT vulnerabilities last week, 188 with PoCs, 105 rated Critical (CVSS v3.1), including Cisco FMC CVE‑2025‑20265. <a href="https://cyble.com/blog/top-it-vulnerabilities-this-week/" target="_blank">Source: https://cyble.com/blog/top-it-vulnerabilities-this-week/</a></li>
   </ul>
 
-  <h3 style="color:darkblue;"><b>Threat Actors</b></h3>
+  <h2 style="color: darkblue; font-weight: bold;">Threat Actors</h2>
   <ul>
-    <li>WarLock ransomware group – newly emerged actor (since mid‑2025) claiming responsibility for the Colt attack, offering one million documents (financial, employee, contracts, architecture) for $200K.<a href="https://www.techradar.com/pro/security/colt-forced-to-take-services-offline-following-apparent-cyberattack" target="_blank">Source: https://www.techradar.com/pro/security/colt-forced-to-take-services-offline-following-apparent-cyberattack</a> <a href="https://www.scworld.com/brief/colt-telecom-investigating-warlock-ransomware-claims" target="_blank">Source: https://www.scworld.com/brief/colt-telecom-investigating-warlock-ransomware-claims</a></li>
+    <li>UAT‑7237 (Chinese state‑linked group targeting web‑hosting infrastructure in Taiwan; uses SoundBill, Cobalt Strike, VPNs for persistence). <a href="https://www.techradar.com/pro/security/chinese-hackers-are-targeting-web-hosting-firms-heres-what-we-know" target="_blank">Source: https://www.techradar.com/pro/security/chinese-hackers-are-targeting-web-hosting-firms-heres-what-we-know</a></li>
+    <li>Static Tundra / Berserk Bear (FSB‑linked Russian group exploiting Cisco Smart Install for stealthy network compromise). <a href="https://www.itpro.com/infrastructure/networking/russian-hackers-are-using-an-old-cisco-flaw-to-target-network-devices-heres-how-you-can-stay-safe" target="_blank">Source: https://www.itpro.com/infrastructure/networking/russian-hackers-are-using-an-old-cisco-flaw-to-target-network-devices-heres-how-you-can-stay-safe</a></li>
+    <li>BianLian (ransomware gang behind a major breach of Aspire Rural Health System). <a href="https://social.cyware.com/category/breaches-and-incidents-news" target="_blank">Source: https://social.cyware.com/category/breaches-and-incidents-news</a></li>
+    <li>North Korean state‑linked actors (e.g., Jasper Sleet, Moonstone Sleet) infiltrating Fortune 500 via remote worker ruse. <a href="https://www.wired.com/story/us-government-seeks-medical-records-of-trans-youth" target="_blank">Source: https://www.wired.com/story/us-government-seeks-medical-records-of-trans-youth</a></li>
   </ul>
 
-  <h3 style="color:darkblue;"><b>Analyst Comments / Defender Impact Summary</b></h3>
-  <p>• WarLock’s exploitation of SharePoint (CVE‑2025‑53770) demonstrates the risks tied to delayed patch management on external-facing services.</p>
-  <p>• The Kerberos zero-day (CVE‑2025‑53779) could result in full domain compromise—patch immediately.</p>
-  <p>• Telecom systems’ downtime increases operational risk and customer trust loss; defense-in-depth and segmentation are key.</p>
+  <h2 style="color: darkblue; font-weight: bold;">Analyst Comments / Defender Impact Summary</h2>
+  <p><strong>Analyst Comments:</strong> Chinese and Russian state‑linked actors continue to employ stealthy, infrastructure‑level access routes into critical systems—pursuing long‑term espionage, not rapid disruption. Microsoft and Cisco patches the same week underscore the persistent need to prioritize remediation, as failures or performance issues can cascade into operational disruption.</p>
+  <p><strong>Defender Impact Summary:</strong> Organizations should immediately audit exposure to Cisco Smart Install and apply patch or disable, deploy updated FMC RADIUS fixes, patch Microsoft August vulnerabilities (especially CVE‑2025‑53779), and monitor for BianLian and unknown infrastructure-based intrusions. Updates from major vendors carry regression risk—ensure rollback plans exist.</p>
 
-  <h3 style="color:darkblue;"><b>U.S.-Focused Threat Intelligence Snapshot</b></h3>
-  <ul>
-    <li>No U.S.-specific IOCs (IPs/hashes) have been disclosed related to these events in the past 48 hours.</li>
-  </ul>
-
-  <h3 style="color:darkblue;"><b>Security Community Trends (GitHub &amp; Twitter/X)</b></h3>
-  <ul>
-    <li>No emerging GitHub projects or high-engagement posts directly linked to these developments were identified in the last week.</li>
-  </ul>
-
-  <h3 style="color:darkblue;"><b>Emerging Technical Intelligence (Moderate Confidence)</b></h3>
-  <ul>
-    <li><b>Moderate Confidence:</b> Early signs point to WarLock leveraging SharePoint RCEs in a coordinated campaign against critical telecom infrastructure. Continued monitoring recommended.</li>
+  <h2 style="color: darkblue; font-weight: bold;">U.S.-Focused Threat Intelligence Snapshot</h2>
+ <ul>
+    <li>450fa9029c59af9edf2126df1d6a657ee6eb024d0341b32e6f6bdb8dc04bae5a (UAT‑7237 – loader executable)</li>
+    <li>6a72e4b92d6a459fc2c6054e9ddb9819d04ed362bd847333492410b6d7bae5aa (UAT‑7237 – LSASS dump tool)</li>
+    <li>E106716a660c751e37cfc4f4fbf2ea2f833e92c2a49a0b3f40fc36ad77e0a044 (file hash associated with UAT‑7237)</li>
+    <li>864e67f76ad0ce6d4cc83304af4347384c364ca6735df0797e4b1ff9519689c5 (file hash associated with UAT‑7237)</li>
+    <li>0952e5409f39824b8a630881d585030a1d656db897adf228ce27dd9243db20b7 (UAT‑7237 – Cobalt Strike payload)</li>
+    <li>7a5f05da3739ad3e11414672d01b8bcf23503a9a8f1dd3f10ba2ead7745cdb1f (UAT‑7237 – alternate Cobalt Strike payload)</li>
+    <li>cvbbonwxtgvc3isfqfc52cwzja0kvuqd.lambda-url.ap-northeast-1.on.aws (UAT‑7237 – malicious domain)</li>
+    <li>141.164.50.141 (UAT‑7237 – malicious server IP)</li>
   </ul>
 
-  <h3 style="color:darkblue;"><b>Summary</b></h3>
-  <p><b>Immediate threats:</b></p>
+  <h2 style="color: darkblue; font-weight: bold;">Analyst Comments / Defender Impact Summary</h2>
+  <p><strong>Analyst Comments:</strong> This week’s actionable IOCs derive solely from the UAT‑7237 campaign. No explicit IP or hash-level IOCs were published for Static Tundra, limiting immediate response capability for that actor. The provided hashes and infrastructure for UAT‑7237 are critical for detection and response, enabling actionable content-based and network-based detection.</p>
+  <p><strong>Defender Impact Summary:</strong> Security teams should ingest the UAT‑7237 file hashes into AV/EDR and threat intelligence platforms, block or monitor access to malicious domains and IP s, and deploy network and host-based detections aligned with tool signatures. Meanwhile, networks should audit for unpatched Cisco Smart Install devices and apply immediate mitigations to counter the ongoing Static Tundra threat.</p>
+
+  <h2 style="color: darkblue; font-weight: bold;">Emerging Technical Intelligence (Moderate Confidence)</h2>
+  <p>Moderate Confidence: Cyble’s tracking of 908 new vulnerabilities—including 188 with PoCs—signals accelerated disclosure velocity and more adversary-accessible exploits, highlighting increased exposure to opportunistic exploitation. <a href="https://cyble.com/blog/top-it-vulnerabilities-this-week/" target="_blank">Source: https://cyble.com/blog/top-it-vulnerabilities-this-week/</a></p>
+
+
+ <h2 style="color: darkblue; font-weight: bold;">Summary</h2>
   <ul>
-    <li>CVE‑2025‑53779 (Windows Kerberos zero-day)</li>
-    <li>WarLock ransomware exploiting SharePoint (CVE‑2025‑53770)</li>
-  </ul>
-  <p><b>Actionable steps:</b></p>
-  <ul>
-    <li>Apply patches for Microsoft (Kerberos), Cisco (Secure Firewall), and SharePoint servers immediately.</li>
-    <li>Isolate and segment support systems pending full restoration.</li>
-    <li>Enhance monitoring of external-facing SharePoint services and Managed Service Accounts (dMSAs).</li>
-  </ul>
-  <p><b>Longer‑term needs:</b></p>
-  <ul>
-    <li>Automate patch deployment for critical infrastructure services.</li>
-    <li>Review privilege models around dMSAs and enforce stricter access controls.</li>
-    <li>Strengthen incident response capabilities for ransomware scenarios against telecom infrastructure.</li>
+    <li><strong>Immediate actionable IOCs:</strong> File hashes and network indicators associated with UAT‑7237.</li>
+    <li><strong>Static Tundra:</strong> No IOCs published this week—focus on patching and hardening devices.</li>
+    <li><strong>Next Steps:</strong> Integrate UAT‑7237 IOCs into detection workflows, strengthen patch testing and rollback plans, integrate external IOC feeds, maintain vigilant threat hunting for stealthy state‑linked actors.</li>
   </ul>
 </div>
