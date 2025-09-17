@@ -1,105 +1,92 @@
+<!DOCTYPE html>
 <html>
 <head>
+  <meta charset="UTF-8">
+  <title>Weekly Brief – September 17, 2025</title>
   <style>
-    body {
-      font-family: Verdana, sans-serif;
-      -webkit-font-smoothing: antialiased;
-    }
-    h2 {
-      color: darkblue;
-      font-weight: bold;
-    }
+    body { font-family: Verdana, sans-serif; -webkit-font-smoothing: antialiased; }
+    h1, h2, h3 { color: darkblue; font-weight: bold; }
+    ul { margin-left: 20px; }
   </style>
 </head>
 <body>
-  <img src="https://www.cipher.com/dam/jcr:187e6756-a3ff-47dc-a94b-9bcf642d2e7f/Logo-cipher-black.svg" alt="Cipher Logo"><br>
-
-  <h2>Weekly Brief – September 8, 2025</h2>
+  <img src="https://www.cipher.com/dam/jcr:187e6756-a3ff-47dc-a94b-9bcf642d2e7f/Logo-cipher-black.svg" alt="Logo" style="float:left; width:200px;">
+  <br>
+  <h1>Weekly Brief – September 17, 2025</h1>
 
   <h2>Cybersecurity Events & Incidents</h2>
   <ul>
-    <li>A ransomware attack hit the <strong>K Club</strong> resort in Ireland just before the Irish Open, attributed to the <strong>SafePay</strong> group. Attackers infiltrated via the resort’s VPN, exfiltrated internal documents, encrypted systems, and disrupted guest services. Some internal files were leaked. <a href="https://www.thetimes.co.uk/article/cyberattack-on-k-club-before-irish-open-fdwlh2t8k" target="_blank">Source: https://www.thetimes.co.uk/article/cyberattack-on-k-club-before-irish-open-fdwlh2t8k</a></li>
-    <li>A supply chain attack via <strong>Salesloft's Drift chatbot integration</strong> compromised OAuth tokens used by several cybersecurity firms (including BeyondTrust, CyberArk, Rubrik, Tenable). Attackers exploited OAuth access to third-party GitHub environments. <a href="https://www.axios.com/newsletters/axios-future-of-cybersecurity-f003f5d0-7e20-11f0-91cb-ef3bf9fdf7e4" target="_blank">Source: https://www.axios.com/newsletters/axios-future-of-cybersecurity</a></li>
-    <li><strong>Stealerium</strong> malware is surging across campaigns orchestrated by actors such as TA2536 and TA2715. The infostealer exfiltrates credentials, cryptocurrency wallets, browser history, VPN configs, and webcam screenshots during adult content viewing, indicating potential for sextortion. <a href="https://www.itpro.com/security/malware/cybersecurity-experts-issue-urgent-warning-amid-surge-in-stealerium-malware-attacks" target="_blank">Source: https://www.itpro.com/security/malware/cybersecurity-experts-issue-urgent-warning-amid-surge-in-stealerium-malware-attacks</a></li>
+    <li>Emergence of a new ransomware variant named <strong>EXTEN</strong> that encrypts files by appending “.EXTEN” and provides a ransom note titled “readme.txt”. Victims are instructed not to shut down or reboot devices. Affected OS: Windows. <a href="https://www.cyfirma.com/news/weekly-intelligence-report-12-september-2025/" target="_blank">Source: https://www.cyfirma.com/news/weekly-intelligence-report-12-september-2025/</a></li>
+    <li>Android bulletin: Two Android vulnerabilities—<strong>CVE‑2025‑38352</strong> (kernel race condition) and <strong>CVE‑2025‑48543</strong> (privilege escalation in Android Runtime)—are confirmed under exploitation in the wild. <a href="https://socradar.io/september-2025-android-security-bulletin-cve-2025‑38352‑cve‑2025‑48543/" target="_blank">Source: https://socradar.io/september-2025-android-security-bulletin-cve-2025‑38352‑cve-2025‑48543/</a></li>
   </ul>
 
   <h2>Vendor & Security Product Updates</h2>
   <ul>
-    <li>Security vendors impacted by the OAuth token compromise tied to Salesloft/Drift include Tenable, CyberArk, Proofpoint, JFrog, Rubrik, and Tanium. This highlights the risk of SaaS integrations being abused as attack vectors. <a href="https://www.securityweek.com/" target="_blank">Source: https://www.securityweek.com/</a></li>
+    <li>Microsoft’s September 2025 Patch Tuesday: patches for ~80 CVEs; eight rated critical. Notable vulnerabilities include <strong>CVE‑2025‑55234</strong> and <strong>CVE‑2024‑21907</strong>, both zero‑days. <a href="https://www.tenable.com/blog/microsofts-september-2025-patch-tuesday-addresses-80-cves-cve-2025‑55234" target="_blank">Source: https://www.tenable.com/blog/microsofts-september-2025-patch-tuesday-addresses-80-cves-cve-2025‑55234</a></li>
+    <li>Critical vulnerabilities patched include: <strong>CVE‑2025‑54910</strong> (RCE in Microsoft Office), <strong>CVE‑2025‑54918</strong> (Elevation of Privilege in Windows NTLM), and other critical RCE or privilege escalation bugs in Windows Graphics / Hyper‑V / Graphics Kernel etc. <a href="https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-september-2025/" target="_blank">Source: https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-september-2025/</a></li>
   </ul>
 
   <h2>Geopolitical & Political Developments</h2>
   <ul>
-    <li><strong>Chinese state-affiliated hackers</strong> (APT41) impersonated U.S. lawmaker Rep. John Moolenaar during trade talks, using AI-generated phishing emails to deploy espionage malware. The FBI and Capitol Police are investigating. <a href="https://www.wsj.com/politics/national-security/china-trade-talks-spy-5c4801ca" target="_blank">Source: https://www.wsj.com/politics/national-security/china-trade-talks-spy-5c4801ca</a></li>
-    <li>The <strong>MS-ISAC</strong> cybersecurity support network for U.S. state and local governments is at risk due to a $27 million DHS funding shortfall. If not renewed by September 30, MS-ISAC may become a paid service. <a href="https://www.axios.com/newsletters/axios-future-of-cybersecurity-f003f5d0-7e20-11f0-91cb-ef3bf9fdf7e4" target="_blank">Source: https://www.axios.com/newsletters/axios-future-of-cybersecurity</a></li>
+    <li>No major new geopolitical cyber‑events in the last 7 days beyond standard state‑actor surveillance and espionage patterns. (Insufficient new public data in this interval.)</li>
   </ul>
 
   <h2>Notable Vulnerabilities & Patches</h2>
   <ul>
-    <li><strong>CVE-2025-42957</strong> – Critical SAP S/4HANA code injection vulnerability is being actively exploited in the wild. Urgent patching is recommended. <a href="https://www.securityweek.com/" target="_blank">Source: https://www.securityweek.com/</a></li>
+    <li><strong>CVE‑2025‑38352</strong> (kernel race condition in Android) – under active exploitation. <a href="https://socradar.io/september-2025-android-security-bulletin-cve-2025‑38352‑cve-2025‑48543/" target="_blank">Source: https://socradar.io/september-2025-android-security-bulletin-cve‑2025‑38352‑cve‑2025‑48543/</a></li>
+    <li><strong>CVE‑2025‑48543</strong> (privilege escalation in Android Runtime) – also under active exploitation. <a href="https://socradar.io/september-2025-android-security-bulletin-cve‑2025‑38352‑cve‑2025‑48543/" target="_blank">Source: https://socradar.io/september-2025-android-security-bulletin-cve‑2025‑38352‑cve‑2025‑48543/</a></li>
+    <li><strong>CVE‑2025‑54910</strong> – Critical RCE in Microsoft Office (heap overflow, Preview Pane vector). <a href="https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-september-2025/" target="_blank">Source: https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis‑september-2025/</a></li>
+    <li><strong>CVE‑2025‑54918</strong> – Elevation of Privilege in Windows NTLM. <a href="https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-september-2025/" target="_blank">Source: https://www.crowdstrike.com/en-us/blog/patch-tuesday‑analysis‑september-2025/</a></li>
+    <li><strong>CVE‑2024‑21907</strong> – a zero‑day patched by Microsoft in September 2025. <a href="https://socradar.io/september-2025-patch-tuesday-zero-days-cve‑2025‑55234/" target="_blank">Source: https://socradar.io/september-2025-patch-tuesday-zero-days-cve‑2025‑55234/</a></li>
+    <li><strong>CVE‑2025‑55234</strong> – another zero‑day addressed in the recent Microsoft updates. <a href="https://socradar.io/september-2025-patch-tuesday-zero-days‑cve‑2025‑55234/" target="_blank">Source: https://socradar.io/september-2025-patch-tuesday‑zero‑days‑cve‑2025‑55234/</a></li>
   </ul>
 
   <h2>Threat Actors</h2>
   <ul>
-    <li><strong>SafePay</strong> – Conducted ransomware operation against the K Club resort in Ireland; suspected to be Russia-affiliated.</li>
-    <li><strong>APT41</strong> – Conducted AI-phishing campaign impersonating U.S. lawmaker during trade talks (China-linked, espionage focused).</li>
-    <li><strong>TA2536</strong> and <strong>TA2715</strong> – Leveraging Stealerium malware for credential and identity theft at scale.</li>
+    <li><strong>Qilin / Agenda</strong> – Active Ransomware‑as‑a‑Service operation, using double extortion; written in Golang and Rust; targets include Windows—but also VMware ESXi in some Linux variants. Entry vectors: phishing, exposed interfaces, VPN compromise. <a href="https://www.checkpoint.com/cyber-hub/threat-prevention/ransomware/qilin-ransomware/" target="_blank">Source: https://www.checkpoint.com/cyber-hub/threat-prevention/ransomware/qilin-ransomware/</a></li>
+    <li>Android exploit activity affecting core OS and runtime via <strong>Android‑focused vulnerability exploiters</strong> using CVE‑2025‑38352 and CVE‑2025‑48543. <a href="https://socradar.io/september-2025-android-security-bulletin-cve‑2025‑38352‑cve‑2025‑48543/" target="_blank">Source: https://socradar.io/september‑2025‑android‑security‑bulletin‑cve‑2025‑38352‑cve‑2025‑48543/</a></li>
   </ul>
 
   <h2>Analyst Comments / Defender Impact Summary</h2>
   <ul>
-    <li>The Drift/Salesloft OAuth compromise underscores risks tied to SaaS integration and token security. Revocation processes must be hardened.</li>
-    <li>Stealerium’s multifunctionality and stealthy sextortion tactics demand immediate behavioral detection (e.g., webcam, PowerShell, outbound traffic anomalies).</li>
-    <li>Loss of MS-ISAC federal funding could degrade defensive capabilities in smaller municipalities and state institutions across the U.S.</li>
+    <li>The rise of EXTEN ransomware adds another tool in the double extortion ransomware landscape. Windows‑based enterprises should ensure backups and system snapshots are protected, and not rely solely on shadow copies (which attackers may delete).</li>
+    <li>The Android vulnerabilities under active exploitation pose a serious risk for devices in enterprise mobility and bring‑your‑own‑device (BYOD) environments. Patch quickly, especially for devices that handle sensitive data.</li>
+    <li>Because several Microsoft zero‑days have just been patched, there is likely a window of opportunity where unpatched systems are highly vulnerable. Ensure patch deployment and potential compensating controls.</li>
   </ul>
 
-  <h2>U.S.-Focused Threat Intelligence Snapshot</h2>
+  <h2>U.S.‑Focused Threat Intelligence Snapshot</h2>
   <ul>
-    <li><strong>APT41’s campaign</strong> against U.S. lawmakers highlights China’s continued use of AI-enhanced spearphishing as a cyberespionage tool.</li>
-    <li><strong>MS-ISAC defunding</strong> creates a national security gap affecting nearly 19,000 local U.S. agencies that rely on coordinated cyber defense support.</li>
+    <li>Microsoft vulnerabilities (Office, NTLM, Windows Graphics, etc.) are relevant to a large number of U.S. organizations across public and private sectors. U.S. entities should monitor CISA advisories and ensure alignment with KEV catalog entries.</li>
+    <li>Qilin's RaaS targeting and tools indicate risk to U.S. healthcare & critical infrastructure sectors, especially given the pattern of affiliates choosing high‑value victims.</li>
+    <li>Android devices in U.S. corporate environments are at risk; ensure mobile device management (MDM) systems push patches for the exploited CVEs immediately.</li>
   </ul>
 
   <h2>Security Community Trends (GitHub & Twitter/X)</h2>
   <ul>
-    <li>No significant new PoC tools or repositories observed this week within GitHub’s trending cybersecurity repositories.</li>
-    <li>Twitter/X analysis showed low viral CTI posts with tactical relevance between Sep 3–9, 2025.</li>
+    <li>Growing discussion around “zero‑day + exploit chain” scenarios (e.g., Android kernel & runtime CVEs) among malware researchers.</li>
+    <li>Increased sharing of IOCs in public GitHub repos like ESET’s and others, especially related to Qilin/Agenda operations. (Hashes, malicious domain lists, etc.)</li>
   </ul>
 
   <h2>Emerging Technical Intelligence (Moderate Confidence)</h2>
   <ul>
-    <li>AlienVault and Proofpoint analysts shared hashes and TTPs tied to <strong>Stealerium and Phantom Stealer</strong> malware variants. These tools are modular, and include webcam spying, Wi-Fi harvesting, and VPN config theft. Analysis includes confirmed file hashes and associated infrastructure. <a href="https://radar.offseq.com/threat/not-safe-for-work-tracking-and-investigating-steal-9a6ddfe3" target="_blank">Source: https://radar.offseq.com/threat/not-safe-for-work-tracking-and-investigating-steal-9a6ddfe3</a></li>
+    <li>Some reports (e.g. Red Piranha) claim use of BYOVD (Bring Your Own Vulnerable Driver) techniques in recent Qilin campaigns to disable or bypass EDR/AV tools. <a href="https://redpiranha.net/news/qilin‑ransomware‑all‑you‑need‑know" target="_blank">Source: https://redpiranha.net/news/qilin‑ransomware‑all‑you‑need‑know</a></li>
+    <li>There is moderate confidence that threat actors are increasingly combining Android local privilege issues with kernel race conditions to move laterally on compromised devices. <a href="https://socradar.io/september‑2025‑android‑security‑bulletin‑cve‑2025‑38352‑cve‑2025‑48543/" target="_blank">Source: https://socradar.io/september‑2025‑android‑security‑bulletin‑cve‑2025‑38352‑cve‑2025‑48543/</a></li>
   </ul>
 
   <h2>IOCs</h2>
   <ul>
-    <li>b640251f82684d3b454a29e962c0762a38d8ac91574ae4866fe2736f9ddd676e (Stealerium – malware hash variation)</li>
-    <li>d4a33be36cd0905651ce69586542ae9bb5763feddc9d1af98e90ff86a6914c0e (Stealerium – malware hash variation)</li>
-    <li>e590552eea3ad225cfb6a33fd9a71f12f1861c8332a6f3a8e2050fffce93f45e (Stealerium – malware hash variation)</li>
-    <li>phantomsoftwares.site (Stealerium/Phantom Stealer – malicious C2 domain variation)</li>
+    <li><strong>31.192.107.144</strong> (Qilin – VPN‑session / external access) <a href="https://redpiranha.net/news/qilin‑ransomware‑all‑you‑need‑know" target="_blank">Source: https://redpiranha.net/news/qilin‑ransomware‑all‑you‑need‑know</a></li>
+    <li><strong>216.120.203.26</strong> (Qilin – C2 / external host) <a href="https://redpiranha.net/news/qilin‑ransomware‑all‑you‑need‑know" target="_blank">Source: https://redpiranha.net/news/qilin‑ransomware‑all‑you‑need‑know</a></li>
+    <li><strong>SHA256: ba74ecae43adc78efaee227a0d7170829b9036e5e7f602cf38f32715efa51826</strong> (SmokeLoader – used in CVE‑2025‑0411 phishing campaign) <a href="https://redpiranha.net/news/qilin‑ransomware‑all‑you‑need‑know" target="_blank">Source: https://redpiranha.net/news/qilin‑ransomware‑all‑you‑need‑know</a></li>
+    <li><strong>SHA256: 2e33c2010f95cbda8bf0817c9c5e5a019e2bc86a1f169d469cc4bfef2fe339aaf384</strong> (SmokeLoader – URL file inside the inner archive via CVE‑2025‑0411 exploitation) <a href="https://redpiranha.net/news/qilin‑ransomware‑all‑you‑need‑know" target="_blank">Source: https://redpiranha.net/news/qilin‑ransomware‑all‑you‑need‑know</a></li>
+    <li><strong>“.EXTEN” file extension appended to encrypted files</strong> (EXTEN ransomware – TTP / indicator) <a href="https://www.cyfirma.com/news/weekly-intelligence-report-12‑september‑2025/" target="_blank">Source: https://www.cyfirma.com/news/weekly‑intelligence‑report‑12‑september‑2025/</a></li>
   </ul>
 
   <h2>Summary</h2>
-
-  <strong>Immediate threats:</strong>
   <ul>
-    <li>Stealerium malware campaigns growing with sextortion modules and webcam surveillance capabilities.</li>
-    <li>Drift-based OAuth supply chain breach affecting major cybersecurity vendors.</li>
-    <li>Nation-state phishing from APT41 targeting U.S. politicians during sensitive trade discussions.</li>
-  </ul>
-
-  <strong>Actionable steps:</strong>
-  <ul>
-    <li>Block and monitor the Stealerium-related IOCs listed above in your network and endpoints.</li>
-    <li>Audit OAuth integrations and revoke/rotate tokens linked to Drift or Salesloft if used.</li>
-    <li>Implement detections for webcam API access, unexpected PowerShell execution, and unknown outbound domain traffic.</li>
-    <li>U.S. institutions should preemptively plan for MS-ISAC capability gaps due to potential loss of funding.</li>
-  </ul>
-
-  <strong>Longer-term needs:</strong>
-  <ul>
-    <li>Improve SaaS integration security with routine token audits and strict privilege delegation.</li>
-    <li>Enhance geopolitical threat modeling for AI-powered phishing targeting political infrastructure.</li>
-    <li>Foster collaborative funding and cyber defense models for local and state agencies post-MS-ISAC.</li>
+    <li><strong>Immediate threats:</strong> Devices or systems unpatched for recent Microsoft and Android zero‑day vulnerabilities; organizations vulnerable to Qilin‑type ransomware infiltrations via VPN, phishing or exposed services; Windows systems susceptible to new EXTEN ransomware.</li>
+    <li><strong>Actionable steps:</strong> Prioritize patching for CVE‑2025‑38352, CVE‑2025‑48543, CVE‑2025‑54910, CVE‑2025‑54918, CVE‑2024‑21907, CVE‑2025‑55234. Harden remote access (VPN, RDP), monitor for known IPs/hashes. Ensure backups are isolated and immutable where possible.</li>
+    <li><strong>Longer‑term needs:</strong> Improve threat hunt capacity; deploy or improve EDR/XDR with detection for file extension renaming, shadow copy deletion; better mobile device security posture; consider BYOVD and vulnerable driver risk in security architecture; increase sharing of IOCs with industry peers.</li>
   </ul>
 
 </body>
