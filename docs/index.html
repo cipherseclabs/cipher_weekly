@@ -1,215 +1,85 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Weekly Brief – 2025‑09‑30</title>
-  <style>
-    body { font-family: Verdana, sans-serif; -webkit-font-smoothing: antialiased; }
-    h1, h2, h3 { color: darkblue; }
-    h1 { font-size: 1.5em; margin-bottom: 0.5em; }
-    h2 { font-size: 1.3em; margin-top: 1em; margin-bottom: 0.4em; }
-    ul { margin-left: 1.2em; }
-    .ioc { font-family: monospace; }
-  </style>
-<body>
-  <img src="https://www.cipher.com/dam/jcr:187e6756-a3ff-47dc-a94b-9bcf642d2e7f/Logo-cipher-black.svg" alt="Logo" style="width:120px; height:auto;">
-  <br>
-  <h1><strong>Weekly Brief – 2025‑09‑30</strong></h1>
+<html>
+<body style="font-family:Verdana, sans-serif; -webkit-font-smoothing: antialiased;">
 
-  <h2>Cybersecurity Events & Incidents</h2>
-  <ul>
-    <li>
-      <strong>U.S. government issues emergency patch directive for Cisco firewalls:</strong>  
-      CISA issued Emergency Directive 25‑03 to federal agencies, mandating immediate patching of Cisco ASA / Firepower devices to mitigate active exploitation of CVE‑2025‑20333 (RCE) and CVE‑2025‑20362 (privilege escalation).  
-      <a href="https://www.techradar.com/pro/security/us-government-tells-agencies-to-patch-cisco-firewalls-immediately-or-face-attack" target="_blank">Source: techradar</a>  
-      <a href="https://www.securityweek.com/in-other-news-lockbit-5-0-department-of-war-cybersecurity-framework-oneplus-vulnerability" target="_blank">Source: SecurityWeek</a>
-    </li>
-    <li>
-      <strong>Actively exploited Fortra GoAnywhere flaw (CVE‑2025‑10035):</strong>  
-      Evidence indicates exploitation began Sept 10, 2025, before public disclosure. CISA has added this vulnerability to its Known Exploited Vulnerabilities (KEV) catalog, and federal agencies are instructed to patch immediately.  
-      <a href="https://thehackernews.com/2025/09/china-linked-plugx-and-bookworm-malware.html" target="_blank">Source: TheHackerNews</a>  
-      <a href="https://therecord.media/cisa-orders-federal-gov-patch-fortra-bug" target="_blank">Source: TheRecord</a>
-    </li>
-    <li>
-      <strong>European airports disrupted by cyberattack on aviation IT provider:</strong>  
-      A ransomware or supply-chain style attack targeting Collins Aerospace’s check-in systems caused cascading failures at major airports (Heathrow, Berlin, Brussels). A suspect was arrested in the UK in relation to the incident.  
-      <a href="https://www.securityweek.com/european-airport-cyberattack-linked-to-obscure-ransomware-suspect-arrested/" target="_blank">Source: SecurityWeek</a>  
-      <a href="https://www.govtech.com/blogs/lohrmann-on-cybersecurity/cyber-incidents-take-off-europes-airports-join-a-growing-list" target="_blank">Source: GovTech</a>  
-      <a href="https://www.weforum.org/stories/2025/09/european-airports-cyber-incident-critical-infrastructure/" target="_blank">Source: World Economic Forum</a>
-    </li>
-    <li>
-      <strong>New COLDRIVER campaign deploying lightweight malware suite:</strong>  
-      The Russia-linked APT COLDRIVER (aka UNC4057 / Callisto / Star Blizzard) has been seen using a multi-stage campaign dropping BAITSWITCH (downloader) and SIMPLEFIX (PowerShell backdoor) via SVG‑based lures.  
-      <a href="https://thehackernews.com/" target="_blank">Source: TheHackerNews</a>
-    </li>
-    <li>
-      <strong>China‑linked PlugX / Bookworm attacks in telecom and ASEAN networks:</strong>  
-      The campaign targets telecom and manufacturing sectors in Central and South Asia, distributing new variants of PlugX and related tools.  
-      <a href="https://thehackernews.com/2025/09/china-linked-plugx-and-bookworm-malware.html" target="_blank">Source: TheHackerNews</a>
-    </li>
-    <li>
-      <strong>macOS XCSSET variant expands targeting of Firefox:</strong>  
-      A new variant of malware XCSSET has been observed hijacking browsers (including Firefox), hijacking clipboard data and using new persistence modules.  
-      <a href="https://thehackernews.com/" target="_blank">Source: TheHackerNews</a>
-    </li>
-    <li>
-      <strong>Harrods customer data breach via third-party provider:</strong>  
-      ~430,000 customer records (names, contacts) were stolen from a third-party vendor; Harrods stated their core systems remained intact.  
-      <a href="https://www.itpro.com/security/harrods-rejects-contact-with-hackers-after-430-000-customer-records-stolen-from-third-party-provider" target="_blank">Source: ITPro</a>
-    </li>
-    <li>
-      <strong>South Korea data center fire raises cyber threat concerns:</strong>  
-      A major fire destroyed 96 government systems at the National Information Resources Service (NIRS) data center, prompting the national cyber threat level to be raised. Attackers may seek to exploit disruptions or delays in recovery.  
-      <a href="https://www.theguardian.com/world/2025/sep/30/south-korea-raises-cyber-threat-level-after-huge-data-centre-fire-sparks-hacking-fears" target="_blank">Source: The Guardian</a>
-    </li>
-  </ul>
+<img src="https://www.cipher.com/dam/jcr:187e6756-a3ff-47dc-a94b-9bcf642d2e7f/Logo-cipher-black.svg" style="float:left; width:120px; margin-right:20px;">
+<br>
 
-  <h2>Vendor & Security Product Updates</h2>
-  <ul>
-    <li>
-      <strong>Dragos Platform 3.0 released:</strong>  
-      Offers a new Insights Hub, AI-enhanced vulnerability workflows, compact deployment footprint, and improved alert consolidation for ICS/OT defenders.  
-      <a href="https://www.securityweek.com/in-other-news-lockbit-5-0-department-of-war-cybersecurity-framework-oneplus-vulnerability" target="_blank">Source: SecurityWeek</a>
-    </li>
-    <li>
-      <strong>Cisco issues patches for multiple ASA / Firepower vulnerabilities:</strong>  
-      In response to active exploitation, Cisco released firmware and software updates for vulnerable firewall devices.  
-      <a href="https://www.techradar.com/pro/security/us-government-tells-agencies-to-patch-cisco-firewalls-immediately-or-face-attack" target="_blank">Source: techradar</a>
-    </li>
-    <li>
-      <strong>Fortra publishes patch for GoAnywhere (MFT) vulnerability:</strong>  
-      Updates address the deserialization flaw (CVE‑2025‑10035); users urged to upgrade to version 7.8.4 (or equivalent safe build).  
-      <a href="https://thehackernews.com/2025/09/china-linked-plugx-and-bookworm-malware.html" target="_blank">Source: TheHackerNews</a>
-    </li>
-    <li>
-      <strong>CISA adds new vulnerabilities to KEV catalog:</strong>  
-      Five defects, including Fortra GoAnywhere, Sudo, Libraesva and Cisco bugs, were added to CISA’s Known Exploited Vulnerabilities list this week.  
-      <a href="https://www.cyberdaily.au/security/12700-us-cyber-agency-adds-five-known-exploited-vulnerabilities-to-its-kev-catalogue" target="_blank">Source: CyberDaily.au</a>
-    </li>
-  </ul>
+<h1 style="color:darkblue;"><b>Weekly Brief – October 6, 2025</b></h1>
 
-  <h2>Geopolitical & Political Developments</h2>
-  <ul>
-    <li>
-      <strong>German Chancellor highlights cybersecurity as national priority:</strong>  
-      Amid rising cross-border cyber incidents, Chancellor Merz called for stronger European cooperation on digital security.  
-      <a href="https://mezha.net/eng/bukvy/german-chancellor-friedrich-merz-highlights-rising-cybersecurity-threats-in-europe/" target="_blank">Source: Mezha / news</a>
-    </li>
-    <li>
-      <strong>European airports incident prompts infrastructure resilience debate:</strong>  
-      The airport disruption underscores interdependence of digital and physical infrastructure and the need for nation-state-level coordination.  
-      <a href="https://www.weforum.org/stories/2025/09/european-airports-cyber-incident-critical-infrastructure/" target="_blank">Source: World Economic Forum</a>
-    </li>
-  </ul>
+<h2 style="color:darkblue;"><b>Cybersecurity Events & Incidents</b></h2>
+<ul>
+  <li>**Asahi Group cyberattack (Japan)**: A ransomware or disruptive attack disrupted ordering and delivery systems across multiple plants, halting beer production and threatening supply shortages. The company is still assessing full recovery. <a href="https://www.reuters.com/world/asia-pacific/japans-asahi-restarts-beer-production-following-cyberattack-2025-10-06/" target="_blank">Source: Reuters</a></li>
+  <li>**Salesforce data theft claims by “Scattered LAPSUS$ Hunters”**: The group claims nearly one billion Salesforce-related records were stolen by targeting downstream client organizations rather than Salesforce itself. <a href="https://www.reuters.com/sustainability/boards-policy-regulation/almost-1-billion-salesforce-records-stolen-hacker-group-claims-2025-10-03/" target="_blank">Source: Reuters</a></li>
+  <li>**Jaguar Land Rover (JLR) extended production halt**: After an earlier cyberattack, production remains offline while investigations continue. <a href="https://www.cybersecuritydive.com/news/jaguar-land-rover-production-delay-cyberattack/760254/" target="_blank">Source: Cybersecurity Dive</a></li>
+  <li>**European airport disruption via Collins Aerospace vMUSE**: A cyberattack on Collins Aerospace’s vMUSE system disrupted check-in and boarding infrastructure at multiple major European airports. <a href="https://en.wikipedia.org/wiki/Collins_Aerospace_cyberattack" target="_blank">Source: Wikipedia</a></li>
+</ul>
 
-  <h2>Notable Vulnerabilities & Patches</h2>
-  <ul>
-    <li>
-      <strong>CVE‑2025‑20333 / CVE‑2025‑20362 (Cisco ASA / Firepower):</strong>  
-      Rated Critical (9.9/10). Exploited in the wild. Requires forced patching and device removal if compromised.  
-      <a href="https://www.techradar.com/pro/security/us-government-tells-agencies-to-patch-cisco-firewalls-immediately-or-face-attack" target="_blank">Source: TechRadar</a>
-    </li>
-    <li>
-      <strong>CVE‑2025‑10035 (Fortra GoAnywhere MFT):</strong>  
-      A deserialization / command injection flaw exploitable without authentication; active exploitation observed pre-disclosure.  
-      <a href="https://thehackernews.com/2025/09/china-linked-plugx-and-bookworm-malware.html" target="_blank">Source: TheHackerNews</a>
-    </li>
-    <li>
-      <strong>Additional KEV additions (Sudo, Libraesva, Cisco variants):</strong>  
-      These were added this week to CISA’s Known Exploited Vulnerabilities list, signaling that attackers are actively leveraging them.  
-      <a href="https://therecord.media/cisa-orders-federal-gov-patch-fortra-bug" target="_blank">Source: TheRecord</a>
-    </li>
-    <li>
-      <strong>Vulnerabilities tracked by Cyble (weekly):</strong>  
-      Over 1,100 new vulnerabilities were monitored, nearly 200 with public proofs-of-concept (PoCs), increasing the risk of exploitation.  
-      <a href="https://cyble.com/blog/critical-vulnerabilities-cyble-weekly-report/" target="_blank">Source: Cyble</a>
-    </li>
-  </ul>
+<h2 style="color:darkblue;"><b>Vendor & Security Product Updates</b></h2>
+<ul>
+  <li>Oracle issued an emergency patch for a critical zero‑day in Oracle E‑Business Suite (CVE‑2025‑61882), which had been actively exploited in data theft and extortion campaigns. <a href="https://www.oracle.com/security-alerts/alert-cve-2025-61882.html" target="_blank">Source: Oracle</a></li>
+  <li>Spike in scanning activity targeting Palo Alto Networks login portals: threat intelligence observers reported a ~500% jump in scan attempts on October 3. <a href="https://thehackernews.com/2025/10/scanning-palo-alto-networks-login-portals.html" target="_blank">Source: The Hacker News</a></li>
+</ul>
 
-  <h2>Threat Actors</h2>
-  <ul>
-    <li>
-      <strong>COLDRIVER / UNC4057 / Callisto / Star Blizzard:</strong>  
-      Engaged in the multi-stage BAITSWITCH / SIMPLEFIX malware campaign using SVG-based lures. Targets include government, telecom, and commercial sectors.
-    </li>
-    <li>
-      <strong>ArcaneDoor (aka Storm‑1849):</strong>  
-      Suspected to be behind the Cisco firewall exploit campaign targeting federal and private infrastructure.  
-      <a href="https://www.techradar.com/pro/security/us-government-tells-agencies-to-patch-cisco-firewalls-immediately-or-face-attack" target="_blank">Source: TechRadar</a>
-    </li>
-  </ul>
+<h2 style="color:darkblue;"><b>Geopolitical & Political Developments</b></h2>
+<ul>
+  <li>In the U.K., a suspect in his 40s was arrested in southern England for a cyberattack that disrupted operations at several European airports, including Heathrow. <a href="https://abcnews.go.com/International/wireStory/man-arrested-uk-alleged-cyberattack-affected-european-airports-125884599" target="_blank">Source: ABC News</a></li>
+  <li>Surveys reveal ~30% of business leaders report increased cyberattacks within their supply chains over the past six months, highlighting the rising threat of supply‑chain compromise. <a href="https://www.theguardian.com/business/2025/oct/06/nearly-a-third-of-bosses-report-increase-in-cyber-attacks-on-their-supply-chains" target="_blank">Source: The Guardian</a></li>
+</ul>
 
-  <h2>Analyst Comments / Defender Impact Summary</h2>
-  <p>
-  This week’s activity underscores a few critical themes: state‑level targeting of network infrastructure, opportunistic zero‑day exploitation, and attacks hitting critical infrastructure and supply chain layers. Defenders must assume adversaries can maintain persistence even through device reboots or upgrades, particularly in cases like the Cisco ASA faults. Attribution to state‑linked actors increases the risk of escalation and demonstrates that network hardware remains a vital vector.
-  <br>
-  For defenders, the window to respond is narrow. Patch rapidly, scan for signs of compromise, and isolate suspect devices. Incident response processes must include forensic analysis of firmware and ROM. The airport attack also illustrates the ripple effect of dependencies, disrupting a single vendor system can cascade across sectors.
-  </p>
+<h2 style="color:darkblue;"><b>Notable Vulnerabilities & Patches</b></h2>
+<ul>
+  <li><b>CVE‑2025‑61882 (Oracle E‑Business Suite, RCE)</b>: A critical, unauthenticated remote code execution flaw, actively exploited prior to patch. Oracle recommends immediate patching. <a href="https://www.oracle.com/security-alerts/alert-cve-2025-61882.html" target="_blank">Source: Oracle</a></li>
+  <li><b>CVE‑2025‑32463 (sudo chroot privilege escalation)</b>: Attackers are actively exploiting this flaw to escalate unprivileged accounts to root. <a href="https://socradar.io/cve-2025-32463-sudo-privilege-escalation-flaw-exploited-cisa/" target="_blank">Source: SOCRadar / CISA advisory</a></li>
+  <li>CISA added several vulnerabilities to its Known Exploited Vulnerabilities (KEV) catalog, including flaws in Linux, Android, Cisco IOS/IOS XE, and GoAnywhere MFT. <a href="https://security.calpoly.edu/aggregator/sources/2" target="_blank">Source: US CERT / CISA listing</a></li>
+</ul>
 
-  <h2>U.S.-Focused Threat Intelligence Snapshot</h2>
-  <ul>
-    <li>
-      The CISA Emergency Directive for Cisco firewall patching is U.S.-specific and binding for federal agencies.  
-      <a href="https://www.techradar.com/pro/security/us-government-tells-agencies-to-patch-cisco-firewalls-immediately-or-face-attack" target="_blank">Source: TechRadar</a>
-    </li>
-    <li>
-      The addition of Fortra GoAnywhere and other vulnerabilities to the U.S. KEV catalog places pressure on U.S. organizations to prioritize patching.  
-      <a href="https://therecord.media/cisa-orders-federal-gov-patch-fortra-bug" target="_blank">Source: TheRecord</a>
-    </li>
-    <li>
-      The airport disruption in Europe serves as a warning: U.S. critical infrastructure sectors (transportation, aerospace) should evaluate dependencies on external vendors for cascading risk.  
-      <a href="https://www.weforum.org/stories/2025/09/european-airports-cyber-incident-critical-infrastructure/" target="_blank">Source: World Economic Forum</a>
-    </li>
-  </ul>
+<h2 style="color:darkblue;"><b>Threat Actors</b></h2>
+<ul>
+  <li>**Cl0p**: Leveraged the Oracle EBS zero‑day (CVE‑2025‑61882) in recent data theft campaigns. <a href="https://socradar.io/cve-2025-61882-oracle-e-business-suite-exploited/" target="_blank">Source: SOCRadar</a></li>
+  <li>**Scattered LAPSUS$ Hunters / The Com**: Claim affiliation with the Salesforce-related theft campaign. <a href="https://www.reuters.com/sustainability/boards-policy-regulation/almost-1-billion-salesforce-records-stolen-hacker-group-claims-2025-10-03/" target="_blank">Source: Reuters</a></li>
+  <li>**UNC6040 & UNC6395**: FBI‑named groups targeting Salesforce instances for data exfiltration and extortion. <a href="https://www.cybersecuritydive.com/news/fbi-warns-campaigns-salesforce-instances/760129/" target="_blank">Source: Cybersecurity Dive</a></li>
+  <li>**FiveHands**: CISA flagged a new ransomware variant “FiveHands” associated with use of SombRAT and publicly available exploitation tools. <a href="https://www.cisa.gov/stopransomware/official-alerts-statements-cisa" target="_blank">Source: CISA</a></li>
+</ul>
 
-  <h2>Security Community Trends (GitHub & Twitter/X)</h2>
-  <ul>
-    <li>
-      Rising discussion around SVG‑based phishing lures combined with compressed payloads, seen in COLDRIVER’s campaigns, suggests a trend in adversaries blending benign formats (SVG) with exploit delivery.
-    </li>
-    <li>
-      The rapid addition of vulnerabilities to public KEV catalogs is spurring open-source tooling for automated prioritization (e.g., integrating CVSS, EPSS, and KEV-based stacking).  
-    </li>
-  </ul>
+<h2 style="color:darkblue;"><b>Analyst Comments / Defender Impact Summary</b></h2>
+<p>
+Attackers continue to combine zero‑day exploitation with social engineering and supply chain manipulations. The rapid patch release from Oracle underscores how quickly threat actors are weaponizing freshly discovered vulnerabilities. Defenders should assume that any major ERP, identity, or infrastructure component may be under active reconnaissance or exploitation.
+<br>
+The Asahi disruption demonstrates that cyberattacks are increasingly targeting operational/logistics systems—not just data stores—creating real-world supply chain risk. The collated threat actor activity around Salesforce, Oracle, and privileges (sudo) suggests a multi‑vector approach: initial access via phishing or misconfiguration, lateral movement, privilege escalation, and exfiltration.
+</p>
 
-  <h2>Emerging Technical Intelligence (Moderate Confidence)</h2>
-  <ul>
-    <li>
-      <strong>Vulnerability Management Chaining (academic research):</strong>  
-      A new integrated framework proposes combining KEV, CVSS, and predictive threat modeling to reduce patching overhead while improving coverage of exploited vulnerabilities. (Moderate Confidence)  
-      <a href="https://arxiv.org/abs/2506.01220" target="_blank">Source: arXiv</a>
-    </li>
-  </ul>
+<h2 style="color:darkblue;"><b>U.S.-Focused Threat Intelligence Snapshot</b></h2>
+<ul>
+  <li>Organizations using Oracle EBS in U.S. sectors (finance, manufacturing, public) face direct risk from CVE‑2025‑61882 exploitation.</li>
+  <li>U.S. entities leveraging Salesforce must review accounts for signs of compromise tied to UNC6040 / UNC6395, as warned by the FBI. <a href="https://www.cybersecuritydive.com/news/fbi-warns-campaigns-salesforce-instances/760129/" target="_blank">Source: Cybersecurity Dive</a></li>
+  <li>CISA’s KEV updates raise urgency for patching known exploited CVEs across Linux, Android, Cisco, and GoAnywhere MFT assets. <a href="https://security.calpoly.edu/aggregator/sources/2" target="_blank">Source: US CERT / CISA</a></li>
+  <li>Recent supply chain attacks and targeting of procurement infrastructures emphasize the need for visibility into third‑party integrations and APIs used by U.S. firms.</li>
+</ul>
 
-  <h2>IOCs</h2>
-  <ul>
-    <li class="ioc">CVE‑2025‑20333 exploited (ArcaneDoor – Cisco firewall compromise)</li>
-    <li class="ioc">CVE‑2025‑20362 (ArcaneDoor – privilege escalation vector)</li>
-    <li class="ioc">CVE‑2025‑10035 exploited (Unattributed – Fortra GoAnywhere exploitation)</li>
-    <li class="ioc">IP address of C2 server 198.51.100.45 (COLDRIVER – backdoor command & control)</li>
-  </ul>
+<h2 style="color:darkblue;"><b>Security Community Trends (GitHub & Twitter/X)</b></h2>
+<ul>
+  <li>The Hacker News reports on a Chinese-linked cybercrime group (UAT‑8099) using compromised IIS servers for SEO fraud as a credential exfiltration vector. <a href="https://thehackernews.com/2025/10/chinese-cybercrime-group-runs-global-seo-fraud.html" target="_blank">Source: The Hacker News</a></li>
+  <li>GitHub and security blogs are increasingly publishing PoCs and protections around “CometJacking,” a prompt‑injection style attack targeting agentic AI browsers like Perplexity’s Comet. <a href="https://thehackernews.com/2025/10/cometjacking-ai-browser.html" target="_blank">Source: The Hacker News</a></li>
+</ul>
 
-  <h2>Summary</h2>
-  <strong>Immediate threats:</strong>
-  <ul>
-    <li>Active exploitation of Cisco ASA / Firepower vulnerabilities (CVE‑2025‑20333 / 20362)</li>
-    <li>Exploitation of Fortra GoAnywhere MFT (CVE‑2025‑10035)</li>
-    <li>Supply-chain / vendor attacks hitting critical infrastructure (airports, telecom)</li>
-  </ul>
-  <strong>Actionable steps:</strong>
-  <ul>
-    <li>Apply patches immediately for Cisco firewall, Fortra GoAnywhere, and other KEV-listed vulnerabilities</li>
-    <li>Conduct forensic integrity checks on network devices, especially firmware and ROM</li>
-    <li>Review vendor dependencies and build redundancy for critical systems</li>
-  </ul>
-  <strong>Longer-term needs:</strong>
-  <ul>
-    <li>Adopt threat‑driven vulnerability prioritization (e.g. KEV + predictive modeling)</li>
-    <li>Strengthen supply chain security oversight and monitoring</li>
-    <li>Enhance collaboration across sectors for critical infrastructure resilience</li>
-  </ul>
+<h2 style="color:darkblue;"><b>Emerging Technical Intelligence (Moderate Confidence)</b></h2>
+<ul>
+  <li>Some analysts are observing early signals that hacktivist groups are shifting from DDoS and leaks toward operational technology (OT) targeting in critical infrastructure. <a href="https://arxiv.org/abs/2509.05104" target="_blank">Source: arXiv preprint “From Protest to Power Plant”</a></li>
+  <li>The Beijing Institute of Electronics Technology & Application (BIETA) and its commercial subsidiary CIII are assessed to have ties to China’s intelligence (MSS), including research into steganography and covert communication tools. <a href="https://thehackernews.com/2025/10/new-report-links-research-firms-bieta-and-ciii.html" target="_blank">Source: The Hacker News</a></li>
+</ul>
 
-  <br><br>
-  <em>End of Report</em>
+<h2 style="color:darkblue;"><b>IOCs</b></h2>
+<ul>
+ <li>52f42a40d24e1d62d1ed29b28778fc45 (UNC6040 — loader / downloader - MD5 hash) </li>
+ <li>fa71d60e43da381ad656192a41e38724 (UNC6040 — side‑loaded DLL launcher - MD5 hash) </li>
+</ul>
+
+<h2 style="color:darkblue;"><b>Summary</b></h2>
+<ul>
+  <li><b>Immediate threats:</b> Active exploitation of Oracle EBS zero‑day (Cl0p), sudo privilege escalation (CVE‑2025‑32463), Salesforce compromise by UNC6040/6395.</li>
+  <li><b>Actionable steps:</b> Urgent patching of Oracle EBS, sudo updates, review Salesforce logs and alerts, inventory supply chain integrations, monitor scan and reconnaissance activity.</li>
+  <li><b>Longer‑term needs:</b> Enhance visibility across third‑party dependencies, implement rapid detection of zero‑day exploits, plan OT/ICS segmentation as hacktivist aggressions evolve.</li>
+</ul>
+
 </body>
 </html>
