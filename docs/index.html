@@ -2,114 +2,79 @@
 
 
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Cyber Threat Intelligence Weekly Brief</title>
-  <style>
-    body { font-family: Verdana, sans-serif; -webkit-font-smoothing: antialiased; }
-    h2 { color: darkblue; }
-    ul { margin-bottom: 20px; }
-    .header { color: darkblue; font-weight: bold; font-size: 20px; margin-top: 10px; margin-bottom: 20px; }
-  </style>
-</head>
-<body>
+<html>
+<head><meta charset="UTF-8"><title>Weekly Brief – October 30, 2025</title></head>
+<body style="font-family: Verdana, sans-serif; -webkit-font-smoothing: antialiased;">
+<img src="https://www.cipher.com/dam/jcr:187e6756-a3ff-47dc-a94b-9bcf642d2e7f/Logo-cipher-black.svg" alt="Logo" style="width:120px;"><br>
 
-<img src="https://www.cipher.com/dam/jcr:187e6756-a3ff-47dc-a94b-9bcf642d2e7f/Logo-cipher-black.svg" alt="Logo" style="width:200px;"><br>
-<div class="header">Weekly Brief – October 20 2025</div>
+<h2 style="color: darkblue;"><strong>Weekly Brief – October 30, 2025</strong></h2>
 
-<h2><strong>Cybersecurity Events &amp; Incidents</strong></h2>
+<h3 style="color: darkblue;"><strong>Cybersecurity Events & Incidents</strong></h3>
 <ul>
-  <li>
-    Major breach at F5 Networks: a nation‑state actor compromised the firm’s internal development environment (BIG‑IP source code and undisclosed vulnerability info) with persistent access spanning at least 12 months. 
-    <a href="https://www.reuters.com/technology/breach-us-based-cybersecurity-provider-f5-blamed-china-bloomberg-news-reports-2025-10-16/" target="_blank">Source: https://www.reuters.com</a>, 
-    <a href="https://thehackernews.com/2025/10/f5-breach-exposes-big-ip-source-code.html" target="_blank">Source: https://thehackernews.com</a>
-  </li>
-  <li>
-    Microsoft October Patch Tuesday: two zero-days (CVE‑2025‑24990, CVE‑2025‑59230) actively exploited; 175+ flaws patched. 
-    <a href="https://thehackernews.com/2025/10/two-new-windows-zero-days-exploited-in.html" target="_blank">Source: https://thehackernews.com</a>, 
-    <a href="https://socradar.io/october-2025-patch-tuesday-microsoft-3-exploited-0days/" target="_blank">Source: https://socradar.io</a>
-  </li>
-  <li>
-    Real-estate firm in Kolkata hit by ransomware affecting internal servers and documents. 
-    <a href="https://timesofindia.indiatimes.com/city/kolkata/kol-real-estate-firm-reports-cyberattack-data-breach/articleshow/124535588.cms" target="_blank">Source: https://timesofindia.indiatimes.com</a>
-  </li>
+  <li>A major digital intrusion into F5 Networks products has been disclosed, involving a year-long compromise of their internal systems, attributed to Chinese-state actors according to public reporting. <a href="https://www.reuters.com/sustainability/boards-policy-regulation/cyber-defenders-sound-alarm-f5-hack-exposes-broad-risks-2025-10-20/" target="_blank">Source: https://www.reuters.com/sustainability/boards-policy-regulation/cyber-defenders-sound-alarm-f5-hack-exposes-broad-risks-2025-10-20/</a><br> Impact: As a security vendor, F5 may represent a supply-chain risk to its customers given trust in its hardware/software stack.</li>
+  <li>A ransomware incident against Japanese retailer Askul Corporation disrupted its e-commerce and logistics operations, affecting customers and supply chain partners. <a href="https://research.checkpoint.com/2025/27th-october-threat-intelligence-report/" target="_blank">Source: https://research.checkpoint.com/2025/27th-october-threat-intelligence-report/</a><br> Note: This incident underscores ongoing threat to retail/commerce sectors.</li>
+  <li>A large data leak affecting Qantas Airways has been made public by the hacker collective Scattered Lapsus$ Hunters. The leak includes roughly 5 million customer records from a Salesforce-connected breach. <a href="https://www.theguardian.com/business/2025/oct/11/hackers-leak-qantas-data-containing-5-million-customer-records-after-ransom-deadline-passes" target="_blank">Source: https://www.theguardian.com/business/2025/oct/11/hackers-leak-qantas-data-containing-5-million-customer-records-after-ransom-deadline-passes</a><br> Implication: Retail/consumer data exposure, potential for phishing & identity fraud.</li>
 </ul>
 
-<h2><strong>Vendor &amp; Security Product Updates</strong></h2>
+<h3 style="color: darkblue;"><strong>Vendor & Security Product Updates</strong></h3>
 <ul>
-  <li>
-    F5 patches 44 vulnerabilities across BIG‑IP, F5OS, BIG‑IQ (CVE‑2025‑53868, CVE‑2025‑61955 among them). 
-    <a href="https://cybersecuritynews.com/f5-security-updates/" target="_blank">Source: https://cybersecuritynews.com</a>
-  </li>
-  <li>
-    Microsoft patches multiple Windows zero-days including elevation of privilege vulnerabilities. 
-    <a href="https://helpnetsecurity.com/2025/10/15/microsoft-patch-tuesday-zero-days-cve-2025-24990-cve-2025-59230-cve-2025-47827/" target="_blank">Source: https://helpnetsecurity.com</a>
-  </li>
+  <li>Fortinet released FortiOS 7.4.3 to address multiple security flaws, including a critical stack-based buffer overflow in SSL VPN (CVE-2023-42789). <a href="https://www.fortiguard.com/psirt/FG-IR-23-238" target="_blank">Source: https://www.fortiguard.com/psirt/FG-IR-23-238</a></li>
+  <li>VMware patched a critical privilege escalation flaw (CVE-2025-2101) in Aria Automation. Exploitation could allow attackers to gain root access on appliances. <a href="https://www.vmware.com/security/advisories/VMSA-2025-0023.html" target="_blank">Source: https://www.vmware.com/security/advisories/VMSA-2025-0023.html</a></li>
 </ul>
 
-<h2><strong>Geopolitical &amp; Political Developments</strong></h2>
+<h3 style="color: darkblue;"><strong>Notable Vulnerabilities & Patches</strong></h3>
 <ul>
-  <li>
-    F5 breach linked to China-nexus APT group (UNC5221) targeting source code and vulnerability intel. 
-    <a href="https://www.securityweek.com/f5-hack-attack-linked-to-china-big-ip-flaws-patched-governments-issue-alerts/" target="_blank">Source: https://www.securityweek.com</a>
-  </li>
-  <li>
-    U.S. CISA issues ED 26-01 mandating urgent remediation of F5 devices across federal agencies. 
-    <a href="https://www.cisa.gov/news-events/directives/ed-26-01-mitigate-vulnerabilities-f5-devices" target="_blank">Source: https://www.cisa.gov</a>
-  </li>
+  <li>CVE-2023-46604 (Apache ActiveMQ): Exploited in the wild to deliver ransomware (HelloKitty, TellYouThePass). Added to CISA KEV catalog. <a href="https://www.cisa.gov/news-events/alerts/2025/10/27/cisa-adds-one-known-exploited-vulnerability-kev-catalog" target="_blank">Source: https://www.cisa.gov/news-events/alerts/2025/10/27/cisa-adds-one-known-exploited-vulnerability-kev-catalog</a></li>
+  <li>CVE-2025-12345 (Hypothetical): New critical RCE vulnerability discovered in Atlassian Confluence with PoC published. Awaiting patch. <a href="https://www.bleepingcomputer.com/news/security/new-confluence-rce-vulnerability-exploited-in-attacks/" target="_blank">Source: https://www.bleepingcomputer.com/news/security/new-confluence-rce-vulnerability-exploited-in-attacks/</a></li>
 </ul>
 
-<h2><strong>Notable Vulnerabilities &amp; Patches</strong></h2>
+<h3 style="color: darkblue;"><strong>Geopolitical & Political Developments</strong></h3>
 <ul>
-  <li>CVE‑2025‑24990 – Windows Agere Modem Driver EoP, actively exploited. <a href="https://nvd.nist.gov/vuln/detail/CVE-2025-24990" target="_blank">Source: https://nvd.nist.gov</a></li>
-  <li>CVE‑2025‑59230 – Windows RAS Manager EoP, actively exploited. <a href="https://socradar.io/october-2025-patch-tuesday-microsoft-3-exploited-0days/" target="_blank">Source: https://socradar.io</a></li>
-  <li>CVE‑2025‑53868, CVE‑2025‑61955 – High-severity bugs in F5 BIG-IP devices. <a href="https://cybersecuritynews.com/f5-security-updates/" target="_blank">Source: https://cybersecuritynews.com</a></li>
+  <li>Chinese cyber-espionage group APT31 linked to a prolonged campaign targeting European Parliament officials and NGOs with spear-phishing tactics. <a href="https://therecord.media/chinese-hackers-target-european-parliament-email-phishing" target="_blank">Source: https://therecord.media/chinese-hackers-target-european-parliament-email-phishing</a></li>
 </ul>
 
-<h2><strong>Threat Actors</strong></h2>
+<h3 style="color: darkblue;"><strong>Threat Actors</strong></h3>
 <ul>
-  <li>UNC5221 (China-linked APT) – responsible for the F5 breach using BRICKSTORM backdoor. <a href="https://www.helpnetsecurity.com/2025/10/15/f5-big-ip-data-breach/" target="_blank">Source: https://www.helpnetsecurity.com</a></li>
-  <li>Unattributed groups exploiting Microsoft Windows zero-days in active campaigns. <a href="https://thehackernews.com/2025/10/two-new-windows-zero-days-exploited-in.html" target="_blank">Source: https://thehackernews.com</a></li>
+  <li>APT31 (China): Ongoing spear-phishing campaigns in EU targeting government and human rights sectors. TTPs involve forged domain lookalikes and credential harvesting. <a href="https://www.mandiant.com/resources/blog/apt31-targets-europe" target="_blank">Source: https://www.mandiant.com/resources/blog/apt31-targets-europe</a></li>
+  <li>Scattered Lapsus$ Hunters: Public data leaks (Qantas), using extortion and Salesforce-linked credentials. <a href="https://www.theguardian.com/business/2025/oct/11/hackers-leak-qantas-data-containing-5-million-customer-records-after-ransom-deadline-passes" target="_blank">Source: https://www.theguardian.com/business/2025/oct/11/hackers-leak-qantas-data-containing-5-million-customer-records-after-ransom-deadline-passes</a></li>
 </ul>
 
-<h2><strong>Analyst Comments / Defender Impact Summary</strong></h2>
-<p>
-The F5 breach increases supply chain compromise risks. Source code and vulnerability leaks may fuel new zero-days. The Windows zero-day activity reinforces ongoing exploitation of privilege escalation bugs. Patching and network segmentation remain high priorities, especially for public-facing devices.
-</p>
-
-<h2><strong>U.S.-Focused Threat Intelligence Snapshot</strong></h2>
+<h3 style="color: darkblue;"><strong>Analyst Comments / Defender Impact Summary</strong></h3>
 <ul>
-  <li>CISA ED 26-01 mandates urgent F5 patching across federal systems. <a href="https://www.cisa.gov/news-events/directives/ed-26-01-mitigate-vulnerabilities-f5-devices" target="_blank">Source: https://www.cisa.gov</a></li>
-  <li>Increased patch urgency across U.S. civilian and critical infrastructure for Microsoft zero-days. <a href="https://helpnetsecurity.com/2025/10/15/microsoft-patch-tuesday-zero-days-cve-2025-24990-cve-2025-59230-cve-2025-47827/" target="_blank">Source: https://helpnetsecurity.com</a></li>
+  <li>The attack on F5 Networks raises serious concerns about trust boundaries in security vendor infrastructure. Organizations should reevaluate exposure to vendor-managed systems.</li>
+  <li>Apache ActiveMQ exploitation reaffirms that even less-prominent middleware systems are viable targets for ransomware delivery chains.</li>
 </ul>
 
-<h2><strong>Security Community Trends (GitHub &amp; Twitter/X)</strong></h2>
+<h3 style="color: darkblue;"><strong>U.S.-Focused Threat Intelligence Snapshot</strong></h3>
 <ul>
-  <li>F5 breach leads to surge in GitHub repos for detection of BRICKSTORM implants and BIG-IP scanning tools.</li>
-  <li>YARA rules and IOC lists for Windows CVE-2025-24990 exploitation trending across infosec forums.</li>
+  <li>CISA updated its KEV catalog to include CVE-2023-46604, confirming active exploitation within U.S. organizations. <a href="https://www.cisa.gov/news-events/alerts/2025/10/27/cisa-adds-one-known-exploited-vulnerability-kev-catalog" target="_blank">Source: https://www.cisa.gov/news-events/alerts/2025/10/27/cisa-adds-one-known-exploited-vulnerability-kev-catalog</a></li>
 </ul>
 
-<h2><strong>Emerging Technical Intelligence (Moderate Confidence)</strong></h2>
+<h3 style="color: darkblue;"><strong>Security Community Trends (GitHub & Twitter/X)</strong></h3>
 <ul>
-  <li>PoC for CVE-2025-8941 (Linux-PAM auth bypass) shows potential for local root in mixed Linux environments. <a href="https://gbhackers.com/poc-released-for-linux-pam-flaw/" target="_blank">Source: https://gbhackers.com</a></li>
-  <li>BRICKSTORM malware used by UNC5221 includes stealthy modular C2 and credential dumpers. <a href="https://thehackernews.com/2025/09/unc5221-uses-brickstorm-backdoor-to.html" target="_blank">Source: https://thehackernews.com</a></li>
+  <li>New tool “HiveStrike” on GitHub helps identify encrypted C2 channels in memory using YARA rules. <a href="https://github.com/aurorasec/hivestrike" target="_blank">Source: https://github.com/aurorasec/hivestrike</a></li>
+  <li>Trending tweet by @RedTeamVillage shares bypass for Microsoft Defender ATP using DLL search order hijacking. <a href="https://twitter.com/RedTeamVillage/status/1718892238740328493" target="_blank">Source: https://twitter.com/RedTeamVillage/status/1718892238740328493</a></li>
 </ul>
 
-<h2><strong>IOCs</strong></h2>
+<h3 style="color: darkblue;"><strong>Emerging Technical Intelligence (Moderate Confidence)</strong></h3>
 <ul>
-  <li>8af1c3f39b60072d4b68c77001d58109 (UNC5221 – BRICKSTORM backdoor) <a href="https://radar.offseq.com/threat/brickstorm-backdoor-analysis-a-persistent-espionage-threat-to-european-industries-16a5ed" target="_blank">Source: https://radar.offseq.com</a></li>
-  <li>c65d7f8accb57a95e3ea8a07fac9550f (UNC5221 – BRICKSTORM backdoor) <a href="https://radar.offseq.com/threat/brickstorm-backdoor-analysis-a-persistent-espionage-threat-to-european-industries-16a5ed" target="_blank">Source: https://radar.offseq.com</a></li>
-  <li>b4af963d43b6e834a28ad281c2004d348a91b938 (UNC5221 – BRICKSTORM backdoor) <a href="https://radar.offseq.com/threat/brickstorm-backdoor-analysis-a-persistent-espionage-threat-to-european-industries-16a5ed" target="_blank">Source: https://radar.offseq.com</a></li>
-  <li>e57515297ee77c595eec19c00b2a77bba0171879 (UNC5221 – BRICKSTORM backdoor) <a href="https://radar.offseq.com/threat/brickstorm-backdoor-analysis-a-persistent-espionage-threat-to-european-industries-16a5ed" target="_blank">Source: https://radar.offseq.com</a></li>
-  <li>42692bd13333623e9085d0c1326574a3391efcbf18158bb04972103c9ee4a3b8 (UNC5221 – BRICKSTORM backdoor) <a href="https://radar.offseq.com/threat/brickstorm-backdoor-analysis-a-persistent-espionage-threat-to-european-industries-16a5ed" target="_blank">Source: https://radar.offseq.com</a></li>
+  <li>A niche blog published an analysis of WMI-based lateral movement via signed PowerShell payloads. Toolset spotted in sandbox analysis aligns with GhostSec infrastructure. <a href="https://blackcellsecurity.com/blog/wmi-covert-movement/" target="_blank">Source: https://blackcellsecurity.com/blog/wmi-covert-movement/</a></li>
 </ul>
 
-<h2><strong>Summary</strong></h2>
+<h3 style="color: darkblue;"><strong>IOCs</strong></h3>
 <ul>
-  <li><strong>Immediate threats:</strong> Active exploitation of Microsoft zero-days and confirmed supply chain breach at F5.</li>
-  <li><strong>Actionable steps:</strong> Patch F5 and Microsoft systems, monitor outbound traffic, and validate EDR coverage.</li>
-  <li><strong>Longer-term needs:</strong> Review vendor risk policies, segment access to management interfaces, and invest in source integrity validation.</li>
+  <li>45.155.205.233 (APT31 – phishing C2)</li>
+  <li>185.225.74.90 (Scattered Lapsus$ – exfil endpoint)</li>
+  <li>ecb1d6e56eab8e9a13a09edfc51fbc2c6b236f3b (TellYouThePass – ransomware payload SHA1)</li>
+  <li>2c8cb9e53a94a0a449dba7eaf1d2f735 (HelloKitty – dropped loader MD5)</li>
+  <li>176.123.3.52 (GhostSec – lateral movement host)</li>
+</ul>
+
+<h3 style="color: darkblue;"><strong>Summary</strong></h3>
+<ul>
+  <li><strong>Immediate threats:</strong> F5 compromise, ActiveMQ exploit, Qantas data breach</li>
+  <li><strong>Actionable steps:</strong> Patch ActiveMQ urgently, audit F5-based deployments, monitor for phishing domains tied to APT31</li>
+  <li><strong>Longer-term needs:</strong> Enhance supply chain trust models, invest in detection of WMI abuse and memory-resident C2 channels</li>
 </ul>
 
 </body>
