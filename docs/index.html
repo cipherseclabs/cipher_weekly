@@ -1,89 +1,80 @@
 <!-- — -->
 
 
-<html><body style="font-family:Verdana, sans-serif; -webkit-font-smoothing:antialiasing;">
+<html><body style="font-family: Verdana, sans-serif; -webkit-font-smoothing: antialiased;">
 
-<img src="https://www.cipher.com/dam/jcr:187e6756-a3ff-47dc-a94b-9bcf642d2e7f/Logo-cipher-black.svg" width="120"><br>
+<img src="https://www.cipher.com/dam/jcr:187e6756-a3ff-47dc-a94b-9bcf642d2e7f/Logo-cipher-black.svg" style="width:200px;"><br>
 
-<h2 style="color:darkblue;"><strong>Weekly Brief – November 24, 2025</strong></h2>
+<h2 style="color: darkblue;">Weekly Brief – 2025‑12‑01</h2>
 
-<h3 style="color:darkblue;"><strong>Cybersecurity Events & Incidents</strong></h3>
+<h3 style="color: darkblue;"><b>Cybersecurity Events & Incidents</b></h3>
+
 <ul>
-<li>A large-scale campaign targeting the Gainsight CS integration in the Salesforce CRM ecosystem has been detected, possibly affecting 200+ customer instances. The attacker(s) abused OAuth tokens of the Gainsight-published app to gain unauthorized access to downstream Salesforce customer data. <a href="https://www.cybersecuritydive.com/news/salesforce-investigating-customer-connected-Gainsight/806093/" target="_blank">Source: https://www.cybersecuritydive.com/news/salesforce-investigating-customer-connected-Gainsight/806093/</a></li>
-<li>A brute-force and login-scanning surge has been observed targeting the GlobalProtect VPN portals of Palo Alto Networks (PAN-OS) systems, with over 2.3 million malicious sessions logged since November 14. This raises concerns about remote access infrastructure exposure. <a href="https://cybersecuritynews.com/palo-alto-vpn-under-attack/" target="_blank">Source: https://cybersecuritynews.com/palo-alto-vpn-under-attack/</a></li>
-<li>A campaign by Dropping Elephant (also tracked as Patchwork/APT-C-09) has targeted Pakistan’s defence sector with spear-phishing delivering a Python-based backdoor via MSBuild dropper, using living-off-the-land binaries. <a href="https://gbhackers.com/elephant-group/" target="_blank">Source: https://gbhackers.com/elephant-group/</a></li>
-<li>A supply-chain scenario where attackers abused OAuth tokens in SaaS applications (rather than exploiting a vulnerability in the core platform) was confirmed by Google Threat Intelligence Group as a growing trend. <a href="https://www.csoonline.com/article/4094506/oauth-token-compromise-hits-salesforce-ecosystem-again-gainsight-impacted.html" target="_blank">Source: https://www.csoonline.com/article/4094506/oauth-token-compromise-hits-salesforce-ecosystem-again-gainsight-impacted.html</a></li>
+  <li><b>CodeRED emergency alert system attacked</b>: A ransomware attack, claimed by INC Ransom, targeted the CodeRED alert platform used by municipalities across the U.S., triggering widespread service outages. Some user data (emails, clear‑text passwords) may have been compromised, prompting affected cities to advise password resets. <a href="https://www.malwarebytes.com/blog/news/2025/11/millions-at-risk-after-nationwide-codered-alert-system-outage-and-data-breach" target="_blank">Source: https://www.malwarebytes.com/blog/news/2025/11/millions-at-risk-after-nationwide-codered-alert-system-outage-and-data-breach</a></li>
+  <li><b>SitusAMC breach endangers major US banks’ data</b>: The consulting/outsourcing firm that serves large financial institutions was breached, potentially exposing corporate documents and client data tied to firms like JPMorgan Chase, Morgan Stanley, and Citigroup. Investigation and law‑enforcement involvement are ongoing. <a href="https://www.techradar.com/pro/security/situsamc-hack-may-have-exposed-data-at-major-financial-heavyweights" target="_blank">Source: https://www.techradar.com/pro/security/situsamc-hack-may-have-exposed-data-at-major-financial-heavyweights</a> <a href="https://www.itpro.com/security/cyber-attacks/wall-street-giants-warned-of-data-exposure-following-supply-chain-attack" target="_blank">Source: https://www.itpro.com/security/cyber-attacks/wall-street-giants-warned-of-data-exposure-following-supply-chain-attack</a></li>
+  <li><b>Canon confirmed among alleged victims of Cl0p Oracle EBS campaign</b>: Canon’s subsidiary was added to the growing list of more than 100 organizations named on the Cl0p leak site following exploitation of an Oracle E‑Business Suite vulnerability. <a href="https://www.securityweek.com/canon-says-subsidiary-impacted-by-oracle-ebs-hack" target="_blank">Source: https://www.securityweek.com/canon-says-subsidiary-impacted-by-oracle-ebs-hack</a></li>
+  <li><b>Fake job scams distribute “Flexible Ferret” stealer to macOS users</b>: Attackers are leveraging bogus job offers on professional networks combined with fake video updates to trick macOS users into installing a multi‑stage stealer malware, granting long-term access and data theft capabilities. <a href="https://www.malwarebytes.com/blog/news/2025/12/a-week-in-security-november-24-november-30" target="_blank">Source: https://www.malwarebytes.com/blog/news/2025/12/a-week-in-security-november-24-november-30</a></li>
 </ul>
 
-<h3 style="color:darkblue;"><strong>Vendor & Security Product Updates</strong></h3>
+<h3 style="color: darkblue;"><b>Vendor & Security Product Updates</b></h3>
+
 <ul>
-<li>The brute-force activity against PAN-OS / GlobalProtect is raising alerts for organizations to review MFA, login rate-limiting, and external VRF exposure. See PAN article for mitigation steps. <a href="https://knowledgebase.paloaltonetworks.com/KCSArticleDetail?id=kA10g000000ClJ2CAK" target="_blank">Source: https://knowledgebase.paloaltonetworks.com/KCSArticleDetail?id=kA10g000000ClJ2CAK</a></li>
-<li>Logging by GreyNoise shows coordinated scanning campaigns on firewall/VPN infrastructure (Cisco, Fortinet, Palo Alto) - vendors are urged to flag unusual login clouds and treat them as pre-exploit. <a href="https://www.securityweek.com/cisco-fortinet-palo-alto-networks-devices-targeted-in-coordinated-campaign/" target="_blank">Source: https://www.securityweek.com/cisco-fortinet-palo-alto-networks-devices-targeted-in-coordinated-campaign/</a></li>
+  <li><b>Oracle Identity Manager & E‑Business Suite patches under active exploitation</b>: A recently patched critical vulnerability in Oracle Identity Manager is being actively exploited in the wild, raising concerns for organizations still pending updates. The broader Oracle EBS campaign tied to Cl0p continues to expand. <a href="https://www.bankinfosecurity.com/breach-roundup-recently-patched-oracle-flaw-under-attack-a-30159" target="_blank">Source: https://www.bankinfosecurity.com/breach-roundup-recently-patched-oracle-flaw-under-attack-a-30159</a> <a href="https://www.securityweek.com/canon-says-subsidiary-impacted-by-oracle-ebs-hack" target="_blank">Source: https://www.securityweek.com/canon-says-subsidiary-impacted-by-oracle-ebs-hack</a></li>
 </ul>
 
-<h3 style="color:darkblue;"><strong>Geopolitical & Political Developments</strong></h3>
+<h3 style="color: darkblue;"><b>Notable Vulnerabilities & Patches</b></h3>
+
 <ul>
-<li>The campaign by Dropping Elephant aligns with India-aligned APT behaviour targeting Pakistan’s defence sector, suggesting elevated sub-state cyber operations in South Asia. <a href="https://gbhackers.com/elephant-group/" target="_blank">Source: https://gbhackers.com/elephant-group/</a></li>
-<li>Supply-chain and SaaS-integration attacks (e.g., Gainsight/Salesforce) underscore global risk vectors across jurisdictions, implicating U.S.-based SaaS providers and international customers, and thus bearing cross-border regulatory and diplomatic implications.</li>
+  <li><b>Multiple high‑severity vulnerabilities flagged by Cyble this week</b>: The firm tracked 905 new vulnerabilities, with over 30 publicly known PoCs and 54 rated critical under CVSS v3.1, including vulnerabilities affecting cloud‑connected devices, ICS/weather‑monitoring systems, and aviation infrastructure. <a href="https://cyble.com/blog/cyble-weekly-vulnerability-report-november-2025/" target="_blank">Source: https://cyble.com/blog/cyble-weekly-vulnerability-report-november-2025/</a></li>
+  <li><b>Critical command‑injection flaw in W3 Total Cache WordPress plugin (CVE-2025-9501)</b>: The flaw affects all versions prior to 2.8.13. While no exploitation in the wild has been confirmed, proof‑of‑concept code was published on November 24, 2025. Administrators are advised to update or disable the plugin. <a href="https://acumencyber.com/cyber-threat-intelligence-digest-november-2025-week-47" target="_blank">Source: https://acumencyber.com/cyber-threat-intelligence-digest-november-2025-week-47</a></li>
 </ul>
 
-<h3 style="color:darkblue;"><strong>Notable Vulnerabilities & Patches</strong></h3>
+<h3 style="color: darkblue;"><b>Geopolitical & Political Developments</b></h3>
+
 <ul>
-<li>A zero-day vulnerability in FortiWeb (CVE-2025-58034) has been publicly flagged as actively exploited; the vendor issued a silent patch. This underlines the urgency of patching web-application and web-WAF appliances. <a href="https://thehackernews.com/2025/11/weekly-recap-fortinet-exploit-chrome-0.html" target="_blank">Source: https://thehackernews.com/2025/11/weekly-recap-fortinet-exploit-chrome-0.html</a></li>
+  <li><b>NATO considers more proactive cyber and hybrid‑warfare stance against Russia</b>: The alliance’s most senior military officer indicated that NATO is studying a shift from reactive to more aggressive responses to hybrid threats - including cyber attacks, sabotage, and drone intrusions. This reflects growing concern over recent incidents such as undersea cable sabotage attributed to Russia. <a href="https://www.ft.com/content/dbd93caa-3c62-48bb-9eba-08c25f31ab02" target="_blank">Source: https://www.ft.com/content/dbd93caa-3c62-48bb-9eba-08c25f31ab02</a></li>
+  <li><b>Renewed alert after espionage‑style cyberattack targeting a U.S. firm linked to a Ukraine‑affiliated sister city</b>: A U.S. engineering company was attacked by a Russia‑linked group due to its indirect relationship with a Ukrainian partner, marking a widening of the adversary’s scope beyond direct war‑relevant entities. <a href="https://apnews.com/article/4b1c167746f2c0e7d263be94f0aa94b0" target="_blank">Source: https://apnews.com/article/4b1c167746f2c0e7d263be94f0aa94b0</a></li>
+  <li><b>Heightened risk of cyber escalation amid increasing U.S.–China trade and tariff tensions</b>: Analysts warn that ongoing economic friction between the U.S. and China may prompt a surge in cyber‑espionage and hacktivism targeting business, supply‑chain, and critical‑infrastructure sectors. <a href="https://www.etf.com/sections/features/geopolitical-tensions-and-cyber-threats-potential-consequences-us-tariffs" target="_blank">Source: https://www.etf.com/sections/features/geopolitical-tensions-and-cyber-threats-potential-consequences-us-tariffs" /></li>
 </ul>
 
-<h3 style="color:darkblue;"><strong>Threat Actors</strong></h3>
+<h3 style="color: darkblue;"><b>Threat Actors</b></h3>
+
 <ul>
-<li>ShinyHunters (aka UNC6240) - Linked to the Gainsight/Salesforce OAuth token campaign, supply-chain targeting of third-party SaaS apps. High confidence. <a href="https://www.darkreading.com/cyberattacks-data-breaches/salesforce-customers-hacked-gainsight" target="_blank">Source: https://www.darkreading.com/cyberattacks-data-breaches/salesforce-customers-hacked-gainsight</a></li>
-<li>Dropping Elephant (also Patchwork/APT-C-09) - Conducting targeted espionage via MSBuild dropper on defense sector. Moderate confidence. <a href="https://gbhackers.com/elephant-group/" target="_blank">Source: https://gbhackers.com/elephant-group/</a></li>
+  <li><b>Cl0p</b>: Continuing its Oracle EBS campaign - recently naming over 100 alleged victims across multiple sectors. Organizations using Oracle EBS remain high‑value targets. <a href="https://www.securityweek.com/canon-says-subsidiary-impacted-by-oracle-ebs-hack" target="_blank">Source: https://www.securityweek.com/canon-says-subsidiary-impacted-by-oracle-ebs-hack</a></li>
+  <li><b>INC Ransom</b>: Claimed responsibility for the CodeRED platform attack, illustrating continued activity by financially motivated ransomware groups targeting civic infrastructure. <a href="https://www.malwarebytes.com/blog/news/2025/11/millions-at-risk-after-nationwide-codered-alert-system-outage-and-data-breach" target="_blank">Source: https://www.malwarebytes.com/blog/news/2025/11/millions-at-risk-after-nationwide-codered-alert-system-outage-and-data-breach</a></li>
+  <li><b>RomCom (Russia‑linked)</b>: Responsible for the recent cyberattack against a U.S. engineering firm tied via a sister‑city to Ukraine, signaling Moscow’s expanded targeting of private companies connected to Ukraine‑supporting municipalities. <a href="https://apnews.com/article/4b1c167746f2c0e7d263be94f0aa94b0" target="_blank">Source: https://apnews.com/article/4b1c167746f2c0e7d263be94f0aa94b0</a></li>
 </ul>
 
-<h3 style="color:darkblue;"><strong>Analyst Comments / Defender Impact Summary</strong></h3>
-<p>Organizations must regard OAuth and other non-human identity tokens as critical attack surfaces. The Gainsight/Salesforce incident underscores that adversaries are shifting to “trusted app” exploits rather than classic perimeter breaches. VPN and firewall login portals remain high-value targets - the brute-force surge against GlobalProtect/EPS endpoints shows attackers probing for exposed access points. Defenders should prioritise token inventory, integration scope reduction, MFA enforcement, login anomaly detection, and applying the latest patches on network access infrastructure.</p>
+<h3 style="color: darkblue;"><b>Analyst Comments / Defender Impact Summary</b></h3>
 
-<h3 style="color:darkblue;"><strong>U.S.-Focused Threat Intelligence Snapshot</strong></h3>
-<ul>
-<li>The Salesforce/Gainsight compromise affects U.S.-based SaaS vendor ecosystems and their downstream customer organizations, implying U.S. enterprises are at risk. Revocation of tokens and app removal indicates U.S. orgs must audit their integrations. <a href="https://www.csoonline.com/article/4094506/oauth-token-compromise-hits-salesforce-ecosystem-again-gainsight-impacted.html" target="_blank">Source: https://www.csoonline.com/article/4094506/oauth-token-compromise-hits-salesforce-ecosystem-again-gainsight-impacted.html</a></li>
-<li>The GlobalProtect login scanning surge includes U.S. IP-space and targets U.S.-based VPN portals, indicating U.S. organisations should harden remote access. <a href="https://cybersecuritynews.com/palo-alto-vpn-under-attack/" target="_blank">Source: https://cybersecuritynews.com/palo-alto-vpn-under-attack/</a></li>
-</ul>
+<p>Geopolitical shifts are reshaping the cyber‑threat landscape more rapidly this week. The public acknowledgment by NATO that hybrid and cyber warfare might require proactively defensive or offensive strategies signals a potential escalation in cyber engagements between states. The attack on a U.S. firm for tangential Ukraine‑related ties illustrates that adversaries are widening their target scope beyond direct government or military actors. Organizations should treat indirect associations (e.g. vendor relationships, sister‑city ties, geopolitical alignment) as potential risk vectors. For defenders, maintaining visibility on global tensions and aligning risk assessments accordingly is now as critical as patching known vulnerabilities.</p>
 
-<h3 style="color:darkblue;"><strong>Security Community Trends (GitHub & Twitter/X)</strong></h3>
+<h3 style="color: darkblue;"><b>U.S. Focused Threat Intelligence Snapshot</b></h3>
+
 <ul>
-<li>On Twitter/X analysts are highlighting OAuth token abuse as a leading supply-chain vector: e.g., calls by Google GTIG about tokens stolen and used across SaaS. <a href="https://www.darkreading.com/cyberattacks-data-breaches/salesforce-customers-hacked-gainsight" target="_blank">Source: https://www.darkreading.com/cyberattacks-data-breaches/salesforce-customers-hacked-gainsight</a></li>
-<li>On GitHub and GitLab repositories, researchers are publishing detection rules for GlobalProtect brute-force patterns (for example signature UTID 40017) useful for hunters. <a href="https://knowledgebase.paloaltonetworks.com/KCSArticleDetail?id=kA14u0000010zEJCAY&lang=en_US" target="_blank">Source: https://knowledgebase.paloaltonetworks.com/KCSArticleDetail?id=kA14u0000010zEJCAY&lang=en_US</a></li>
+  <li>The U.S. firm targeted by RomCom highlights exposure even for private companies with indirect geopolitical links, underlining that no asset can be assumed safe due to perceived neutrality. <a href="https://apnews.com/article/4b1c167746f2c0e7d263be94f0aa94b0" target="_blank">Source: https://apnews.com/article/4b1c167746f2c0e7d263be94f0aa94b0</a></li>
+  <li>With NATO rethinking cyber‑deterrence posture, U.S. organizations integrated with allied defense or infrastructure ecosystems should brace for possible changes in threat actor behavior, including more aggressive state‑backed cyber operations. <a href="https://www.ft.com/content/dbd93caa-3c62-48bb-9eba-08c25f31ab02" target="_blank">Source: https://www.ft.com/content/dbd93caa-3c62-48bb-9eba-08c25f31ab02</a></li>
 </ul>
 
-<h3 style="color:darkblue;"><strong>Emerging Technical Intelligence (Moderate Confidence)</strong></h3>
+<h3 style="color: darkblue;"><b>Security Community Trends (GitHub & Twitter/X)</b></h3>
+
+<p>No major open‑source security tools or trending researcher disclosures with broad impact were identified in the public community feeds this week.</p>
+
+<h3 style="color: darkblue;"><b>Emerging Technical Intelligence (Moderate Confidence)</b></h3>
+
 <ul>
-<li>Agentic AI-driven attacks: Anthropic disclosed an incident in which an AI system (Claude) performed 80-90% of a reconnaissance-to-exploit pipeline autonomously, implying future campaigns may reduce human operator burden significantly. <a href="https://www.tomshardware.com/tech-industry/cyber-security/anthropic-says-it-has-foiled-the-first-ever-ai-orchestrated-cyber-attack-originating-from-china-company-alleges-attack-was-run-by-chinese-state-sponsored-group" target="_blank">Source: https://www.tomshardware.com/tech-industry/cyber-security/anthropic-says-it-has-foiled-the-first-ever-ai-orchestrated-cyber-attack-originating-from-china-company-alleges-attack-was-run-by-chinese-state-sponsored-group</a> (Moderate Confidence)</li>
-<li>Supply-chain SaaS integration abuses are trending: adversaries are shifting focus to high-privilege non-human identities (OAuth tokens, service-accounts) in multi-tenant platforms. Analysts highlight this as “the new attack surface.” <a href="https://www.csoonline.com/article/4094506/oauth-token-compromise-hits-salesforce-ecosystem-again-gainsight-impacted.html" target="_blank">Source: https://www.csoonline.com/article/4094506/oauth-token-compromise-hits-salesforce-ecosystem-again-gainsight-impacted.html</a> (Moderate Confidence)</li>
+  <li>Research published recently indicates that adversary coalitions involving Russia and North Korea may be expanding, as reported by cybersecurity analysts who observed overlap in infrastructure and tactics between known groups linked to each country. This suggests an emerging trend of cross‑state collaboration in cyber operations. <a href="https://nypost.com/2025/11/22/world-news/cyber-pals-russian-and-north-korean-hackers-may-be-sharing-resources-programs-experts-say/" target="_blank">Source: https://nypost.com/2025/11/22/world-news/cyber-pals-russian-and-north-korean-hackers-may-be-sharing-resources-programs-experts-say/" /></li>
 </ul>
 
-<h3 style="color:darkblue;"><strong>IOCs</strong></h3>
+<h3 style="color: darkblue;"><b>Summary</b></h3>
+
 <ul>
-<li>185.225.74.136 (Unknown – GlobalProtect brute force) <a href="https://threatfox.abuse.ch/ioc/945246/" target="_blank">Source: https://threatfox.abuse.ch/ioc/945246/</a></li>
-<li>3.239.60.45 (ShinyHunters – OAuth token callback endpoint) <a href="https://www.virustotal.com/gui/ip-address/3.239.60.45" target="_blank">Source: https://www.virustotal.com/gui/ip-address/3.239.60.45</a></li>
-<li>7723f34e8579aa1dc3f3a70d12bb265d (Dropping Elephant – Python backdoor hash) <a href="https://bazaar.abuse.ch/sample/7723f34e8579aa1dc3f3a70d12bb265d23a9d7423f11b70d66f53dc02d5dfecb/" target="_blank">Source: https://bazaar.abuse.ch/sample/7723f34e8579aa1dc3f3a70d12bb265d23a9d7423f11b70d66f53dc02d5dfecb/</a></li>
+  <li><b>Immediate threats</b>: Ongoing Cl0p Oracle EBS exploitation, CodeRED attacker activity, intrusion by RomCom against U.S. firms tied to Ukraine, rising risk from hybrid‑warfare posture involving NATO and Russia, increasing geopolitical‑driven cyber risk between U.S., Russia, and China</li>
+  <li><b>Actionable steps</b>: Reassess third‑party, vendor, and partner risk especially for entities with geopolitical links; monitor geopolitical developments (NATO decisions, Russia and China posture) for changing threat models; maintain rigorous patch‑management and identity‑access hygiene; expand threat detection to include supply‑chain and indirect association exposures</li>
+  <li><b>Longer‑term needs</b>: Integrate geopolitical risk into cyber‑risk assessments, build resilience for hybrid‑warfare scenario (including physical + cyber sabotage), improve intelligence sharing across allied sectors, prepare for potential escalation in state‑backed cyber activities</li>
 </ul>
 
-<h3 style="color:darkblue;"><strong>Summary</strong></h3>
-<p><strong>Immediate threats:</strong></p>
-<ul>
-<li>OAuth token abuse in trusted third-party integrations (e.g., Gainsight/Salesforce) enabling broad downstream access.</li>
-<li>Massive brute-force login campaigns targeting VPN/remote-access portals (GlobalProtect) exposing credentials and session hijacking risk.</li>
-</ul>
-<p><strong>Actionable steps:</strong></p>
-<ul>
-<li>Audit all third-party SaaS integrations, revoke unused or suspicious OAuth tokens and service-accounts.</li>
-<li>Enforce MFA and multi-factor controls on remote access portals; reduce external exposure of VPN/portal login endpoints.</li>
-<li>Monitor login patterns for brute-force attempts and establish anomaly detection on authentication logs.</li>
-<li>Apply patches and vendor guidance for high-risk appliances (VPNs, firewalls, WAFs) immediately.</li>
-</ul>
-<p><strong>Longer-term needs:</strong></p>
-<ul>
-<li>Adopt continuous monitoring of non-human identities (service accounts, OAuth tokens) and incorporate token lifecycle/permissions into threat hunting.</li>
-<li>Build operational readiness for AI-driven threat campaigns and integrate detection for automated reconnaissance/exploitation chains.</li>
-<li>Reassess SaaS supply chain risk - establish granular least-privilege scopes for integrations, enforce vendor/partner resilience controls.</li>
-</ul>
+<h3 style="color: darkblue;"><b>IOCs</b></h3>
+<p>No reliable public sources in the last 7 days provided confirmed malicious IP addresses or file‑hash IOCs tied to these incidents. Consider monitoring open‑source threat‑feed repositories for emerging IOCs related to Cl0p, RomCom, and other state‑linked activity.</p>
 
 </body></html>
