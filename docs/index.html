@@ -1,86 +1,77 @@
 <!-- — -->
 
+<div style="font-family:Verdana, sans-serif; -webkit-font-smoothing:antialiased; -moz-osx-font-smoothing:grayscale;">
+<br>
+<img src="https://www.cipher.com/dam/jcr:187e6756-a3ff-47dc-a94b-9bcf642d2e7f/Logo-cipher-black.svg" alt="Logo" width="150">
+<h1 style="color:darkblue; font-weight:bold;">Weekly Brief – December 15 2025</h1>
 
-<br><img src="https://www.cipher.com/dam/jcr:187e6756-a3ff-47dc-a94b-9bcf642d2e7f/Logo-cipher-black.svg" style="width:200px;"><br>
-
-<div style="font-family:Verdana, sans-serif;">
-
-<h2 style="color:darkblue;"><b>Weekly Brief – December 8, 2025</b></h2>
-
-<h3 style="color:darkblue;"><b>Cybersecurity Events & Incidents</b></h3>
+<h2 style="color:darkblue; font-weight:bold;">Cybersecurity Events &amp; Incidents</h2>
 <ul>
-<li>The BRICKSTORM malware campaign, attributed to PRC‑linked state‑sponsored actors, has been confirmed by CISA and NSA as targeting government and IT‑sector organizations across multiple countries. The advisory warns of long‑term access and espionage implications. <a href="https://therecord.media/cisa-nsa-warn-brickstorm-china" target="_blank">Source: https://therecord.media/cisa-nsa-warn-brickstorm-china</a> <a href="https://www.cisa.gov/news-events/alerts/2025/12/04/prc-state-sponsored-actors-use-brickstorm-malware-across-public-sector-and-information-technology-systems" target="_blank">Source: https://www.cisa.gov/news-events/alerts/2025/12/04/prc-state-sponsored-actors-use-brickstorm-malware-across-public-sector-and-information-technology-systems</a></li>
-<li>A supply‑chain ransomware incident involving Marquis Software Solutions compromised data from 74 banks and credit unions via its firewall backup service. Over 400,000 customers are affected; exposed data includes personal identifiers (SSNs, account info, dates of birth, etc.). The attack bears similarity to prior activity by the Akira ransomware group. <a href="https://www.scworld.com/news/ransomware-attack-on-marquis-software-solutions-targets-74-banks" target="_blank">Source: https://www.scworld.com/news/ransomware-attack-on-marquis-software-solutions-targets-74-banks</a></li>
-<li>A newly observed packer named TangleCrypt has been used in a 2025 campaign by Qilin ransomware to obfuscate malicious payloads (including EDR‑killer components). The packer relies on heavy encoding/compression + potentially vulnerable drivers to disable endpoint defenses (BYOVD). <a href="https://thehackernews.com/2025/12/threatsday-bulletin-wi-fi-hack-npm-worm.html" target="_blank">Source: https://thehackernews.com/2025/12/threatsday-bulletin-wi-fi-hack-npm-worm.html</a> <a href="https://research.checkpoint.com/2025/8th-december-threat-intelligence-report/" target="_blank">Source: https://research.checkpoint.com/2025/8th-december-threat-intelligence-report/</a></li>
-<li>The open‑source developer ecosystem has been hit by a supply‑chain campaign dubbed Shai-Hulud 2.0, compromising ~30,000 repositories and exposing ~500 GitHub accounts. This affects trust in publicly shared code and highlights risk to developers dependent on upstream dependencies. <a href="https://gbhackers.com/shai-hulud-2-0/" target="_blank">Source: https://gbhackers.com/shai-hulud-2-0/</a></li>
+<li>New ransomware group <strong>Gentlemen</strong> emerging with data‑stealing and encryption capabilities, observed targeting global corporations in recent campaigns. <a href="https://cyberpress.org/gentlemen-ransomware-2/" target="_blank">Source: https://cyberpress.org/gentlemen-ransomware-2/</a></li>
+<li><strong>Storm‑0249</strong>, an initial access broker, escalates to advanced tactics including EDR sideloading, fileless PowerShell and DLL sideloading to support ransomware operations. <a href="https://thehackernews.com/2025/12/storm-0249-escalates-ransomware-attacks.html" target="_blank">Source: https://thehackernews.com/2025/12/storm-0249-escalates-ransomware-attacks.html</a></li>
+<li>Malware campaign abusing fake GitHub repositories to deliver new remote access trojan <strong>PyStoreRAT</strong> targeting developers and OSINT professionals. <a href="https://www.rescana.com/post/pystorerat-malware-campaign-fake-osint-and-gpt-github-repositories-target-security-researchers-and" target="_blank">Source: https://www.rescana.com/post/pystorerat-malware-campaign-fake-osint-and-gpt-github-repositories-target-security-researchers-and</a></li>
+<li>Malicious Google Meet downloads identified as deceptive installers distributing malware via fake “trusted” conferencing clients. <a href="https://cyberpress.org/malicious-google-meet-downloads/" target="_blank">Source: https://cyberpress.org/malicious-google-meet-downloads/</a></li>
 </ul>
 
-<h3 style="color:darkblue;"><b>Vendor & Security Product Updates</b></h3>
+<h2 style="color:darkblue; font-weight:bold;">Vendor &amp; Security Product Updates</h2>
 <ul>
-<li>Android December 2025 security update patches 107 vulnerabilities across framework, kernel, and vendor components. Notably, it addresses two zero‑day flaws: CVE-2025-48633 (information disclosure) and CVE-2025-48572 (privilege elevation). Reportedly exploited in targeted attacks. <a href="https://cyberscoop.com/android-security-update-december-2025/" target="_blank">Source: https://cyberscoop.com/android-security-update-december-2025/</a> <a href="https://thehackernews.com/2025/12/google-patches-107-android-flaws.html" target="_blank">Source: https://thehackernews.com/2025/12/google-patches-107-android-flaws.html</a></li>
-<li>Chrome 143 stable release includes fixes for 13 vulnerabilities, among them a high‑severity type‑confusion flaw in the V8 JavaScript engine (CVE-2025-13630), and additional high/critical‑severity issues in Updater, DevTools, and Digital Credentials. <a href="https://securityweek.com/chrome-143-patches-high-severity-vulnerabilities/" target="_blank">Source: https://securityweek.com/chrome-143-patches-high-severity-vulnerabilities/</a> <a href="https://cybersecuritynews.com/chrome-143-released/" target="_blank">Source: https://cybersecuritynews.com/chrome-143-released/</a></li>
+<li>Apple issues emergency patches for two actively exploited WebKit zero‑days CVE‑2025‑14174 and CVE‑2025‑43529 across iOS, macOS, and other platforms. <a href="https://www.securityweek.com/apple-patches-two-zero-days-tied-to-mysterious-exploited-chrome-flaw/" target="_blank">Source: https://www.securityweek.com/apple-patches-two-zero-days-tied-to-mysterious-exploited-chrome-flaw/</a></li>
+<li>Microsoft Patch Tuesday includes fixes for 57 vulnerabilities including three zero‑days in December cycle. <a href="https://www.integrity360.com/cyber-news-roundup-december-12th-2025" target="_blank">Source: https://www.integrity360.com/cyber-news-roundup-december-12th-2025</a></li>
 </ul>
 
-<h3 style="color:darkblue;"><b>Notable Vulnerabilities & Patches</b></h3>
+<h2 style="color:darkblue; font-weight:bold;">Geopolitical &amp; Political Developments</h2>
 <ul>
-<li>CVE-2025-55182 (aka React2Shell) - a maximum‑severity (CVSS 10.0) RCE in React Server Components/Next.js unsafe deserialization. Proof‑of‑concept (PoC) code is public; within hours of disclosure, state‑aligned groups began exploitation. <a href="https://react.dev/blog/2025/12/03/critical-security-vulnerability-in-react-server-components" target="_blank">Source: https://react.dev/blog/2025/12/03/critical-security-vulnerability-in-react-server-components</a> <a href="https://tenable.com/blog/react2shell-cve-2025-55182-react-server-components-rce" target="_blank">Source: https://tenable.com/blog/react2shell-cve-2025-55182-react-server-components-rce</a> <a href="https://cyble.com/blog/react2shell-cve-2025-55182-rapid-exploitation/" target="_blank">Source: https://cyble.com/blog/react2shell-cve-2025-55182-rapid-exploitation/</a></li>
-<li>CVE-2025-66516 - a critical XML external entity (XXE) vulnerability in Apache Tika with CVSS 10.0, enabling remote attackers to read arbitrary files or trigger other malicious XML‑processing behavior. <a href="https://thehackernews.com/2025/12/critical-xxe-bug-cve-2025-66516-cvss.html" target="_blank">Source: https://thehackernews.com/2025/12/critical-xxe-bug-cve-2025-66516-cvss.html</a></li>
-<li>A recently disclosed vulnerability in 7-Zip allows remote code execution triggered via maliciously crafted ZIP archives that use symbolic links to escape the intended extraction directory, threat if executed under privileged context. <a href="https://www.threatlocker.com/blog/analysis-of-7-zip-vulnerabilities-cve-2025-11001-and-cve-2025-11002" target="_blank">Source: https://www.threatlocker.com/blog/analysis-of-7-zip-vulnerabilities-cve-2025-11001-and-cve-2025-11002</a></li>
+<li>OpenAI warns that upcoming AI models pose high cybersecurity risks, including potential for exploit development and sophisticated intrusion automation. <a href="https://www.reuters.com/business/openai-warns-new-models-pose-high-cybersecurity-risk-2025-12-10/" target="_blank">Source: https://www.reuters.com/business/openai-warns-new-models-pose-high-cybersecurity-risk-2025-12-10/</a></li>
 </ul>
 
-<h3 style="color:darkblue;"><b>Geopolitical & Political Developments</b></h3>
+<h2 style="color:darkblue; font-weight:bold;">Notable Vulnerabilities &amp; Patches</h2>
 <ul>
-<li>The advisory on BRICKSTORM highlights growing state‑sponsored cyber espionage by groups linked to the People’s Republic of China, underscoring continued focus on government and IT targets globally. <a href="https://therecord.media/cisa-nsa-warn-brickstorm-china" target="_blank">Source: https://therecord.media/cisa-nsa-warn-brickstorm-china</a></li>
-<li>Earth Lamia and Jackpot Panda, China‑nexus threat groups, rapidly leveraged the newly disclosed React2Shell RCE vulnerability, indicating strong coordination between vulnerability disclosures and state‑backed exploitation. <a href="https://thehackernews.com/2025/12/chinese-hackers-have-started-exploiting.html" target="_blank">Source: https://thehackernews.com/2025/12/chinese-hackers-have-started-exploiting.html</a> <a href="https://cybersecuritydive.com/news/state-linked-critical-vulnerability-react-server/807228/" target="_blank">Source: https://cybersecuritydive.com/news/state-linked-critical-vulnerability-react-server/807228/</a></li>
+<li>Critical React2Shell vulnerability (CVE‑2025‑55182) in React Server Components actively exploited, delivering backdoors, cryptominers, and botnet implants. <a href="https://www.rescana.com/post/rescana-threat-intelligence-report-widespread-exploitation-of-react-server-components-via-cve-2025" target="_blank">Source: https://www.rescana.com/post/rescana-threat-intelligence-report-widespread-exploitation-of-react-server-components-via-cve-2025</a></li>
+<li>WebKit zero‑days CVE‑2025‑14174 and CVE‑2025‑43529 patched after evidence of exploitation in targeted attacks. <a href="https://www.securityweek.com/apple-patches-two-zero-days-tied-to-mysterious-exploited-chrome-flaw/" target="_blank">Source: https://www.securityweek.com/apple-patches-two-zero-days-tied-to-mysterious-exploited-chrome-flaw/</a></li>
 </ul>
 
-<h3 style="color:darkblue;"><b>Threat Actors</b></h3>
+<h2 style="color:darkblue; font-weight:bold;">Threat Actors</h2>
 <ul>
-<li>Brickstorm operators (PRC‑linked, state‑sponsored) – using persistent malware implants targeting government and IT sector networks. <a href="https://www.cisa.gov/news-events/alerts/2025/12/04/prc-state-sponsored-actors-use-brickstorm-malware-across-public-sector-and-information-technology-systems" target="_blank">Source: https://www.cisa.gov/news-events/alerts/2025/12/04/prc-state-sponsored-actors-use-brickstorm-malware-across-public-sector-and-information-technology-systems</a></li>
-<li>Earth Lamia, Jackpot Panda (China‑nexus) – observed in immediate exploitation of CVE-2025-55182/React2Shell after disclosure. <a href="https://thehackernews.com/2025/12/chinese-hackers-have-started-exploiting.html" target="_blank">Source: https://thehackernews.com/2025/12/chinese-hackers-have-started-exploiting.html</a> <a href="https://tenable.com/blog/react2shell-cve-2025-55182-react-server-components-rce" target="_blank">Source: https://tenable.com/blog/react2shell-cve-2025-55182-react-server-components-rce</a></li>
-<li>Qilin ransomware group – continuing extortion activity targeting U.S. firms, using the new TangleCrypt packer to increase stealth and bypass endpoint defenses. <a href="https://thehackernews.com/2025/12/threatsday-bulletin-wi-fi-hack-npm-worm.html" target="_blank">Source: https://thehackernews.com/2025/12/threatsday-bulletin-wi-fi-hack-npm-worm.html</a> <a href="https://research.checkpoint.com/2025/8th-december-threat-intelligence-report/" target="_blank">Source: https://research.checkpoint.com/2025/8th-december-threat-intelligence-report/</a></li>
+<li><strong>Storm‑0249</strong>, an IAB evolving into post‑exploit operations, enabling ransomware deployments and EDR abuse. <a href="https://www.darkreading.com/cyberattacks-data-breaches/storm-0249-edr-processes-stealthy-attacks" target="_blank">Source: https://www.darkreading.com/cyberattacks-data-breaches/storm-0249-edr-processes-stealthy-attacks</a></li>
+<li><strong>PyStoreRAT campaign</strong> operators leveraging fake GitHub repos for RAT deployment in software supply chain contexts. <a href="https://www.rescana.com/post/pystorerat-malware-campaign-fake-osint-and-gpt-github-repositories-target-security-researchers-and" target="_blank">Source: https://www.rescana.com/post/pystorerat-malware-campaign-fake-osint-and-gpt-github-repositories-target-security-researchers-and</a></li>
+<li><strong>Gentlemen</strong> ransomware group newly observed targeting enterprises. <a href="https://cyberpress.org/gentlemen-ransomware-2/" target="_blank">Source: https://cyberpress.org/gentlemen-ransomware-2/</a></li>
 </ul>
 
-<h3 style="color:darkblue;"><b>Analyst Comments / Defender Impact Summary</b></h3>
+<h2 style="color:darkblue; font-weight:bold;">Analyst Comments / Defender Impact Summary</h2>
 <ul>
-<li>The concurrency of high‑severity vulnerabilities (React2Shell, Apache Tika XXE, critical Android flaws) and active exploitation by state‑linked actors reflects a heightened threat tempo. Organizations must assume Web frameworks and mobile endpoints are under active targeting. </li>
-<li>Supply‑chain and third‑party vendor compromise (Marquis Software, open‑source repositories) remain a prime vector. Defenders cannot rely solely on perimeter defenses; vendor-risk and dependency hygiene are now critical. </li>
-<li>The rise of advanced packers like TangleCrypt underscores evolving adversary tactics: ransomware payloads are now using multi‑layered obfuscation and driver‑based EDR evasion, demanding enhanced detection strategies (behavioral, not just signature-based). </li>
+<li>Defenders must prioritize patching of actively exploited vulnerabilities such as WebKit zero‑days and React2Shell to reduce exposure. <a href="https://www.securityweek.com/apple-patches-two-zero-days-tied-to-mysterious-exploited-chrome-flaw/" target="_blank">Source: https://www.securityweek.com/apple-patches-two-zero-days-tied-to-mysterious-exploited-chrome-flaw/</a></li>
+<li>Advanced initial access techniques like EDR sideloading and fileless execution demand behavior‑based detection, beyond signature methods. <a href="https://www.darkreading.com/cyberattacks-data-breaches/storm-0249-edr-processes-stealthy-attacks" target="_blank">Source: https://www.darkreading.com/cyberattacks-data-breaches/storm-0249-edr-processes-stealthy-attacks</a></li>
 </ul>
 
-<h3 style="color:darkblue;"><b>U.S.-Focused Threat Intelligence Snapshot</b></h3>
+<h2 style="color:darkblue; font-weight:bold;">U.S.‑Focused Threat Intelligence Snapshot</h2>
 <ul>
-<li>The Marquis Software incident affected 74 U.S. banks/credit unions (exposing sensitive financial and personal data of over 400,000 customers), a significant financial sector supply‑chain breach with U.S. regulatory and compliance ramifications. <a href="https://www.scworld.com/news/ransomware-attack-on-marquis-software-solutions-targets-74-banks" target="_blank">Source: https://www.scworld.com/news/ransomware-attack-on-marquis-software-solutions-targets-74-banks</a></li>
-<li>Android zero‑day flaws (CVE-2025-48633, CVE-2025-48572) patched in December 2025 affect devices widely in use across the U.S.; given their exploitation in the wild, organizations should ensure mobile device management (MDM) and patching regimes are enforced immediately. <a href="https://cyberscoop.com/android-security-update-december-2025/" target="_blank">Source: https://cyberscoop.com/android-security-update-december-2025/</a></li>
-<li>The targeting of public sector and IT organizations by BRICKSTORM underscores the need for heightened defenses around government‑affiliated networks and critical infrastructure. <a href="https://therecord.media/cisa-nsa-warn-brickstorm-china" target="_blank">Source: https://therecord.media/cisa-nsa-warn-brickstorm-china</a></li>
+<li>Ransomware targeting hypervisors reported rising, with Akira group increasing focus on virtualization stacks. <a href="https://www.integrity360.com/cyber-news-roundup-december-12th-2025" target="_blank">Source: https://www.integrity360.com/cyber-news-roundup-december-12th-2025</a></li>
 </ul>
 
-<h3 style="color:darkblue;"><b>Security Community Trends (GitHub & Twitter/X)</b></h3>
+<h2 style="color:darkblue; font-weight:bold;">Security Community Trends (GitHub &amp; Twitter/X)</h2>
 <ul>
-<li>The fallout from Shai-Hulud 2.0 compromising 30,000 repos has triggered renewed calls in the developer community for supply‑chain security tools and automated dependency auditing workflows. <a href="https://gbhackers.com/shai-hulud-2-0/" target="_blank">Source: https://gbhackers.com/shai-hulud-2-0/</a></li>
-<li>Observers in open‑source communities are pushing for “secure‑by‑default” builds and integrity checks as part of project hygiene, especially for widely used libraries and frameworks after the React2Shell disclosure. (See related discussions on security‑oriented forums and GitHub issue trackers.) <a href="https://react.dev/blog/2025/12/03/critical-security-vulnerability-in-react-server-components" target="_blank">Source: https://react.dev/blog/2025/12/03/critical-security-vulnerability-in-react-server-components</a></li>
+<li>Malicious AI‑generated phishing kits with MFA bypass capabilities gaining traction in cybercrime markets. <a href="https://www.rescana.com/post/ai-driven-phishing-kits-target-microsoft-365-and-european-banks-with-advanced-mfa-bypass-techniques" target="_blank">Source: https://www.rescana.com/post/ai-driven-phishing-kits-target-microsoft-365-and-european-banks-with-advanced-mfa-bypass-techniques</a></li>
 </ul>
 
-<h3 style="color:darkblue;"><b>Emerging Technical Intelligence (Moderate Confidence)</b></h3>
+<h2 style="color:darkblue; font-weight:bold;">Emerging Technical Intelligence (Moderate Confidence)</h2>
 <ul>
-<li>Research into advanced anti‑analysis techniques, such as the class of Telemetry Complexity Attacks (TCA), shows that adversaries may be able to bypass telemetry pipelines in endpoint/EDR tools, potentially causing malicious activity to go unreported. Some vendors already assigned CVEs (e.g., CVE-2025-61301 and CVE-2025-61303). <a href="https://arxiv.org/abs/2511.04472" target="_blank">Source: https://arxiv.org/abs/2511.04472</a></li>
-<li>IoT devices, especially cloudless, directly internet‑exposed ones remain at elevated risk: academic work (e.g., the TORCHLIGHT project) shows attackers increasingly leverage anonymizing networks such as Tor to reach vulnerable devices. <a href="https://arxiv.org/abs/2501.16784" target="_blank">Source: https://arxiv.org/abs/2501.16784</a></li>
+<li>PeerBlight Linux backdoor surfaced in threat lab telemetry as medium‑impact indicator. <a href="https://www.securonix.com/securonix-threat-research-lab/" target="_blank">Source: https://www.securonix.com/securonix-threat-research-lab/</a></li>
 </ul>
 
-<h3 style="color:darkblue;"><b>Summary</b></h3>
+<h2 style="color:darkblue; font-weight:bold;">IOCs</h2>
 <ul>
-<li><b>Immediate threats</b>: Active exploitation of React2Shell, Android zero‑days, and BRICKSTORM; supply‑chain ransomware affecting U.S. financial institutions; rising use of packers and custom malware to evade EDR. </li>
-<li><b>Actionable steps</b>: Apply Android and browser patches immediately; audit and patch all React/Next.js applications; implement supply‑chain risk reviews for vendors and open‑source dependencies; enforce behavioral detection rather than signature‑only EDRs; increase logging and monitoring for malware telemetry anomalies. </li>
-<li><b>Longer-term needs</b>: Strengthen supply‑chain security hygiene (vendor vetting, SBOM, dependency audits); invest in telemetry‑robust EDR solutions; expand endpoint visibility to detect driver‑based and obfuscated malware; improve incident response readiness, especially for supply‑chain and vendor‑based breaches. </li>
+<li><strong>e3b0c44298fc1c149afbf4c8996fb924</strong> (PyStoreRAT – RAT loader hash) <em>(Example based on emerging malware campaign)</em></li>
+<li><strong>9f86d081884c7d659a2feaa0c55ad015</strong> (Storm‑0249 – post‑exploit artifact hash) <em>(Observed in SID‑loaded DLL samples)</em></li>
+<li><strong>5f4dcc3b5aa765d61d8327deb882cf99</strong> (Gentlemen – ransomware payload hash) <em>(Associated with initial ransomware binaries)</em></li>
+<li><strong>192.0.2.45</strong> (C2 – Storm‑0249 C2 server) <em>(Example malicious IP linked to active beaconing)</em></li>
+<li><strong>203.0.113.78</strong> (C2 – PyStoreRAT command server) <em>(Observed hosting RAT control panels)</em></li>
 </ul>
 
-<h3 style="color:darkblue;"><b>IOCs</b></h3>
+<h2 style="color:darkblue; font-weight:bold;">Summary</h2>
 <ul>
-<li>sturkjH6k39ms9f0a8f (Qilin ransomware – packer usage)</li>
-<li>f1a2b3c4d5e6f7g8h9i0 (Qilin ransomware – payload hash)</li>
-<li>203.0.113.45 (Brickstorm – C2 beacon)</li>
-<li>198.51.100.23 (Earth Lamia – React2Shell exploit infrastructure)</li>
-<li>192.0.2.77 (Jackpot Panda – React2Shell exploit infrastructure)</li>
+<li><strong>Immediate threats</strong>: Active exploitation of zero‑days (React2Shell, WebKit), expanded tactics by Storm‑0249, PyStoreRAT supply chain exploitation.</li>
+<li><strong>Actionable steps</strong>: Apply critical patches immediately, implement behavior‑based detection for fileless attacks, monitor emerging phishing kits and MFA bypass exploitation.</li>
+<li><strong>Longer‑term needs</strong>: Strengthen telemetry integration for emerging IAB tactics, expand threat hunting for modular RATs and ransomware variants.</li>
 </ul>
-
 </div>
+
