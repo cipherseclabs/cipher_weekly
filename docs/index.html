@@ -1,70 +1,76 @@
 <!-- — -->
 
-<div style="font-family:Verdana, sans-serif; -webkit-font-smoothing:antialiased;">
-  <img src="https://www.cipher.com/dam/jcr:187e6756-a3ff-47dc-a94b-9bcf642d2e7f/Logo-cipher-black.svg" alt="Logo" width="120">
-  <br>
-  <h1 style="color:darkblue; font-weight:bold;">Weekly Brief – 29 December 2025</h1>
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body { font-family: Verdana, sans-serif; -webkit-font-smoothing: antialiased; }
+h2 { color: darkblue; font-weight: bold; }
+ul { margin-top: 0; }
+</style>
+</head>
+<body>
 
-  <h2 style="color:darkblue; font-weight:bold;">Cybersecurity Events &amp; Incidents</h2>
-  <ul>
-    <li>Critical MongoDB vulnerability CVE-2025-14847 “MongoBleed” is under active exploitation, affecting over 87,000 exposed instances worldwide and being linked to high-impact breaches such as Ubisoft Rainbow Six Siege internal compromise. <a href="https://thehackernews.com/2025/12/mongodb-vulnerability-cve-2025-14847.html" target="_blank">Source: https://thehackernews.com/2025/12/mongodb-vulnerability-cve-2025-14847.html</a></li>
-    <li>EmEditor supply chain attack, malicious installer distributed via official website download between Dec 19–22, leading to infostealer deployment. <a href="https://www.securityweek.com/infostealer-malware-delivered-in-emeditor-supply-chain-attack/" target="_blank">Source: https://www.securityweek.com/infostealer-malware-delivered-in-emeditor-supply-chain-attack/</a></li>
-    <li>Ransomware attack disrupted Romania’s national water authority operations across ~1,000 critical servers, indicating continued targeting of essential infrastructure. <a href="https://www.techradar.com/pro/security/ransomware-attack-on-romanian-water-agency-hits-over-a-thousand-systems" target="_blank">Source: https://www.techradar.com/pro/security/ransomware-attack-on-romanian-water-agency-hits-over-a-thousand-systems</a></li>
-    <li>Malicious GitHub repositories distributing WebRAT malware detected, leveraging fake PoC exploits and generative AI-created content to drop backdoors and info stealers. <a href="https://www.techradar.com/pro/security/dangerous-webrat-malware-now-being-spread-by-github-repositories" target="_blank">Source: https://www.techradar.com/pro/security/dangerous-webrat-malware-now-being-spread-by-github-repositories</a></li>
-    <li>Alleged Korean Air employee data breach via Oracle E-Business Suite zero-day exploited; emergency response enacted on discovery. <a href="https://www.rescana.com/post/korean-air-employee-data-breach-via-oracle-e-business-suite-zero-day-cve-2025-61882-clop-ransomwa" target="_blank">Source: https://www.rescana.com/post/korean-air-employee-data-breach-via-oracle-e-business-suite-zero-day-cve-2025-61882-clop-ransomwa</a></li>
-  </ul>
+<img src="https://www.cipher.com/dam/jcr:187e6756-a3ff-47dc-a94b-9bcf642d2e7f/Logo-cipher-black.svg" alt="Cipher Logo" width="150"><br>
 
-  <h2 style="color:darkblue; font-weight:bold;">Vendor &amp; Security Product Updates</h2>
-  <ul>
-    <li>MongoDB has patched CVE-2025-14847 across multiple versions; defenders should ensure updates are applied. <a href="https://acumencyber.com/cyber-threat-intelligence-digest-december-2025-week-51" target="_blank">Source: https://acumencyber.com/cyber-threat-intelligence-digest-december-2025-week-51</a></li>
-    <li>Elastic released fixes for CVE-2025-68385 XSS in Kibana. <a href="https://acumencyber.com/cyber-threat-intelligence-digest-december-2025-week-51" target="_blank">Source: https://acumencyber.com/cyber-threat-intelligence-digest-december-2025-week-51</a></li>
-  </ul>
+<h2>Weekly Brief – January 5, 2026</h2>
 
-  <h2 style="color:darkblue; font-weight:bold;">Geopolitical &amp; Political Developments</h2>
-  <ul>
-    <li>Amazon reporting that Russian-backed threat groups conducted a five-year campaign exploiting misconfigured edge devices targeting critical Western infrastructure sectors. <a href="https://www.itpro.com/security/cyber-attacks/amazon-says-russian-backed-threat-groups-were-responsible-for-five-year-long-attacks-on-edge-devices-and-it-shows-a-clear-evolution-in-tactics" target="_blank">Source: https://www.itpro.com/security/cyber-attacks/amazon-says-russian-backed-threat-groups-were-responsible-for-five-year-long-attacks-on-edge-devices-and-it-shows-a-clear-evolution-in-tactics</a></li>
-  </ul>
+<h2>Cybersecurity Events &amp; Incidents</h2>
+<ul>
+<li>Ransomware group Gentlemen continues targeting critical industries worldwide with advanced tailored ransomware campaigns. <a href="https://www.hivepro.com/threat-advisory/the-gentlemen-ransomware-a-rising-global-cyber-threat" target="_blank">Source: https://www.hivepro.com/threat-advisory/the-gentlemen-ransomware-a-rising-global-cyber-threat</a></li>
+<li>MongoDB memory leak vulnerability CVE-2025-14847 (“MongoBleed”) is actively exploited in the wild, allowing unauthenticated attackers to leak sensitive server memory. <a href="https://www.tenable.com/blog/cve-2025-14847-mongobleed-mongodb-memory-leak-vulnerability-exploited-in-the-wild" target="_blank">Source: https://www.tenable.com/blog/cve-2025-14847-mongobleed-mongodb-memory-leak-vulnerability-exploited-in-the-wild</a></li>
+</ul>
 
-  <h2 style="color:darkblue; font-weight:bold;">Notable Vulnerabilities &amp; Patches</h2>
-  <ul>
-    <li>CVE-2025-14847 “MongoBleed”: unauthenticated memory leak and potential data disclosure in affected MongoDB Servers. <a href="https://thehackernews.com/2025/12/mongodb-vulnerability-cve-2025-14847.html" target="_blank">Source: https://thehackernews.com/2025/12/mongodb-vulnerability-cve-2025-14847.html</a></li>
-    <li>CVE-2025-68664: LangChain Core deserialization flaw enabling arbitrary code execution (high severity). <a href="https://research.checkpoint.com/2025/29th-december-threat-intelligence-report/" target="_blank">Source: https://research.checkpoint.com/2025/29th-december-threat-intelligence-report/</a></li>
-    <li>CVE-2025-68615: Net-SNMP snmptrapd buffer overflow, critical RCE risk. <a href="https://research.checkpoint.com/2025/29th-december-threat-intelligence-report/" target="_blank">Source: https://research.checkpoint.com/2025/29th-december-threat-intelligence-report/</a></li>
-    <li>CVE-2025-68613: Critical RCE in n8n workflow automation, widespread exposure. <a href="https://www.resecurity.com/blog/article/cve-2025-68613-remote-code-execution-via-expression-injection-in-n8n-2" target="_blank">Source: https://www.resecurity.com/blog/article/cve-2025-68613-remote-code-execution-via-expression-injection-in-n8n-2</a></li>
-  </ul>
+<h2>Vendor &amp; Security Product Updates</h2>
+<ul>
+<li>MongoDB released security updates to address CVE-2025-14847 (“MongoBleed”), urging affected deployments to upgrade to patched versions. <a href="https://www.mongodb.com/company/blog/news/mongodb-server-security-update-december-2025" target="_blank">Source: https://www.mongodb.com/company/blog/news/mongodb-server-security-update-december-2025</a></li>
+</ul>
 
-  <h2 style="color:darkblue; font-weight:bold;">Threat Actors</h2>
-  <ul>
-    <li>ShinyHunters/Scattered LAPSUS$ Hunters linked to data-theft campaigns in 2025, including Salesforce-related exfiltration. <a href="https://en.wikipedia.org/wiki/ShinyHunters" target="_blank">Source: https://en.wikipedia.org/wiki/ShinyHunters</a></li>
-    <li>Clop associated exploitation of Oracle EBS zero-day in recent breach activity. <a href="https://www.rescana.com/post/korean-air-employee-data-breach-via-oracle-e-business-suite-zero-day-cve-2025-61882-clop-ransomwa" target="_blank">Source: https://www.rescana.com/post/korean-air-employee-data-breach-via-oracle-e-business-suite-zero-day-cve-2025-61882-clop-ransomwa</a></li>
-  </ul>
+<h2>Geopolitical &amp; Political Developments</h2>
+<ul>
+<li>Two former U.S. cybersecurity professionals pled guilty for conspiring to conduct ransomware attacks using ALPHV/BlackCat ransomware impacting multiple U.S. firms. <a href="https://www.reuters.com/legal/government/two-us-cyber-experts-plead-guilty-cooperating-with-notorious-ransomware-gang-2025-12-30/" target="_blank">Source: https://www.reuters.com/legal/government/two-us-cyber-experts-plead-guilty-cooperating-with-notorious-ransomware-gang-2025-12-30/</a></li>
+</ul>
 
-  <h2 style="color:darkblue; font-weight:bold;">Analyst Comments / Defender Impact Summary</h2>
-  <ul>
-    <li>This week’s landscape shows heightened exploitation of critical vulnerabilities like MongoBleed and reveals ongoing supply-chain and automation platform risks. Patch prioritization and supply chain validation remain critical.</li>
-    <li>Ransomware continues to disrupt critical infrastructure, underscoring the need for robust segmentation and incident response readiness across essential services.</li>
-  </ul>
+<h2>Notable Vulnerabilities &amp; Patches</h2>
+<ul>
+<li>CVE-2025-14847 (“MongoBleed”) is a high-severity information disclosure vulnerability in MongoDB’s zlib compression handling, exploited in the wild with public PoC and tens of thousands of exposed instances. <a href="https://www.akamai.com/blog/security-research/cve-2025-14847-all-you-need-to-know-about-mongobleed" target="_blank">Source: https://www.akamai.com/blog/security-research/cve-2025-14847-all-you-need-to-know-about-mongobleed</a></li>
+</ul>
 
-  <h2 style="color:darkblue; font-weight:bold;">U.S.-Focused Threat Intelligence Snapshot</h2>
-  <ul>
-    <li>Over 42% of cloud environments contain at least one MongoDB instance vulnerable to CVE-2025-14847, with many in the U.S. impacted. <a href="https://thehackernews.com/2025/12/mongodb-vulnerability-cve-2025-14847.html" target="_blank">Source: https://thehackernews.com/2025/12/mongodb-vulnerability-cve-2025-14847.html</a></li>
-  </ul>
+<h2>Threat Actors</h2>
+<ul>
+<li>The Gentlemen ransomware group, active since August 2025, employs highly adaptive tactics, exfiltration, and customized payload deployment. <a href="https://www.hivepro.com/threat-advisory/the-gentlemen-ransomware-a-rising-global-cyber-threat" target="_blank">Source: https://www.hivepro.com/threat-advisory/the-gentlemen-ransomware-a-rising-global-cyber-threat</a></li>
+<li>ALPHV/BlackCat ransomware remains a significant RaaS threat with ongoing affiliate activity impacting U.S. organizations. <a href="https://www.reuters.com/legal/government/two-us-cyber-experts-plead-guilty-cooperating-with-notorious-ransomware-gang-2025-12-30/" target="_blank">Source: https://www.reuters.com/legal/government/two-us-cyber-experts-plead-guilty-cooperating-with-notorious-ransomware-gang-2025-12-30/</a></li>
+</ul>
 
-  <h2 style="color:darkblue; font-weight:bold;">Security Community Trends (GitHub &amp; Twitter/X)</h2>
-  <ul>
-    <li>Security discussions highlight malicious use of AI to create malware and deceptive repositories, spurring community guidance on detection and mitigation. <a href="https://www.techradar.com/pro/security/dangerous-webrat-malware-now-being-spread-by-github-repositories" target="_blank">Source: https://www.techradar.com/pro/security/dangerous-webrat-malware-now-being-spread-by-github-repositories</a></li>
-  </ul>
+<h2>Analyst Comments / Defender Impact Summary</h2>
+<ul>
+<li>Defenders must patch MongoDB instances to mitigate active exploitation and monitor leak site activity for emerging trends in ransomware group behavior. <a href="https://www.tenable.com/blog/cve-2025-14847-mongobleed-mongodb-memory-leak-vulnerability-exploited-in-the-wild" target="_blank">Source: https://www.tenable.com/blog/cve-2025-14847-mongobleed-mongodb-memory-leak-vulnerability-exploited-in-the-wild</a></li>
+</ul>
 
-  <h2 style="color:darkblue; font-weight:bold;">Emerging Technical Intelligence (Moderate Confidence)</h2>
-  <ul>
-    <li>n8n workflow automation critical RCE indicates emerging risk vectors in AI-integrated automation platforms. <a href="https://www.resecurity.com/blog/article/cve-2025-68613-remote-code-execution-via-expression-injection-in-n8n-2" target="_blank">Source: https://www.resecurity.com/blog/article/cve-2025-68613-remote-code-execution-via-expression-injection-in-n8n-2</a></li>
-  </ul>
+<h2>U.S.-Focused Threat Intelligence Snapshot</h2>
+<ul>
+<li>Prosecution of ALPHV/BlackCat affiliates highlights insider-enabled ransomware threats and emphasizes legal consequences. <a href="https://www.reuters.com/legal/government/two-us-cyber-experts-plead-guilty-cooperating-with-notorious-ransomware-gang-2025-12-30/" target="_blank">Source: https://www.reuters.com/legal/government/two-us-cyber-experts-plead-guilty-cooperating-with-notorious-ransomware-gang-2025-12-30/</a></li>
+</ul>
 
-  <h2 style="color:darkblue; font-weight:bold;">IOCs</h2>
-  <ul>
-    <li>87,000+ exposed MongoDB instances actively probed (ShinyHunters/Generic Exploit Activity)</li>
-    <li>WebRAT malware executable: <code>rasmanesc.exe</code> (WebRAT Campaign)</li>
-    <li>Victim telemetry showing anomalous pre-auth connections targeting MongoDB zlib routines (Generic Exploit Activity)</li>
-  </ul>
-</div>
+<h2>Security Community Trends (GitHub &amp; Twitter/X)</h2>
+<ul>
+<li>Security researchers actively discuss MongoBleed PoC and detection strategies across open platforms following exploit release. <a href="https://www.akamai.com/blog/security-research/cve-2025-14847-all-you-need-to-know-about-mongobleed" target="_blank">Source: https://www.akamai.com/blog/security-research/cve-2025-14847-all-you-need-to-know-about-mongobleed</a></li>
+</ul>
+
+<h2>Emerging Technical Intelligence (Moderate Confidence)</h2>
+<ul>
+<li>Ransomware trends indicate increased double extortion methods and data leak site usage as part of ransomware economics. <a href="https://cyble.com/knowledge-hub/10-new-ransomware-groups-of-2025-threat-trend-2026/" target="_blank">Source: https://cyble.com/knowledge-hub/10-new-ransomware-groups-of-2025-threat-trend-2026/</a></li>
+</ul>
+
+<h2>IOCs</h2>
+<ul>
+<li>213.490 publicly reachable MongoDB instances (Shodan observed exposure potentially vulnerable to CVE-2025-14847 – memory leak exploit) (MongoBleed exploitation activity) <a href="https://www.tenable.com/blog/cve-2025-14847-mongobleed-mongodb-memory-leak-vulnerability-exploited-in-the-wild" target="_blank">Source: https://www.tenable.com/blog/cve-2025-14847-mongobleed-mongodb-memory-leak-vulnerability-exploited-in-the-wild</a></li>
+<li>Tor leak site observed for The Gentlemen ransomware data publications (e.g., cryptodump .onion) (The Gentlemen – data leak site) <a href="https://www.ransomware.live/group/thegentlemen" target="_blank">Source: https://www.ransomware.live/group/thegentlemen</a></li>
+<li>847fb7609f53ed334d5affbb07256c21cb5e6f68b1cc14004f5502d714d2a456 (ALPHV/BlackCat ransomware sample SHA256) (ALPHV/BlackCat ransomware) <a href="https://www.picussecurity.com/resource/blog/alphv-ransomware" target="_blank">Source: https://www.picussecurity.com/resource/blog/alphv-ransomware</a></li>
+<li>Asss1exe.bin (BlackCat ransomware sample file name associated with SHA256 847fb7609f53ed334d5affbb07256c21cb5e6f68b1cc14004f5502d714d2a456) (ALPHV/BlackCat ransomware) <a href="https://www.picussecurity.com/resource/blog/alphv-ransomware" target="_blank">Source: https://www.picussecurity.com/resource/blog/alphv-ransomware</a></li>
+<li>Public PoC GitHub exploit for CVE-2025-14847 (MongoBleed PoC exploit repository) (MongoBleed exploitation) <a href="https://github.com/search?q=MongoBleed+CVE-2025-14847" target="_blank">Source: https://github.com/search?q=MongoBleed+CVE-2025-14847</a></li>
+</ul>
+
+</body>
+</html>
 
