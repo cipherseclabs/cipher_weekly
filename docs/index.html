@@ -5,72 +5,75 @@
 <head>
 <style>
 body { font-family: Verdana, sans-serif; -webkit-font-smoothing: antialiased; }
-h2 { color: darkblue; font-weight: bold; }
+h1, h2 { color: darkblue; font-weight: bold; }
 ul { margin-top: 0; }
 </style>
 </head>
 <body>
 
-<img src="https://www.cipher.com/dam/jcr:187e6756-a3ff-47dc-a94b-9bcf642d2e7f/Logo-cipher-black.svg" alt="Cipher Logo" width="150"><br>
+<img src="https://www.cipher.com/dam/jcr:187e6756-a3ff-47dc-a94b-9bcf642d2e7f/Logo-cipher-black.svg" alt="Cipher Logo" width="120"><br>
 
-<h2>Weekly Brief – January 5, 2026</h2>
+<h1>Weekly Brief – January 12, 2026</h1>
 
 <h2>Cybersecurity Events &amp; Incidents</h2>
 <ul>
-<li>Ransomware group Gentlemen continues targeting critical industries worldwide with advanced tailored ransomware campaigns. <a href="https://www.hivepro.com/threat-advisory/the-gentlemen-ransomware-a-rising-global-cyber-threat" target="_blank">Source: https://www.hivepro.com/threat-advisory/the-gentlemen-ransomware-a-rising-global-cyber-threat</a></li>
-<li>MongoDB memory leak vulnerability CVE-2025-14847 (“MongoBleed”) is actively exploited in the wild, allowing unauthenticated attackers to leak sensitive server memory. <a href="https://www.tenable.com/blog/cve-2025-14847-mongobleed-mongodb-memory-leak-vulnerability-exploited-in-the-wild" target="_blank">Source: https://www.tenable.com/blog/cve-2025-14847-mongobleed-mongodb-memory-leak-vulnerability-exploited-in-the-wild</a></li>
+<li>North Korea–linked APT Kimsuky (APT43) uses malicious QR code spear‑phishing (“quishing”) against government agencies, think tanks, and academic institutions, bypassing traditional email security filters. <a href="https://securityaffairs.com/186755/intelligence/north-korea-linked-apt-kimsuky-behind-quishing-attacks-fbi-warns.html" target="_blank">Source: https://securityaffairs.com/186755/intelligence/north-korea-linked-apt-kimsuky-behind-quishing-attacks-fbi-warns.html</a></li>
+<li>Chinese‑speaking threat actors exploited VMware ESXi zero‑day vulnerabilities to deploy an exploit toolkit that escapes VMs and compromises the hypervisor, suggesting development long before public disclosure. <a href="https://thehackernews.com/2026/01/chinese-linked-hackers-exploit-vmware.html" target="_blank">Source: https://thehackernews.com/2026/01/chinese-linked-hackers-exploit-vmware.html</a></li>
+<li>Massive data breach exposes personal data of approximately 17.5 million Instagram users, triggering widespread password reset actions. <a href="https://securityaffairs.com/186765/data-breach/a-massive-breach-exposed-data-of-17-5m-instagram-users.html?amp=1" target="_blank">Source: https://securityaffairs.com/186765/data-breach/a-massive-breach-exposed-data-of-17-5m-instagram-users.html?amp=1</a></li>
+<li>Hacker advertises 139 GB of sensitive engineering data allegedly stolen from U.S. utilities and critical infrastructure service providers for sale online. <a href="https://www.itpro.com/security/cyber-attacks/hacker-offering-us-engineering-firm-data-online-after-alleged-breach" target="_blank">Source: https://www.itpro.com/security/cyber-attacks/hacker-offering-us-engineering-firm-data-online-after-alleged-breach</a></li>
 </ul>
 
 <h2>Vendor &amp; Security Product Updates</h2>
 <ul>
-<li>MongoDB released security updates to address CVE-2025-14847 (“MongoBleed”), urging affected deployments to upgrade to patched versions. <a href="https://www.mongodb.com/company/blog/news/mongodb-server-security-update-december-2025" target="_blank">Source: https://www.mongodb.com/company/blog/news/mongodb-server-security-update-december-2025</a></li>
+<li>QNAP patches multiple flaws (CVE‑2025‑52871, CVE‑2025‑53597) in its License Center application that could expose sensitive data; updating to version 2.0.36+ recommended. <a href="https://gbhackers.com/multiple-flaws-in-qnap-tools/" target="_blank">Source: https://gbhackers.com/multiple-flaws-in-qnap-tools/</a></li>
 </ul>
 
 <h2>Geopolitical &amp; Political Developments</h2>
 <ul>
-<li>Two former U.S. cybersecurity professionals pled guilty for conspiring to conduct ransomware attacks using ALPHV/BlackCat ransomware impacting multiple U.S. firms. <a href="https://www.reuters.com/legal/government/two-us-cyber-experts-plead-guilty-cooperating-with-notorious-ransomware-gang-2025-12-30/" target="_blank">Source: https://www.reuters.com/legal/government/two-us-cyber-experts-plead-guilty-cooperating-with-notorious-ransomware-gang-2025-12-30/</a></li>
+<li>Cyber vulnerabilities of critical infrastructure highlighted by international events in Venezuela underscore ongoing risk of cyber operations intersecting with kinetic activities. <a href="https://www.wsj.com/articles/venezuela-raid-highlights-cyber-vulnerability-of-critical-infrastructure-28aed054" target="_blank">Source: https://www.wsj.com/articles/venezuela-raid-highlights-cyber-vulnerability-of-critical-infrastructure-28aed054</a></li>
 </ul>
 
 <h2>Notable Vulnerabilities &amp; Patches</h2>
 <ul>
-<li>CVE-2025-14847 (“MongoBleed”) is a high-severity information disclosure vulnerability in MongoDB’s zlib compression handling, exploited in the wild with public PoC and tens of thousands of exposed instances. <a href="https://www.akamai.com/blog/security-research/cve-2025-14847-all-you-need-to-know-about-mongobleed" target="_blank">Source: https://www.akamai.com/blog/security-research/cve-2025-14847-all-you-need-to-know-about-mongobleed</a></li>
+<li>VMware ESXi vulnerabilities (CVE‑2025‑22224, CVE‑2025‑22225, CVE‑2025‑22226) have been actively exploited in the wild, and patches are essential to prevent hypervisor compromise. <a href="https://www.securityweek.com/exploit-for-vmware-zero-day-flaws-likely-built-a-year-before-public-disclosure/" target="_blank">Source: https://www.securityweek.com/exploit-for-vmware-zero-day-flaws-likely-built-a-year-before-public-disclosure/</a></li>
 </ul>
 
 <h2>Threat Actors</h2>
 <ul>
-<li>The Gentlemen ransomware group, active since August 2025, employs highly adaptive tactics, exfiltration, and customized payload deployment. <a href="https://www.hivepro.com/threat-advisory/the-gentlemen-ransomware-a-rising-global-cyber-threat" target="_blank">Source: https://www.hivepro.com/threat-advisory/the-gentlemen-ransomware-a-rising-global-cyber-threat</a></li>
-<li>ALPHV/BlackCat ransomware remains a significant RaaS threat with ongoing affiliate activity impacting U.S. organizations. <a href="https://www.reuters.com/legal/government/two-us-cyber-experts-plead-guilty-cooperating-with-notorious-ransomware-gang-2025-12-30/" target="_blank">Source: https://www.reuters.com/legal/government/two-us-cyber-experts-plead-guilty-cooperating-with-notorious-ransomware-gang-2025-12-30/</a></li>
+<li><strong>Kimsuky (APT43)</strong>, North Korea‑linked, conducting QR‑based spear‑phishing targeting U.S. and allied institutions. <a href="https://securityaffairs.com/186755/intelligence/north-korea-linked-apt-kimsuky-behind-quishing-attacks-fbi-warns.html" target="_blank">Source: https://securityaffairs.com/186755/intelligence/north-korea-linked-apt-kimsuky-behind-quishing-attacks-fbi-warns.html</a></li>
+<li><strong>Chinese‑speaking threat actors</strong> using ESXi exploit toolkit for VM escape, indicating well‑resourced access to zero days. <a href="https://thehackernews.com/2026/01/chinese-linked-hackers-exploit-vmware.html" target="_blank">Source: https://thehackernews.com/2026/01/chinese-linked-hackers-exploit-vmware.html</a></li>
+<li><strong>Instagram breach actors</strong> (unknown criminal actors) responsible for theft of 17.5 M user records. <a href="https://securityaffairs.com/186765/data-breach/a-massive-breach-exposed-data-of-17-5m-instagram-users.html?amp=1" target="_blank">Source: https://securityaffairs.com/186765/data-breach/a-massive-breach-exposed-data-of-17-5m-instagram-users.html?amp=1</a></li>
 </ul>
 
 <h2>Analyst Comments / Defender Impact Summary</h2>
 <ul>
-<li>Defenders must patch MongoDB instances to mitigate active exploitation and monitor leak site activity for emerging trends in ransomware group behavior. <a href="https://www.tenable.com/blog/cve-2025-14847-mongobleed-mongodb-memory-leak-vulnerability-exploited-in-the-wild" target="_blank">Source: https://www.tenable.com/blog/cve-2025-14847-mongobleed-mongodb-memory-leak-vulnerability-exploited-in-the-wild</a></li>
+<li>Quishing attacks represent a shift in social‑engineering tactics that bypass traditional URL scanning and sandboxing defenses by using QR codes, requiring expanded security controls and user awareness. <a href="https://securityaffairs.com/186755/intelligence/north-korea-linked-apt-kimsuky-behind-quishing-attacks-fbi-warns.html" target="_blank">Source: https://securityaffairs.com/186755/intelligence/north-korea-linked-apt-kimsuky-behind-quishing-attacks-fbi-warns.html</a></li>
+<li>Compromise of hypervisor infrastructure via ESXi exploits elevates risk for virtualized environments industry‑wide, underscoring the importance of patch management and network segmentation. <a href="https://www.securityweek.com/exploit-for-vmware-zero-day-flaws-likely-built-a-year-before-public-disclosure/" target="_blank">Source: https://www.securityweek.com/exploit-for-vmware-zero-day-flaws-likely-built-a-year-before-public-disclosure/</a></li>
 </ul>
 
-<h2>U.S.-Focused Threat Intelligence Snapshot</h2>
+<h2>U.S.‑Focused Threat Intelligence Snapshot</h2>
 <ul>
-<li>Prosecution of ALPHV/BlackCat affiliates highlights insider-enabled ransomware threats and emphasizes legal consequences. <a href="https://www.reuters.com/legal/government/two-us-cyber-experts-plead-guilty-cooperating-with-notorious-ransomware-gang-2025-12-30/" target="_blank">Source: https://www.reuters.com/legal/government/two-us-cyber-experts-plead-guilty-cooperating-with-notorious-ransomware-gang-2025-12-30/</a></li>
+<li>FBI alert on North Korea’s Kimsuky quishing campaign directly targets U.S. government, academia, and policy research organizations. <a href="https://securityaffairs.com/186755/intelligence/north-korea-linked-apt-kimsuky-behind-quishing-attacks-fbi-warns.html" target="_blank">Source: https://securityaffairs.com/186755/intelligence/north-korea-linked-apt-kimsuky-behind-quishing-attacks-fbi-warns.html</a></li>
+<li>Engineering and utility data breach highlights risks to U.S. critical infrastructure and underscores need for proactive detection. <a href="https://www.itpro.com/security/cyber-attacks/hacker-offering-us-engineering-firm-data-online-after-alleged-breach" target="_blank">Source: https://www.itpro.com/security/cyber-attacks/hacker-offering-us-engineering-firm-data-online-after-alleged-breach</a></li>
 </ul>
 
 <h2>Security Community Trends (GitHub &amp; Twitter/X)</h2>
 <ul>
-<li>Security researchers actively discuss MongoBleed PoC and detection strategies across open platforms following exploit release. <a href="https://www.akamai.com/blog/security-research/cve-2025-14847-all-you-need-to-know-about-mongobleed" target="_blank">Source: https://www.akamai.com/blog/security-research/cve-2025-14847-all-you-need-to-know-about-mongobleed</a></li>
+<li>Security researchers share huntress analysis of ESXi exploit chains and recommended detection methods on social feeds. <a href="https://www.huntress.com/blog/esxi-vm-escape-exploit" target="_blank">Source: https://www.huntress.com/blog/esxi-vm-escape-exploit</a></li>
 </ul>
 
 <h2>Emerging Technical Intelligence (Moderate Confidence)</h2>
 <ul>
-<li>Ransomware trends indicate increased double extortion methods and data leak site usage as part of ransomware economics. <a href="https://cyble.com/knowledge-hub/10-new-ransomware-groups-of-2025-threat-trend-2026/" target="_blank">Source: https://cyble.com/knowledge-hub/10-new-ransomware-groups-of-2025-threat-trend-2026/</a></li>
+<li>Ongoing studies and detection tool releases (e.g., MongoBleed detector for CVE‑2025‑14847) indicate community efforts to develop specialized tooling for emerging memory corruption flaws. <a href="https://cyberpress.org/mongobleed-detector-tool-released-to-identify-mongodb-vulnerability-cve-2025-14847/" target="_blank">Source: https://cyberpress.org/mongobleed-detector-tool-released-to-identify-mongodb-vulnerability-cve-2025-14847/</a></li>
 </ul>
 
 <h2>IOCs</h2>
 <ul>
-<li>213.490 publicly reachable MongoDB instances (Shodan observed exposure potentially vulnerable to CVE-2025-14847 – memory leak exploit) (MongoBleed exploitation activity) <a href="https://www.tenable.com/blog/cve-2025-14847-mongobleed-mongodb-memory-leak-vulnerability-exploited-in-the-wild" target="_blank">Source: https://www.tenable.com/blog/cve-2025-14847-mongobleed-mongodb-memory-leak-vulnerability-exploited-in-the-wild</a></li>
-<li>Tor leak site observed for The Gentlemen ransomware data publications (e.g., cryptodump .onion) (The Gentlemen – data leak site) <a href="https://www.ransomware.live/group/thegentlemen" target="_blank">Source: https://www.ransomware.live/group/thegentlemen</a></li>
-<li>847fb7609f53ed334d5affbb07256c21cb5e6f68b1cc14004f5502d714d2a456 (ALPHV/BlackCat ransomware sample SHA256) (ALPHV/BlackCat ransomware) <a href="https://www.picussecurity.com/resource/blog/alphv-ransomware" target="_blank">Source: https://www.picussecurity.com/resource/blog/alphv-ransomware</a></li>
-<li>Asss1exe.bin (BlackCat ransomware sample file name associated with SHA256 847fb7609f53ed334d5affbb07256c21cb5e6f68b1cc14004f5502d714d2a456) (ALPHV/BlackCat ransomware) <a href="https://www.picussecurity.com/resource/blog/alphv-ransomware" target="_blank">Source: https://www.picussecurity.com/resource/blog/alphv-ransomware</a></li>
-<li>Public PoC GitHub exploit for CVE-2025-14847 (MongoBleed PoC exploit repository) (MongoBleed exploitation) <a href="https://github.com/search?q=MongoBleed+CVE-2025-14847" target="_blank">Source: https://github.com/search?q=MongoBleed+CVE-2025-14847</a></li>
+<li>66.165.243.39 - (Akira Ransomware / Data Exfiltration Host observed in SonicWall targeted campaign)</li>
+<li>107.155.93.154 - (Akira Ransomware / Associated exfiltration endpoint reported in overlapping activity)</li>
+<li>VSOCK port 10000 on ESXi hosts - (Backdoor communication channel used post‑VM escape in ESXi exploitation)</li>
+<li>Advanced_Port_Scanner_2.5.3869.exe - (Reconnaissance tool deployed by VM escape threat actor)</li>
 </ul>
-
 </body>
 </html>
 
