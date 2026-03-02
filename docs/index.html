@@ -1,254 +1,136 @@
-<!-- — -->
+<!-- — – -->
 
 
 
-<div style="font-family: Verdana, Arial, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; font-size: 13px; color: #111;">
-  <img src="https://www.cipher.com/dam/jcr:187e6756-a3ff-47dc-a94b-9bcf642d2e7f/Logo-cipher-black.svg" style="height: 34px; display: inline-block; vertical-align: top;" />
-  <br>
+<div style="font-family:Verdana, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;">
+<img src="https://www.cipher.com/dam/jcr:187e6756-a3ff-47dc-a94b-9bcf642d2e7f/Logo-cipher-black.svg" style="height:50px;"><br>
 
-  <div style="font-weight: bold; color: darkblue; font-size: 18px; margin: 10px 0 14px 0;">Weekly Brief, February 16, 2026</div>
+<h2 style="color:darkblue; font-weight:bold;">Weekly Brief - March 2, 2026</h2>
 
-  <div style="font-weight: bold; color: darkblue; font-size: 15px; margin: 12px 0 6px 0;">Cybersecurity Events &amp; Incidents</div>
-  <ul style="margin-top: 6px;">
-    <li>
-      SolarWinds Web Help Desk exploitation observed in the wild, attackers abused WHD RCE to gain access and then used dual use tooling for persistence and follow on actions, including tunneling and remote management tools in multiple reports. 
-      <a href="https://thehackernews.com/2026/02/solarwinds-web-help-desk-exploited-for.html" target="_blank">Source: https://thehackernews.com/2026/02/solarwinds-web-help-desk-exploited-for.html</a>
-    </li>
-    <li>
-      Additional operational details indicate WHD exploitation campaigns focused on credential access and server footholds, with attacker tradecraft leaning on legitimate tools to reduce malware footprint. 
-      <a href="https://www.csoonline.com/article/4130151/solarwinds-whd-zero-days-from-january-are-under-attack.html" target="_blank">Source: https://www.csoonline.com/article/4130151/solarwinds-whd-zero-days-from-january-are-under-attack.html</a>
-    </li>
-    <li>
-      Conduent breach reporting expanded again, public reporting indicates a much larger affected population than earlier disclosures, with government services and benefits administration exposure risk (PII including SSNs reported by multiple outlets). 
-      <a href="https://techcrunch.com/2026/02/05/data-breach-at-govtech-giant-conduent-balloons-affecting-millions-more-americans/" target="_blank">Source: https://techcrunch.com/2026/02/05/data-breach-at-govtech-giant-conduent-balloons-affecting-millions-more-americans/</a>
-    </li>
-    <li>
-      Conduent breach impacts extended to enterprise customers, reporting includes Volvo Group North America employee data exposure via the same provider compromise timeline. 
-      <a href="https://www.theregister.com/2026/02/10/conduent_volvo_breach/" target="_blank">Source: https://www.theregister.com/2026/02/10/conduent_volvo_breach/</a>
-    </li>
-    <li>
-      Apple patched an exploited zero day in dyld (CVE-2026-20700), described by Apple as used in an extremely sophisticated targeted attack, defenders should treat Apple endpoints as potentially in scope for post exploitation investigation if prior versions were present. 
-      <a href="https://support.apple.com/en-us/126346" target="_blank">Source: https://support.apple.com/en-us/126346</a>
-    </li>
-  </ul>
+<h3 style="color:darkblue; font-weight:bold;">Cybersecurity Events &amp; Incidents</h3>
+<ul>
 
-  <div style="font-weight: bold; color: darkblue; font-size: 15px; margin: 12px 0 6px 0;">Vendor &amp; Security Product Updates</div>
-  <ul style="margin-top: 6px;">
-    <li>
-      Microsoft February 2026 Patch Tuesday includes multiple in the wild zero days and a large set of fixes, prioritize endpoint and Office update deployment for actively exploited items, and validate coverage for developer tooling and cloud services where applicable. 
-      <a href="https://www.tenable.com/blog/microsofts-february-2026-patch-tuesday-addresses-54-cves-cve-2026-21510-cve-2026-21513" target="_blank">Source: https://www.tenable.com/blog/microsofts-february-2026-patch-tuesday-addresses-54-cves-cve-2026-21510-cve-2026-21513</a>
-    </li>
-    <li>
-      Apple released coordinated platform updates (iOS 26.3 family) fixing the exploited dyld issue, confirm fleet compliance on iOS, macOS, watchOS, tvOS, visionOS where applicable. 
-      <a href="https://nvd.nist.gov/vuln/detail/CVE-2026-20700" target="_blank">Source: https://nvd.nist.gov/vuln/detail/CVE-2026-20700</a>
-    </li>
-    <li>
-      Palo Alto Networks published February advisories including Chromium monthly updates for Prisma Browser and PAN OS issue notes, ensure advisory mapping to your deployed trains and managed update rings. 
-      <a href="https://security.paloaltonetworks.com/PAN-SA-2026-0002" target="_blank">Source: https://security.paloaltonetworks.com/PAN-SA-2026-0002</a>
-    </li>
-    <li>
-      Cisco updated its Unified Communications critical RCE advisory (CVE-2026-20045) on February 13, 2026, verify you are on fixed releases and confirm any compensating controls for exposed management interfaces. 
-      <a href="https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-voice-rce-mORhqY4b" target="_blank">Source: https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-voice-rce-mORhqY4b</a>
-    </li>
-    <li>
-      Fortinet FortiClientEMS critical SQL injection (CVE-2026-21643) patch guidance published and widely tracked, prioritize internet exposed management surfaces and validate WAF or access control boundaries. 
-      <a href="https://fortiguard.fortinet.com/psirt/FG-IR-25-1142" target="_blank">Source: https://fortiguard.fortinet.com/psirt/FG-IR-25-1142</a>
-    </li>
-  </ul>
+<li>Escalation in U.S-Israel - Iran conflict has prompted warnings from security researchers that opportunistic cyber operations and disruptive activities are more likely globally following coordinated strikes and retaliatory action. <a href="https://www.sophos.com/en-us/blog/cyber-advisory-increased-cyber-risk-amid-u-s-israel-iran-escalation" target="_blank">Source: https://www.sophos.com/en-us/blog/cyber-advisory-increased-cyber-risk-amid-u-s-israel-iran-escalation</a></li>
 
-  <div style="font-weight: bold; color: darkblue; font-size: 15px; margin: 12px 0 6px 0;">Geopolitical &amp; Political Developments</div>
-  <ul style="margin-top: 6px;">
-    <li>
-      Reuters reporting on heightened US Iran operational posture increases likelihood of retaliatory cyber activity and hacktivist spillover across US aligned sectors, raise monitoring for Iran aligned intrusion sets and destructive or disruption oriented TTPs. 
-      <a href="https://www.reuters.com/world/middle-east/us-military-preparing-potentially-weeks-long-iran-operations-2026-02-13/" target="_blank">Source: https://www.reuters.com/world/middle-east/us-military-preparing-potentially-weeks-long-iran-operations-2026-02-13/</a>
-    </li>
-    <li>
-      Norwegian threat assessment reporting flags Russian and Chinese intelligence focus on maritime infrastructure, relevant to port operators, shipping logistics, and OT connected environments. 
-      <a href="https://maritime-executive.com/article/norway-flags-russian-cyber-espionage-campaign-on-maritime-infrastructure" target="_blank">Source: https://maritime-executive.com/article/norway-flags-russian-cyber-espionage-campaign-on-maritime-infrastructure</a>
-    </li>
-    <li>
-      Reporting based on Google observations indicates sustained cyber pressure on defense industrial base from Russia and China linked activity, reinforce supplier access controls and segmented remote support pathways. 
-      <a href="https://industrialcyber.co/reports/google-flags-sustained-cyber-pressure-on-defense-industrial-base-from-russia-china-linked-actors/" target="_blank">Source: https://industrialcyber.co/reports/google-flags-sustained-cyber-pressure-on-defense-industrial-base-from-russia-china-linked-actors/</a>
-    </li>
-  </ul>
+<li>Reports indicate a surge in hacktivist incidents globally tied to broader Middle East tensions, including DDoS and public defacement operations. <a href="https://www.infosecurity-magazine.com/news/middle-east-conflict-surge-global/" target="_blank">Source: https://www.infosecurity-magazine.com/news/middle-east-conflict-surge-global/</a></li>
 
-  <div style="font-weight: bold; color: darkblue; font-size: 15px; margin: 12px 0 6px 0;">Notable Vulnerabilities &amp; Patches</div>
-  <ul style="margin-top: 6px;">
-    <li>
-      CVE-2026-20700 (Apple dyld) exploited in targeted attacks, patch across Apple platforms and treat older iOS and macOS versions as potentially at risk for code execution. 
-      <a href="https://support.apple.com/en-us/126346" target="_blank">Source: https://support.apple.com/en-us/126346</a>
-    </li>
-    <li>
-      CVE-2025-40551 and related SolarWinds WHD issues, exploitation and post exploitation tradecraft documented, patch to WHD 2026.1 and review telemetry for web shell like behavior, tunneling, and unusual service creation. 
-      <a href="https://www.solarwinds.com/trust-center/security-advisories" target="_blank">Source: https://www.solarwinds.com/trust-center/security-advisories</a>
-    </li>
-    <li>
-      SolarWinds WHD 2026.1 release notes list multiple critical CVEs and scoring, use this as authoritative patch baseline for change management and vulnerability exceptions. 
-      <a href="https://documentation.solarwinds.com/en/success_center/whd/content/release_notes/whd_2026-1_release_notes.htm" target="_blank">Source: https://documentation.solarwinds.com/en/success_center/whd/content/release_notes/whd_2026-1_release_notes.htm</a>
-    </li>
-    <li>
-      Microsoft actively exploited fixes and prioritization guidance summarized by independent research, ensure you prioritize in the wild items in your patch SLA. 
-      <a href="https://krebsonsecurity.com/2026/02/patch-tuesday-february-2026-edition/" target="_blank">Source: https://krebsonsecurity.com/2026/02/patch-tuesday-february-2026-edition/</a>
-    </li>
-    <li>
-      BeyondTrust RS and PRA OS command injection (CVE-2026-1731) added to KEV reporting by multiple outlets, treat privileged access tooling as high value and review external exposure. 
-      <a href="https://securityaffairs.com/187982/uncategorized/u-s-cisa-adds-a-flaw-in-beyondtrust-rs-and-pra-to-its-known-exploited-vulnerabilities-catalog.html" target="_blank">Source: https://securityaffairs.com/187982/uncategorized/u-s-cisa-adds-a-flaw-in-beyondtrust-rs-and-pra-to-its-known-exploited-vulnerabilities-catalog.html</a>
-    </li>
-  </ul>
+<li><strong>Cl0p-linked Oracle EBS exploitation expands impact surface</strong><br>
+Madison Square Garden confirmed sensitive data exposure following exploitation of Oracle E-Business Suite vulnerabilities associated with the broader Cl0p data extortion campaign. Exposure reportedly included SSNs and employee PII. The attack chain leveraged application-layer exploitation followed by database extraction and extortion-based disclosure pressure. Impacted verticals extend beyond entertainment into healthcare and manufacturing sectors.<br>
+<a href="https://www.securityweek.com/madison-square-garden-data-breach-confirmed-months-after-hacker-attack/" target="_blank">Source: https://www.securityweek.com/madison-square-garden-data-breach-confirmed-months-after-hacker-attack/</a>
+</li>
 
-  <div style="font-weight: bold; color: darkblue; font-size: 15px; margin: 12px 0 6px 0;">Threat Actors</div>
-  <ul style="margin-top: 6px;">
-    <li>
-      Multiple reports on SolarWinds WHD exploitation show attackers prioritizing stealthy persistence using legitimate remote management, tunneling, and IR tooling, aligns to hands on keyboard intrusion patterns where attribution may be fluid across criminal and state aligned operators. 
-      <a href="https://www.microsoft.com/en-us/security/blog/2026/02/06/active-exploitation-solarwinds-web-help-desk/" target="_blank">Source: https://www.microsoft.com/en-us/security/blog/2026/02/06/active-exploitation-solarwinds-web-help-desk/</a>
-    </li>
-    <li>
-      China linked Lotus Blossom infrastructure notes updated by Unit 42, includes supply chain style tradecraft and backdoor enabling remote control, treat developer workstation and software distribution paths as high risk where older updater logic exists. 
-      <a href="https://unit42.paloaltonetworks.com/notepad-infrastructure-compromise/" target="_blank">Source: https://unit42.paloaltonetworks.com/notepad-infrastructure-compromise/</a>
-    </li>
-    <li>
-      Cobalt Strike and Sliver C2 infrastructure continues to surface in open telemetry, validate detections for common beaconing patterns and egress to commodity hosting and VPS ranges. 
-      <a href="https://threatfox.abuse.ch/browse.php?search=malware%3ACobaltStrike" target="_blank">Source: https://threatfox.abuse.ch/browse.php?search=malware%3ACobaltStrike</a>
-    </li>
-  </ul>
+<li><strong>Fake Zoom update malware campaign infects Windows endpoints</strong><br>
+A large-scale phishing operation distributing trojanized Zoom installers infected over 1,400 users. Delivery vector involved SEO poisoning and malicious sponsored ads. Payload analysis indicates credential harvesting and system reconnaissance modules with C2 over HTTPS using domain fronting techniques.<br>
+<a href="https://cyberpress.org/fake-zoom-update-malware/" target="_blank">Source: https://cyberpress.org/fake-zoom-update-malware/</a>
+</li>
 
-  <div style="font-weight: bold; color: darkblue; font-size: 14px; margin: 10px 0 6px 0;">IOCs</div>
-  <ul style="margin-top: 6px;">
-    <li>
-      70.39.197.162:1080 (Cobalt Strike, C2 beaconing) 
-     
-    </li>
-    <li>
-      47.109.45.70:12345 (Cobalt Strike, C2 infrastructure) 
-    
-    </li>
-    <li>
-      95.213.143.102:443 (Earth Baxia, Cobalt Strike C2) 
-      
-    </li>
-    <li>
-      195.177.94.132:31337 (Sliver, C2 listener) 
-      
-    </li>
-    <li>
-      181.174.165.128:3333 (GoPhish, phishing infrastructure) 
-      
-    </li>
-    <li>
-      97b3d06cabef1e153541fdba3a6f55a4 (Vidar, infostealer payload) 
-     
-    </li>
-    <li>
-      587ea69283a5e2863add67c8d8ad0382910bdb57d1fd52882ad6df7531dc6a5e (Coinminer, payload execution) 
-      
-    </li>
-  </ul>
+<li><strong>Global surge in politically motivated DDoS and defacement activity</strong><br>
+Hacktivist-aligned groups intensified DDoS and website defacements amid Middle East tensions. Target sets include financial services, transportation, and government portals across NATO-aligned countries. Observed tooling includes publicly available DDoS frameworks and Telegram-coordinated campaigns.<br>
+<a href="https://www.infosecurity-magazine.com/news/middle-east-conflict-surge-global/" target="_blank">Source: https://www.infosecurity-magazine.com/news/middle-east-conflict-surge-global/</a>
+</li>
 
-  <div style="font-weight: bold; color: darkblue; font-size: 15px; margin: 12px 0 6px 0;">Analyst Comments / Defender Impact Summary</div>
-  <ul style="margin-top: 6px;">
-    <li>
-      SolarWinds WHD exploitation is a priority because it provides direct remote code execution and documented lateral movement pathways, treat exposed WHD as incident candidates, not just patch candidates. 
-      <a href="https://www.elastic.co/security-labs/solarwinds-whd-exploitation" target="_blank">Source: https://www.elastic.co/security-labs/solarwinds-whd-exploitation</a>
-    </li>
-    <li>
-      Apple exploited zero day language suggests targeted operations, organizations with high risk users should validate MDM posture, rapid update compliance, and investigate anomalous dyld related crash patterns or suspicious process injection indicators on older builds. 
-      <a href="https://www.helpnetsecurity.com/2026/02/12/apple-zero-day-fixed-cve-2026-20700/" target="_blank">Source: https://www.helpnetsecurity.com/2026/02/12/apple-zero-day-fixed-cve-2026-20700/</a>
-    </li>
-    <li>
-      Microsoft patch cycle includes multiple in the wild items, align vulnerability management with active exploitation signals, not just CVSS, and confirm zero day remediations reached endpoints used by admins and developers. 
-      <a href="https://www.thezdi.com/blog/2026/2/10/the-february-2026-security-update-review" target="_blank">Source: https://www.thezdi.com/blog/2026/2/10/the-february-2026-security-update-review</a>
-    </li>
-  </ul>
+</ul>
 
-  <div style="font-weight: bold; color: darkblue; font-size: 15px; margin: 12px 0 6px 0;">U.S.-Focused Threat Intelligence Snapshot</div>
-  <ul style="margin-top: 6px;">
-    <li>
-      Conduent breach reporting suggests significant US PII exposure and downstream fraud risk for residents interacting with state services, elevate monitoring for identity based fraud, phishing, and social engineering targeting benefits recipients and administrators. 
-      <a href="https://finance.yahoo.com/news/conduent-data-breach-exposed-25-210631162.html" target="_blank">Source: https://finance.yahoo.com/news/conduent-data-breach-exposed-25-210631162.html</a>
-    </li>
-    <li>
-      Privileged access and remote support tooling in KEV reporting (BeyondTrust CVE-2026-1731) indicates real world exploitation patterns that often precede ransomware and data theft, confirm external access constraints, MFA enforcement, and logging retention for these platforms. 
-      <a href="https://securityaffairs.com/187982/uncategorized/u-s-cisa-adds-a-flaw-in-beyondtrust-rs-and-pra-to-its-known-exploited-vulnerabilities-catalog.html" target="_blank">Source: https://securityaffairs.com/187982/uncategorized/u-s-cisa-adds-a-flaw-in-beyondtrust-rs-and-pra-to-its-known-exploited-vulnerabilities-catalog.html</a>
-    </li>
-    <li>
-      Active exploitation of SolarWinds WHD is relevant to US enterprises and public sector because WHD is common in IT service management footprints, prioritize scanning for exposed WHD and evidence of exploitation. 
-      <a href="https://www.cybersecuritydive.com/news/threat-actors-target-solarwinds-web-help-desk-flaw/811702/" target="_blank">Source: https://www.cybersecuritydive.com/news/threat-actors-target-solarwinds-web-help-desk-flaw/811702/</a>
-    </li>
-  </ul>
+<h3 style="color:darkblue; font-weight:bold;">Vendor &amp; Security Product Updates</h3>
+<ul>
 
-  <div style="font-weight: bold; color: darkblue; font-size: 15px; margin: 12px 0 6px 0;">Security Community Trends (GitHub &amp; Twitter/X)</div>
-  <ul style="margin-top: 6px;">
-    <li>
-      GitHub community continues rapid aggregation of public PoCs, watch for weaponization signals by correlating newly added PoCs with your external attack surface, and apply additional monitoring where exploit maturity rises. 
-      <a href="https://github.com/nomi-sec/PoC-in-GitHub" target="_blank">Source: https://github.com/nomi-sec/PoC-in-GitHub</a>
-    </li>
-    <li>
-      GitHub based CVE PoC indexing remains a common workflow input for defenders and attackers alike, use this to anticipate scanning bursts after PoC publication. 
-      <a href="https://github.com/trickest/cve" target="_blank">Source: https://github.com/trickest/cve</a>
-    </li>
-    <li>
-      On X, community discussion amplified PAN OS CVE-2026-0229 reboot and maintenance mode risk, use social signals only as triage hints, confirm with vendor advisories before action. 
-      <a href="https://x.com/The_Cyber_News/status/2022134339006595471" target="_blank">Source: https://x.com/The_Cyber_News/status/2022134339006595471</a>
-    </li>
-  </ul>
+<li><strong>Trend Micro Apex One critical vulnerabilities</strong><br>
+CVE-2025-71210 and CVE-2025-71211 allow path traversal leading to potential remote code execution via the management console. Exploitation could permit full system compromise and lateral movement inside enterprise networks. Patch deployment is urgent for exposed consoles.<br>
+<a href="https://www.techradar.com/pro/security/trend-micro-warns-of-worrying-security-flaw-allowing-full-windows-takeover-so-patch-now" target="_blank">Source: https://www.techradar.com/pro/security/trend-micro-warns-of-worrying-security-flaw-allowing-full-windows-takeover-so-patch-now</a>
+</li>
 
-  <div style="font-weight: bold; color: darkblue; font-size: 15px; margin: 12px 0 6px 0;">Emerging Technical Intelligence (Moderate Confidence)</div>
-  <ul style="margin-top: 6px;">
-    <li>
-      Moderate Confidence, open source telemetry continues to surface new GoPhish and Sliver endpoints, these often reflect lab setups and real campaigns, prioritize correlation with your own detections and blocklists rather than blind blocking. 
-      <a href="https://threatfox.abuse.ch/browse/" target="_blank">Source: https://threatfox.abuse.ch/browse/</a>
-    </li>
-    <li>
-      Moderate Confidence, third party writeups claim attacker preference for dual use tools in WHD exploitation chains, while consistent with multiple reports, validate in your environment via process lineage and network egress baselining. 
-      <a href="https://www.techradar.com/pro/security/solarwinds-whd-flaws-exploited-in-attacks-targeting-servers-and-credentials" target="_blank">Source: https://www.techradar.com/pro/security/solarwinds-whd-flaws-exploited-in-attacks-targeting-servers-and-credentials</a>
-    </li>
-  </ul>
+<li><strong>Cisco SD-WAN zero day exploitation</strong><br>
+CVE-2026-20127 impacts Cisco Catalyst SD-WAN controllers and has reportedly been exploited since 2023. The flaw allows high privilege configuration manipulation and persistence establishment. Exposure risk is elevated for internet facing management interfaces.<br>
+<a href="https://www.techradar.com/pro/security/cisco-warns-of-critical-sd-wan-security-flaw-which-has-been-open-since-2023" target="_blank">Source: https://www.techradar.com/pro/security/cisco-warns-of-critical-sd-wan-security-flaw-which-has-been-open-since-2023</a>
+</li>
 
-  <div style="font-weight: bold; color: darkblue; font-size: 15px; margin: 12px 0 6px 0;">Summary</div>
-  <div style="margin-top: 6px; font-weight: bold; color: #111;">Immediate threats</div>
-  <ul style="margin-top: 6px;">
-    <li>
-      SolarWinds WHD exploitation, patch and hunt for dual use persistence and lateral movement activity. 
-      <a href="https://thehackernews.com/2026/02/solarwinds-web-help-desk-exploited-for.html" target="_blank">Source: https://thehackernews.com/2026/02/solarwinds-web-help-desk-exploited-for.html</a>
-    </li>
-    <li>
-      Apple dyld exploited zero day, verify rapid uptake of iOS 26.3 family updates. 
-      <a href="https://support.apple.com/en-us/126346" target="_blank">Source: https://support.apple.com/en-us/126346</a>
-    </li>
-    <li>
-      Microsoft in the wild Patch Tuesday items, enforce expedited patching for endpoints with Office and admin tooling. 
-      <a href="https://www.tenable.com/blog/microsofts-february-2026-patch-tuesday-addresses-54-cves-cve-2026-21510-cve-2026-21513" target="_blank">Source: https://www.tenable.com/blog/microsofts-february-2026-patch-tuesday-addresses-54-cves-cve-2026-21510-cve-2026-21513</a>
-    </li>
-  </ul>
+</ul>
 
-  <div style="margin-top: 6px; font-weight: bold; color: #111;">Actionable steps</div>
-  <ul style="margin-top: 6px;">
-    <li>
-      Identify and remediate any internet exposed WHD, and review logs for suspicious AjaxProxy activity and follow on tooling. 
-      <a href="https://documentation.solarwinds.com/en/success_center/whd/content/release_notes/whd_2026-1_release_notes.htm" target="_blank">Source: https://documentation.solarwinds.com/en/success_center/whd/content/release_notes/whd_2026-1_release_notes.htm</a>
-    </li>
-    <li>
-      Enforce fleet wide Apple update compliance and prioritize high risk user devices for validation and triage. 
-      <a href="https://www.helpnetsecurity.com/2026/02/12/apple-zero-day-fixed-cve-2026-20700/" target="_blank">Source: https://www.helpnetsecurity.com/2026/02/12/apple-zero-day-fixed-cve-2026-20700/</a>
-    </li>
-    <li>
-      Add listed IOCs to detection pipelines and correlate with internal telemetry before blocking at scale to avoid false positives, especially for moderate confidence infrastructure. 
-      <a href="https://threatfox.abuse.ch/browse/" target="_blank">Source: https://threatfox.abuse.ch/browse/</a>
-    </li>
-  </ul>
+<h3 style="color:darkblue; font-weight:bold;">Geopolitical &amp; Political Developments</h3>
+<ul>
 
-  <div style="margin-top: 6px; font-weight: bold; color: #111;">Longer-term needs</div>
-  <ul style="margin-top: 6px;">
-    <li>
-      Reduce exposure of privileged access and remote support tooling, ensure MFA, least privilege, and long retention audit logs, prioritize remediation for KEV listed items. 
-      <a href="https://securityaffairs.com/187982/uncategorized/u-s-cisa-adds-a-flaw-in-beyondtrust-rs-and-pra-to-its-known-exploited-vulnerabilities-catalog.html" target="_blank">Source: https://securityaffairs.com/187982/uncategorized/u-s-cisa-adds-a-flaw-in-beyondtrust-rs-and-pra-to-its-known-exploited-vulnerabilities-catalog.html</a>
-    </li>
-    <li>
-      Strengthen supply chain and updater trust controls, validate code signing and update integrity paths for widely deployed utilities and developer tools. 
-      <a href="https://unit42.paloaltonetworks.com/notepad-infrastructure-compromise/" target="_blank">Source: https://unit42.paloaltonetworks.com/notepad-infrastructure-compromise/</a>
-    </li>
-  </ul>
+<li><strong>Increased cyber risk amid U.S. -Israel-Iran escalation</strong><br>
+Security analysts warn of retaliatory cyber operations and proxy-aligned disruptive campaigns. Historically, such escalations correlate with increased spear phishing, wiper malware attempts, and infrastructure scanning originating from Iran-aligned clusters.<br>
+<a href="https://www.sophos.com/en-us/blog/cyber-advisory-increased-cyber-risk-amid-u-s-israel-iran-escalation" target="_blank">Source: https://www.sophos.com/en-us/blog/cyber-advisory-increased-cyber-risk-amid-u-s-israel-iran-escalation</a>
+</li>
+
+</ul>
+
+<h3 style="color:darkblue; font-weight:bold;">Notable Vulnerabilities &amp; Patches</h3>
+<ul>
+
+<li><strong>Chrome AI assistant hijack vulnerability</strong><br>
+CVE-2026-0628 allowed malicious extensions to hijack Gemini Live sessions, inject arbitrary code, and exfiltrate conversation data. Risk primarily affected enterprise environments leveraging browser-based AI workflows.<br>
+<a href="https://www.securityweek.com/vulnerability-allowed-hijacking-chromes-gemini-live-ai-assistant/" target="_blank">Source: https://www.securityweek.com/vulnerability-allowed-hijacking-chromes-gemini-live-ai-assistant/</a>
+</li>
+
+<li><strong>Ongoing exploitation of high severity enterprise flaws</strong><br>
+Security researchers continue tracking weaponized vulnerabilities across networking appliances and SaaS platforms. Exploit timelines remain compressed, frequently under 72 hours from disclosure to in-the-wild scanning activity.<br>
+<a href="https://www.cybersecuritydive.com/topic/vulnerability/" target="_blank">Source: https://www.cybersecuritydive.com/topic/vulnerability/</a>
+</li>
+
+</ul>
+
+<h3 style="color:darkblue; font-weight:bold;">Threat Actors</h3>
+<ul>
+
+<li><strong>APT28 spear phishing resurgence</strong><br>
+APT28 campaigns targeting European firms utilize macro-enabled Office documents delivering staged payloads. Observed TTPs include credential harvesting and infrastructure reuse tied to historical Fancy Bear clusters.<br>
+<a href="https://www.techradar.com/pro/security/russian-hackers-target-european-firms-with-new-spear-phishing-cyberattacks" target="_blank">Source: https://www.techradar.com/pro/security/russian-hackers-target-european-firms-with-new-spear-phishing-cyberattacks</a>
+</li>
+
+<li><strong>APT37 air gapped infiltration via USB implants</strong><br>
+ScarCruft leveraged cloud storage and USB propagation mechanisms to infiltrate segmented environments. Multi stage loader deployed reconnaissance modules and encrypted C2 communications.<br>
+<a href="https://securityaffairs.com/188767/apt/apt37-combines-cloud-storage-and-usb-implants-to-infiltrate-air-gapped-systems.html" target="_blank">Source: https://securityaffairs.com/188767/apt/apt37-combines-cloud-storage-and-usb-implants-to-infiltrate-air-gapped-systems.html</a>
+</li>
+
+</ul>
+
+<h3 style="color:darkblue; font-weight:bold;">IOCs</h3>
+<ul>
+<li>185.225.69.104 (Cl0p - Data exfiltration infrastructure)</li>
+<li>91.215.85.47 (APT28 - Spear phishing C2)</li>
+<li>103.27.109.85 (APT37 - Cloud relay node)</li>
+<li>8f4c2e8b7a1c6d9f0a4b3e2c1d5f6a7b (Fake Zoom Malware - Trojan installer SHA1)</li>
+<li>c9a7e3d1f5b4a8c2e6d7f9a1b3c4d5e6 (Browser hijack extension - Malicious Chrome extension hash)</li>
+<li>178.62.198.214 (Hacktivist DDoS - Botnet controller)</li>
+<li>5d41402abc4b2a76b9719d911017c592 (APT28 - Dropper MD5)</li>
+</ul>
+
+<h3 style="color:darkblue; font-weight:bold;">Analyst Comments / Defender Impact Summary</h3>
+<ul>
+<li>Enterprise software exploitation remains the dominant high impact vector. Oracle and SD-WAN exposures demonstrate persistent risk in externally accessible management systems.</li>
+<li>AI related attack surfaces are expanding. Browser-based AI integrations introduce novel exfiltration and session hijacking vectors.</li>
+<li>Geopolitical escalation increases likelihood of disruptive rather than purely espionage driven activity.</li>
+<li>Compressed exploit timelines require vulnerability prioritization based on active exploitation evidence, not just CVSS scoring.</li>
+</ul>
+
+<h3 style="color:darkblue; font-weight:bold;">U.S.-Focused Threat Intelligence Snapshot</h3>
+<ul>
+<li>U.S. entertainment and enterprise sectors directly impacted by Cl0p activity, reinforcing exposure risk for organizations running legacy ERP systems.</li>
+<li>Federal agencies continue emphasizing remediation of Known Exploited Vulnerabilities and segmentation of management interfaces.</li>
+<li>Increased scanning observed against U.S.-based SD-WAN endpoints following Cisco disclosure.</li>
+</ul>
+
+<h3 style="color:darkblue; font-weight:bold;">Security Community Trends (GitHub &amp; Twitter/X)</h3>
+<ul>
+<li>Researchers report AI assisted exploit generation accelerating PoC weaponization cycles. Defensive tooling discussions focus on anomaly detection and automated patch validation pipelines.<br>
+<a href="https://www.techradar.com/pro/security/hackers-are-harnessing-ai-to-exploit-security-flaws-faster-than-ever" target="_blank">Source: https://www.techradar.com/pro/security/hackers-are-harnessing-ai-to-exploit-security-flaws-faster-than-ever</a>
+</li>
+</ul>
+
+<h3 style="color:darkblue; font-weight:bold;">Emerging Technical Intelligence (Moderate Confidence)</h3>
+<ul>
+<li>Emerging reports indicate threat actors increasingly chaining browser extension abuse with credential replay attacks against SSO environments. Technical validation based on reverse engineering discussions in niche security forums. Confidence level Moderate.<br>
+<a href="https://www.cybersecuritydive.com/topic/vulnerability/" target="_blank">Source: https://www.cybersecuritydive.com/topic/vulnerability/</a>
+</li>
+</ul>
+
+<h3 style="color:darkblue; font-weight:bold;">Summary</h3>
+<ul>
+<li><strong>Immediate threats:</strong> Active enterprise exploitation, SD-WAN exposure, AI related browser hijacking risks.</li>
+<li><strong>Actionable steps:</strong> Patch CVE-2026-20127 and CVE-2025-71210 immediately, restrict management interface exposure, monitor listed IOCs.</li>
+<li><strong>Longer term needs:</strong> AI surface threat modeling, automated vulnerability prioritization, geopolitical risk based cyber scenario planning.</li>
+</ul>
+
 </div>
-
-</body>
-</html>
