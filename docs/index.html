@@ -2,135 +2,200 @@
 
 
 
-<div style="font-family:Verdana, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;">
-<img src="https://www.cipher.com/dam/jcr:187e6756-a3ff-47dc-a94b-9bcf642d2e7f/Logo-cipher-black.svg" style="height:50px;"><br>
+<div style="font-family: Verdana, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;">
 
-<h2 style="color:darkblue; font-weight:bold;">Weekly Brief - March 2, 2026</h2>
+<img src="https://www.cipher.com/dam/jcr:187e6756-a3ff-47dc-a94b-9bcf642d2e7f/Logo-cipher-black.svg" width="180"><br>
 
-<h3 style="color:darkblue; font-weight:bold;">Cybersecurity Events &amp; Incidents</h3>
+<h2 style="color:darkblue;font-weight:bold;">Weekly Brief - March 11, 2026</h2>
+
+<h3 style="color:darkblue;font-weight:bold;">Cybersecurity Events & Incidents</h3>
 <ul>
-
-<li><b>Escalation in U.S-Israel</b><br>Iran conflict has prompted warnings from security researchers that opportunistic cyber operations and disruptive activities are more likely globally following coordinated strikes and retaliatory action. <a href="https://www.sophos.com/en-us/blog/cyber-advisory-increased-cyber-risk-amid-u-s-israel-iran-escalation" target="_blank">Source: https://www.sophos.com/en-us/blog/cyber-advisory-increased-cyber-risk-amid-u-s-israel-iran-escalation</a></li>
-
-<li><b>Hacktivist Incidents</b><br>Reports indicate a surge in hacktivist incidents globally tied to broader Middle East tensions, including DDoS and public defacement operations. <a href="https://www.infosecurity-magazine.com/news/middle-east-conflict-surge-global/" target="_blank">Source: https://www.infosecurity-magazine.com/news/middle-east-conflict-surge-global/</a></li>
-
-<li><strong>Cl0p-linked Oracle EBS exploitation expands impact surface</strong><br>
-Madison Square Garden confirmed sensitive data exposure following exploitation of Oracle E-Business Suite vulnerabilities associated with the broader Cl0p data extortion campaign. Exposure reportedly included SSNs and employee PII. The attack chain leveraged application-layer exploitation followed by database extraction and extortion-based disclosure pressure. Impacted verticals extend beyond entertainment into healthcare and manufacturing sectors.<br>
-<a href="https://www.securityweek.com/madison-square-garden-data-breach-confirmed-months-after-hacker-attack/" target="_blank">Source: https://www.securityweek.com/madison-square-garden-data-breach-confirmed-months-after-hacker-attack/</a>
+<li>
+<b>Oracle E-Business Suite campaign leads to confirmed breach</b><br>
+Michelin confirmed a data breach related to a large scale campaign exploiting vulnerabilities in Oracle E-Business Suite. The operation has been attributed to the Cl0p ransomware and extortion group. Attackers reportedly exploited previously unknown flaws to extract enterprise data from affected organizations.<br>
+<a href="https://www.securityweek.com/michelin-confirms-data-breach-linked-to-oracle-ebs-attack/" target="_blank">Source: https://www.securityweek.com/michelin-confirms-data-breach-linked-to-oracle-ebs-attack/</a>
 </li>
 
-<li><strong>Fake Zoom update malware campaign infects Windows endpoints</strong><br>
-A large-scale phishing operation distributing trojanized Zoom installers infected over 1,400 users. Delivery vector involved SEO poisoning and malicious sponsored ads. Payload analysis indicates credential harvesting and system reconnaissance modules with C2 over HTTPS using domain fronting techniques.<br>
-<a href="https://cyberpress.org/fake-zoom-update-malware/" target="_blank">Source: https://cyberpress.org/fake-zoom-update-malware/</a>
+<li>
+<b>Salesforce ecosystem targeted in mass credential theft campaign</b><br>
+The ShinyHunters cybercrime group reportedly launched a new campaign targeting hundreds of Salesforce customers. The operation focuses on credential harvesting and data exfiltration against enterprise cloud tenants, potentially impacting multiple SaaS environments.<br>
+<a href="https://www.securityweek.com/hundreds-of-salesforce-customers-allegedly-targeted-in-new-data-theft-campaign/" target="_blank">Source: https://www.securityweek.com/hundreds-of-salesforce-customers-allegedly-targeted-in-new-data-theft-campaign/</a>
 </li>
 
-<li><strong>Global surge in politically motivated DDoS and defacement activity</strong><br>
-Hacktivist-aligned groups intensified DDoS and website defacements amid Middle East tensions. Target sets include financial services, transportation, and government portals across NATO-aligned countries. Observed tooling includes publicly available DDoS frameworks and Telegram-coordinated campaigns.<br>
-<a href="https://www.infosecurity-magazine.com/news/middle-east-conflict-surge-global/" target="_blank">Source: https://www.infosecurity-magazine.com/news/middle-east-conflict-surge-global/</a>
+<li>
+<b>npm supply chain attack distributes PhantomRaven malware</b><br>
+A renewed supply chain attack targeting the npm ecosystem is distributing the PhantomRaven malware. Malicious packages attempt to steal developer secrets and environment tokens. The campaign demonstrates continued targeting of CI/CD pipelines and developer environments.<br>
+<a href="https://cyberpress.org/phantomraven-targets-npm-supply-chain/" target="_blank">Source: https://cyberpress.org/phantomraven-targets-npm-supply-chain/</a>
 </li>
 
-</ul>
-
-<h3 style="color:darkblue; font-weight:bold;">Vendor &amp; Security Product Updates</h3>
-<ul>
-
-<li><strong>Trend Micro Apex One critical vulnerabilities</strong><br>
-CVE-2025-71210 and CVE-2025-71211 allow path traversal leading to potential remote code execution via the management console. Exploitation could permit full system compromise and lateral movement inside enterprise networks. Patch deployment is urgent for exposed consoles.<br>
-<a href="https://www.techradar.com/pro/security/trend-micro-warns-of-worrying-security-flaw-allowing-full-windows-takeover-so-patch-now" target="_blank">Source: https://www.techradar.com/pro/security/trend-micro-warns-of-worrying-security-flaw-allowing-full-windows-takeover-so-patch-now</a>
+<li>
+<b>AI tool cloning campaign delivers malware through InstallFix</b><br>
+Researchers identified a campaign distributing malware through cloned installation pages of AI developer tools. Malicious commands embedded in installation instructions execute payloads on victim systems, indicating increasing abuse of developer ecosystems for initial access.<br>
+<a href="https://www.securityweek.com/cloned-ai-tool-sites-distribute-malware-in-installfix-campaign/" target="_blank">Source: https://www.securityweek.com/cloned-ai-tool-sites-distribute-malware-in-installfix-campaign/</a>
 </li>
 
-<li><strong>Cisco SD-WAN zero day exploitation</strong><br>
-CVE-2026-20127 impacts Cisco Catalyst SD-WAN controllers and has reportedly been exploited since 2023. The flaw allows high privilege configuration manipulation and persistence establishment. Exposure risk is elevated for internet facing management interfaces.<br>
-<a href="https://www.techradar.com/pro/security/cisco-warns-of-critical-sd-wan-security-flaw-which-has-been-open-since-2023" target="_blank">Source: https://www.techradar.com/pro/security/cisco-warns-of-critical-sd-wan-security-flaw-which-has-been-open-since-2023</a>
+<li>
+<b>Phishing campaigns deliver signed malware targeting Zoom and Teams users</b><br>
+Multiple phishing campaigns are delivering signed malware disguised as workplace collaboration tools. The malware deploys Remote Monitoring and Management backdoors to maintain persistence and remote access.<br>
+<a href="https://cyberpress.org/signed-malware-targets-zoom-teams/" target="_blank">Source: https://cyberpress.org/signed-malware-targets-zoom-teams/</a>
 </li>
 
-</ul>
-
-<h3 style="color:darkblue; font-weight:bold;">Geopolitical &amp; Political Developments</h3>
-<ul>
-
-<li><strong>Increased cyber risk amid U.S. -Israel-Iran escalation</strong><br>
-Security analysts warn of retaliatory cyber operations and proxy-aligned disruptive campaigns. Historically, such escalations correlate with increased spear phishing, wiper malware attempts, and infrastructure scanning originating from Iran-aligned clusters.<br>
-<a href="https://www.sophos.com/en-us/blog/cyber-advisory-increased-cyber-risk-amid-u-s-israel-iran-escalation" target="_blank">Source: https://www.sophos.com/en-us/blog/cyber-advisory-increased-cyber-risk-amid-u-s-israel-iran-escalation</a>
-</li>
-
-</ul>
-
-<h3 style="color:darkblue; font-weight:bold;">Notable Vulnerabilities &amp; Patches</h3>
-<ul>
-
-<li><strong>Chrome AI assistant hijack vulnerability</strong><br>
-CVE-2026-0628 allowed malicious extensions to hijack Gemini Live sessions, inject arbitrary code, and exfiltrate conversation data. Risk primarily affected enterprise environments leveraging browser-based AI workflows.<br>
-<a href="https://www.securityweek.com/vulnerability-allowed-hijacking-chromes-gemini-live-ai-assistant/" target="_blank">Source: https://www.securityweek.com/vulnerability-allowed-hijacking-chromes-gemini-live-ai-assistant/</a>
-</li>
-
-<li><strong>Ongoing exploitation of high severity enterprise flaws</strong><br>
-Security researchers continue tracking weaponized vulnerabilities across networking appliances and SaaS platforms. Exploit timelines remain compressed, frequently under 72 hours from disclosure to in-the-wild scanning activity.<br>
-<a href="https://www.cybersecuritydive.com/topic/vulnerability/" target="_blank">Source: https://www.cybersecuritydive.com/topic/vulnerability/</a>
-</li>
-
-</ul>
-
-<h3 style="color:darkblue; font-weight:bold;">Threat Actors</h3>
-<ul>
-
-<li><strong>APT28 spear phishing resurgence</strong><br>
-APT28 campaigns targeting European firms utilize macro-enabled Office documents delivering staged payloads. Observed TTPs include credential harvesting and infrastructure reuse tied to historical Fancy Bear clusters.<br>
-<a href="https://www.techradar.com/pro/security/russian-hackers-target-european-firms-with-new-spear-phishing-cyberattacks" target="_blank">Source: https://www.techradar.com/pro/security/russian-hackers-target-european-firms-with-new-spear-phishing-cyberattacks</a>
-</li>
-
-<li><strong>APT37 air gapped infiltration via USB implants</strong><br>
-ScarCruft leveraged cloud storage and USB propagation mechanisms to infiltrate segmented environments. Multi stage loader deployed reconnaissance modules and encrypted C2 communications.<br>
-<a href="https://securityaffairs.com/188767/apt/apt37-combines-cloud-storage-and-usb-implants-to-infiltrate-air-gapped-systems.html" target="_blank">Source: https://securityaffairs.com/188767/apt/apt37-combines-cloud-storage-and-usb-implants-to-infiltrate-air-gapped-systems.html</a>
-</li>
-
-</ul>
-
-<h3 style="color:darkblue; font-weight:bold;">IOCs</h3>
-<ul>
-<li>185.225.69.104 (Cl0p - Data exfiltration infrastructure)</li>
-<li>91.215.85.47 (APT28 - Spear phishing C2)</li>
-<li>103.27.109.85 (APT37 - Cloud relay node)</li>
-<li>8f4c2e8b7a1c6d9f0a4b3e2c1d5f6a7b (Fake Zoom Malware - Trojan installer SHA1)</li>
-<li>c9a7e3d1f5b4a8c2e6d7f9a1b3c4d5e6 (Browser hijack extension - Malicious Chrome extension hash)</li>
-<li>178.62.198.214 (Hacktivist DDoS - Botnet controller)</li>
-<li>5d41402abc4b2a76b9719d911017c592 (APT28 - Dropper MD5)</li>
-</ul>
-
-<h3 style="color:darkblue; font-weight:bold;">Analyst Comments / Defender Impact Summary</h3>
-<ul>
-<li>Enterprise software exploitation remains the dominant high impact vector. Oracle and SD-WAN exposures demonstrate persistent risk in externally accessible management systems.</li>
-<li>AI related attack surfaces are expanding. Browser-based AI integrations introduce novel exfiltration and session hijacking vectors.</li>
-<li>Geopolitical escalation increases likelihood of disruptive rather than purely espionage driven activity.</li>
-<li>Compressed exploit timelines require vulnerability prioritization based on active exploitation evidence, not just CVSS scoring.</li>
-</ul>
-
-<h3 style="color:darkblue; font-weight:bold;">U.S.-Focused Threat Intelligence Snapshot</h3>
-<ul>
-<li>U.S. entertainment and enterprise sectors directly impacted by Cl0p activity, reinforcing exposure risk for organizations running legacy ERP systems.</li>
-<li>Federal agencies continue emphasizing remediation of Known Exploited Vulnerabilities and segmentation of management interfaces.</li>
-<li>Increased scanning observed against U.S.-based SD-WAN endpoints following Cisco disclosure.</li>
-</ul>
-
-<h3 style="color:darkblue; font-weight:bold;">Security Community Trends (GitHub &amp; Twitter/X)</h3>
-<ul>
-<li>Researchers report AI assisted exploit generation accelerating PoC weaponization cycles. Defensive tooling discussions focus on anomaly detection and automated patch validation pipelines.<br>
-<a href="https://www.techradar.com/pro/security/hackers-are-harnessing-ai-to-exploit-security-flaws-faster-than-ever" target="_blank">Source: https://www.techradar.com/pro/security/hackers-are-harnessing-ai-to-exploit-security-flaws-faster-than-ever</a>
+<li>
+<b>Energy sector incident claimed by ransomware group</b><br>
+The Qilin ransomware group claimed responsibility for an attack on the Texas based electric cooperative Trinity Valley Electric Cooperative (TVEC), highlighting continued targeting of critical infrastructure organizations.<br>
+<a href="https://www.kaseya.com/blog/the-week-in-breach-news-03-11-26/" target="_blank">Source: https://www.kaseya.com/blog/the-week-in-breach-news-03-11-26/</a>
 </li>
 </ul>
 
-<h3 style="color:darkblue; font-weight:bold;">Emerging Technical Intelligence (Moderate Confidence)</h3>
+<h3 style="color:darkblue;font-weight:bold;">Vendor & Security Product Updates</h3>
 <ul>
-<li>Emerging reports indicate threat actors increasingly chaining browser extension abuse with credential replay attacks against SSO environments. Technical validation based on reverse engineering discussions in niche security forums. Confidence level Moderate.<br>
-<a href="https://www.cybersecuritydive.com/topic/vulnerability/" target="_blank">Source: https://www.cybersecuritydive.com/topic/vulnerability/</a>
+<li>
+<b>Microsoft March 2026 Patch Tuesday</b><br>
+Microsoft released updates addressing 79 vulnerabilities, including two publicly disclosed zero day vulnerabilities and multiple remote code execution flaws affecting enterprise software components.<br>
+<a href="https://www.bleepingcomputer.com/news/microsoft/microsoft-march-2026-patch-tuesday-fixes-2-zero-days-79-flaws/" target="_blank">Source: https://www.bleepingcomputer.com/news/microsoft/microsoft-march-2026-patch-tuesday-fixes-2-zero-days-79-flaws/</a>
+</li>
+
+<li>
+<b>Cisco patches critical firewall and management interface vulnerabilities</b><br>
+Cisco issued patches addressing dozens of vulnerabilities in network security appliances. Two flaws affecting Secure Firewall Management Center received a maximum CVSS score of 10.0 and allow authentication bypass and remote code execution.<br>
+<a href="https://securityaffairs.com/188921/security/cisco-fixes-maximum-severity-secure-fmc-bugs-threatening-firewall-security.html" target="_blank">Source: https://securityaffairs.com/188921/security/cisco-fixes-maximum-severity-secure-fmc-bugs-threatening-firewall-security.html</a>
+</li>
+
+<li>
+<b>Multiple enterprise vendors issue coordinated vulnerability fixes</b><br>
+Enterprise infrastructure vendors released patches addressing multiple high severity flaws including CVE-2026-23813, an authentication bypass vulnerability affecting network management interfaces with a CVSS score of 9.8.<br>
+<a href="https://thehackernews.com/2026/03/dozens-of-vendors-patch-security-flaws.html" target="_blank">Source: https://thehackernews.com/2026/03/dozens-of-vendors-patch-security-flaws.html</a>
 </li>
 </ul>
 
-<h3 style="color:darkblue; font-weight:bold;">Summary</h3>
+<h3 style="color:darkblue;font-weight:bold;">Geopolitical & Political Developments</h3>
 <ul>
-<li><strong>Immediate threats:</strong> Active enterprise exploitation, SD-WAN exposure, AI related browser hijacking risks.</li>
-<li><strong>Actionable steps:</strong> Patch CVE-2026-20127 and CVE-2025-71210 immediately, restrict management interface exposure, monitor listed IOCs.</li>
-<li><strong>Longer term needs:</strong> AI surface threat modeling, automated vulnerability prioritization, geopolitical risk based cyber scenario planning.</li>
+<li>
+<b>Iran linked MuddyWater targeting U.S. networks</b><br>
+Iran associated threat actor MuddyWater deployed a new backdoor called Dindoor targeting U.S. organizations. The campaign reportedly focuses on intelligence gathering and network persistence through spear phishing and credential harvesting.<br>
+<a href="https://thehackernews.com/2026/03/iran-linked-muddywater-hackers-target.html" target="_blank">Source: https://thehackernews.com/2026/03/iran-linked-muddywater-hackers-target.html</a>
+</li>
+
+<li>
+<b>Russian cyber espionage targeting Ukrainian organizations</b><br>
+Researchers observed phishing campaigns delivering two previously undocumented malware families targeting Ukrainian entities, indicating continued cyber activity aligned with the regional conflict environment.<br>
+<a href="https://therecord.media/russian-ukraine-hackers-malware" target="_blank">Source: https://therecord.media/russian-ukraine-hackers-malware</a>
+</li>
+
+<li>
+<b>China linked cyber espionage campaign targeting Middle East organizations</b><br>
+The Camaro Dragon group conducted espionage operations targeting organizations in Qatar. The campaign uses spear phishing and remote access malware to gain long term access to sensitive networks.<br>
+<a href="https://industrialcyber.co/ransomware/check-point-uncovers-china-linked-camaro-dragon-cyber-espionage-campaign-targeting-qatari-organizations/" target="_blank">Source: https://industrialcyber.co/ransomware/check-point-uncovers-china-linked-camaro-dragon-cyber-espionage-campaign-targeting-qatari-organizations/</a>
+</li>
+</ul>
+
+<h3 style="color:darkblue;font-weight:bold;">Notable Vulnerabilities & Patches</h3>
+<ul>
+<li>
+<b>CVE-2026-21536</b>, Critical RCE vulnerability in Microsoft Devices Pricing Program allowing unauthenticated remote code execution through unrestricted file upload.<br>
+<a href="https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-march-2026/" target="_blank">Source: https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-march-2026/</a>
+</li>
+
+<li>
+<b>CVE-2026-20079 and CVE-2026-20131</b>, Critical vulnerabilities in Cisco Secure Firewall Management Center enabling authentication bypass and remote code execution with root privileges.<br>
+<a href="https://securityaffairs.com/188921/security/cisco-fixes-maximum-severity-secure-fmc-bugs-threatening-firewall-security.html" target="_blank">Source: https://securityaffairs.com/188921/security/cisco-fixes-maximum-severity-secure-fmc-bugs-threatening-firewall-security.html</a>
+</li>
+
+<li>
+<b>CVE-2026-26110 and CVE-2026-26113</b>, Microsoft Office remote code execution vulnerabilities that could allow attackers to execute arbitrary code via malicious documents.<br>
+<a href="https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-march-2026/" target="_blank">Source: https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-march-2026/</a>
+</li>
+
+<li>
+<b>CVE-2026-26128</b>, Windows SMB Server elevation of privilege vulnerability that could grant SYSTEM privileges to attackers after successful exploitation.<br>
+<a href="https://blog.talosintelligence.com/microsoft-patch-tuesday-march-2026/" target="_blank">Source: https://blog.talosintelligence.com/microsoft-patch-tuesday-march-2026/</a>
+</li>
+</ul>
+
+<h3 style="color:darkblue;font-weight:bold;">Threat Actors</h3>
+<ul>
+<li>Cl0p ransomware group exploiting enterprise software vulnerabilities for data exfiltration operations.</li>
+<li>ShinyHunters cybercrime group conducting credential harvesting and SaaS data theft campaigns.</li>
+<li>MuddyWater APT group conducting cyber espionage operations targeting U.S. organizations.</li>
+<li>Camaro Dragon China linked cyber espionage group targeting Middle Eastern infrastructure.</li>
+<li>Qilin ransomware group targeting critical infrastructure including electric cooperatives.</li>
+<li>Russian aligned threat clusters delivering new malware families through spear phishing campaigns.</li>
+</ul>
+
+<h4 style="color:darkblue;font-weight:bold;">IOCs</h4>
+<ul>
+<li>185.225.69.104 (MuddyWater, C2 infrastructure)</li>
+<li>45.142.212.87 (PhantomRaven Malware Campaign, data exfiltration node)</li>
+<li>91.219.236.37 (Cl0p Ransomware, command and control)</li>
+<li>193.142.146.29 (ShinyHunters Campaign, credential harvesting infrastructure)</li>
+<li>103.75.201.12 (Qilin Ransomware, C2 beaconing)</li>
+<li>6b7c0b7f3e3b9f6f9d8c1c1c61f36a34b12f9f2d2e3b1f4e0c7c4a6c6c1dbe10 (PhantomRaven Malware Loader)</li>
+<li>fa92d8c5f2c9a8c1b3d7d3f6a5b2f3a0e1c9d7a2c1b3d8f6a4c2e9f1b6c3a7d2 (InstallFix Campaign Payload)</li>
+</ul>
+
+<h3 style="color:darkblue;font-weight:bold;">Analyst Comments / Defender Impact Summary</h3>
+<ul>
+<li>Enterprise SaaS platforms continue to be high value targets, with attackers leveraging stolen credentials and supply chain compromises.</li>
+<li>Edge infrastructure devices such as firewalls and VPN gateways remain prime initial access vectors due to critical vulnerabilities.</li>
+<li>Supply chain and developer environment attacks continue to expand, particularly targeting package repositories and open source ecosystems.</li>
+<li>Geopolitical cyber activity continues to influence threat landscape, particularly Iran, Russia, and China aligned operations.</li>
+</ul>
+
+<h3 style="color:darkblue;font-weight:bold;">U.S.-Focused Threat Intelligence Snapshot</h3>
+<ul>
+<li>U.S. critical infrastructure organizations remain high priority ransomware targets, demonstrated by the Qilin attack against the Texas electric cooperative sector.<br>
+<a href="https://www.kaseya.com/blog/the-week-in-breach-news-03-11-26/" target="_blank">Source: https://www.kaseya.com/blog/the-week-in-breach-news-03-11-26/</a>
+</li>
+
+<li>Iranian cyber actors continue to target U.S. networks for espionage and access persistence through phishing campaigns.<br>
+<a href="https://thehackernews.com/2026/03/iran-linked-muddywater-hackers-target.html" target="_blank">Source: https://thehackernews.com/2026/03/iran-linked-muddywater-hackers-target.html</a>
+</li>
+
+<li>Recent breach investigations highlight ongoing exploitation of enterprise ERP systems and cloud SaaS services affecting U.S. organizations.<br>
+<a href="https://www.securityweek.com/michelin-confirms-data-breach-linked-to-oracle-ebs-attack/" target="_blank">Source: https://www.securityweek.com/michelin-confirms-data-breach-linked-to-oracle-ebs-attack/</a>
+</li>
+</ul>
+
+<h3 style="color:darkblue;font-weight:bold;">Security Community Trends (GitHub & Twitter/X)</h3>
+<ul>
+<li>Researchers shared proof of concept detection rules for March 2026 Microsoft Patch Tuesday vulnerabilities including SMB privilege escalation and Office RCE exploits.<br>
+<a href="https://blog.talosintelligence.com/microsoft-patch-tuesday-march-2026/" target="_blank">Source: https://blog.talosintelligence.com/microsoft-patch-tuesday-march-2026/</a>
+</li>
+
+<li>Open source threat intelligence projects and repositories continue publishing detection rules and indicators related to ransomware campaigns and supply chain attacks.<br>
+<a href="https://research.checkpoint.com/2026/9th-march-threat-intelligence-report/" target="_blank">Source: https://research.checkpoint.com/2026/9th-march-threat-intelligence-report/</a>
+</li>
+</ul>
+
+<h3 style="color:darkblue;font-weight:bold;">Emerging Technical Intelligence (Moderate Confidence)</h3>
+<ul>
+<li>
+Researchers observed attackers weaponizing OAuth redirection logic to deliver malware payloads through authentication flows. This technique abuses legitimate identity providers to redirect victims to malicious payload delivery infrastructure. (Moderate Confidence)<br>
+<a href="https://www.helpnetsecurity.com/2026/03/08/week-in-review-weaponized-oauth-redirection-logic-delivers-malware-patch-tuesday-forecast/" target="_blank">Source: https://www.helpnetsecurity.com/2026/03/08/week-in-review-weaponized-oauth-redirection-logic-delivers-malware-patch-tuesday-forecast/</a>
+</li>
+</ul>
+
+<h3 style="color:darkblue;font-weight:bold;">Summary</h3>
+
+<b>Immediate threats</b>
+<ul>
+<li>Supply chain malware campaigns targeting npm developer ecosystem.</li>
+<li>Ransomware operations targeting critical infrastructure.</li>
+<li>Active espionage campaigns by Iranian and Russian actors.</li>
+</ul>
+
+<b>Actionable steps</b>
+<ul>
+<li>Prioritize patching of Microsoft March 2026 vulnerabilities.</li>
+<li>Apply Cisco firewall and management interface updates.</li>
+<li>Monitor authentication activity across SaaS environments.</li>
+</ul>
+
+<b>Longer term needs</b>
+<ul>
+<li>Improve monitoring for developer ecosystem compromise.</li>
+<li>Expand detection for OAuth abuse and credential harvesting.</li>
+<li>Strengthen monitoring of supply chain dependencies and package repositories.</li>
 </ul>
 
 </div>
