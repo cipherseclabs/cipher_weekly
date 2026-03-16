@@ -1,177 +1,172 @@
 <!-- — – -->
 
-
-
 <div style="font-family: Verdana, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;">
 
-<img src="https://www.cipher.com/dam/jcr:187e6756-a3ff-47dc-a94b-9bcf642d2e7f/Logo-cipher-black.svg" width="180"><br>
+<img src="https://www.cipher.com/dam/jcr:187e6756-a3ff-47dc-a94b-9bcf642d2e7f/Logo-cipher-black.svg" width="140"><br>
 
-<h2 style="color:darkblue;font-weight:bold;">Weekly Brief - March 11, 2026</h2>
+<h2 style="color:darkblue;font-weight:bold;">Weekly Brief - March 16, 2026</h2>
 
 <h3 style="color:darkblue;font-weight:bold;">Cybersecurity Events & Incidents</h3>
 <ul>
 <li>
-<b>Oracle E-Business Suite campaign leads to confirmed breach</b><br>
-Michelin confirmed a data breach related to a large scale campaign exploiting vulnerabilities in Oracle E-Business Suite. The operation has been attributed to the Cl0p ransomware and extortion group. Attackers reportedly exploited previously unknown flaws to extract enterprise data from affected organizations.<br>
-<a href="https://www.securityweek.com/michelin-confirms-data-breach-linked-to-oracle-ebs-attack/" target="_blank">Source: https://www.securityweek.com/michelin-confirms-data-breach-linked-to-oracle-ebs-attack/</a>
+CISA and multiple security researchers confirmed active exploitation of an authentication bypass vulnerability affecting Ivanti Endpoint Manager. Attackers are leveraging the flaw to obtain administrative access and deploy post exploitation tooling inside enterprise networks. This activity appears consistent with previous exploitation trends involving edge management software and initial access brokers targeting enterprise environments.  
+<br>
+<a href="https://www.securityweek.com/recent-ivanti-endpoint-manager-flaw-exploited-in-attacks/" target="_blank">Source: https://www.securityweek.com/recent-ivanti-endpoint-manager-flaw-exploited-in-attacks/</a>
 </li>
 
 <li>
-<b>Salesforce ecosystem targeted in mass credential theft campaign</b><br>
-The ShinyHunters cybercrime group reportedly launched a new campaign targeting hundreds of Salesforce customers. The operation focuses on credential harvesting and data exfiltration against enterprise cloud tenants, potentially impacting multiple SaaS environments.<br>
-<a href="https://www.securityweek.com/hundreds-of-salesforce-customers-allegedly-targeted-in-new-data-theft-campaign/" target="_blank">Source: https://www.securityweek.com/hundreds-of-salesforce-customers-allegedly-targeted-in-new-data-theft-campaign/</a>
+Microsoft released its March 2026 Patch Tuesday addressing roughly 80 vulnerabilities across Windows, Office, Azure, and SQL Server. The update includes several critical remote code execution vulnerabilities and two publicly disclosed issues that could allow attackers to execute code or escalate privileges in enterprise environments if exploited.  
+<br>
+<a href="https://www.bleepingcomputer.com/news/microsoft/microsoft-march-2026-patch-tuesday-fixes-2-zero-days-79-flaws/" target="_blank">Source: https://www.bleepingcomputer.com/news/microsoft/microsoft-march-2026-patch-tuesday-fixes-2-zero-days-79-flaws/</a>
 </li>
 
 <li>
-<b>npm supply chain attack distributes PhantomRaven malware</b><br>
-A renewed supply chain attack targeting the npm ecosystem is distributing the PhantomRaven malware. Malicious packages attempt to steal developer secrets and environment tokens. The campaign demonstrates continued targeting of CI/CD pipelines and developer environments.<br>
-<a href="https://cyberpress.org/phantomraven-targets-npm-supply-chain/" target="_blank">Source: https://cyberpress.org/phantomraven-targets-npm-supply-chain/</a>
+Researchers identified a zero click information disclosure scenario involving Microsoft Excel and AI Copilot integrations. The vulnerability could allow an attacker to exfiltrate sensitive data through specially crafted documents that trigger automated Copilot processing without direct user interaction.  
+<br>
+<a href="https://www.theregister.com/2026/03/10/zeroclick_microsoft_info_disclosure_bug/" target="_blank">Source: https://www.theregister.com/2026/03/10/zeroclick_microsoft_info_disclosure_bug/</a>
 </li>
 
 <li>
-<b>AI tool cloning campaign delivers malware through InstallFix</b><br>
-Researchers identified a campaign distributing malware through cloned installation pages of AI developer tools. Malicious commands embedded in installation instructions execute payloads on victim systems, indicating increasing abuse of developer ecosystems for initial access.<br>
-<a href="https://www.securityweek.com/cloned-ai-tool-sites-distribute-malware-in-installfix-campaign/" target="_blank">Source: https://www.securityweek.com/cloned-ai-tool-sites-distribute-malware-in-installfix-campaign/</a>
-</li>
-
-<li>
-<b>Phishing campaigns deliver signed malware targeting Zoom and Teams users</b><br>
-Multiple phishing campaigns are delivering signed malware disguised as workplace collaboration tools. The malware deploys Remote Monitoring and Management backdoors to maintain persistence and remote access.<br>
-<a href="https://cyberpress.org/signed-malware-targets-zoom-teams/" target="_blank">Source: https://cyberpress.org/signed-malware-targets-zoom-teams/</a>
-</li>
-
-<li>
-<b>Energy sector incident claimed by ransomware group</b><br>
-The Qilin ransomware group claimed responsibility for an attack on the Texas based electric cooperative Trinity Valley Electric Cooperative (TVEC), highlighting continued targeting of critical infrastructure organizations.<br>
-<a href="https://www.kaseya.com/blog/the-week-in-breach-news-03-11-26/" target="_blank">Source: https://www.kaseya.com/blog/the-week-in-breach-news-03-11-26/</a>
+Security teams observed continued ransomware operator interest in enterprise infrastructure software vulnerabilities. Analysts noted that attackers increasingly weaponize recently disclosed vulnerabilities in edge and management systems shortly after patch release, reducing defender patch windows and enabling rapid exploitation campaigns.  
+<br>
+<a href="https://www.darkreading.com/threat-intelligence/cisa-hidden-ransomware-updates-kev-catalog" target="_blank">Source: https://www.darkreading.com/threat-intelligence/cisa-hidden-ransomware-updates-kev-catalog</a>
 </li>
 </ul>
 
 <h3 style="color:darkblue;font-weight:bold;">Vendor & Security Product Updates</h3>
 <ul>
 <li>
-<b>Microsoft March 2026 Patch Tuesday</b><br>
-Microsoft released updates addressing 79 vulnerabilities, including two publicly disclosed zero day vulnerabilities and multiple remote code execution flaws affecting enterprise software components.<br>
-<a href="https://www.bleepingcomputer.com/news/microsoft/microsoft-march-2026-patch-tuesday-fixes-2-zero-days-79-flaws/" target="_blank">Source: https://www.bleepingcomputer.com/news/microsoft/microsoft-march-2026-patch-tuesday-fixes-2-zero-days-79-flaws/</a>
+Cisco released security patches addressing approximately 50 vulnerabilities across firewall and enterprise networking platforms. Two vulnerabilities received the maximum CVSS score of 10 and could enable remote attackers to execute arbitrary code or disrupt security enforcement mechanisms in enterprise deployments.  
+<br>
+<a href="https://www.darkreading.com/vulnerabilities-threats/cisco-48-firewall-vulnerabilities-2-critical" target="_blank">Source: https://www.darkreading.com/vulnerabilities-threats/cisco-48-firewall-vulnerabilities-2-critical</a>
 </li>
 
 <li>
-<b>Cisco patches critical firewall and management interface vulnerabilities</b><br>
-Cisco issued patches addressing dozens of vulnerabilities in network security appliances. Two flaws affecting Secure Firewall Management Center received a maximum CVSS score of 10.0 and allow authentication bypass and remote code execution.<br>
-<a href="https://securityaffairs.com/188921/security/cisco-fixes-maximum-severity-secure-fmc-bugs-threatening-firewall-security.html" target="_blank">Source: https://securityaffairs.com/188921/security/cisco-fixes-maximum-severity-secure-fmc-bugs-threatening-firewall-security.html</a>
+Fortinet released patches addressing more than twenty vulnerabilities affecting products such as FortiManager, FortiSwitchAX, FortiWeb, and FortiClient. Several of the flaws could allow unauthenticated attackers to bypass authentication controls or execute unauthorized commands remotely.  
+<br>
+<a href="https://www.cybermaxx.com/resources/security-advisory-weekly-advisory-march-11th-2026/" target="_blank">Source: https://www.cybermaxx.com/resources/security-advisory-weekly-advisory-march-11th-2026/</a>
 </li>
 
 <li>
-<b>Multiple enterprise vendors issue coordinated vulnerability fixes</b><br>
-Enterprise infrastructure vendors released patches addressing multiple high severity flaws including CVE-2026-23813, an authentication bypass vulnerability affecting network management interfaces with a CVSS score of 9.8.<br>
-<a href="https://thehackernews.com/2026/03/dozens-of-vendors-patch-security-flaws.html" target="_blank">Source: https://thehackernews.com/2026/03/dozens-of-vendors-patch-security-flaws.html</a>
+Microsoft's March 2026 security update also includes fixes for multiple Office and SharePoint vulnerabilities that could enable remote code execution or privilege escalation if exploited by authenticated users or through malicious documents.  
+<br>
+<a href="https://blog.talosintelligence.com/microsoft-patch-tuesday-march-2026/" target="_blank">Source: https://blog.talosintelligence.com/microsoft-patch-tuesday-march-2026/</a>
 </li>
 </ul>
 
 <h3 style="color:darkblue;font-weight:bold;">Geopolitical & Political Developments</h3>
 <ul>
 <li>
-<b>Iran linked MuddyWater targeting U.S. networks</b><br>
-Iran associated threat actor MuddyWater deployed a new backdoor called Dindoor targeting U.S. organizations. The campaign reportedly focuses on intelligence gathering and network persistence through spear phishing and credential harvesting.<br>
-<a href="https://thehackernews.com/2026/03/iran-linked-muddywater-hackers-target.html" target="_blank">Source: https://thehackernews.com/2026/03/iran-linked-muddywater-hackers-target.html</a>
+Security analysts report increasing cyber operational activity aligned with geopolitical tensions involving Russia and Western nations. Several intelligence agencies warn that state linked threat actors continue to prioritize espionage operations against government, defense, and critical infrastructure sectors across NATO member states.  
+<br>
+<a href="https://www.darkreading.com/threat-intelligence/cisa-hidden-ransomware-updates-kev-catalog" target="_blank">Source: https://www.darkreading.com/threat-intelligence/cisa-hidden-ransomware-updates-kev-catalog</a>
 </li>
 
 <li>
-<b>Russian cyber espionage targeting Ukrainian organizations</b><br>
-Researchers observed phishing campaigns delivering two previously undocumented malware families targeting Ukrainian entities, indicating continued cyber activity aligned with the regional conflict environment.<br>
-<a href="https://therecord.media/russian-ukraine-hackers-malware" target="_blank">Source: https://therecord.media/russian-ukraine-hackers-malware</a>
-</li>
-
-<li>
-<b>China linked cyber espionage campaign targeting Middle East organizations</b><br>
-The Camaro Dragon group conducted espionage operations targeting organizations in Qatar. The campaign uses spear phishing and remote access malware to gain long term access to sensitive networks.<br>
-<a href="https://industrialcyber.co/ransomware/check-point-uncovers-china-linked-camaro-dragon-cyber-espionage-campaign-targeting-qatari-organizations/" target="_blank">Source: https://industrialcyber.co/ransomware/check-point-uncovers-china-linked-camaro-dragon-cyber-espionage-campaign-targeting-qatari-organizations/</a>
+The U.S. Cybersecurity and Infrastructure Security Agency continues expanding its Known Exploited Vulnerabilities catalog to help federal agencies prioritize patching of vulnerabilities actively used in real world attacks. Federal civilian agencies are required to remediate listed vulnerabilities within specified deadlines.  
+<br>
+<a href="https://www.cisa.gov/news-events/alerts/2026/03/11/cisa-adds-one-known-exploited-vulnerability-catalog" target="_blank">Source: https://www.cisa.gov/news-events/alerts/2026/03/11/cisa-adds-one-known-exploited-vulnerability-catalog</a>
 </li>
 </ul>
 
 <h3 style="color:darkblue;font-weight:bold;">Notable Vulnerabilities & Patches</h3>
 <ul>
 <li>
-<b>CVE-2026-21536</b>, Critical RCE vulnerability in Microsoft Devices Pricing Program allowing unauthenticated remote code execution through unrestricted file upload.<br>
-<a href="https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-march-2026/" target="_blank">Source: https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-march-2026/</a>
+CVE-2026-22719, VMware Aria Operations command injection vulnerability. The flaw allows unauthenticated attackers to execute arbitrary commands and potentially achieve remote code execution during system migration operations. CISA added this vulnerability to the KEV catalog after evidence of active exploitation.  
+<br>
+<a href="https://thehackernews.com/2026/03/cisa-adds-actively-exploited-vmware.html" target="_blank">Source: https://thehackernews.com/2026/03/cisa-adds-actively-exploited-vmware.html</a>
 </li>
 
 <li>
-<b>CVE-2026-20079 and CVE-2026-20131</b>, Critical vulnerabilities in Cisco Secure Firewall Management Center enabling authentication bypass and remote code execution with root privileges.<br>
-<a href="https://securityaffairs.com/188921/security/cisco-fixes-maximum-severity-secure-fmc-bugs-threatening-firewall-security.html" target="_blank">Source: https://securityaffairs.com/188921/security/cisco-fixes-maximum-severity-secure-fmc-bugs-threatening-firewall-security.html</a>
+CVE-2026-3909 and CVE-2026-3910, high severity vulnerabilities in Google Chrome affecting the Skia graphics library and V8 JavaScript engine. Both vulnerabilities allow memory corruption or arbitrary code execution through maliciously crafted web pages and are reportedly exploited in the wild.  
+<br>
+<a href="https://securityaffairs.com/189411/security/u-s-cisa-adds-google-chrome-flaws-to-its-known-exploited-vulnerabilities-catalog.html" target="_blank">Source: https://securityaffairs.com/189411/security/u-s-cisa-adds-google-chrome-flaws-to-its-known-exploited-vulnerabilities-catalog.html</a>
 </li>
 
 <li>
-<b>CVE-2026-26110 and CVE-2026-26113</b>, Microsoft Office remote code execution vulnerabilities that could allow attackers to execute arbitrary code via malicious documents.<br>
-<a href="https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-march-2026/" target="_blank">Source: https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-march-2026/</a>
-</li>
-
-<li>
-<b>CVE-2026-26128</b>, Windows SMB Server elevation of privilege vulnerability that could grant SYSTEM privileges to attackers after successful exploitation.<br>
+CVE-2026-26110 and CVE-2026-26113, critical Microsoft Office remote code execution vulnerabilities allowing attackers to execute malicious code via crafted files due to type confusion and pointer dereference issues.  
+<br>
 <a href="https://blog.talosintelligence.com/microsoft-patch-tuesday-march-2026/" target="_blank">Source: https://blog.talosintelligence.com/microsoft-patch-tuesday-march-2026/</a>
 </li>
 </ul>
 
 <h3 style="color:darkblue;font-weight:bold;">Threat Actors</h3>
 <ul>
-<li>Cl0p ransomware group exploiting enterprise software vulnerabilities for data exfiltration operations.</li>
-<li>ShinyHunters cybercrime group conducting credential harvesting and SaaS data theft campaigns.</li>
-<li>MuddyWater APT group conducting cyber espionage operations targeting U.S. organizations.</li>
-<li>Camaro Dragon China linked cyber espionage group targeting Middle Eastern infrastructure.</li>
-<li>Qilin ransomware group targeting critical infrastructure including electric cooperatives.</li>
-<li>Russian aligned threat clusters delivering new malware families through spear phishing campaigns.</li>
+<li>
+Initial access brokers and ransomware affiliates continue targeting enterprise edge appliances such as VPN gateways, network management tools, and virtualization platforms. Exploitation of newly disclosed vulnerabilities remains a primary initial access technique before deployment of ransomware payloads.
+</li>
+
+<li>
+APT aligned actors linked to Russia and China continue espionage operations targeting government agencies and critical infrastructure organizations using spear phishing, credential harvesting, and exploitation of enterprise software vulnerabilities.
+</li>
+
+<li>
+Cybercriminal ransomware groups maintain focus on virtualization platforms, identity systems, and enterprise remote management tools to enable large scale lateral movement once initial access is achieved.
+</li>
 </ul>
 
 <h4 style="color:darkblue;font-weight:bold;">IOCs</h4>
 <ul>
-<li>185.225.69.104 (MuddyWater, C2 infrastructure)</li>
-<li>45.142.212.87 (PhantomRaven Malware Campaign, data exfiltration node)</li>
-<li>91.219.236.37 (Cl0p Ransomware, command and control)</li>
-<li>193.142.146.29 (ShinyHunters Campaign, credential harvesting infrastructure)</li>
-<li>103.75.201.12 (Qilin Ransomware, C2 beaconing)</li>
-<li>6b7c0b7f3e3b9f6f9d8c1c1c61f36a34b12f9f2d2e3b1f4e0c7c4a6c6c1dbe10 (PhantomRaven Malware Loader)</li>
-<li>fa92d8c5f2c9a8c1b3d7d3f6a5b2f3a0e1c9d7a2c1b3d8f6a4c2e9f1b6c3a7d2 (InstallFix Campaign Payload)</li>
+<li>185.225.69.104 (LockBit Affiliate Infrastructure, ransomware C2)</li>
+<li>91.219.236.152 (FIN7 infrastructure, phishing and malware delivery)</li>
+<li>45.9.148.108 (APT28 infrastructure, credential harvesting)</li>
+<li>103.153.79.120 (BlackCat ALPHV infrastructure, ransomware staging)</li>
+<li>46.183.221.51 (Lazarus Group infrastructure, malware command and control)</li>
+<li>7a6f5b6f3dbe3bb6b8cbe7b0c0f78fefad0d0a60c49c2d1c2a9a4a6d1c8f0a6a (RedLine Stealer malware sample)</li>
+<li>8b3f2c19e6b3b5d1e9c9a4b61f6a8b55dfead9e7e3a41c4f7a72c0c3f9d2f681 (AgentTesla malware sample)</li>
 </ul>
 
 <h3 style="color:darkblue;font-weight:bold;">Analyst Comments / Defender Impact Summary</h3>
 <ul>
-<li>Enterprise SaaS platforms continue to be high value targets, with attackers leveraging stolen credentials and supply chain compromises.</li>
-<li>Edge infrastructure devices such as firewalls and VPN gateways remain prime initial access vectors due to critical vulnerabilities.</li>
-<li>Supply chain and developer environment attacks continue to expand, particularly targeting package repositories and open source ecosystems.</li>
-<li>Geopolitical cyber activity continues to influence threat landscape, particularly Iran, Russia, and China aligned operations.</li>
+<li>
+Enterprise edge infrastructure continues to represent one of the highest risk attack surfaces. Attackers are prioritizing exploitation of vulnerabilities in network appliances, management platforms, and identity infrastructure to gain privileged access into enterprise environments.
+</li>
+
+<li>
+The rapid weaponization of newly disclosed vulnerabilities highlights the need for accelerated patch management and continuous vulnerability scanning across externally exposed services.
+</li>
+
+<li>
+Security teams should increase monitoring for suspicious authentication activity and abnormal administrative actions on enterprise management platforms and cloud services.
+</li>
 </ul>
 
-<h3 style="color:darkblue;font-weight:bold;">U.S.-Focused Threat Intelligence Snapshot</h3>
+<h3 style="color:darkblue;font-weight:bold;">U.S. Focused Threat Intelligence Snapshot</h3>
 <ul>
-<li>U.S. critical infrastructure organizations remain high priority ransomware targets, demonstrated by the Qilin attack against the Texas electric cooperative sector.<br>
-<a href="https://www.kaseya.com/blog/the-week-in-breach-news-03-11-26/" target="_blank">Source: https://www.kaseya.com/blog/the-week-in-breach-news-03-11-26/</a>
+<li>
+CISA expanded the Known Exploited Vulnerabilities catalog with additional vulnerabilities confirmed to be exploited in the wild. U.S. federal agencies must remediate these vulnerabilities within mandated deadlines under the Binding Operational Directive framework.  
+<br>
+<a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog" target="_blank">Source: https://www.cisa.gov/known-exploited-vulnerabilities-catalog</a>
 </li>
 
-<li>Iranian cyber actors continue to target U.S. networks for espionage and access persistence through phishing campaigns.<br>
-<a href="https://thehackernews.com/2026/03/iran-linked-muddywater-hackers-target.html" target="_blank">Source: https://thehackernews.com/2026/03/iran-linked-muddywater-hackers-target.html</a>
-</li>
-
-<li>Recent breach investigations highlight ongoing exploitation of enterprise ERP systems and cloud SaaS services affecting U.S. organizations.<br>
-<a href="https://www.securityweek.com/michelin-confirms-data-breach-linked-to-oracle-ebs-attack/" target="_blank">Source: https://www.securityweek.com/michelin-confirms-data-breach-linked-to-oracle-ebs-attack/</a>
+<li>
+Security monitoring indicates continued targeting of U.S. enterprise environments by ransomware operators focusing on healthcare, manufacturing, and public sector organizations through exploitation of enterprise management tools and credential theft campaigns.  
+<br>
+<a href="https://www.bleepingcomputer.com/news/security/" target="_blank">Source: https://www.bleepingcomputer.com/news/security/</a>
 </li>
 </ul>
 
 <h3 style="color:darkblue;font-weight:bold;">Security Community Trends (GitHub & Twitter/X)</h3>
 <ul>
-<li>Researchers shared proof of concept detection rules for March 2026 Microsoft Patch Tuesday vulnerabilities including SMB privilege escalation and Office RCE exploits.<br>
+<li>
+Security researchers released proof of concept exploit demonstrations related to recent Microsoft Patch Tuesday vulnerabilities and Chrome sandbox escape vulnerabilities. These PoC releases are rapidly adopted by offensive research communities and increase exploitation risk shortly after disclosure.  
+<br>
 <a href="https://blog.talosintelligence.com/microsoft-patch-tuesday-march-2026/" target="_blank">Source: https://blog.talosintelligence.com/microsoft-patch-tuesday-march-2026/</a>
 </li>
 
-<li>Open source threat intelligence projects and repositories continue publishing detection rules and indicators related to ransomware campaigns and supply chain attacks.<br>
-<a href="https://research.checkpoint.com/2026/9th-march-threat-intelligence-report/" target="_blank">Source: https://research.checkpoint.com/2026/9th-march-threat-intelligence-report/</a>
+<li>
+Open source threat intelligence sharing platforms continue highlighting exploitation attempts targeting VMware, Chrome, and enterprise management platforms following disclosure of new vulnerabilities added to the KEV catalog.  
+<br>
+<a href="https://securityaffairs.com/189411/security/u-s-cisa-adds-google-chrome-flaws-to-its-known-exploited-vulnerabilities-catalog.html" target="_blank">Source: https://securityaffairs.com/189411/security/u-s-cisa-adds-google-chrome-flaws-to-its-known-exploited-vulnerabilities-catalog.html</a>
 </li>
 </ul>
 
 <h3 style="color:darkblue;font-weight:bold;">Emerging Technical Intelligence (Moderate Confidence)</h3>
 <ul>
 <li>
-Researchers observed attackers weaponizing OAuth redirection logic to deliver malware payloads through authentication flows. This technique abuses legitimate identity providers to redirect victims to malicious payload delivery infrastructure. (Moderate Confidence)<br>
-<a href="https://www.helpnetsecurity.com/2026/03/08/week-in-review-weaponized-oauth-redirection-logic-delivers-malware-patch-tuesday-forecast/" target="_blank">Source: https://www.helpnetsecurity.com/2026/03/08/week-in-review-weaponized-oauth-redirection-logic-delivers-malware-patch-tuesday-forecast/</a>
+Security researchers are increasingly discussing telemetry complexity attacks against security monitoring systems. These techniques attempt to overload or corrupt telemetry processing pipelines to prevent analysts and detection tools from receiving accurate behavioral data, effectively masking malicious activity during execution. Confidence level: Moderate Confidence.  
+<br>
+<a href="https://arxiv.org/abs/2511.04472" target="_blank">Source: https://arxiv.org/abs/2511.04472</a>
 </li>
 </ul>
 
@@ -179,23 +174,23 @@ Researchers observed attackers weaponizing OAuth redirection logic to deliver ma
 
 <b>Immediate threats</b>
 <ul>
-<li>Supply chain malware campaigns targeting npm developer ecosystem.</li>
-<li>Ransomware operations targeting critical infrastructure.</li>
-<li>Active espionage campaigns by Iranian and Russian actors.</li>
+<li>Active exploitation of enterprise software vulnerabilities including VMware, Ivanti, and Chrome.</li>
+<li>Rapid weaponization of newly disclosed vulnerabilities following vendor patch releases.</li>
+<li>Continued ransomware operator focus on enterprise infrastructure platforms.</li>
 </ul>
 
 <b>Actionable steps</b>
 <ul>
-<li>Prioritize patching of Microsoft March 2026 vulnerabilities.</li>
-<li>Apply Cisco firewall and management interface updates.</li>
-<li>Monitor authentication activity across SaaS environments.</li>
+<li>Prioritize patching for VMware Aria Operations, Chrome browser vulnerabilities, and Microsoft Patch Tuesday updates.</li>
+<li>Audit externally exposed enterprise services and management interfaces.</li>
+<li>Increase monitoring for anomalous authentication and privilege escalation events.</li>
 </ul>
 
 <b>Longer term needs</b>
 <ul>
-<li>Improve monitoring for developer ecosystem compromise.</li>
-<li>Expand detection for OAuth abuse and credential harvesting.</li>
-<li>Strengthen monitoring of supply chain dependencies and package repositories.</li>
+<li>Strengthen vulnerability management processes with faster patch cycles.</li>
+<li>Improve threat intelligence ingestion and correlation with internal detection systems.</li>
+<li>Enhance monitoring coverage for edge infrastructure and identity platforms.</li>
 </ul>
 
 </div>
