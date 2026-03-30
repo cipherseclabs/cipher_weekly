@@ -1,22 +1,51 @@
 <!-- — – -->
-
-<body style="
-  margin:0;
-  background: radial-gradient(circle at top, #fff4cc 0%, #ffffff 60%);
+<head><style>
+body {
+  margin: 0;
   font-family: Arial, sans-serif;
-">
+}
 
-<div style="
-  max-width: 1100px;
-  margin: 40px auto;
-  background: #ffffff;
-  border-radius: 12px;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+/* Background fixo */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background-image: url('https://www.cipher.com/dam/jcr:099f4d54-ec83-4fe5-bf60-858a3c8f42bb/shutterstock_1590824863.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: -2;
+}
+
+/* Overlay pra suavizar */
+body::after {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.35);
+  z-index: -1;
+}
+
+/* Moldura preta bold */
+.frame {
+  min-height: 100vh;
+  box-sizing: border-box;
+  border: 16px solid #000;
   padding: 24px;
-">
+}
 
+/* Conteúdo interno (card) */
+.content {
+  max-width: 1100px;
+  margin: 0 auto;
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 24px;
+}
 
-
+</style></head><body>
+<div class="frame">
+  <div class="content">
 
 
 
@@ -134,6 +163,7 @@
 </div>
 
 
-  </div>
-
+ 
+</div>
+</div></div>
 </body>
