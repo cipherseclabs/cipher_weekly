@@ -20,7 +20,7 @@ body::before {
   z-index: -2;
 }
 
-/* Overlay para contraste */
+/* Overlay */
 body::after {
   content: '';
   position: fixed;
@@ -29,7 +29,7 @@ body::after {
   z-index: -1;
 }
 
-/* Moldura preta (ajustada) */
+/* Moldura */
 .frame {
   min-height: 100vh;
   box-sizing: border-box;
@@ -37,20 +37,26 @@ body::after {
   padding: 24px;
 }
 
-/* Conteúdo com leve transparência (glass leve) */
+/* Conteúdo com transparência REAL */
 .content {
   max-width: 1100px;
   margin: 40px auto;
-  background: rgba(255, 255, 255, 0.92) !important;
+  background: rgba(255, 255, 255, 0.90);
   border-radius: 10px;
   padding: 24px;
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
 }
 
-/* FORÇA remover fundos internos (caso esteja sobrescrevendo) */
-.content * {
-  background-color: transparent !important;
+/* 🔥 REMOVE qualquer fundo interno (seu problema está aqui) */
+.content,
+.content div,
+.content section,
+.content article,
+.content ul,
+.content li,
+.content p {
+  background: transparent !important;
 }
 
 /* Links */
