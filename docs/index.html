@@ -6,6 +6,7 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
+  color: #ffffff;
 }
 
 /* Background fixo */
@@ -20,12 +21,12 @@ body::before {
   z-index: -2;
 }
 
-/* Overlay */
+/* Overlay mais escuro para legibilidade */
 body::after {
   content: '';
   position: fixed;
   inset: 0;
-  background: rgba(0, 0, 0, 0.30);
+  background: rgba(0, 0, 0, 0.45);
   z-index: -1;
 }
 
@@ -37,18 +38,16 @@ body::after {
   padding: 24px;
 }
 
-/* Conteúdo com transparência REAL */
+/* Conteúdo semi-opaco escuro */
 .content {
   max-width: 1100px;
   margin: 40px auto;
-  background: rgba(255, 255, 255, 0.90);
+  background: rgba(0, 0, 0, 0.55);
   border-radius: 10px;
   padding: 24px;
-  backdrop-filter: blur(8px);
-  -webkit-backdrop-filter: blur(8px);
 }
 
-/* 🔥 REMOVE qualquer fundo interno (seu problema está aqui) */
+/* Remove fundos internos */
 .content,
 .content div,
 .content section,
@@ -63,16 +62,16 @@ body::after {
 a {
   font-weight: bold;
   text-decoration: none;
-  color: inherit;
+  color: #d1d5db; /* cinza claro */
 }
 
 a:hover {
-  color: #0b3d91;
+  color: #ffffff;
   text-decoration: underline;
 }
 
 a:visited {
-  color: inherit;
+  color: #d1d5db;
 }
 
 
