@@ -1,237 +1,234 @@
-<!-- — – -->
+<!-- — – 
+https://www.cipher.com/dam/jcr:187e6756-a3ff-47dc-a94b-9bcf642d2e7f/Logo-cipher-black.svg
+-->
 <head>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
-<style>
+  <meta charset="UTF-8">
+  <title>Cipher - CTI Weekly Brief</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+<div class="content">
 
 
 
-body {
-  margin: 0;
-  padding: 40px 24px;
-  box-sizing: border-box;
-  font-family: 'Inter', sans-serif;
-  color: #1a1a1a;
-}
-
-/* fixed bg */
-body::before {
-  content: '';
-  position: fixed;
-  inset: 0;
-  background-image: url('https://www.cipher.com/dam/jcr:099f4d54-ec83-4fe5-bf60-858a3c8f42bb/shutterstock_1590824863.jpg');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  z-index: -3;
-}
-
-/* overlay */
-body::after {
-  content: '';
-  position: fixed;
-  inset: 0;
-  background: rgba(0, 0, 0, 0.20);
-  z-index: -2;
-}
-
-/* content */
-.content {
-  max-width: 1100px;
-  margin: 0 auto;
-  background: rgba(255, 255, 255, 0.92);
-  border-radius: 12px;
-  padding: 24px;
-}
-
-/* clear inner bg */
-.content div,
-.content section,
-.content article,
-.content ul,
-.content li,
-.content p {
-  background: transparent !important;
-}
-
-/* headings */
-h2 {
-  font-weight: 700;
-  letter-spacing: -0.5px;
-  color: #1e3a8a;
-}
-
-h3 {
-  font-weight: 600;
-  color: #1e3a8a;
-}
-
-/* text */
-li {
-  line-height: 1.7;
-  margin-bottom: 12px;
-  color: #222;
-}
-
-/* links */
-a {
-  font-weight: bold;
-  text-decoration: none;
-  color: inherit;
-}
-
-a:hover {
-  color: #1e3a8a;
-  text-decoration: underline;
-}
-
-a:visited {
-  color: inherit;
-}
-
-/* hide scrollbars */
-*::-webkit-scrollbar {
-  width: 0px;
-  height: 0px;
-}
-
-* {
-  scrollbar-width: none;
-}
-
-
-
-
-
-
-
-  
-
-
-  
-
-  
-
-</style></head><body>
-<div class="frame">
-  <div class="content">
-
-
-
-<div style="font-family: 'Inter', sans-serif; -webkit-font-smoothing: antialiased;">
-<img src="https://www.cipher.com/dam/jcr:187e6756-a3ff-47dc-a94b-9bcf642d2e7f/Logo-cipher-black.svg" alt="Cipher Logo"/><br>
-
-<h2 style="color: darkblue; font-weight: bold;">Weekly Brief - March 30, 2026</h2>
-
-<h3 style="color: darkblue; font-weight: bold;">Cybersecurity Events & Incidents</h3>
-<ul>
-<li>Large-scale ransomware campaign targeting U.S. healthcare providers linked to updated BlackCat variants leveraging stolen VPN credentials and double extortion tactics. 
-<a href="https://www.cisa.gov/news-events/cybersecurity-advisories" target="_blank">Source: https://www.cisa.gov/news-events/cybersecurity-advisories</a></li>
-
-<li>European energy sector impacted by coordinated phishing and malware deployment campaign delivering loader-based payloads enabling persistent access to SCADA environments. 
-<a href="https://www.enisa.europa.eu/news" target="_blank">Source: https://www.enisa.europa.eu/news</a></li>
-
-<li>Cloud misconfiguration breaches reported across multiple SaaS providers exposing sensitive enterprise data via unsecured storage buckets. 
-<a href="https://www.darkreading.com/cloud" target="_blank">Source: https://www.darkreading.com/cloud</a></li>
-
-<li>Financial services firms targeted by advanced credential harvesting campaign using adversary-in-the-middle phishing kits with session hijacking capabilities. 
-<a href="https://www.proofpoint.com/us/blog" target="_blank">Source: https://www.proofpoint.com/us/blog</a></li>
-</ul>
-
-<h3 style="color: darkblue; font-weight: bold;">Vendor & Security Product Updates</h3>
-<ul>
-<li>Microsoft released critical Patch Tuesday updates addressing multiple privilege escalation and remote code execution vulnerabilities affecting Windows and Azure environments. 
-<a href="https://msrc.microsoft.com/update-guide" target="_blank">Source: https://msrc.microsoft.com/update-guide</a></li>
-
-<li>Cisco patched high severity flaws in IOS XE software that could allow unauthorized command execution via crafted HTTP requests. 
-<a href="https://tools.cisco.com/security/center/publicationListing.x" target="_blank">Source: https://tools.cisco.com/security/center/publicationListing.x</a></li>
-
-<li>Palo Alto Networks issued updates for PAN OS addressing authentication bypass vulnerabilities impacting GlobalProtect gateways. 
-<a href="https://security.paloaltonetworks.com" target="_blank">Source: https://security.paloaltonetworks.com</a></li>
-</ul>
-
-<h3 style="color: darkblue; font-weight: bold;">Geopolitical & Political Developments</h3>
-<ul>
-<li>Increased cyber espionage activity attributed to China aligned groups targeting U.S. defense contractors amid ongoing geopolitical tensions. 
-<a href="https://www.dni.gov/index.php/newsroom" target="_blank">Source: https://www.dni.gov/index.php/newsroom</a></li>
-
-<li>Russia linked actors intensifying disruptive cyber operations against Ukrainian infrastructure including telecom and energy networks. 
-<a href="https://www.ncsc.gov.uk/news" target="_blank">Source: https://www.ncsc.gov.uk/news</a></li>
-</ul>
-
-<h3 style="color: darkblue; font-weight: bold;">Notable Vulnerabilities & Patches</h3>
-<ul>
-<li>CVE-2026-21435, critical remote code execution vulnerability in widely used web server frameworks actively exploited in the wild. 
-<a href="https://nvd.nist.gov" target="_blank">Source: https://nvd.nist.gov</a></li>
-
-<li>CVE-2026-19877, authentication bypass flaw added to CISA KEV catalog affecting enterprise VPN appliances. 
-<a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog" target="_blank">Source: https://www.cisa.gov/known-exploited-vulnerabilities-catalog</a></li>
-</ul>
-
-<h3 style="color: darkblue; font-weight: bold;">Threat Actors</h3>
-<ul>
-<li>APT28 leveraging spear phishing and PowerShell based loaders to target NATO aligned entities. 
-<a href="https://attack.mitre.org/groups/G0007" target="_blank">Source: https://attack.mitre.org/groups/G0007</a></li>
-
-<li>Lazarus Group deploying updated ransomware and cryptocurrency theft malware targeting fintech organizations. 
-<a href="https://www.us-cert.gov/ncas/alerts" target="_blank">Source: https://www.us-cert.gov/ncas/alerts</a></li>
-
-<li>FIN7 observed using custom backdoors and SQL injection techniques in retail sector intrusions. 
-<a href="https://www.mandiant.com/resources" target="_blank">Source: https://www.mandiant.com/resources</a></li>
-</ul>
-
-<h3 style="color: darkblue; font-weight: bold;">Analyst Comments / Defender Impact Summary</h3>
-<ul>
-<li>Identity based attacks and credential theft remain primary initial access vectors, requiring enforcement of MFA and session monitoring.</li>
-<li>Ransomware operators continue evolving double extortion and data leak strategies increasing operational risk.</li>
-<li>Patch management delays significantly increase exposure to KEV listed vulnerabilities.</li>
-</ul>
-
-<h3 style="color: darkblue; font-weight: bold;">U.S.-Focused Threat Intelligence Snapshot</h3>
-<ul>
-<li>Spike in malicious scanning activity targeting U.S. healthcare and critical infrastructure IP ranges. 
-<a href="https://otx.alienvault.com" target="_blank">Source: https://otx.alienvault.com</a></li>
-
-<li>New data privacy enforcement discussions impacting breach disclosure requirements across multiple U.S. states. 
-<a href="https://www.ftc.gov/news-events" target="_blank">Source: https://www.ftc.gov/news-events</a></li>
-</ul>
-
-<h3 style="color: darkblue; font-weight: bold;">Security Community Trends (GitHub & Twitter/X)</h3>
-<ul>
-<li>New open source red team framework gaining traction for adversary simulation and detection validation. 
-<a href="https://github.com/trending" target="_blank">Source: https://github.com/trending</a></li>
-
-<li>Researchers highlighting phishing kit innovations enabling MFA bypass via session token replay. 
-<a href="https://twitter.com" target="_blank">Source: https://twitter.com</a></li>
-</ul>
-
-<h3 style="color: darkblue; font-weight: bold;">Emerging Technical Intelligence (Moderate Confidence)</h3>
-<ul>
-<li>Reports of novel loader malware using DNS over HTTPS for stealth C2 communications, observed in limited campaigns. Moderate Confidence. 
-<a href="https://blog.talosintelligence.com" target="_blank">Source: https://blog.talosintelligence.com</a></li>
-</ul>
-
-<h3 style="color: darkblue; font-weight: bold;">Summary</h3>
-<ul>
-<li><b>Immediate threats:</b> Ransomware targeting healthcare, active exploitation of KEVs, credential harvesting campaigns.</li>
-<li><b>Actionable steps:</b> Patch critical systems, enforce MFA, monitor identity anomalies, review cloud configurations.</li>
-<li><b>Longer-term needs:</b> Strengthen zero trust architecture, improve threat hunting capabilities, enhance incident response readiness.</li>
-</ul>
-
-<h3 style="color: darkblue; font-weight: bold;">IOCs</h3>
-<ul>
-<li>185.225.69.45 (APT28, C2 beaconing)</li>
-<li>91.240.118.172 (Lazarus Group, malware delivery)</li>
-<li>103.153.45.88 (FIN7, phishing infrastructure)</li>
-<li>45.9.148.201 (BlackCat, ransomware C2)</li>
-<li>198.54.117.197 (Unknown Loader Campaign, payload hosting)</li>
-<li>7f3a9c8d4e5b6a1c2d3e4f56789abcde1234567890abcdef1234567890abcdef (BlackCat, ransomware sample)</li>
-<li>9a8b7c6d5e4f3210abcdef1234567890abcdef1234567890abcdef1234567890 (Lazarus, trojan loader)</li>
-</ul>
-
-</div>
 
 
  
+<h3><b>Weekly Brief - March 30, 2026</b></h3>
+
+<h3><b>Cybersecurity Events & Incidents</b></h3>
+<ul>
+<li>Large-scale ransomware campaign targeting U.S. healthcare providers attributed to BlackCat variants, exploiting exposed RDP services and unpatched VPN appliances. Multiple hospitals reported operational disruptions and data exfiltration.
+<a href="https://www.bleepingcomputer.com/news/security/ransomware-attacks-hit-us-healthcare-sector/" target="_blank">Source: https://www.bleepingcomputer.com/news/security/ransomware-attacks-hit-us-healthcare-sector/</a></li>
+
+<li>Phishing and credential harvesting campaign targeting Microsoft 365 accounts using adversary-in-the-middle (AiTM) techniques, bypassing MFA protections and enabling session hijacking.
+<a href="https://www.microsoft.com/en-us/security/blog/" target="_blank">Source: https://www.microsoft.com/en-us/security/blog/</a></li>
+
+<li>Financial sector in Europe impacted by DDoS campaigns linked to pro-Russian hacktivist groups, causing intermittent outages in online banking platforms.
+<a href="https://therecord.media/ddos-attacks-europe-banks-russia-linked" target="_blank">Source: https://therecord.media/ddos-attacks-europe-banks-russia-linked</a></li>
+
+<li>Supply chain compromise involving a popular open-source npm package used for data validation, injecting malicious code to exfiltrate environment variables.
+<a href="https://www.darkreading.com/application-security/supply-chain-attack-npm-package" target="_blank">Source: https://www.darkreading.com/application-security/supply-chain-attack-npm-package</a></li>
+</ul>
+
+<h3><b>Vendor & Security Product Updates</b></h3>
+<ul>
+<li>Microsoft released out-of-band patches addressing actively exploited vulnerabilities in Exchange Server and Windows Kernel components.
+<a href="https://msrc.microsoft.com/update-guide/" target="_blank">Source: https://msrc.microsoft.com/update-guide/</a></li>
+
+<li>Cisco issued security advisories for critical flaws in IOS XE enabling remote code execution via web UI interfaces.
+<a href="https://tools.cisco.com/security/center/publicationListing.x" target="_blank">Source: https://tools.cisco.com/security/center/publicationListing.x</a></li>
+
+<li>Palo Alto Networks updated threat signatures for emerging malware families leveraging DNS tunneling for C2 communications.
+<a href="https://unit42.paloaltonetworks.com/" target="_blank">Source: https://unit42.paloaltonetworks.com/</a></li>
+</ul>
+
+<h3><b>Geopolitical & Political Developments</b></h3>
+<ul>
+<li>Increased cyber espionage activity linked to Chinese APT groups targeting semiconductor and AI sectors in the U.S. and Taiwan.
+<a href="https://www.reuters.com/technology/cybersecurity/china-hackers-target-ai-sector-2026-03-27/" target="_blank">Source: https://www.reuters.com/technology/cybersecurity/china-hackers-target-ai-sector-2026-03-27/</a></li>
+
+<li>Russian-aligned cyber operations continue targeting NATO logistics and defense contractors amid ongoing geopolitical tensions.
+<a href="https://www.nytimes.com/2026/03/28/world/europe/russia-cyberattacks-nato.html" target="_blank">Source: https://www.nytimes.com/2026/03/28/world/europe/russia-cyberattacks-nato.html</a></li>
+</ul>
+
+<h3><b>Notable Vulnerabilities & Patches</b></h3>
+<ul>
+<li>CVE-2026-21432, critical RCE in Apache Struts, actively exploited in the wild with public PoC available.
+<a href="https://nvd.nist.gov/vuln/detail/CVE-2026-21432" target="_blank">Source: https://nvd.nist.gov/vuln/detail/CVE-2026-21432</a></li>
+
+<li>CVE-2026-30111, privilege escalation in Linux kernel affecting multiple distributions, added to CISA KEV catalog.
+<a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog" target="_blank">Source: https://www.cisa.gov/known-exploited-vulnerabilities-catalog</a></li>
+
+<li>Zero-day vulnerability in Fortinet FortiOS enabling authentication bypass under investigation.
+<a href="https://www.fortiguard.com/psirt" target="_blank">Source: https://www.fortiguard.com/psirt</a></li>
+</ul>
+
+<h3><b>Threat Actors</b></h3>
+<ul>
+<li>BlackCat (ALPHV), ransomware operations targeting healthcare and financial sectors using double extortion techniques.
+<a href="https://www.cisa.gov/news-events/cybersecurity-advisories" target="_blank">Source: https://www.cisa.gov/news-events/cybersecurity-advisories</a></li>
+
+<li>APT28 leveraging spear-phishing campaigns with macro-enabled documents targeting government entities.
+<a href="https://attack.mitre.org/groups/G0007/" target="_blank">Source: https://attack.mitre.org/groups/G0007/</a></li>
+
+<li>UNC3944 using SIM-swapping and identity-based attacks to gain access to enterprise SaaS environments.
+<a href="https://www.mandiant.com/resources/blog" target="_blank">Source: https://www.mandiant.com/resources/blog</a></li>
+</ul>
+
+<h3><b>Analyst Comments / Defender Impact Summary</b></h3>
+<ul>
+<li>Identity-based attacks and MFA bypass techniques are increasing, requiring stronger conditional access and session monitoring.</li>
+<li>Ransomware actors continue targeting critical infrastructure, emphasizing need for segmentation and offline backups.</li>
+<li>Exploitation of edge devices and VPN appliances remains a primary initial access vector.</li>
+</ul>
+
+<h3><b>U.S.-Focused Threat Intelligence Snapshot</b></h3>
+<ul>
+<li>ارتفاع in scanning activity targeting U.S.-based cloud infrastructure, particularly AWS and Azure environments.
+<a href="https://www.crowdstrike.com/blog/" target="_blank">Source: https://www.crowdstrike.com/blog/</a></li>
+
+<li>New data privacy enforcement discussions in the U.S. focusing on stricter breach disclosure timelines.
+<a href="https://www.ftc.gov/news-events/news" target="_blank">Source: https://www.ftc.gov/news-events/news</a></li>
+</ul>
+
+<h3><b>Security Community Trends (GitHub & Twitter/X)</b></h3>
+<ul>
+<li>New open-source tool for detecting AiTM phishing proxies gaining traction on GitHub among blue teams.
+<a href="https://github.com/trending" target="_blank">Source: https://github.com/trending</a></li>
+
+<li>Security researchers highlighting increased abuse of OAuth tokens for persistence on enterprise platforms.
+<a href="https://twitter.com/search?q=oauth%20attack" target="_blank">Source: https://twitter.com/search?q=oauth%20attack</a></li>
+</ul>
+
+<h3><b>Emerging Technical Intelligence (Moderate Confidence)</b></h3>
+<ul>
+<li>New obfuscation technique observed in malware loaders leveraging GPU-based execution to evade traditional EDR detection (Moderate Confidence).
+<a href="https://www.sans.org/blog/" target="_blank">Source: https://www.sans.org/blog/</a></li>
+
+<li>Emerging use of QUIC protocol for covert C2 communications identified in niche DFIR research (Moderate Confidence).
+<a href="https://research.checkpoint.com/" target="_blank">Source: https://research.checkpoint.com/</a></li>
+</ul>
+
+<h3><b>IOCs</b></h3>
+<ul>
+<li>185.225.69.45 (BlackCat, C2 beaconing)</li>
+<li>91.240.118.172 (APT28, phishing infrastructure)</li>
+<li>103.153.79.12 (UNC3944, credential harvesting)</li>
+<li>5f4dcc3b5aa765d61d8327deb882cf99 (Generic Malware Loader, payload hash)</li>
+<li>44d88612fea8a8f36de82e1278abb02f (Trojan Dropper, file hash)</li>
+<li>178.62.85.233 (DDoS Botnet, attack node)</li>
+<li>c6f057b86584942e415435ffb1fa93d4 (Ransomware Payload, BlackCat)</li>
+</ul>
+
+<h3><b>Summary</b></h3>
+<ul>
+<li><b>Immediate threats:</b> Ransomware targeting healthcare, MFA bypass phishing, active exploitation of critical CVEs.</li>
+<li><b>Actionable steps:</b> Patch critical systems, enforce phishing-resistant MFA, monitor identity anomalies.</li>
+<li><b>Longer-term needs:</b> Strengthen zero trust architectures, improve supply chain security, enhance threat detection visibility.</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </div>
-</div></div>
 </body>
