@@ -7,10 +7,11 @@
 
 body {
   margin: 0;
-  font-family: Arial, sans-serif;
+  font-family: 'Inter', sans-serif;
+  color: #1a1a1a;
 }
 
-/* Background fixo */
+/* fixed bg */
 body::before {
   content: '';
   position: fixed;
@@ -19,52 +20,74 @@ body::before {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  z-index: -2;
+  z-index: -3;
 }
 
-/* Overlay geral leve para não deixar a imagem gritante */
+/* base overlay */
 body::after {
   content: '';
   position: fixed;
   inset: 0;
   background: rgba(0, 0, 0, 0.20);
-  z-index: -1;
+  z-index: -2;
 }
 
-/* Moldura preta mais fina */
-.frame {
-  min-height: 100vh;
-  box-sizing: border-box;
-  border: 4px solid #000;
-  padding: 20px;
+/* edge fade */
+html::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 2;
+  background: linear-gradient(
+    to right,
+    rgba(255,255,255,0.85) 0%,
+    rgba(255,255,255,0.4) 8%,
+    rgba(0,0,0,0.12) 50%,
+    rgba(255,255,255,0.4) 92%,
+    rgba(255,255,255,0.85) 100%
+  );
 }
 
-/* Card branco semi-opaco */
+/* content */
 .content {
   max-width: 1100px;
   margin: 40px auto;
-  background: rgba(255, 255, 255, 0.90);
+  background: rgba(255, 255, 255, 0.92);
   border-radius: 12px;
   padding: 24px;
 }
 
-/* Remove fundos internos sem matar o card principal */
+/* clear inner bg */
 .content div,
 .content section,
 .content article,
 .content ul,
 .content li,
-.content p,
-.content h1,
-.content h2,
-.content h3,
-.content h4,
-.content h5,
-.content h6 {
+.content p {
   background: transparent !important;
 }
 
-/* Links */
+/* headings */
+h2 {
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  color: #1e3a8a;
+}
+
+h3 {
+  font-weight: 600;
+  color: #1e3a8a;
+}
+
+/* text */
+li {
+  line-height: 1.7;
+  margin-bottom: 12px;
+  color: #222;
+}
+
+/* links */
 a {
   font-weight: bold;
   text-decoration: none;
@@ -72,45 +95,14 @@ a {
 }
 
 a:hover {
-  color: #0b3d91;
+  color: #1e3a8a;
   text-decoration: none;
 }
 
 a:visited {
   color: inherit;
-}
+  text-decoration: none;
 
-body {
-  font-family: 'Inter', sans-serif;
-  -webkit-font-smoothing: antialiased;
-  color: #1a1a1a;
-}
-
-/* Título principal */
-h2 {
-  font-weight: 700;
-  letter-spacing: -0.5px;
-  color: #0a1f44; /* azul mais sofisticado */
-  margin-bottom: 10px;
-}
-
-/* Subtítulo */
-h3 {
-  font-weight: 600;
-  color: #1e3a8a;
-  margin-top: 24px;
-}
-
-/* Texto */
-li {
-  font-weight: 400;
-  line-height: 1.6;
-  margin-bottom: 10px;
-}
-
-/* Bullet spacing */
-ul {
-  padding-left: 20px;
 }
 
 
