@@ -1,0 +1,95 @@
+/* base */
+html, body {
+  margin: 0;
+  padding: 40px 24px;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #1a1a1a;
+}
+
+/* fixed bg */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background-image: url('https://www.cipher.com/dam/jcr:099f4d54-ec83-4fe5-bf60-858a3c8f42bb/shutterstock_1590824863.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: -3;
+}
+
+/* overlay */
+body::after {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.20);
+  z-index: -2;
+}
+
+/* content card */
+.content {
+  max-width: 1100px;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.92);
+  border-radius: 12px;
+  padding: 24px;
+}
+
+/* clear inner bg */
+.content div,
+.content section,
+.content article,
+.content ul,
+.content li,
+.content p {
+  background: transparent !important;
+}
+
+/* headings */
+h2 {
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  color: #1e3a8a;
+}
+
+h3 {
+  font-weight: 600;
+  color: #1e3a8a;
+}
+
+/* text */
+li {
+  line-height: 1.7;
+  margin-bottom: 12px;
+  color: #222;
+}
+
+/* links */
+a {
+  font-weight: bold;
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  color: #1e3a8a;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: inherit;
+}
+
+/* hide scrollbars */
+*::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+
+* {
+  scrollbar-width: none;
+}
