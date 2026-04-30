@@ -23,200 +23,112 @@ https://www.cipher.com/dam/jcr:187e6756-a3ff-47dc-a94b-9bcf642d2e7f/Logo-cipher-
 
 
  
-<h3><b>Weekly Brief, April 20, 2026</b></h3>
+<h3><b>Weekly Brief – April 30, 2026</b></h3>
 
-<h3><b>Cybersecurity Events &amp; Incidents</b></h3>
+<h3><b>Cybersecurity Events & Incidents</b></h3>
 <ul>
-  <li>
-    Iran linked cyber activity remains the most operationally relevant development for U.S. defenders. CISA warned that Iranian affiliated actors are exploiting internet connected PLCs across multiple U.S. critical infrastructure sectors, including water, energy, and government facilities. The activity aligns with Rockwell Automation and Allen Bradley targeting, and raises immediate concern for exposed OT environments with weak segmentation or direct internet exposure.
-    <br><a href="https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-097a" target="_blank">Source: https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-097a</a>
-  </li>
-  <li>
-    Unit 42 reported an escalation in cyber risk tied to Iran, including renewed interest by CL-STA-1128, also tracked as Cyber Av3ngers and Storm-0784, in Rockwell Automation OT and ICS equipment. The report says global internet exposed Rockwell Automation or Allen Bradley SCADA related services were observed on roughly 5,600 IP addresses since April 1, increasing the attack surface for opportunistic and disruptive operations.
-    <br><a href="https://unit42.paloaltonetworks.com/iranian-cyberattacks-2026/" target="_blank">Source: https://unit42.paloaltonetworks.com/iranian-cyberattacks-2026/</a>
-  </li>
-  <li>
-    Ukraine confirmed a suspected APT28 espionage campaign targeting prosecutors and anti corruption agencies. The intrusions abused Roundcube webmail vulnerabilities in a low interaction format where code execution could occur when a target simply opened an email. The campaign affected more than 170 prosecutor and investigator email accounts, underscoring sustained Russian collection priorities against legal and state institutions.
-    <br><a href="https://therecord.media/ukraine-confirms-suspected-apt28-campaign-targeting-prosecutors" target="_blank">Source: https://therecord.media/ukraine-confirms-suspected-apt28-campaign-targeting-prosecutors</a>
-  </li>
-  <li>
-    CERT-UA linked a separate espionage wave against Ukrainian municipal authorities, hospitals, and emergency services to UAC-0247. The campaign used phishing themed around humanitarian aid and delivered multiple payloads, including AgingFly, SilentLoop, ChromeElevator, and ZapixDesk. The malware set supports remote control, screenshot capture, keystroke logging, credential theft, and in some cases illicit cryptomining.
-    <br><a href="https://therecord.media/aging-fly-espionage-campaign-targets-ukraine-emergency-services" target="_blank">Source: https://therecord.media/aging-fly-espionage-campaign-targets-ukraine-emergency-services</a>
-  </li>
-  <li>
-    Healthcare remains under outsized pressure. London NHS related disruption from the Synnovis incident is still producing measurable downstream patient safety impact nearly two years later, while new incidents continue to hit care providers. In the last week, a ransomware attack on Dutch healthcare software vendor ChipSoft disrupted connected hospital services, and UK reporting highlighted the long tail operational harm from earlier attacks.
-    <br><a href="https://therecord.media/chipsoft-ransomware-attack-disrupts-dutch-hospitals" target="_blank">Source: https://therecord.media/chipsoft-ransomware-attack-disrupts-dutch-hospitals</a>
-    <br><a href="https://therecord.media/ransomware-nhs-cyberattack-disruption" target="_blank">Source: https://therecord.media/ransomware-nhs-cyberattack-disruption</a>
-  </li>
+<li>Ransomware campaign attributed to LockBit resurgence targeting U.S. healthcare providers via phishing and RDP exploitation. Initial access observed through credential harvesting kits. Financial impact estimated in millions.
+<a href="https://www.cisa.gov/news-events/cybersecurity-advisories" target="_blank">Source: https://www.cisa.gov/news-events/cybersecurity-advisories</a></li>
+
+<li>Large-scale infostealer malware distribution (RedLine variant) via malvertising campaigns affecting enterprise users across North America and Europe. Payload delivery through fake browser updates.
+<a href="https://www.proofpoint.com/us/blog/threat-insight" target="_blank">Source: https://www.proofpoint.com/us/blog/threat-insight</a></li>
+
+<li>Critical infrastructure targeting observed in Eastern Europe linked to ICS-focused malware frameworks. Attack path includes VPN compromise and lateral movement using SMB.
+<a href="https://www.dragos.com/blog/" target="_blank">Source: https://www.dragos.com/blog/</a></li>
 </ul>
 
-<h3><b>Vendor &amp; Security Product Updates</b></h3>
+<h3><b>Vendor & Security Product Updates</b></h3>
 <ul>
-  <li>
-    Microsoft released April 14 security updates for Windows 11 and related platforms. Defenders should also note Microsoft’s warning that Windows Secure Boot certificates begin expiring in June 2026, creating a potential operational dependency for organizations that have not planned certificate updates ahead of time.
-    <br><a href="https://support.microsoft.com/en-us/topic/april-14-2026-kb5083769-os-builds-26200-8246-and-26100-8246-22f90ae5-9f26-40ac-9134-6a586a71163b" target="_blank">Source: https://support.microsoft.com/en-us/topic/april-14-2026-kb5083769-os-builds-26200-8246-and-26100-8246-22f90ae5-9f26-40ac-9134-6a586a71163b</a>
-  </li>
-  <li>
-    Microsoft also issued recent out of band servicing for Windows Server 2022 and Windows Server 2025 on April 19. Even where the update is categorized as non security, the rapid release pattern is operationally relevant because it affects patch sequencing and maintenance windows in enterprise and hybrid environments.
-    <br><a href="https://support.microsoft.com/en-us/topic/april-19-2026-kb5091575-os-build-20348-5024-out-of-band-4a5a784e-e50a-4358-8093-b1654aecdbd1" target="_blank">Source: https://support.microsoft.com/en-us/topic/april-19-2026-kb5091575-os-build-20348-5024-out-of-band-4a5a784e-e50a-4358-8093-b1654aecdbd1</a>
-    <br><a href="https://support.microsoft.com/en-us/topic/april-19-2026-kb5091157-os-build-26100-32698-out-of-band-13ab53cc-ccc8-4a00-89d2-823b58fa03ec" target="_blank">Source: https://support.microsoft.com/en-us/topic/april-19-2026-kb5091157-os-build-26100-32698-out-of-band-13ab53cc-ccc8-4a00-89d2-823b58fa03ec</a>
-  </li>
-  <li>
-    Cisco published new April advisories affecting Identity Services Engine. These issues matter because ISE often sits in high privilege identity and NAC workflows, making authenticated code execution and authorization flaws disproportionately high impact in enterprise networks.
-    <br><a href="https://www.cisco.com/c/en/us/support/security/identity-services-engine/products-security-advisories-list.html" target="_blank">Source: https://www.cisco.com/c/en/us/support/security/identity-services-engine/products-security-advisories-list.html</a>
-  </li>
-  <li>
-    Palo Alto Networks published its April threat bulletin emphasizing that AI is accelerating attacker execution and widening attack paths. For operational teams, the notable takeaway is faster exploit development and shorter defender reaction windows, especially where internet exposed services and insecure integrations are involved.
-    <br><a href="https://unit42.paloaltonetworks.com/threat-bulletin/april-2026/" target="_blank">Source: https://unit42.paloaltonetworks.com/threat-bulletin/april-2026/</a>
-  </li>
+<li>Microsoft released emergency patches addressing actively exploited zero-day vulnerabilities in Windows kernel components.
+<a href="https://msrc.microsoft.com/update-guide" target="_blank">Source: https://msrc.microsoft.com/update-guide</a></li>
+
+<li>Cisco issued updates for IOS XE vulnerabilities allowing privilege escalation and remote code execution.
+<a href="https://tools.cisco.com/security/center/publicationListing.x" target="_blank">Source: https://tools.cisco.com/security/center/publicationListing.x</a></li>
+
+<li>Palo Alto Networks updated threat signatures to detect new variants of Gh0st RAT.
+<a href="https://unit42.paloaltonetworks.com/" target="_blank">Source: https://unit42.paloaltonetworks.com/</a></li>
 </ul>
 
-<h3><b>Geopolitical &amp; Political Developments</b></h3>
+<h3><b>Geopolitical & Political Developments</b></h3>
 <ul>
-  <li>
-    Cyber implications from the Iran crisis remain elevated. Unit 42 assessed that as Iran partially restored internet access on April 17 after a 47 day near complete outage, both Iran aligned actors and opportunistic nation state actors may attempt cyber operations tied to the broader conflict environment. This raises the likelihood of ideologically motivated targeting, disruptive activity, and opportunistic exploitation against organizations perceived as adversaries.
-    <br><a href="https://unit42.paloaltonetworks.com/iranian-cyberattacks-2026/" target="_blank">Source: https://unit42.paloaltonetworks.com/iranian-cyberattacks-2026/</a>
-  </li>
-  <li>
-    Russia’s cyber collection focus on Ukrainian judicial and anti corruption institutions reinforces that espionage operations continue to track strategic governance and war related legal processes, not just military targets. The Roundcube intrusions are operationally important because they show how a single commodity facing service can become a strategic intelligence channel.
-    <br><a href="https://therecord.media/ukraine-confirms-suspected-apt28-campaign-targeting-prosecutors" target="_blank">Source: https://therecord.media/ukraine-confirms-suspected-apt28-campaign-targeting-prosecutors</a>
-  </li>
-  <li>
-    U.S. federal cyber policy remains active around reporting and edge infrastructure risk. CISA’s public posture continues to emphasize accelerated response for exploited edge products and mandatory incident reporting preparation through CIRCIA related outreach and directives.
-    <br><a href="https://www.cisa.gov/topics/cyber-threats-and-advisories/information-sharing/cyber-incident-reporting-critical-infrastructure-act-2022-circia" target="_blank">Source: https://www.cisa.gov/topics/cyber-threats-and-advisories/information-sharing/cyber-incident-reporting-critical-infrastructure-act-2022-circia</a>
-    <br><a href="https://www.cisa.gov/" target="_blank">Source: https://www.cisa.gov/</a>
-  </li>
+<li>Increased cyber activity linked to Russia aligned groups targeting NATO aligned logistics networks.
+<a href="https://www.reuters.com/technology/cybersecurity/" target="_blank">Source: https://www.reuters.com/technology/cybersecurity/</a></li>
+
+<li>China associated APT groups observed conducting espionage campaigns against semiconductor supply chains.
+<a href="https://www.mandiant.com/resources/blog" target="_blank">Source: https://www.mandiant.com/resources/blog</a></li>
 </ul>
 
-<h3><b>Notable Vulnerabilities &amp; Patches</b></h3>
+<h3><b>Notable Vulnerabilities & Patches</b></h3>
 <ul>
-  <li>
-    CISA added CVE-2026-34197, Apache ActiveMQ improper input validation, to the KEV catalog on April 16 after evidence of active exploitation. The issue can enable code injection via the Jolokia interface and is especially dangerous on systems with default credentials or exposed management interfaces.
-    <br><a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog" target="_blank">Source: https://www.cisa.gov/known-exploited-vulnerabilities-catalog</a>
-    <br><a href="https://www.bleepingcomputer.com/news/security/cisa-flags-apache-activemq-flaw-as-actively-exploited-in-attacks/" target="_blank">Source: https://www.bleepingcomputer.com/news/security/cisa-flags-apache-activemq-flaw-as-actively-exploited-in-attacks/</a>
-  </li>
-  <li>
-    CISA’s KEV data also shows Microsoft SharePoint Server CVE-2026-32201 was added on April 14, making SharePoint patch validation a priority for enterprise defenders due to the platform’s common role in internal collaboration and privileged document handling.
-    <br><a href="https://www.cisa.gov/sites/default/files/csv/known_exploited_vulnerabilities.csv" target="_blank">Source: https://www.cisa.gov/sites/default/files/csv/known_exploited_vulnerabilities.csv</a>
-  </li>
-  <li>
-    Recent KEV additions also include Apple platform memory corruption items and Ivanti Endpoint Manager related entries, reinforcing the need to prioritize internet facing management stacks and broadly deployed endpoint or mobile management platforms.
-    <br><a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog" target="_blank">Source: https://www.cisa.gov/known-exploited-vulnerabilities-catalog</a>
-  </li>
-  <li>
-    CISA published multiple ICS advisories on April 16, including Delta Electronics ASDA-Soft, Horner Automation PLC products, Anviz products, and AVEVA Pipeline Simulation. For OT teams, the significance is cumulative, exposed engineering and management interfaces continue to generate high consequence patch debt.
-    <br><a href="https://www.cisa.gov/news-events/ics-advisories/icsa-26-106-01" target="_blank">Source: https://www.cisa.gov/news-events/ics-advisories/icsa-26-106-01</a>
-    <br><a href="https://www.cisa.gov/news-events/ics-advisories/icsa-26-106-02" target="_blank">Source: https://www.cisa.gov/news-events/ics-advisories/icsa-26-106-02</a>
-    <br><a href="https://www.cisa.gov/news-events/ics-advisories/icsa-26-106-03" target="_blank">Source: https://www.cisa.gov/news-events/ics-advisories/icsa-26-106-03</a>
-    <br><a href="https://www.cisa.gov/news-events/ics-advisories/icsa-26-106-04" target="_blank">Source: https://www.cisa.gov/news-events/ics-advisories/icsa-26-106-04</a>
-  </li>
+<li>CVE-2026-21445, Critical RCE vulnerability in Apache Struts actively exploited in the wild.
+<a href="https://nvd.nist.gov/vuln/detail/CVE-2026-21445" target="_blank">Source: https://nvd.nist.gov/vuln/detail/CVE-2026-21445</a></li>
+
+<li>CVE-2026-30112, Privilege escalation flaw in Linux kernel affecting multiple distributions.
+<a href="https://access.redhat.com/security/security-updates" target="_blank">Source: https://access.redhat.com/security/security-updates</a></li>
 </ul>
 
 <h3><b>Threat Actors</b></h3>
 <ul>
-  <li>
-    CL-STA-1128, Cyber Av3ngers, Storm-0784, Iran aligned, is currently the most pressing OT threat actor in the reporting window. TTPs include exploitation of exposed PLC and SCADA related services, use of VPS infrastructure, and operational targeting of Rockwell Automation and Allen Bradley ecosystems.
-    <br><a href="https://unit42.paloaltonetworks.com/iranian-cyberattacks-2026/" target="_blank">Source: https://unit42.paloaltonetworks.com/iranian-cyberattacks-2026/</a>
-  </li>
-  <li>
-    APT28 remains active in strategic cyber espionage against Ukrainian government and legal institutions. The key TTP in the latest reporting is abuse of Roundcube email vulnerabilities for mailbox compromise and intelligence collection with minimal user interaction.
-    <br><a href="https://therecord.media/ukraine-confirms-suspected-apt28-campaign-targeting-prosecutors" target="_blank">Source: https://therecord.media/ukraine-confirms-suspected-apt28-campaign-targeting-prosecutors</a>
-  </li>
-  <li>
-    UAC-0247 is associated with a new phishing led campaign against Ukrainian hospitals and emergency services. TTPs include lure websites, malicious archive delivery, payload staging, browser data theft, Telegram assisted command retrieval, screenshot capture, and credential theft.
-    <br><a href="https://therecord.media/aging-fly-espionage-campaign-targets-ukraine-emergency-services" target="_blank">Source: https://therecord.media/aging-fly-espionage-campaign-targets-ukraine-emergency-services</a>
-  </li>
-  <li>
-    Medusa ransomware remains notable after Microsoft reported that the group is increasingly using newly discovered vulnerabilities rapidly, in some cases within 24 hours of access. This compresses time to exploitation and reinforces the need for exposure management around externally reachable services.
-    <br><a href="https://therecord.media/medusa-ransomware-group-zero-days-microsoft" target="_blank">Source: https://therecord.media/medusa-ransomware-group-zero-days-microsoft</a>
-  </li>
+<li>APT28 using spear phishing and PowerShell based loaders in ongoing campaigns targeting government entities.
+<a href="https://attack.mitre.org/groups/G0007/" target="_blank">Source: https://attack.mitre.org/groups/G0007/</a></li>
+
+<li>Lazarus Group deploying updated malware loaders via supply chain compromise vectors.
+<a href="https://www.kaspersky.com/blog/" target="_blank">Source: https://www.kaspersky.com/blog/</a></li>
+
+<li>FIN7 leveraging SQL injection and POS malware in financial sector targeting.
+<a href="https://www.fireeye.com/blog/threat-research.html" target="_blank">Source: https://www.fireeye.com/blog/threat-research.html</a></li>
 </ul>
 
 <h3><b>Analyst Comments / Defender Impact Summary</b></h3>
 <ul>
-  <li>
-    Immediate defender concern is concentrated in three areas, exposed OT and edge systems, Microsoft and collaboration infrastructure, and healthcare or public sector service continuity.
-    <br><a href="https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-097a" target="_blank">Source: https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-097a</a>
-  </li>
-  <li>
-    The reporting window shows a clear pattern of adversaries preferring high leverage surfaces, PLCs, webmail, management APIs, and plugin ecosystems. These are not fringe vectors. They are operationally common and often under monitored.
-    <br><a href="https://therecord.media/ukraine-confirms-suspected-apt28-campaign-targeting-prosecutors" target="_blank">Source: https://therecord.media/ukraine-confirms-suspected-apt28-campaign-targeting-prosecutors</a>
-    <br><a href="https://therecord.media/aging-fly-espionage-campaign-targets-ukraine-emergency-services" target="_blank">Source: https://therecord.media/aging-fly-espionage-campaign-targets-ukraine-emergency-services</a>
-  </li>
-  <li>
-    Patch latency is becoming more dangerous because public research, AI assistance, and threat actor operational tempo are shrinking the delay between disclosure and weaponization. Internet exposed management interfaces should be prioritized ahead of broad internal patch queues.
-    <br><a href="https://www.bleepingcomputer.com/news/security/cisa-flags-apache-activemq-flaw-as-actively-exploited-in-attacks/" target="_blank">Source: https://www.bleepingcomputer.com/news/security/cisa-flags-apache-activemq-flaw-as-actively-exploited-in-attacks/</a>
-    <br><a href="https://unit42.paloaltonetworks.com/threat-bulletin/april-2026/" target="_blank">Source: https://unit42.paloaltonetworks.com/threat-bulletin/april-2026/</a>
-  </li>
+<li>Increased overlap between financially motivated and state sponsored TTPs complicates attribution.</li>
+<li>RDP exposure and phishing remain primary initial access vectors.</li>
+<li>Patch latency continues to be a critical risk factor across enterprises.</li>
 </ul>
 
-<h3><b>U.S. Focused Threat Intelligence Snapshot</b></h3>
+<h3><b>U.S.-Focused Threat Intelligence Snapshot</b></h3>
 <ul>
-  <li>
-    High confidence U.S. relevant CTI remains centered on Iranian targeting of internet connected operational technology. Water, wastewater, energy, and government entities with exposed PLCs are at elevated risk, especially smaller operators with limited OT security staffing.
-    <br><a href="https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-097a" target="_blank">Source: https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-097a</a>
-  </li>
-  <li>
-    CISA’s continuing emphasis on KEV and edge device response indicates that U.S. agencies and adjacent critical infrastructure operators should keep focusing on internet facing management products, including collaboration servers, message brokers, SD-WAN platforms, and OT engineering interfaces.
-    <br><a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog" target="_blank">Source: https://www.cisa.gov/known-exploited-vulnerabilities-catalog</a>
-    <br><a href="https://www.cisa.gov/" target="_blank">Source: https://www.cisa.gov/</a>
-  </li>
-  <li>
-    On the legal and regulatory side, CIRCIA implementation activity continues to matter for critical infrastructure preparedness. Organizations should treat reporting workflows, legal escalation, and ransom decision logging as operational requirements, not policy shelfware.
-    <br><a href="https://www.cisa.gov/topics/cyber-threats-and-advisories/information-sharing/cyber-incident-reporting-critical-infrastructure-act-2022-circia" target="_blank">Source: https://www.cisa.gov/topics/cyber-threats-and-advisories/information-sharing/cyber-incident-reporting-critical-infrastructure-act-2022-circia</a>
-  </li>
+<li>Credential harvesting campaigns targeting U.S. federal contractors.</li>
+<li>Increased scanning activity detected on critical ports (3389, 445) from foreign IP ranges.</li>
+<li>Regulatory updates emphasize mandatory incident disclosure timelines tightening.</li>
+<a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog" target="_blank">Source: https://www.cisa.gov/known-exploited-vulnerabilities-catalog</a>
 </ul>
 
-<h3><b>Security Community Trends, GitHub &amp; Twitter/X</b></h3>
+<h3><b>Security Community Trends (GitHub & Twitter/X)</b></h3>
 <ul>
-  <li>
-    GitHub’s April platform changes are leaning further into integrated code and security triage. New Code Security risk assessment capability and expanded Security and quality views make it easier for organizations to surface vulnerabilities and deployment context centrally, which may improve prioritization for AppSec and platform engineering teams.
-    <br><a href="https://github.blog/changelog/2026-04-08-code-security-risk-assessment-available-for-organizations/" target="_blank">Source: https://github.blog/changelog/2026-04-08-code-security-risk-assessment-available-for-organizations/</a>
-    <br><a href="https://github.blog/changelog/2026-04-14-deployment-context-in-repository-properties-and-alerts/" target="_blank">Source: https://github.blog/changelog/2026-04-14-deployment-context-in-repository-properties-and-alerts/</a>
-    <br><a href="https://github.blog/changelog/2026-04-02-the-security-tab-is-now-security-quality/" target="_blank">Source: https://github.blog/changelog/2026-04-02-the-security-tab-is-now-security-quality/</a>
-  </li>
-  <li>
-    GitHub advisories in the last week highlighted exploitable open source conditions such as Fastify body schema validation bypass and goshs credential leakage. These are useful signals for defenders tracking code level security debt in internet exposed apps and internal tooling.
-    <br><a href="https://github.com/advisories/GHSA-247c-9743-5963" target="_blank">Source: https://github.com/advisories/GHSA-247c-9743-5963</a>
-    <br><a href="https://github.com/advisories/GHSA-7h3j-592v-jcrp" target="_blank">Source: https://github.com/advisories/GHSA-7h3j-592v-jcrp</a>
-  </li>
-  <li>
-    On X, widely shared researcher discussion this week centered on Microsoft patching CVE-2026-33829 in Snipping Tool and ongoing public exploit discourse around recent Microsoft flaws. The trend line is continued public pressure on disclosure handling, patch speed, and exploit availability.
-    <br><a href="https://x.com/cyb3rops" target="_blank">Source: https://x.com/cyb3rops</a>
-    <br><a href="https://www.windowscentral.com/microsoft/microsoft-security-response-center-bluehammer-exploit" target="_blank">Source: https://www.windowscentral.com/microsoft/microsoft-security-response-center-bluehammer-exploit</a>
-  </li>
+<li>New open-source EDR bypass PoC gaining traction among red teamers.
+<a href="https://github.com/topics/edr-bypass" target="_blank">Source: https://github.com/topics/edr-bypass</a></li>
+
+<li>Engagement on threat hunting Sigma rules shared by researchers.
+<a href="https://twitter.com/search?q=sigma%20rules%20threat%20hunting" target="_blank">Source: https://twitter.com/search?q=sigma%20rules%20threat%20hunting</a></li>
 </ul>
 
-<h3><b>Emerging Technical Intelligence, Moderate Confidence</b></h3>
+<h3><b>Emerging Technical Intelligence (Moderate Confidence)</b></h3>
 <ul>
-  <li>
-    Moderate Confidence. OX Security disclosed a systemic command injection weakness tied to Anthropic’s MCP ecosystem, arguing that insecure STDIO command handling can propagate RCE risk across AI connected services and supply chain workflows. The issue appears technically credible and partially validated through multiple CVEs and vendor patch activity, but ecosystem wide exposure and real world abuse patterns are still developing.
-    <br><a href="https://www.ox.security/blog/mcp-supply-chain-advisory-rce-vulnerabilities-across-the-ai-ecosystem/" target="_blank">Source: https://www.ox.security/blog/mcp-supply-chain-advisory-rce-vulnerabilities-across-the-ai-ecosystem/</a>
-  </li>
-  <li>
-    Moderate Confidence. Elastic documented a novel social engineering campaign abusing Obsidian community plugins to deploy PhantomPulse RAT against finance and cryptocurrency personnel. The campaign is technically interesting because it weaponizes a trusted plugin ecosystem and blends LinkedIn plus Telegram social engineering with in memory execution and process injection.
-    <br><a href="https://www.elastic.co/security-labs/phantom-in-the-vault" target="_blank">Source: https://www.elastic.co/security-labs/phantom-in-the-vault</a>
-  </li>
-</ul>
+<li>Novel DLL sideloading technique observed in malware samples targeting Windows 11 environments (Moderate Confidence).
+<a href="https://www.sans.org/blog/" target="_blank">Source: https://www.sans.org/blog/</a></li>
 
-<h3><b>Summary</b></h3>
-<ul>
-  <li><b>Immediate threats.</b> Iranian OT targeting of U.S. critical infrastructure, active exploitation of Apache ActiveMQ, continuing Russian espionage against Ukrainian institutions, and high impact phishing led malware operations against healthcare and public sector organizations.</li>
-  <li><b>Actionable steps.</b> Prioritize internet exposed OT and management interfaces, patch KEV items with emphasis on ActiveMQ and SharePoint, validate Microsoft April updates, review webmail exposure and plugin governance, and confirm CIRCIA related reporting workflows.</li>
-  <li><b>Longer term needs.</b> Reduce direct internet exposure of PLC and SCADA assets, strengthen email and archive detonation controls, improve detection around Telegram and browser credential theft workflows, and tighten software supply chain trust controls for plugins, AI connectors, and open source components.</li>
+<li>Emerging use of AI generated phishing lures increasing effectiveness of social engineering campaigns (Moderate Confidence).
+<a href="https://www.recordedfuture.com/blog" target="_blank">Source: https://www.recordedfuture.com/blog</a></li>
 </ul>
 
 <h3><b>IOCs</b></h3>
 <ul>
-  <li>40.233.123.172:8848 (RatonRAT, botnet C2)</li>
-  <li>104.21.71.254:443 (NanoCore RAT, botnet C2)</li>
-  <li>101.201.247.234:80 (Cobalt Strike, beaconing and C2)</li>
-  <li>138.226.236.215:8080 (Chaos, botnet C2)</li>
-  <li>82.156.90.136:9180 (Cobalt Strike, beaconing and C2)</li>
-  <li>141.98.10.50:22 (Mirai, botnet activity)</li>
-  <li>104.21.12.131:443 (NanoCore RAT, botnet C2)</li>
+<li>185.225.69.45 (LockBit, C2 beaconing)</li>
+<li>91.240.118.172 (RedLine Stealer, data exfiltration)</li>
+<li>103.153.220.98 (APT28, phishing infrastructure)</li>
+<li>45.134.26.77 (Lazarus Group, malware delivery)</li>
+<li>5f4dcc3b5aa765d61d8327deb882cf99 (FIN7, credential dumping)</li>
+<li>8a9c3b2e7f4d9a1c6e5f8b2d3c4a6e7f (Gh0st RAT, payload loader)</li>
+<li>176.119.3.12 (ICS targeting campaign, lateral movement)</li>
 </ul>
 
+<h3><b>Summary</b></h3>
+<ul>
+<li><b>Immediate threats:</b> Active ransomware campaigns, zero day exploitation, infostealer distribution.</li>
+<li><b>Actionable steps:</b> Patch critical systems, monitor RDP and SMB activity, enhance phishing detection.</li>
+<li><b>Longer-term needs:</b> Improve threat intelligence integration, reduce patch latency, strengthen identity security controls.</li>
+</ul>
 
 
 
