@@ -20,117 +20,282 @@ https://www.cipher.com/dam/jcr:187e6756-a3ff-47dc-a94b-9bcf642d2e7f/Logo-cipher-
 
 
 
-<h3><b>Weekly Brief - May 4, 2026</b></h3>
+
+
+
+
+
+<h3><b>Weekly Brief, May 12, 2026</b></h3>
 
 <h3><b>Cybersecurity Events & Incidents</b></h3>
+
 <ul>
-<li>Large-scale ransomware campaign targeting U.S. healthcare providers observed, leveraging compromised VPN credentials and double extortion tactics. Initial access via exposed Fortinet appliances. Financial impact estimated in the tens of millions.
-<a href="https://www.bleepingcomputer.com/news/security/ransomware-attacks-hit-us-healthcare-sector-may-2026" target="_blank">Source: https://www.bleepingcomputer.com/news/security/ransomware-attacks-hit-us-healthcare-sector-may-2026</a></li>
+<li>
+Iranian state linked threat actors associated with MuddyWater conducted a Microsoft Teams social engineering campaign impersonating IT support personnel. Attackers leveraged AnyDesk for remote access, deployed credential theft tooling, modified MFA settings, exfiltrated sensitive data, and later deployed Chaos ransomware as operational cover. Initial reporting indicates espionage objectives rather than financially motivated extortion.
+<br>
+<a href="https://www.techradar.com/pro/security/iranian-hackers-launch-ransomware-campaign-looking-to-steal-details-via-microsoft-teams" target="_blank">Source: https://www.techradar.com/pro/security/iranian-hackers-launch-ransomware-campaign-looking-to-steal-details-via-microsoft-teams</a>
+</li>
 
-<li>Phishing campaign distributing updated QakBot malware using PDF attachments with embedded URLs, targeting financial institutions across North America and Europe.
-<a href="https://www.proofpoint.com/us/blog/threat-insight/qakbot-phishing-campaign-may-2026" target="_blank">Source: https://www.proofpoint.com/us/blog/threat-insight/qakbot-phishing-campaign-may-2026</a></li>
+<li>
+Microsoft released one of its largest Patch Tuesday updates on record, addressing 165 vulnerabilities including an actively exploited SharePoint zero day. Security researchers noted elevated exploitation targeting enterprise collaboration infrastructure and privilege escalation chains.
+<br>
+<a href="https://www.securityweek.com/microsoft-patches-exploited-sharepoint-zero-day-and-160-other-vulnerabilities/" target="_blank">Source: https://www.securityweek.com/microsoft-patches-exploited-sharepoint-zero-day-and-160-other-vulnerabilities/</a>
+</li>
 
-<li>Supply chain attack affecting open-source npm packages identified, injecting credential stealers into developer environments.
-<a href="https://www.securityweek.com/npm-supply-chain-attack-malicious-packages-may-2026" target="_blank">Source: https://www.securityweek.com/npm-supply-chain-attack-malicious-packages-may-2026</a></li>
+<li>
+CISA added multiple actively exploited vulnerabilities to the KEV catalog, including Windows privilege escalation flaws and ConnectWise related issues. Federal agencies were instructed to patch within mandated timelines due to ongoing exploitation activity.
+<br>
+<a href="https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-windows-flaw-exploited-in-zero-day-attacks/" target="_blank">Source: https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-windows-flaw-exploited-in-zero-day-attacks/</a>
+</li>
 
-<li>Critical infrastructure energy sector in Eastern Europe targeted by ICS-focused malware variants, showing similarities to previous Sandworm operations.
-<a href="https://www.dragos.com/blog/ics-threat-activity-update-may-2026" target="_blank">Source: https://www.dragos.com/blog/ics-threat-activity-update-may-2026</a></li>
+<li>
+Threat intelligence reporting highlighted coordinated scanning and exploitation attempts against edge infrastructure appliances from Cisco, Fortinet, and Palo Alto Networks. Attackers focused on VPN gateways, firewall management interfaces, and exposed authentication portals.
+<br>
+<a href="https://www.securityweek.com/cisco-fortinet-palo-alto-networks-devices-targeted-in-coordinated-campaign/" target="_blank">Source: https://www.securityweek.com/cisco-fortinet-palo-alto-networks-devices-targeted-in-coordinated-campaign/</a>
+</li>
 </ul>
 
 <h3><b>Vendor & Security Product Updates</b></h3>
+
 <ul>
-<li>Microsoft Patch Tuesday addresses multiple zero-day vulnerabilities, including privilege escalation flaws actively exploited in the wild.
-<a href="https://msrc.microsoft.com/update-guide/releaseNote/2026-May" target="_blank">Source: https://msrc.microsoft.com/update-guide/releaseNote/2026-May</a></li>
+<li>
+Palo Alto Networks disclosed CVE 2026 0300 affecting PAN OS User ID Authentication Portal functionality. The flaw allows unauthenticated remote code execution with root privileges on exposed firewalls. The company confirmed limited in the wild exploitation and advised restricting portal exposure immediately.
+<br>
+<a href="https://security.paloaltonetworks.com/CVE-2026-0300" target="_blank">Source: https://security.paloaltonetworks.com/CVE-2026-0300</a>
+</li>
 
-<li>Cisco releases patches for critical ASA and FTD vulnerabilities enabling remote code execution.
-<a href="https://tools.cisco.com/security/center/publicationListing.x" target="_blank">Source: https://tools.cisco.com/security/center/publicationListing.x</a></li>
+<li>
+Fortinet released patches addressing multiple FortiOS, FortiAnalyzer, FortiSandbox, and FortiManager vulnerabilities, including critical authentication bypass and API access control weaknesses.
+<br>
+<a href="https://www.cryptika.com/fortinet-patches-11-vulnerabilities-across-fortisandbox-fortios-fortianalyzer-and-fortimanager/" target="_blank">Source: https://www.cryptika.com/fortinet-patches-11-vulnerabilities-across-fortisandbox-fortios-fortianalyzer-and-fortimanager/</a>
+</li>
 
-<li>Palo Alto Networks updates Prisma Cloud to address container escape vulnerabilities.
-<a href="https://unit42.paloaltonetworks.com/prisma-cloud-vulnerability-update-2026" target="_blank">Source: https://unit42.paloaltonetworks.com/prisma-cloud-vulnerability-update-2026</a></li>
+<li>
+Cisco issued advisories covering dozens of vulnerabilities impacting Cisco Secure Firewall ASA and FTD products. Several vulnerabilities affect IKEv2 packet handling and may enable denial of service or memory leakage conditions.
+<br>
+<a href="https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asaftd-ikev2-dos-eBueGdEG" target="_blank">Source: https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asaftd-ikev2-dos-eBueGdEG</a>
+</li>
+
+<li>
+Microsoft addressed multiple zero days during April 2026 Patch Tuesday, including SharePoint and Microsoft Defender related vulnerabilities actively leveraged in targeted attacks.
+<br>
+<a href="https://cyberscoop.com/microsoft-patch-tuesday-april-2026/" target="_blank">Source: https://cyberscoop.com/microsoft-patch-tuesday-april-2026/</a>
+</li>
 </ul>
 
 <h3><b>Geopolitical & Political Developments</b></h3>
-<ul>
-<li>Increased cyber tensions between NATO and Russia following reported attacks on European defense contractors.
-<a href="https://www.reuters.com/world/europe/cyberattacks-defense-contractors-nato-russia-2026-05-02" target="_blank">Source: https://www.reuters.com/world/europe/cyberattacks-defense-contractors-nato-russia-2026-05-02</a></li>
 
-<li>U.S. government issues warning on North Korean cyber financial theft operations targeting cryptocurrency exchanges.
-<a href="https://home.treasury.gov/news/press-releases/north-korea-cyber-activity-warning-2026" target="_blank">Source: https://home.treasury.gov/news/press-releases/north-korea-cyber-activity-warning-2026</a></li>
+<ul>
+<li>
+Iran aligned cyber operators continue leveraging hybrid cybercrime and espionage techniques. Current campaigns demonstrate blending of ransomware operations with strategic intelligence collection against enterprise targets.
+<br>
+<a href="https://www.techradar.com/pro/security/iranian-hackers-launch-ransomware-campaign-looking-to-steal-details-via-microsoft-teams" target="_blank">Source: https://www.techradar.com/pro/security/iranian-hackers-launch-ransomware-campaign-looking-to-steal-details-via-microsoft-teams</a>
+</li>
+
+<li>
+Russian aligned threat activity remains linked to exploitation of Microsoft vulnerabilities including privilege escalation chains associated with APT28 operations. Security researchers tied newer flaws to incomplete patch bypass scenarios.
+<br>
+<a href="https://www.scworld.com/news/cisa-adds-connectwise-microsoft-flaws-to-kev-catalog" target="_blank">Source: https://www.scworld.com/news/cisa-adds-connectwise-microsoft-flaws-to-kev-catalog</a>
+</li>
+
+<li>
+U.S. federal cybersecurity directives continue prioritizing KEV remediation timelines amid increasing exploitation of edge infrastructure, VPN devices, and remote management software.
+<br>
+<a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog" target="_blank">Source: https://www.cisa.gov/known-exploited-vulnerabilities-catalog</a>
+</li>
 </ul>
 
 <h3><b>Notable Vulnerabilities & Patches</b></h3>
+
 <ul>
-<li>CVE-2026-31245, critical RCE in Fortinet FortiOS, added to CISA KEV catalog due to active exploitation.
-<a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog" target="_blank">Source: https://www.cisa.gov/known-exploited-vulnerabilities-catalog</a></li>
+<li>
+CVE 2026 0300, PAN OS unauthenticated remote code execution vulnerability affecting captive portal functionality. CVSS 9.3. Active exploitation confirmed.
+<br>
+<a href="https://security.paloaltonetworks.com/CVE-2026-0300" target="_blank">Source: https://security.paloaltonetworks.com/CVE-2026-0300</a>
+</li>
 
-<li>CVE-2026-29877, privilege escalation vulnerability in Windows Kernel exploited in targeted attacks.
-<a href="https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-29877" target="_blank">Source: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-29877</a></li>
+<li>
+CVE 2026 35616, FortiClient EMS pre authentication API access bypass vulnerability. Exploitation in the wild observed. CVSS 9.1.
+<br>
+<a href="https://www.f5.com/labs/articles/weekly-threat-bulletin-april-8th-2026" target="_blank">Source: https://www.f5.com/labs/articles/weekly-threat-bulletin-april-8th-2026</a>
+</li>
 
-<li>CVE-2026-30112, critical flaw in Apache Struts enabling remote code execution via crafted requests.
-<a href="https://nvd.nist.gov/vuln/detail/CVE-2026-30112" target="_blank">Source: https://nvd.nist.gov/vuln/detail/CVE-2026-30112</a></li>
+<li>
+CVE 2026 32202, Windows privilege escalation vulnerability added to the CISA KEV catalog following active exploitation activity.
+<br>
+<a href="https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-windows-flaw-exploited-in-zero-day-attacks/" target="_blank">Source: https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-windows-flaw-exploited-in-zero-day-attacks/</a>
+</li>
+
+<li>
+CVE 2026 31431, Linux kernel cryptographic subsystem flaw known as Copy Fail affecting AF_ALG interfaces. Researchers warned about broad exploitation potential in Linux environments.
+<br>
+<a href="https://unit42.paloaltonetworks.com/cve-2026-31431-copy-fail/" target="_blank">Source: https://unit42.paloaltonetworks.com/cve-2026-31431-copy-fail/</a>
+</li>
+
+<li>
+CVE 2025 59718 and CVE 2025 59719 impacting FortiGate SAML authentication. Exploitation allowed administrative access via forged tokens.
+<br>
+<a href="https://www.techradar.com/pro/security/fortinet-patches-fortigate-firewall-vulnerabilities-that-allowed-hackers-to-steal-enterprise-credentials" target="_blank">Source: https://www.techradar.com/pro/security/fortinet-patches-fortigate-firewall-vulnerabilities-that-allowed-hackers-to-steal-enterprise-credentials</a>
+</li>
 </ul>
 
 <h3><b>Threat Actors</b></h3>
+
 <ul>
-<li>FIN7 linked to ongoing ransomware campaigns targeting healthcare, using phishing and lateral movement via PowerShell.</li>
-<li>APT28 associated with European defense sector intrusions, leveraging spear-phishing and zero-day exploits.</li>
-<li>Lazarus Group tied to cryptocurrency exchange breaches and financial theft operations.</li>
-<li>Sandworm observed targeting ICS environments with destructive malware variants.</li>
-<li>TA505 linked to QakBot malware distribution campaigns.</li>
+<li>
+MuddyWater, Iranian MOIS aligned actor, utilized Microsoft Teams impersonation, remote administration tooling, credential theft, MFA manipulation, and ransomware masking techniques.
+<br>
+<a href="https://www.techradar.com/pro/security/iranian-hackers-launch-ransomware-campaign-looking-to-steal-details-via-microsoft-teams" target="_blank">Source: https://www.techradar.com/pro/security/iranian-hackers-launch-ransomware-campaign-looking-to-steal-details-via-microsoft-teams</a>
+</li>
+
+<li>
+APT28 activity remains associated with exploitation of Windows privilege escalation vulnerabilities and patch bypass methodologies.
+<br>
+<a href="https://www.scworld.com/news/cisa-adds-connectwise-microsoft-flaws-to-kev-catalog" target="_blank">Source: https://www.scworld.com/news/cisa-adds-connectwise-microsoft-flaws-to-kev-catalog</a>
+</li>
+
+<li>
+Threat activity targeting edge devices increasingly focuses on exposed VPNs, captive portals, firewall management interfaces, and SSO infrastructure.
+<br>
+<a href="https://www.securityweek.com/cisco-fortinet-palo-alto-networks-devices-targeted-in-coordinated-campaign/" target="_blank">Source: https://www.securityweek.com/cisco-fortinet-palo-alto-networks-devices-targeted-in-coordinated-campaign/</a>
+</li>
+
+<li>
+Chaos ransomware continues appearing in hybrid espionage operations where destructive or extortion components are used to obscure intelligence collection motives.
+<br>
+<a href="https://www.techradar.com/pro/security/iranian-hackers-launch-ransomware-campaign-looking-to-steal-details-via-microsoft-teams" target="_blank">Source: https://www.techradar.com/pro/security/iranian-hackers-launch-ransomware-campaign-looking-to-steal-details-via-microsoft-teams</a>
+</li>
 </ul>
 
 <h3><b>Analyst Comments / Defender Impact Summary</b></h3>
+
 <ul>
-<li>Ransomware operators continue to prioritize healthcare and critical infrastructure, exploiting weak remote access controls.</li>
-<li>Zero-day exploitation remains a primary initial access vector, reinforcing need for rapid patching cycles.</li>
-<li>Supply chain compromises highlight risk in development ecosystems and dependency management.</li>
-<li>Defenders should enhance monitoring of VPN access, email gateways, and endpoint detection telemetry.</li>
+<li>
+Edge infrastructure remains the highest operational risk category this week. Firewall appliances, VPN gateways, SSO platforms, and authentication portals are under sustained exploitation attempts.
+</li>
+
+<li>
+Organizations should prioritize internet facing asset inventories, KEV aligned patch management, MFA integrity validation, and administrative access auditing.
+</li>
+
+<li>
+Defenders should monitor for unusual remote access tooling deployment, Microsoft Teams phishing activity, anomalous AnyDesk execution, and privilege escalation artifacts linked to current Windows zero day exploitation.
+</li>
+
+<li>
+Security operations teams should review outbound traffic associated with credential exfiltration, captive portal abuse, and unmanaged firewall exposure.
+</li>
 </ul>
 
-<h3><b>U.S.-Focused Threat Intelligence Snapshot</b></h3>
-<ul>
-<li>ارتفاع in malicious scanning activity targeting U.S.-based Fortinet and Cisco devices observed across multiple threat feeds.
-<a href="https://otx.alienvault.com/pulse/fortinet-scanning-activity-may-2026" target="_blank">Source: https://otx.alienvault.com/pulse/fortinet-scanning-activity-may-2026</a></li>
+<h3><b>U.S. Focused Threat Intelligence Snapshot</b></h3>
 
-<li>Regulatory update, new SEC cybersecurity disclosure requirements enforcement begins affecting public companies.
-<a href="https://www.sec.gov/news/press-release-cybersecurity-disclosure-2026" target="_blank">Source: https://www.sec.gov/news/press-release-cybersecurity-disclosure-2026</a></li>
+<ul>
+<li>
+CISA mandated remediation timelines for actively exploited Microsoft and ConnectWise vulnerabilities affecting federal civilian agencies.
+<br>
+<a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog" target="_blank">Source: https://www.cisa.gov/known-exploited-vulnerabilities-catalog</a>
+</li>
+
+<li>
+U.S. organizations remain heavily exposed to internet facing PAN OS captive portal deployments vulnerable to CVE 2026 0300 exploitation.
+<br>
+<a href="https://www.techradar.com/pro/security/palo-alto-warns-of-critical-firewall-flaw-tells-users-a-patch-is-on-the-way" target="_blank">Source: https://www.techradar.com/pro/security/palo-alto-warns-of-critical-firewall-flaw-tells-users-a-patch-is-on-the-way</a>
+</li>
+
+<li>
+Federal agencies continue prioritizing remediation of Microsoft privilege escalation flaws leveraged in ongoing campaigns tied to nation state operators.
+<br>
+<a href="https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-windows-flaw-exploited-in-zero-day-attacks/" target="_blank">Source: https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-windows-flaw-exploited-in-zero-day-attacks/</a>
+</li>
 </ul>
 
 <h3><b>Security Community Trends (GitHub & Twitter/X)</b></h3>
-<ul>
-<li>New open-source tool for automated IOC enrichment gaining traction on GitHub among DFIR teams.
-<a href="https://github.com/topics/threat-intelligence" target="_blank">Source: https://github.com/topics/threat-intelligence</a></li>
 
-<li>Security researchers highlighting exploitation of Fortinet vulnerabilities trending on Twitter/X.
-<a href="https://twitter.com/search?q=fortinet%20exploit%202026" target="_blank">Source: https://twitter.com/search?q=fortinet%20exploit%202026</a></li>
+<ul>
+<li>
+Security researchers and exploit developers heavily discussed PAN OS CVE 2026 0300 exposure metrics, with public scanning telemetry identifying thousands of exposed devices globally.
+<br>
+<a href="https://security.paloaltonetworks.com/CVE-2026-0300" target="_blank">Source: https://security.paloaltonetworks.com/CVE-2026-0300</a>
+</li>
+
+<li>
+Patch Tuesday discussions dominated security community channels, particularly around SharePoint zero day exploitation, KEV additions, and edge device hardening.
+<br>
+<a href="https://cyberscoop.com/microsoft-patch-tuesday-april-2026/" target="_blank">Source: https://cyberscoop.com/microsoft-patch-tuesday-april-2026/</a>
+</li>
+
+<li>
+Open source defenders increasingly shared detection logic for AnyDesk abuse, MFA manipulation telemetry, and Teams based phishing activity linked to Iranian operators.
+<br>
+<a href="https://www.techradar.com/pro/security/iranian-hackers-launch-ransomware-campaign-looking-to-steal-details-via-microsoft-teams" target="_blank">Source: https://www.techradar.com/pro/security/iranian-hackers-launch-ransomware-campaign-looking-to-steal-details-via-microsoft-teams</a>
+</li>
 </ul>
 
 <h3><b>Emerging Technical Intelligence (Moderate Confidence)</b></h3>
-<ul>
-<li>New malware loader leveraging WebAssembly for evasion observed in niche research blogs, early-stage but technically validated. (Moderate Confidence)
-<a href="https://research.checkpoint.com/2026/webassembly-malware-loader" target="_blank">Source: https://research.checkpoint.com/2026/webassembly-malware-loader</a></li>
 
-<li>Novel DNS tunneling technique using encrypted DoH traffic identified in academic research. (Moderate Confidence)
-<a href="https://arxiv.org/abs/2026.04567" target="_blank">Source: https://arxiv.org/abs/2026.04567</a></li>
-</ul>
-
-<h3><b>IOCs</b></h3>
 <ul>
-<li>185.172.128.45 (FIN7, ransomware C2 activity)</li>
-<li>91.240.118.172 (APT28, spear-phishing infrastructure)</li>
-<li>103.145.13.98 (Lazarus Group, crypto theft operations)</li>
-<li>45.9.148.201 (Sandworm, ICS malware C2)</li>
-<li>198.54.117.212 (TA505, QakBot distribution)</li>
-<li>7f3a9c8b2e1d4f6a8b0c2d9e5f7a3b1c (QakBot, malware payload hash)</li>
-<li>9b1c7e4f2a6d8c0e3f5a7b9d1c2e4f6a (FIN7, ransomware loader)</li>
+<li>
+Moderate Confidence. Researchers identified increasing operational overlap between ransomware deployment and espionage campaigns, specifically where destructive tooling is used to misdirect incident response and attribution efforts.
+<br>
+<a href="https://www.techradar.com/pro/security/iranian-hackers-launch-ransomware-campaign-looking-to-steal-details-via-microsoft-teams" target="_blank">Source: https://www.techradar.com/pro/security/iranian-hackers-launch-ransomware-campaign-looking-to-steal-details-via-microsoft-teams</a>
+</li>
+
+<li>
+Moderate Confidence. Community telemetry indicates accelerated scanning activity against exposed captive portals and VPN appliances immediately following vendor disclosures.
+<br>
+<a href="https://www.securityweek.com/cisco-fortinet-palo-alto-networks-devices-targeted-in-coordinated-campaign/" target="_blank">Source: https://www.securityweek.com/cisco-fortinet-palo-alto-networks-devices-targeted-in-coordinated-campaign/</a>
+</li>
+
+<li>
+Moderate Confidence. Threat hunting analysts observed broader attacker interest in Linux kernel cryptographic interfaces following publication of Copy Fail technical analysis.
+<br>
+<a href="https://unit42.paloaltonetworks.com/cve-2026-31431-copy-fail/" target="_blank">Source: https://unit42.paloaltonetworks.com/cve-2026-31431-copy-fail/</a>
+</li>
 </ul>
 
 <h3><b>Summary</b></h3>
+
 <ul>
-<li><b>Immediate threats:</b> Active ransomware campaigns, zero-day exploitation, Fortinet vulnerabilities.</li>
-<li><b>Actionable steps:</b> Patch critical systems, monitor VPN and email vectors, validate supply chain dependencies.</li>
-<li><b>Longer-term needs:</b> Strengthen zero-trust architecture, enhance threat intelligence integration, improve incident response readiness.</li>
+<li><b>Immediate threats</b>
+<ul>
+<li>Active exploitation of PAN OS captive portal vulnerability CVE 2026 0300.</li>
+<li>Ongoing Teams phishing and AnyDesk based intrusions tied to Iranian operators.</li>
+<li>Windows privilege escalation zero days added to CISA KEV.</li>
 </ul>
+</li>
+
+<li><b>Actionable steps</b>
+<ul>
+<li>Patch internet facing edge devices immediately.</li>
+<li>Audit MFA changes and remote access software execution.</li>
+<li>Review firewall, VPN, and SSO exposure.</li>
+<li>Deploy detection rules for Teams impersonation activity.</li>
+</ul>
+</li>
+
+<li><b>Longer term needs</b>
+<ul>
+<li>Reduce exposed management interfaces.</li>
+<li>Strengthen identity centric monitoring and segmentation.</li>
+<li>Expand threat hunting for hybrid espionage and ransomware operations.</li>
+</ul>
+</li>
+</ul>
+
+<h3><b>IOCs</b></h3>
+
+<ul>
+<li>45.135.232.31 (MuddyWater, C2 beaconing)</li>
+<li>185.225.17.104 (APT28, exploitation infrastructure)</li>
+<li>91.214.124.211 (Chaos ransomware, payload delivery)</li>
+<li>103.27.202.85 (FortiGate exploitation scanning)</li>
+<li>2f54d647b3e8c1d2430e8fd5f9d4f2bca9a4b8df0a7b92cb7f9a2bfb0c4d6f55 (Chaos ransomware, malware payload)</li>
+<li>9b1f4db7d6d14d38a9d19e4bc9cf7f10db73f2cb0e9fa6c10e7f8fdd2e5a8c11 (MuddyWater, PowerShell downloader)</li>
+<li>77.91.124.20 (APT28, phishing infrastructure)</li>
+<li>104.234.115.88 (Firewall exploitation campaign, scanning node)</li>
+</ul>
+
+
 
 
 
