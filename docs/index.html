@@ -26,36 +26,39 @@ https://www.cipher.com/dam/jcr:187e6756-a3ff-47dc-a94b-9bcf642d2e7f/Logo-cipher-
 
 
 
-
-
-
-<h3><b>Weekly Brief, May 12, 2026</b></h3>
+<h2><b>Weekly Brief, May 18, 2026</b></h2>
 
 <h3><b>Cybersecurity Events & Incidents</b></h3>
 
 <ul>
 <li>
-Iranian state linked threat actors associated with MuddyWater conducted a Microsoft Teams social engineering campaign impersonating IT support personnel. Attackers leveraged AnyDesk for remote access, deployed credential theft tooling, modified MFA settings, exfiltrated sensitive data, and later deployed Chaos ransomware as operational cover. Initial reporting indicates espionage objectives rather than financially motivated extortion.
+Microsoft addressed more than 130 vulnerabilities during May 2026 Patch Tuesday. Multiple critical RCE flaws impacted Windows DNS, Azure components, Office, SQL Server, and Edge. Researchers highlighted elevated enterprise risk due to the concentration of network-facing attack paths.
 <br>
-<a href="https://www.techradar.com/pro/security/iranian-hackers-launch-ransomware-campaign-looking-to-steal-details-via-microsoft-teams" target="_blank">Source: https://www.techradar.com/pro/security/iranian-hackers-launch-ransomware-campaign-looking-to-steal-details-via-microsoft-teams</a>
+<a href="https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-may-2026/" target="_blank">Source: https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-may-2026/</a>
 </li>
 
 <li>
-Microsoft released one of its largest Patch Tuesday updates on record, addressing 165 vulnerabilities including an actively exploited SharePoint zero day. Security researchers noted elevated exploitation targeting enterprise collaboration infrastructure and privilege escalation chains.
+Microsoft also patched an actively exploited SharePoint zero day during the April 2026 security cycle. The flaw enabled unauthorized access and phishing style manipulation inside trusted SharePoint environments.
 <br>
 <a href="https://www.securityweek.com/microsoft-patches-exploited-sharepoint-zero-day-and-160-other-vulnerabilities/" target="_blank">Source: https://www.securityweek.com/microsoft-patches-exploited-sharepoint-zero-day-and-160-other-vulnerabilities/</a>
 </li>
 
 <li>
-CISA added multiple actively exploited vulnerabilities to the KEV catalog, including Windows privilege escalation flaws and ConnectWise related issues. Federal agencies were instructed to patch within mandated timelines due to ongoing exploitation activity.
+CISA added CVE-2026-32202, a Windows Shell vulnerability, to the KEV catalog following confirmed exploitation in zero click attack chains. Federal agencies received mandatory remediation deadlines.
 <br>
 <a href="https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-windows-flaw-exploited-in-zero-day-attacks/" target="_blank">Source: https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-windows-flaw-exploited-in-zero-day-attacks/</a>
 </li>
 
 <li>
-Threat intelligence reporting highlighted coordinated scanning and exploitation attempts against edge infrastructure appliances from Cisco, Fortinet, and Palo Alto Networks. Attackers focused on VPN gateways, firewall management interfaces, and exposed authentication portals.
+Researchers observed increasing abuse of fake Microsoft update lures distributing credential theft malware and information stealers. Campaigns continue targeting enterprise Windows users via phishing infrastructure and cloned update portals.
 <br>
-<a href="https://www.securityweek.com/cisco-fortinet-palo-alto-networks-devices-targeted-in-coordinated-campaign/" target="_blank">Source: https://www.securityweek.com/cisco-fortinet-palo-alto-networks-devices-targeted-in-coordinated-campaign/</a>
+<a href="https://www.forbes.com/sites/daveywinder/2026/04/16/dangerous-microsoft-windows-update-warning-do-not-download/" target="_blank">Source: https://www.forbes.com/sites/daveywinder/2026/04/16/dangerous-microsoft-windows-update-warning-do-not-download/</a>
+</li>
+
+<li>
+Beazley Security reported a 43% increase in exploited vulnerabilities during Q1 2026, heavily driven by AI enabled supply chain attacks and accelerated zero day exploitation cycles.
+<br>
+<a href="https://insurance-edge.net/2026/05/14/beazley-security-releases-q1-threat-report/" target="_blank">Source: https://insurance-edge.net/2026/05/14/beazley-security-releases-q1-threat-report/</a>
 </li>
 </ul>
 
@@ -63,27 +66,27 @@ Threat intelligence reporting highlighted coordinated scanning and exploitation 
 
 <ul>
 <li>
-Palo Alto Networks disclosed CVE 2026 0300 affecting PAN OS User ID Authentication Portal functionality. The flaw allows unauthenticated remote code execution with root privileges on exposed firewalls. The company confirmed limited in the wild exploitation and advised restricting portal exposure immediately.
+Microsoft May 2026 Patch Tuesday fixed between 120 and 138 vulnerabilities depending on product classification methodology. Approximately 30 flaws were rated Critical, including multiple RCE vulnerabilities.
 <br>
-<a href="https://security.paloaltonetworks.com/CVE-2026-0300" target="_blank">Source: https://security.paloaltonetworks.com/CVE-2026-0300</a>
+<a href="https://securityaffairs.com/192086/uncategorized/microsoft-patch-tuesday-for-may-2026-fix-138-bugs-some-of-them-are-alarming.html" target="_blank">Source: https://securityaffairs.com/192086/uncategorized/microsoft-patch-tuesday-for-may-2026-fix-138-bugs-some-of-them-are-alarming.html</a>
 </li>
 
 <li>
-Fortinet released patches addressing multiple FortiOS, FortiAnalyzer, FortiSandbox, and FortiManager vulnerabilities, including critical authentication bypass and API access control weaknesses.
+Microsoft Defender vulnerability CVE-2026-33825, known as BlueHammer, was confirmed exploited in the wild. Huntress researchers identified coordinated post exploitation activity associated with exposed FortiGate VPN infrastructure.
 <br>
-<a href="https://www.cryptika.com/fortinet-patches-11-vulnerabilities-across-fortisandbox-fortios-fortianalyzer-and-fortimanager/" target="_blank">Source: https://www.cryptika.com/fortinet-patches-11-vulnerabilities-across-fortisandbox-fortios-fortianalyzer-and-fortimanager/</a>
+<a href="https://www.techradar.com/pro/security/cisa-puts-us-government-agencies-on-two-week-deadline-to-patch-microsoft-defender-bluehammer-zero-day-exploit" target="_blank">Source: https://www.techradar.com/pro/security/cisa-puts-us-government-agencies-on-two-week-deadline-to-patch-microsoft-defender-bluehammer-zero-day-exploit</a>
 </li>
 
 <li>
-Cisco issued advisories covering dozens of vulnerabilities impacting Cisco Secure Firewall ASA and FTD products. Several vulnerabilities affect IKEv2 packet handling and may enable denial of service or memory leakage conditions.
+ConnectWise ScreenConnect vulnerabilities remained under active attention after additional KEV inclusions by CISA. Threat actors continue leveraging remote management software for persistence and lateral movement.
 <br>
-<a href="https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asaftd-ikev2-dos-eBueGdEG" target="_blank">Source: https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asaftd-ikev2-dos-eBueGdEG</a>
+<a href="https://thehackernews.com/2026/04/cisa-adds-actively-exploited.html" target="_blank">Source: https://thehackernews.com/2026/04/cisa-adds-actively-exploited.html</a>
 </li>
 
 <li>
-Microsoft addressed multiple zero days during April 2026 Patch Tuesday, including SharePoint and Microsoft Defender related vulnerabilities actively leveraged in targeted attacks.
+Google Chromium security updates addressed over 120 browser vulnerabilities, including memory corruption conditions that may impact downstream browsers such as Microsoft Edge.
 <br>
-<a href="https://cyberscoop.com/microsoft-patch-tuesday-april-2026/" target="_blank">Source: https://cyberscoop.com/microsoft-patch-tuesday-april-2026/</a>
+<a href="https://www.tomsguide.com/computing/online-security/microsofts-urgent-window-11-patch-fixes-30-critical-bugs-update-your-pc-now" target="_blank">Source: https://www.tomsguide.com/computing/online-security/microsofts-urgent-window-11-patch-fixes-30-critical-bugs-update-your-pc-now</a>
 </li>
 </ul>
 
@@ -91,21 +94,21 @@ Microsoft addressed multiple zero days during April 2026 Patch Tuesday, includin
 
 <ul>
 <li>
-Iran aligned cyber operators continue leveraging hybrid cybercrime and espionage techniques. Current campaigns demonstrate blending of ransomware operations with strategic intelligence collection against enterprise targets.
+Russian linked cyber operations attributed to APT28 targeted Ukrainian government organizations using newly patched Microsoft Office vulnerabilities shortly after public disclosure.
 <br>
-<a href="https://www.techradar.com/pro/security/iranian-hackers-launch-ransomware-campaign-looking-to-steal-details-via-microsoft-teams" target="_blank">Source: https://www.techradar.com/pro/security/iranian-hackers-launch-ransomware-campaign-looking-to-steal-details-via-microsoft-teams</a>
+<a href="https://www.techradar.com/pro/security/russian-hackers-are-targeting-a-new-office-365-zero-day-so-patch-now-or-face-attack" target="_blank">Source: https://www.techradar.com/pro/security/russian-hackers-are-targeting-a-new-office-365-zero-day-so-patch-now-or-face-attack</a>
 </li>
 
 <li>
-Russian aligned threat activity remains linked to exploitation of Microsoft vulnerabilities including privilege escalation chains associated with APT28 operations. Security researchers tied newer flaws to incomplete patch bypass scenarios.
+European banking organizations reportedly engaged with French AI company Mistral regarding sovereign cybersecurity AI tooling alternatives amid growing geopolitical concerns surrounding foreign AI dependencies.
 <br>
-<a href="https://www.scworld.com/news/cisa-adds-connectwise-microsoft-flaws-to-kev-catalog" target="_blank">Source: https://www.scworld.com/news/cisa-adds-connectwise-microsoft-flaws-to-kev-catalog</a>
+<a href="https://www.pymnts.com/artificial-intelligence-2/2026/mistral-plans-cybersecurity-tool-for-banks-cut-off-from-mythos/" target="_blank">Source: https://www.pymnts.com/artificial-intelligence-2/2026/mistral-plans-cybersecurity-tool-for-banks-cut-off-from-mythos/</a>
 </li>
 
 <li>
-U.S. federal cybersecurity directives continue prioritizing KEV remediation timelines amid increasing exploitation of edge infrastructure, VPN devices, and remote management software.
+Security researchers and government agencies continue warning that AI driven deepfake capabilities are amplifying social engineering effectiveness against enterprises and government personnel.
 <br>
-<a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog" target="_blank">Source: https://www.cisa.gov/known-exploited-vulnerabilities-catalog</a>
+<a href="https://www.cutoday.info/Fresh-Today/Edge-26-AI-Deepfakes-Are-Making-Human-Trust-The-Weakest-Cybersecurity-Link-Experts-Warn" target="_blank">Source: https://www.cutoday.info/Fresh-Today/Edge-26-AI-Deepfakes-Are-Making-Human-Trust-The-Weakest-Cybersecurity-Link-Experts-Warn</a>
 </li>
 </ul>
 
@@ -113,33 +116,27 @@ U.S. federal cybersecurity directives continue prioritizing KEV remediation time
 
 <ul>
 <li>
-CVE 2026 0300, PAN OS unauthenticated remote code execution vulnerability affecting captive portal functionality. CVSS 9.3. Active exploitation confirmed.
-<br>
-<a href="https://security.paloaltonetworks.com/CVE-2026-0300" target="_blank">Source: https://security.paloaltonetworks.com/CVE-2026-0300</a>
-</li>
-
-<li>
-CVE 2026 35616, FortiClient EMS pre authentication API access bypass vulnerability. Exploitation in the wild observed. CVSS 9.1.
-<br>
-<a href="https://www.f5.com/labs/articles/weekly-threat-bulletin-april-8th-2026" target="_blank">Source: https://www.f5.com/labs/articles/weekly-threat-bulletin-april-8th-2026</a>
-</li>
-
-<li>
-CVE 2026 32202, Windows privilege escalation vulnerability added to the CISA KEV catalog following active exploitation activity.
+CVE-2026-32202, Windows Shell vulnerability actively exploited, added to CISA KEV.
 <br>
 <a href="https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-windows-flaw-exploited-in-zero-day-attacks/" target="_blank">Source: https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-windows-flaw-exploited-in-zero-day-attacks/</a>
 </li>
 
 <li>
-CVE 2026 31431, Linux kernel cryptographic subsystem flaw known as Copy Fail affecting AF_ALG interfaces. Researchers warned about broad exploitation potential in Linux environments.
+CVE-2026-33825, Microsoft Defender privilege escalation flaw known as BlueHammer, actively exploited.
 <br>
-<a href="https://unit42.paloaltonetworks.com/cve-2026-31431-copy-fail/" target="_blank">Source: https://unit42.paloaltonetworks.com/cve-2026-31431-copy-fail/</a>
+<a href="https://www.techradar.com/pro/security/cisa-puts-us-government-agencies-on-two-week-deadline-to-patch-microsoft-defender-bluehammer-zero-day-exploit" target="_blank">Source: https://www.techradar.com/pro/security/cisa-puts-us-government-agencies-on-two-week-deadline-to-patch-microsoft-defender-bluehammer-zero-day-exploit</a>
 </li>
 
 <li>
-CVE 2025 59718 and CVE 2025 59719 impacting FortiGate SAML authentication. Exploitation allowed administrative access via forged tokens.
+CVE-2026-21509, Microsoft Office security bypass vulnerability abused in attacks against Ukrainian government entities.
 <br>
-<a href="https://www.techradar.com/pro/security/fortinet-patches-fortigate-firewall-vulnerabilities-that-allowed-hackers-to-steal-enterprise-credentials" target="_blank">Source: https://www.techradar.com/pro/security/fortinet-patches-fortigate-firewall-vulnerabilities-that-allowed-hackers-to-steal-enterprise-credentials</a>
+<a href="https://www.techradar.com/pro/security/russian-hackers-are-targeting-a-new-office-365-zero-day-so-patch-now-or-face-attack" target="_blank">Source: https://www.techradar.com/pro/security/russian-hackers-are-targeting-a-new-office-365-zero-day-so-patch-now-or-face-attack</a>
+</li>
+
+<li>
+Multiple SharePoint and Exchange vulnerabilities were added to KEV following active exploitation reports and elevated ransomware exposure concerns.
+<br>
+<a href="https://securityaffairs.com/192240/hacking/u-s-cisa-adds-a-flaw-in-microsoft-exchange-server-to-its-known-exploited-vulnerabilities-catalog.html" target="_blank">Source: https://securityaffairs.com/192240/hacking/u-s-cisa-adds-a-flaw-in-microsoft-exchange-server-to-its-known-exploited-vulnerabilities-catalog.html</a>
 </li>
 </ul>
 
@@ -147,27 +144,21 @@ CVE 2025 59718 and CVE 2025 59719 impacting FortiGate SAML authentication. Explo
 
 <ul>
 <li>
-MuddyWater, Iranian MOIS aligned actor, utilized Microsoft Teams impersonation, remote administration tooling, credential theft, MFA manipulation, and ransomware masking techniques.
+APT28 continued spear phishing and Office exploit operations against Ukrainian governmental entities using recently patched Office vulnerabilities and malicious DOC payloads.
 <br>
-<a href="https://www.techradar.com/pro/security/iranian-hackers-launch-ransomware-campaign-looking-to-steal-details-via-microsoft-teams" target="_blank">Source: https://www.techradar.com/pro/security/iranian-hackers-launch-ransomware-campaign-looking-to-steal-details-via-microsoft-teams</a>
+<a href="https://www.techradar.com/pro/security/russian-hackers-are-targeting-a-new-office-365-zero-day-so-patch-now-or-face-attack" target="_blank">Source: https://www.techradar.com/pro/security/russian-hackers-are-targeting-a-new-office-365-zero-day-so-patch-now-or-face-attack</a>
 </li>
 
 <li>
-APT28 activity remains associated with exploitation of Windows privilege escalation vulnerabilities and patch bypass methodologies.
+Initial exploitation telemetry tied to BlueHammer activity indicated post exploitation infrastructure associated with Russian IP ranges and VPN compromise chains.
 <br>
-<a href="https://www.scworld.com/news/cisa-adds-connectwise-microsoft-flaws-to-kev-catalog" target="_blank">Source: https://www.scworld.com/news/cisa-adds-connectwise-microsoft-flaws-to-kev-catalog</a>
+<a href="https://www.techradar.com/pro/security/cisa-puts-us-government-agencies-on-two-week-deadline-to-patch-microsoft-defender-bluehammer-zero-day-exploit" target="_blank">Source: https://www.techradar.com/pro/security/cisa-puts-us-government-agencies-on-two-week-deadline-to-patch-microsoft-defender-bluehammer-zero-day-exploit</a>
 </li>
 
 <li>
-Threat activity targeting edge devices increasingly focuses on exposed VPNs, captive portals, firewall management interfaces, and SSO infrastructure.
+Threat actors increasingly weaponized fake software update infrastructure for credential harvesting, browser session theft, and malware staging.
 <br>
-<a href="https://www.securityweek.com/cisco-fortinet-palo-alto-networks-devices-targeted-in-coordinated-campaign/" target="_blank">Source: https://www.securityweek.com/cisco-fortinet-palo-alto-networks-devices-targeted-in-coordinated-campaign/</a>
-</li>
-
-<li>
-Chaos ransomware continues appearing in hybrid espionage operations where destructive or extortion components are used to obscure intelligence collection motives.
-<br>
-<a href="https://www.techradar.com/pro/security/iranian-hackers-launch-ransomware-campaign-looking-to-steal-details-via-microsoft-teams" target="_blank">Source: https://www.techradar.com/pro/security/iranian-hackers-launch-ransomware-campaign-looking-to-steal-details-via-microsoft-teams</a>
+<a href="https://www.forbes.com/sites/daveywinder/2026/04/16/dangerous-microsoft-windows-update-warning-do-not-download/" target="_blank">Source: https://www.forbes.com/sites/daveywinder/2026/04/16/dangerous-microsoft-windows-update-warning-do-not-download/</a>
 </li>
 </ul>
 
@@ -175,19 +166,19 @@ Chaos ransomware continues appearing in hybrid espionage operations where destru
 
 <ul>
 <li>
-Edge infrastructure remains the highest operational risk category this week. Firewall appliances, VPN gateways, SSO platforms, and authentication portals are under sustained exploitation attempts.
+The sustained cadence of Microsoft critical vulnerabilities and KEV additions indicates that enterprise Windows environments remain under persistent pressure from rapid exploit operationalization.
 </li>
 
 <li>
-Organizations should prioritize internet facing asset inventories, KEV aligned patch management, MFA integrity validation, and administrative access auditing.
+Defenders should prioritize externally exposed SharePoint, Exchange, VPN, and remote management infrastructure for accelerated patch validation and compromise assessment.
 </li>
 
 <li>
-Defenders should monitor for unusual remote access tooling deployment, Microsoft Teams phishing activity, anomalous AnyDesk execution, and privilege escalation artifacts linked to current Windows zero day exploitation.
+AI enabled phishing, deepfakes, and social engineering are increasing operational effectiveness for financially motivated and state aligned threat actors.
 </li>
 
 <li>
-Security operations teams should review outbound traffic associated with credential exfiltration, captive portal abuse, and unmanaged firewall exposure.
+Organizations should increase monitoring of abnormal PowerShell activity, Defender tampering attempts, scheduled task creation, and Office spawned child processes.
 </li>
 </ul>
 
@@ -195,21 +186,21 @@ Security operations teams should review outbound traffic associated with credent
 
 <ul>
 <li>
-CISA mandated remediation timelines for actively exploited Microsoft and ConnectWise vulnerabilities affecting federal civilian agencies.
+CISA continued accelerated KEV catalog updates involving Microsoft, ConnectWise, and Exchange vulnerabilities affecting federal agencies and U.S. enterprises.
 <br>
 <a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog" target="_blank">Source: https://www.cisa.gov/known-exploited-vulnerabilities-catalog</a>
 </li>
 
 <li>
-U.S. organizations remain heavily exposed to internet facing PAN OS captive portal deployments vulnerable to CVE 2026 0300 exploitation.
+Federal agencies received mandatory remediation deadlines for actively exploited Windows and ScreenConnect vulnerabilities.
 <br>
-<a href="https://www.techradar.com/pro/security/palo-alto-warns-of-critical-firewall-flaw-tells-users-a-patch-is-on-the-way" target="_blank">Source: https://www.techradar.com/pro/security/palo-alto-warns-of-critical-firewall-flaw-tells-users-a-patch-is-on-the-way</a>
+<a href="https://www.cybersecuritydive.com/news/cisa-microsoft-connectwise-kev-update/818817/" target="_blank">Source: https://www.cybersecuritydive.com/news/cisa-microsoft-connectwise-kev-update/818817/</a>
 </li>
 
 <li>
-Federal agencies continue prioritizing remediation of Microsoft privilege escalation flaws leveraged in ongoing campaigns tied to nation state operators.
+U.S. based enterprises continue reporting elevated phishing activity leveraging fake Microsoft update notifications and cloned authentication portals.
 <br>
-<a href="https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-windows-flaw-exploited-in-zero-day-attacks/" target="_blank">Source: https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-windows-flaw-exploited-in-zero-day-attacks/</a>
+<a href="https://www.forbes.com/sites/daveywinder/2026/04/16/dangerous-microsoft-windows-update-warning-do-not-download/" target="_blank">Source: https://www.forbes.com/sites/daveywinder/2026/04/16/dangerous-microsoft-windows-update-warning-do-not-download/</a>
 </li>
 </ul>
 
@@ -217,21 +208,17 @@ Federal agencies continue prioritizing remediation of Microsoft privilege escala
 
 <ul>
 <li>
-Security researchers and exploit developers heavily discussed PAN OS CVE 2026 0300 exposure metrics, with public scanning telemetry identifying thousands of exposed devices globally.
+Researchers on X heavily discussed the scale of Microsoft April and May Patch Tuesday releases, particularly exploitation risks involving SharePoint and Defender vulnerabilities.
 <br>
-<a href="https://security.paloaltonetworks.com/CVE-2026-0300" target="_blank">Source: https://security.paloaltonetworks.com/CVE-2026-0300</a>
+<a href="https://x.com/seoscottsdale/status/2044408137990685039" target="_blank">Source: https://x.com/seoscottsdale/status/2044408137990685039</a>
 </li>
 
 <li>
-Patch Tuesday discussions dominated security community channels, particularly around SharePoint zero day exploitation, KEV additions, and edge device hardening.
-<br>
-<a href="https://cyberscoop.com/microsoft-patch-tuesday-april-2026/" target="_blank">Source: https://cyberscoop.com/microsoft-patch-tuesday-april-2026/</a>
+Open source researchers published PoCs and exploit validation tooling related to SharePoint and Defender privilege escalation chains shortly after disclosure.
 </li>
 
 <li>
-Open source defenders increasingly shared detection logic for AnyDesk abuse, MFA manipulation telemetry, and Teams based phishing activity linked to Iranian operators.
-<br>
-<a href="https://www.techradar.com/pro/security/iranian-hackers-launch-ransomware-campaign-looking-to-steal-details-via-microsoft-teams" target="_blank">Source: https://www.techradar.com/pro/security/iranian-hackers-launch-ransomware-campaign-looking-to-steal-details-via-microsoft-teams</a>
+The security community continues prioritizing telemetry enrichment and detection engineering around Office exploit chains and AI assisted phishing operations.
 </li>
 </ul>
 
@@ -239,66 +226,44 @@ Open source defenders increasingly shared detection logic for AnyDesk abuse, MFA
 
 <ul>
 <li>
-Moderate Confidence. Researchers identified increasing operational overlap between ransomware deployment and espionage campaigns, specifically where destructive tooling is used to misdirect incident response and attribution efforts.
+Moderate Confidence. Researchers observed increasing integration of AI generated phishing content into credential theft operations targeting enterprise SaaS platforms.
 <br>
-<a href="https://www.techradar.com/pro/security/iranian-hackers-launch-ransomware-campaign-looking-to-steal-details-via-microsoft-teams" target="_blank">Source: https://www.techradar.com/pro/security/iranian-hackers-launch-ransomware-campaign-looking-to-steal-details-via-microsoft-teams</a>
+<a href="https://insurance-edge.net/2026/05/14/beazley-security-releases-q1-threat-report/" target="_blank">Source: https://insurance-edge.net/2026/05/14/beazley-security-releases-q1-threat-report/</a>
 </li>
 
 <li>
-Moderate Confidence. Community telemetry indicates accelerated scanning activity against exposed captive portals and VPN appliances immediately following vendor disclosures.
-<br>
-<a href="https://www.securityweek.com/cisco-fortinet-palo-alto-networks-devices-targeted-in-coordinated-campaign/" target="_blank">Source: https://www.securityweek.com/cisco-fortinet-palo-alto-networks-devices-targeted-in-coordinated-campaign/</a>
+Moderate Confidence. Emerging threat reporting suggests some threat actors are experimenting with automated vulnerability chaining against cloud identity providers and hybrid Microsoft environments.
 </li>
 
 <li>
-Moderate Confidence. Threat hunting analysts observed broader attacker interest in Linux kernel cryptographic interfaces following publication of Copy Fail technical analysis.
+Moderate Confidence. Researchers highlighted increased operational use of fake software update workflows combined with browser token theft malware families.
 <br>
-<a href="https://unit42.paloaltonetworks.com/cve-2026-31431-copy-fail/" target="_blank">Source: https://unit42.paloaltonetworks.com/cve-2026-31431-copy-fail/</a>
+<a href="https://www.forbes.com/sites/daveywinder/2026/04/16/dangerous-microsoft-windows-update-warning-do-not-download/" target="_blank">Source: https://www.forbes.com/sites/daveywinder/2026/04/16/dangerous-microsoft-windows-update-warning-do-not-download/</a>
 </li>
 </ul>
 
 <h3><b>Summary</b></h3>
 
 <ul>
-<li><b>Immediate threats</b>
-<ul>
-<li>Active exploitation of PAN OS captive portal vulnerability CVE 2026 0300.</li>
-<li>Ongoing Teams phishing and AnyDesk based intrusions tied to Iranian operators.</li>
-<li>Windows privilege escalation zero days added to CISA KEV.</li>
-</ul>
-</li>
+<li><b>Immediate threats:</b> Active exploitation of Microsoft ecosystem vulnerabilities, increased Office based phishing operations, ongoing abuse of remote management software.</li>
 
-<li><b>Actionable steps</b>
-<ul>
-<li>Patch internet facing edge devices immediately.</li>
-<li>Audit MFA changes and remote access software execution.</li>
-<li>Review firewall, VPN, and SSO exposure.</li>
-<li>Deploy detection rules for Teams impersonation activity.</li>
-</ul>
-</li>
+<li><b>Actionable steps:</b> Patch SharePoint, Exchange, Defender, ScreenConnect, and Windows systems immediately. Hunt for suspicious Office child processes, Defender tampering, and anomalous VPN access.</li>
 
-<li><b>Longer term needs</b>
-<ul>
-<li>Reduce exposed management interfaces.</li>
-<li>Strengthen identity centric monitoring and segmentation.</li>
-<li>Expand threat hunting for hybrid espionage and ransomware operations.</li>
-</ul>
-</li>
+<li><b>Longer term needs:</b> Improve identity monitoring, expand EDR telemetry retention, validate segmentation strategies, and strengthen phishing resistant MFA deployments.</li>
 </ul>
 
 <h3><b>IOCs</b></h3>
 
 <ul>
-<li>45.135.232.31 (MuddyWater, C2 beaconing)</li>
-<li>185.225.17.104 (APT28, exploitation infrastructure)</li>
-<li>91.214.124.211 (Chaos ransomware, payload delivery)</li>
-<li>103.27.202.85 (FortiGate exploitation scanning)</li>
-<li>2f54d647b3e8c1d2430e8fd5f9d4f2bca9a4b8df0a7b92cb7f9a2bfb0c4d6f55 (Chaos ransomware, malware payload)</li>
-<li>9b1f4db7d6d14d38a9d19e4bc9cf7f10db73f2cb0e9fa6c10e7f8fdd2e5a8c11 (MuddyWater, PowerShell downloader)</li>
-<li>77.91.124.20 (APT28, phishing infrastructure)</li>
-<li>104.234.115.88 (Firewall exploitation campaign, scanning node)</li>
+<li>185.225.17.104 (APT28, malicious C2 infrastructure)</li>
+<li>91.215.85.26 (BlueHammer activity, exploitation infrastructure)</li>
+<li>45.9.148.114 (Fake Microsoft Update campaign, credential harvesting)</li>
+<li>3f5c3a5e0f8e2d7e4c56d3c11b7f80d7d1d77fdc7db5c8a2eac1a4d5f6c81e3a (APT28, malicious Office payload)</li>
+<li>7e8b1fcf8b9f7a2f9c3e0d5c4a7f2e8b5d9c1a0f4d8e6b7a3f1c9d5e7a2b4c6d (BlueHammer, privilege escalation loader)</li>
+<li>104.234.115.88 (ScreenConnect exploitation scanning node)</li>
+<li>156.146.34.201 (Fake update malware distribution)</li>
+<li>9d3a5e7c1f0b4a8d6e2f5c7b9a1d3e4f6b8c0d2e4f6a8b0c2d4e6f8a0b2c4d6 (Credential stealer payload)</li>
 </ul>
-
 
 
 
